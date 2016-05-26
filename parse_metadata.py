@@ -1,17 +1,11 @@
-# Author: Remi Marchand
-# Date: May 18, 2016
-# Description: This script parses metadata from an xml file into a
-# dictionary which it returns to the user.
+from lxml import etree
 
-import xml.etree.ElementTree as ET
-
-# Set default string processing to Unicode-8
+from pprint import pprint
 import sys
 reload(sys)
-sys.setdefaultencoding('utf-8')
+sys.setdefaultencoding("utf-8")
 
-# Class to initialize the dictionary and functions
-
+exclude_list = ["EXPERIMENT_REF", "MEMBER", "Member", "DEFAULT_MEMBER", "STUDY"]
 
 class SimpleDict:
     # Initialize my_dict
@@ -23,51 +17,38 @@ class SimpleDict:
         # Standardize the key by replacing spaces and dashes with underscores
         key = key.replace(" ", "_")
         key = key.replace("-", "_")
-        if key not in self.my_dict:
+        # Some complicated junk for naming conventions
+        iteration = 1
+        new_key = key + "_" + str(iteration)
+        if key not in self.my_dict and new_key not in self.my_dict:
             self.my_dict[key] = [value]
+        elif new_key not in self.my_dict:
+            self.my_dict[new_key] = self.my_dict.pop(key)
         else:
-            self.my_dict[key].append(value)
-
-# add_generic: Element Dict
-# Adds a generic element (element) to the dictionary metadata
+            while (new_key in self.my_dict):
+                new_key = key + "_" + str(iteration)
+                iteration += 1
+            self.my_dict[new_key] = [value]
 
 
 def add_generic(element, metadata, additional=""):
     if element_pass(element.text):
         metadata.add(additional + element.tag, element.text)
 
-# element_pass: Element -> Bool
-# Returns true if an element passes specified criteria
-
 
 def element_pass(element):
     if element is not None and element != "Missing" and element != "missing":
         return True
 
-# identifiers, sample_links, sample_attributes: ET Dict
-# Each function parses the identifiers section of the Element Tree
-# with the root starting at each respective location. It adds all information
-# found to the metadata dictionary.
 
-
-def identifiers(iden, metadata, additional):
-    for child in iden:
-        if (child.tag == "EXTERNAL_ID") and ("namespace" in child.attrib):
-            metadata.add(additional + child.attrib["namespace"], child.text)
-        if (child.tag == "SUBMITTER_ID") and ("namespace" in child.attrib) \
-                and ("label" in child.attrib):
-            metadata.add(additional + "Submitter_ID", child.attrib["namespace"])
-            metadata.add(additional + child.attrib["label"], child.text)
-        else:
-            add_generic(child, metadata, additional)  # Use generic parsing
-
-
-def sample_links(sl, metadata, additional):
-    for pos in range(0, len(sl)):
-        for child in sl[pos].iter():
-            if child.text is not None:
-                metadata.add((additional + child.tag + "_%s" % str(pos + 1)),
-                             child.text)
+def accession_numbers(my_tree, metadata):
+    # Find all of the PRIMARY_ID's and use their grandparent tags as keys
+    ID_LIST = [x for x in my_tree.getiterator("PRIMARY_ID")]
+    for ID in ID_LIST:
+        parents = [x for x in ID.iterancestors()]
+        grandparent = parents[1]
+        if grandparent.tag not in exclude_list:
+            metadata.add(parents[1].tag, ID.text)
 
 
 def sample_attributes(sa, metadata, additional):
@@ -78,77 +59,46 @@ def sample_attributes(sa, metadata, additional):
         else:
             add_generic(child, metadata, additional)
 
-# main: Str -> Dict
-# takes in a path to an xml file and parses it according to certain criteria.
-# It adds all infomation found to the output dictionary, metadata
+
+def parse_sample_data(root, title, metadata):
+    for i in root:
+        if i.tag != "SAMPLE_ATTRIBUTES":
+            for j in i.getiterator():
+                # Use namespace if SUBMITTER_ID tag
+                if j.tag == "SUBMITTER_ID" or j.tag == "EXTERNAL_ID":
+                    metadata.add(title + j.attrib["namespace"], j.text)
+                elif j.tag != "PRIMARY_ID":
+                    add_generic(j, metadata, title)
+        else:
+            root = i
+            sample_attributes(root, metadata, title)
+
+
+def accession_data(my_tree, metadata):
+    for acc in metadata.my_dict.keys():
+        tag = acc.rstrip("1234567890_")
+        accession = metadata.my_dict[acc][0]
+        for i in my_tree.getiterator():
+            if i.tag == tag == "SAMPLE" and i.attrib["accession"] == accession:
+                root = i
+                acc += "_"
+                parse_sample_data(root, acc, metadata)
 
 
 def main(xml_file):
     # Initialize a dictionary of header:value pairs
     metadata = SimpleDict()
-    # Set variables for each category
-    tree = ET.parse(xml_file)
-    root = tree.getroot()
-    sample, experiment, submission, study, primary_id = [], [], [], [], []
-    for child in root.iter():
-        if child.tag == "SAMPLE":
-            sample.append(child)
-        if child.tag == "EXPERIMENT":
-            experiment.append(child)
-        if child.tag == "SUBMISSION":
-            submission.append(child)
-        if child.tag == "PRIMARY_ID":
-            primary_id.append(child)
-            add_generic(child, metadata)
-        if child.tag == "STUDY":
-            study.append(child)
+    tree = etree.parse(xml_file)
+    # Add the accession numbers to metadata
+    accession_numbers(tree, metadata)
+    # Retrieve all metadata related to the accession numbers
+    accession_data(tree, metadata)
 
-    # Add all primary ids to the metadata
-    for item in primary_id:
-        add_generic(item, metadata)
-
-    for item in experiment:
-        for field in item.iter():
-            if field.tag == "LIBRARY_LAYOUT" or field.tag == "PLATFORM":
-                metadata.add(field.tag, field[0].tag)
-            add_generic(field, metadata)
-
-    for item in sample:
-        for field in item:
-            # Parse the identifier fields of sample
-            if field.tag == "IDENTIFIERS":
-                identifiers(field, metadata, "SAMPLE_")
-            # Add the title of sample
-            if field.tag == "TITLE":
-                add_generic(field, metadata, "SAMPLE_")
-            # Add the sample name fields of sample
-            if field.tag == "SAMPLE_NAME":
-                for child in field.iter():
-                    if child.text is not None:
-                        add_generic(child, metadata)
-            # Add the sample links of sample
-            if field.tag == "SAMPLE_LINKS":
-                sample_links(field, metadata, "SAMPLE_")
-            # Add the sample attributes of sample
-            if field.tag == "SAMPLE_ATTRIBUTES":
-                sample_attributes(field, metadata, "SAMPLE_")
-
-    for item in study:
-        for field in item:
-            # Parse the identifier fields of study
-            if field.tag == "IDENTIFIERS":
-                identifiers(field, metadata, "STUDY_")
-            # Add the study descriptor fields
-            if field.tag == "DESCRIPTOR":
-                for child in field.iter():
-                    if child.text is not None:
-                        add_generic(child, metadata)
-            # Add the attributes of study
-            if field.tag == "SAMPLE_ATTRIBUTES":
-                sample_attributes(field, metadata, "STUDY_")
-
-    # Sort the metadata dictionary
+    # Clean up and print the dict
     for key in sorted(metadata.my_dict.iterkeys()):
         # Remove duplicates and join elements into one string
         metadata.my_dict[key] = ", ".join(list(set(metadata.my_dict[key])))
     return metadata.my_dict
+
+# xml_file = sys.argv[1]
+# main(xml_file)

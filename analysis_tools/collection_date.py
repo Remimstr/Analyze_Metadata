@@ -24,9 +24,12 @@ month_list = {"01": "Jan", "02": "Feb", "03": "Mar", "04": "Apr", "05": "May",
               "06": "Jun", "07": "Jul", "08": "Aug", "09": "Sep",
               "10": "Oct", "11": "Nov", "12": "Dec"}
 
+
 def parse_some_dates(raw_date):
     date_parser = dateparser.DateDataParser(languages=["en"])
     date_obj = date_parser.get_date_data(raw_date)
+    if date_obj is None:
+        return(None, 0)
     # If the precision is "day" then we're good to process as is
     if date_obj["period"] == "day":
         return(date_obj["date_obj"], 0)
@@ -52,8 +55,8 @@ def parse_some_dates(raw_date):
 
 
 for i in sys.argv[1:]:
-    # For each entry in the csv file, retrieve the run number and the collection
-    # date
+    # For each entry in the csv file, retrieve the run number
+    # and the collection date
 
     with open(i, "rb") as csvin:
         reader = csv.reader(csvin)
@@ -65,6 +68,8 @@ for i in sys.argv[1:]:
                 id_col = h
             if "collection_date" in headers[h]:
                 date_col = h
+        if id_col is None or date_col is None:
+            break
         with open(i[:-4] + "_collection_date.csv", "wb") as csvout:
             headers = ["Run Number (DRR/ERR/SRR)", "Date", "Accuracy"]
             csvwriter = csv.writer(csvout, delimiter=",")
@@ -73,10 +78,13 @@ for i in sys.argv[1:]:
                 DATE = None
                 ACC = None
                 # Print the SRR number:
-                SRR = [s for s in i[id_col].split(", ") if "SRR" in s
-                       or "ERR" in s or "DRR" in s][0]
+                SRR = [s for s in i[id_col].split(", ") if "SRR" in s or
+                       "ERR" in s or "DRR" in s][0]
                 if i[date_col] != "":
                     date_info = parse_some_dates(i[date_col])
-                    DATE = date_info[0].strftime("%Y-%b-%d")
+                    if date_info[0] is None:
+                        DATE = "UNABLE_TO_PARSE"
+                    else:
+                        DATE = date_info[0].strftime("%Y-%b-%d")
                     ACC = date_info[1]
                 csvwriter.writerow([SRR, DATE, ACC])

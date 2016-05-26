@@ -45,10 +45,10 @@ def main(name, start, end, time):
     # Write to csv based on xml files
     generate_metadata_csv.main(data, path)
 
-    print "Cleaning up\n"
-    for i in xml_files:
-        os.system("rm %s" % path + "/" + i)
-    os.system("rmdir %s" % path)
+    # print "Cleaning up\n"
+    # for i in xml_files:
+    #     os.system("rm %s" % path + "/" + i)
+    # os.system("rmdir %s" % path)
 
 if __name__ == "__main__":
     os.chdir(os.getcwd())
