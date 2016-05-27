@@ -38,16 +38,7 @@ def retrieve_accession_numbers(query):
 # Returns a string consisting of the directory name
 
 
-def main(name, start, end, delay):
-    directory = "%s_%s_%s" % (name, start, end)
-    if not os.path.exists(directory):
-        os.mkdir(directory)
-    os.chdir(directory)
-    start_date = start.replace("-", "/")
-    end_date = end.replace("-", "/")
-    # Build the query term
-    query = "(%s[Organism]) AND (\"%s\"[Publication Date] : \"%s\"[Publication \
-              Date])" % (name, start_date, end_date)
+def main(query, delay):
     # Obtain list of IDs from query
     id_list = retrieve_accession_numbers(query)
     for acc_number in id_list:
@@ -62,4 +53,3 @@ def main(name, start, end, delay):
             tree.write(outFile)
         time.sleep(delay)
     os.chdir("..")
-    return directory

@@ -29,21 +29,32 @@ def animate():
         time.sleep(0.1)
 
 
-def main(name, start, end, time):
-    # Run the program
-    path = download_metadata.main(name, start, end, time)
-    print "\nFinished downloading metadata\nParsing XML files"
+def main(name, start, end, time, overwrite):
+    directory = "%s_%s_%s" % (name, start, end)
+    if directory in os.listdir(os.getcwd()) and overwrite is True:
+        for i in os.listdir(directory):
+            os.system("rm %s" % directory + "/" + i)
+    if directory not in os.listdir(os.getcwd()) or overwrite is True:
+        os.chdir(directory)
+        start_date = start.replace("-", "/")
+        end_date = end.replace("-", "/")
+        # Build the query term
+        query = "(%s[Organism]) AND (\"%s\"[Publication Date] : \"%s\"[Publication \
+              Date])" % (name, start_date, end_date)
+        # Run the program
+        download_metadata.main(query, time)
+        print "\nFinished downloading metadata\nParsing XML files"
 
     # Get xml_files inside of path
-    xml_files = os.listdir(path)
+    xml_files = os.listdir(directory)
     data = []
     # Parse all of the xml data together
     for i in xml_files:
-        data.append(parse_metadata.main(path + "/" + i))
+        data.append(parse_metadata.main(directory + "/" + i))
     print "Finished parsing XML files\nWriting to CSV"
 
     # Write to csv based on xml files
-    generate_metadata_csv.main(data, path)
+    generate_metadata_csv.main(data, directory)
 
     # print "Cleaning up\n"
     # for i in xml_files:
@@ -61,8 +72,10 @@ if __name__ == "__main__":
     parser.add_option("-e", "--end", help="query end date (YYYY-MM-DD)",
                       dest="end")
     parser.add_option("-t", "--time", help="increase to set longer times\
-                      between accession, default 0.1 sec", dest="time",\
+                      between accession, default 0.1 sec", dest="time",
                       default=0.1)
+    parser.add_option("-o", "--overwrite", help="set to True/T to overwrite\
+                      existing xml files", default=False)
     (options, args) = parser.parse_args()
 
     # Raise optparse errors as necessary
@@ -74,6 +87,7 @@ if __name__ == "__main__":
     t = threading.Thread(target=animate)
     t.start()
 
-    main(options.name, options.start, options.end, float(options.time))
+    main(options.name, options.start, options.end, float(options.time),
+         bool(options.overwrite))
 
     done = True
