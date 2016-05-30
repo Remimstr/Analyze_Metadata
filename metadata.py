@@ -31,10 +31,11 @@ def animate():
 
 def main(name, start, end, time, overwrite):
     directory = "%s_%s_%s" % (name, start, end)
-    if directory in os.listdir(os.getcwd()) and overwrite is True:
+    if overwrite is True or directory not in os.listdir(os.getcwd()):
+        if directory not in os.listdir(os.getcwd()):
+            os.mkdir(directory)
         for i in os.listdir(directory):
             os.system("rm %s" % directory + "/" + i)
-    if directory not in os.listdir(os.getcwd()) or overwrite is True:
         os.chdir(directory)
         start_date = start.replace("-", "/")
         end_date = end.replace("-", "/")
