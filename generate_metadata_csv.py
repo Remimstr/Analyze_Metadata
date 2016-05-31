@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Author: Remi Marchand
 # Date: May 18, 2016
 # Description: This script generates a csv file from dictionaries
@@ -37,11 +39,11 @@ def make_headers(metadata):
     headers.sort()
     return headers
 
-# main: (listof Dict), Str
+# generate_metadata_csv: (listof Dict), Str
 # takes in a list of metadata information in the format of a
 # list of dictionaries. Decides what headers to use and formats
 # the data into the csv file specified by filename.
 
-def main(metadata, filename):
+def generate_metadata_csv(metadata, filename):
     headers = make_headers(metadata)
     write_data(headers, metadata, filename)

@@ -1,0 +1,1248 @@
+on|canada	Ontario
+qc|canada	Quebec
+ns|canada	Nova Scotia
+nb|canada	New Brunswick
+mb|canada	Manitoba
+bc|canada	British Columbia
+pe|canada	Prince Edward Island
+sk|canada	Saskatchewan
+ab|canada	Alberta
+nl|canada	Newfoundland
+yukon|canada	Yukon Territory
+al|united states	Alabama
+ak|united states	Alaska
+az|united states	Arizona
+ar|united states	Arkansas
+ca|united states	California
+co|united states	Colorado
+ct|united states	Connecticut
+de|united states	Delaware
+fl|united states	Florida
+ga|united states	Georgia
+hi|united states	Hawaii
+id|united states	Idaho
+il|united states	Illinois
+in|united states	Indiana
+ia|united states	Iowa
+ks|united states	Kansas
+ky|united states	Kentucky
+la|united states	Louisiana
+me|united states	Maine
+md|united states	Maryland
+ma|united states	Massachusetts
+mi|united states	Michigan
+mn|united states	Minnesota
+ms|united states	Mississippi
+mo|united states	Missouri
+mt|united states	Montana
+ne|united states	Nebraska
+nv|united states	Nevada
+nh|united states	New Hampshire
+nj|united states	New Jersey
+nm|united states	New Mexico
+ny|united states	New York
+nc|united states	North Carolina
+nd|united states	North Dakota
+oh|united states	Ohio
+ok|united states	Oklahoma
+or|united states	Oregon
+pa|united states	Pennsylvania
+ri|united states	Rhode Island
+sc|united states	South Carolina
+sd|united states	South Dakota
+tn|united states	Tennessee
+tx|united states	Texas
+ut|united states	Utah
+vt|united states	Vermont
+va|united states	Virginia
+wa|united states	Washington
+wv|united states	West Virginia
+wi|united states	Wisconsin
+wy|united states	Wyoming
+ac|brazil	Acre
+al|brazil	Alagoas
+ap|brazil	Amapa
+am|brazil	Amazonas
+ba|brazil	Bahia
+ce|brazil	Ceara
+df|brazil	Distrito Federal
+es|brazil	Espirito Santo
+go|brazil	Goias
+ma|brazil	Maranhao
+mt|brazil	Mato Grosso
+ms|brazil	Mato Grosso do Sul
+mg|brazil	Minas Gerais
+pa|brazil	Para
+pb|brazil	Paraiba
+pr|brazil	Parana
+pe|brazil	Pernambuco
+pi|brazil	Piaui
+rj|brazil	Rio de Janeiro
+rn|brazil	Rio Grande do Norte
+rs|brazil	Rio Grande do Sul
+ro|brazil	Rondonia
+rr|brazil	Roraima
+sc|brazil	Santa Catarina
+sp|brazil	Sao Paulo
+se|brazil	Sergipe
+to|brazil	Tocantins
+freie hansestadt bremen|gremany	Bremen
+hamburg|germany	Hamburg
+bayern|germany	Bavaria
+saxony|germany	Sachsen
+freistaat thuringen|germany	Thuringia
+lower saxony|germany	Niedersachsen
+rheinland-pfalz|germany	Rhineland Palatinate
+northrhine-westphalia|germany	North Rhine-Westphalia
+oberosterreich|austria	Oberoesterreich
+parvan|afghanistan	Parwan
+prov. buenos aires|argentina	Buenos Aires
+entre rÃ­os|argentina	Entre Rios
+aveiro|argentina	Mendoza
+r. negro |argentina	Rio Negro
+r. negro |argentina	Rio Negro
+neuquen/rio negro|argentina	Rio Negro
+rio negro |argentina	Rio Negro
+san luiz|argentina	San Luis
+santa cruz |argentina	Santa Cruz
+kotayk|armenia	Kotayk'
+sjunik|armenia	Syunik'
+vayots dzor|armenia	Vayots'Dzor
+act|australia	Australian Capital Territory
+nsw|australia	New South Wales
+nt|australia	Northern Territory
+qld|australia	Queensland
+sa|australia	South Australia
+tas|australia	Tasmania
+vic|australia	Victoria
+wa|australia	Western Australia
+west australia|australia	Western Australia
+neusiedlersee|austria	Burgenland
+lower austria|austria	Niederosterreich
+lower-austria|austria	Niederosterreich
+karnten|austria	Carinthia
+nierderoesterreich|austria	Niederosterreich
+niederoesterreich|austria	Niederosterreich
+nierderoesterreich|austria	Niederosterreich
+oberosterreich|austria	Oberoesterreich
+upper-austria|austria	Oberoesterreich
+steiermark|austria	Styria
+tyrol|austria	Tirol
+wien|austria	Vienna
+nakhichevan|azerbaijan	Naxcivan
+antwerpen|belgium	Antwerpen (Antwerp)
+hainaut|belgium	Henegouwen (Hainaut)
+namur|belgium	Namen (Namur)
+oost-vlaanderen|belgium	Oost-Vlaanderen (East Flanders)
+vlaams-brabant|belgium	Vlaams-Brabant (Flemish Brabant)
+thimbu|bhutan	Thimpu
+chuquisaca province|bolivia	Chuquisaca
+la paz prov.|bolivia	La Paz
+la paz province|bolivia	La Paz
+santa cruz prov.|bolivia	Santa Cruz
+santa cruz prov.|bolivia	Santa Cruz
+cochabamba-santa cruz|bolivia	Santa Cruz
+am|brazil	Amazonas
+amanzonas|brazil	Amazonas
+ba|brazil	Bahia
+federal district|brazil	Distrito Federal
+es|brazil	Espirito Santo
+espirito santos|brazil	Espirito Santo
+goiais|brazil	Goias
+matro grosso |brazil	Mato Grosso
+mato gosso|brazil	Mato Grosso
+coximms|brazil	Mato Grosso do Sul
+pa|brazil	Para
+pr|brazil	Parana
+rs|brazil	Rio Grande do Sul
+ro|brazil	Roraima
+rr|brazil	Roraima
+sc|brazil	Santa Catarina
+sap|brazil	Sergipe
+tocantis|brazil	Tocantins
+smolyan|bulgaria	Sofiya
+sofia|bulgaria	Sofiya
+sofija|bulgaria	Sofiya
+bantaey menchay|cambodia	Banteay Mean Cheay
+ratanakiri|cambodia	Rotanah Kiri
+rotanÄƒh kiri |cambodia	Rotanah Kiri
+south west|cameroon	Sud-Ouest
+central african republic|bamingui - bangoran pr.	Bamingui-Bangoran
+la araucania|chile	Araucania
+viii region|chile	Biobio
+x region|chile	Los Lagos
+marga marga|chile	Valparaiso
+chong qing|china	Chongqing
+fukien (=fujian)|china	Fujian
+lianhuashan|china	Gansu
+guanxi|china	Guangxi
+jiangxi-fujian|china	Jiangxi
+quinghai |china	Qinghai
+szechuan (=sichuan)|china	Sichuan
+setschuan|china	Sichuan
+yunan|china	Yunnan
+antioquiaÂ |colombia	Antioquia
+cundanimarca|colombia	Cundinamarca
+cundinamarca dept.|colombia	Cundinamarca
+cundimarca|colombia	Cundinamarca
+guajira|colombia	La Guajira
+magdalenatal|colombia	Magdalena
+quindio |colombia	Quindio
+providencia|colombia	San Andres y Providencia
+cordilera central|colombia	Tolima
+valle|colombia	Valle del Cauca
+costa rica|san hose	San Jose
+cote d'ivoire|abijan	Abidjan
+lika|croatia	Lika-Senj
+primorsko-goranska zupanjia|croatia	Primorje-Gorski Kotar
+gramna|cuba	Granma
+sancti spiritus|cuba	Sancti-Spiritus
+santiagi de cuba|cuba	Santiago de Cuba
+villa calara|cuba	Villa Clara
+pafos|cyprus	Paphos
+czech republic|boh	Central Bohemia
+czech republic|bohemia	Southern Bohemia
+czech republic|moravia	Southern Moravia
+czech republic|bohemia	Usti nad Labem
+democratic republic of the congo|kasai_oriental	Kasai-Oriental
+nordostsjÃ¦lland|denmark	Nordjylland
+sjalland|denmark	Sjaelland
+sjalland|denmark	Sjaelland
+morona|ecuador	Morona-Santiago
+morona santiago|ecuador	Morona-Santiago
+morona-san-tiago|ecuador	Morona-Santiago
+san rafael |ecuador	Napo
+pinchincha|ecuador	Pichincha
+zamora|ecuador	Zamora Chinchipe
+zamora-chinchipe|ecuador	Zamora Chinchipe
+laae-virumaa|estonia	Laane-Virumaa
+gondar|ethiopia	Gonder
+enontekion lappi|finland	Lapland
+llapland|finland	Lapland
+north ostrobothnia|finland	Northern Ostrobothnia
+pohjois-pohjanmaa|finland	Northern Ostrobothnia
+bretagne (fr)|france	Brittany
+bretagne|france	Brittany
+bourgogne|france	Burgundy
+champagne-ardennes|france	Champagne-Ardenne
+korsika|france	Corsica
+corse|france	Corsica
+eure|france	Haute Normandie
+ile de france|france	Ile-de-France
+ile-de-france (fr)|france	Ile-de-France
+llanguedoc-rousillon|france	Languedoc-Roussillon
+meurthe et moselle|france	Lorraine
+midi pyrenees|france	Midi-Pyrenees
+midi-pyreneesÂ |france	Midi-Pyrenees
+pas-de-calais|france	Nord-Pas-de-Calais
+nord-pas de calais|france	Nord-Pas-de-Calais
+main and loire|france	Pays de la Loire
+pays-de-la-loire|france	Pays de la Loire
+picardie|france	Picardy
+poitou-charente|france	Poitou-Charentes
+provence alpes|france	Provence-Alpes-Cote d'Azur
+provence-alpes-cote dâ€™azur|france	Provence-Alpes-Cote d'Azur
+bouche du rhone|france	Provence-Alpes-Cote d'Azur
+provence-alpes-cote- d'azur (fr)|france	Provence-Alpes-Cote d'Azur
+provence-alpes cote dÂ´azur|france	Provence-Alpes-Cote d'Azur
+provence-alps|france	Provence-Alpes-Cote d'Azur
+ardeche|france	Rhone-Alpes
+ardeche|france	Rhone-Alpes
+rhone alpes|france	Rhone-Alpes
+french guiana|chayenne	Cayenne
+french polynesia|gambier archipelago	Gambier Islands
+ogoue - ivindo|gabon	Ogooue-Ivindo
+ogooue ivindo|gabon	Ogooue-Ivindo
+bw|germany	Baden-Wuerttemberg
+baden-wuerttemberg-wuerttemberg|germany	Baden-Wuerttemberg
+baden-wurttemberg|germany	Baden-Wuerttemberg
+baden-wuertemberg|germany	Baden-Wuerttemberg
+baden wurttemberg|germany	Baden-Wuerttemberg
+bayern|germany	Bavaria
+oberbayern|germany	Bavaria
+unterfranken|germany	Bavaria
+bavaria |germany	Bavaria
+land brandenburg|germany	Brandenburg
+brandeburg |germany	Brandenburg
+mecklenburg-vorpommem|germany	Mecklenburg-Vorpommern
+mecklenburg-vorpommen|germany	Mecklenburg-Vorpommern
+mecklenburg-western pomerania|germany	Mecklenburg-Vorpommern
+lower saxony|germany	Niedersachsen
+nordhein-westfalen|germany	North Rhine-Westphalia
+north-rhine-westphalia|germany	North Rhine-Westphalia
+northrhine-westphalia|germany	North Rhine-Westphalia
+nordrhein|germany	North Rhine-Westphalia
+westfalen|germany	North Rhine-Westphalia
+northrhine westphalia|germany	North Rhine-Westphalia
+palatinate|germany	Rhineland Palatinate
+rheinland|germany	Rhineland Palatinate
+rheinland-pfalz|germany	Rhineland Palatinate
+pfalz|germany	Rhineland Palatinate
+rhineland-palatinate|germany	Rhineland Palatinate
+saxony|germany	Sachsen
+saxonia|germany	Sachsen
+sachsen - anhalt|germany	Saxony-Anhalt
+saxonz-anhalt|germany	Saxony-Anhalt
+sachsen-anhalt|germany	Saxony-Anhalt
+schleswig holstein|germany	Schleswig-Holstein
+thuringen|germany	Thuringia
+thuringen|germany	Thuringia
+thueringen|germany	Thuringia
+attika|greece	Attica
+chaichidild|greece	East Macedonia and Thrace
+chalchidiki|greece	East Macedonia and Thrace
+anatoliki makedonia kai thraki|greece	East Macedonia and Thrace
+epiros|greece	Epirus
+peloponissos|greece	Peloponnese
+peloponnes |greece	Peloponnese
+peloponnes|greece	Peloponnese
+peloponnisos (el)|greece	Peloponnese
+s-aegean|greece	South Aegean
+thessalia|greece	Thessaly
+cuyuni- mazaruni district|guyana	Cuyuni-Mazaruni
+potaro-siparuni district|guyana	Potaro-Siparuni
+siparuni|guyana	Potaro-Siparuni
+vezprem|hungary	Veszprem
+vezprem|hungary	Veszprem
+andaman islands|india	Andaman and Nicobar
+andra pradesh|india	Andhra Pradesh
+chhatishgarh|india	Chhattisgarh
+gujarath|india	Gujarat
+gujrat|india	Gujarat
+gujrath|india	Gujarat
+pondicherry|india	Maharashtra
+meghalya|india	Meghalaya
+odisha|india	Orissa
+odissa|india	Orissa
+rajashthan|india	Rajasthan
+tamilnadu|india	Tamil Nadu
+uttarakhand|india	Uttaranchal
+bengal|india	West Bengal
+java barat|indonesia	Jawa Barat
+java island|indonesia	Jawa Barat
+east java|indonesia	Jawa Timur
+semnan province|iran	Semnan
+prov. tehran|iran	Tehran
+salah ad-din|iraq	Saladin
+salah ad din|iraq	Saladin
+as-sulaymaniyah|iraq	Sulaymaniyah
+sulaimani|iraq	Sulaymaniyah
+dublin|ireland	Dublin City
+haifa district|israel	Haifa
+hadarom|israel	Southern
+southern district|israel	Southern
+abruzzen|italy	Abruzzi
+abruzzo|italy	Abruzzi
+latina|italy	Campania
+sorrento|italy	Campania
+emilia romagna|italy	Emilia-Romagna
+emiglia-romagna|italy	Emilia-Romagna
+friul venezia|italy	Friuli-Venezia Giulia
+lombardia|italy	Lombardy
+lombardia, sondrio|italy	Lombardy
+piemonte (it)|italy	Piedmont
+piemont|italy	Piedmont
+asti|italy	Piedmont
+torino|italy	Piedmont
+sardegna|italy	Sardinia
+sicilia|italy	Sicily
+sicilia (it)|italy	Sicily
+sudtirol|italy	South Tyrol
+tr.-alto adige|italy	Trentino-Alto Adige
+trentino alto adige|italy	Trentino-Alto Adige
+trento|italy	Trentino-Alto Adige
+vinschgau|italy	Trentino-Alto Adige
+toscana|italy	Tuscany
+toskana|italy	Tuscany
+venetien|italy	Veneto
+vr-veneto|italy	Veneto
+venezia |italy	Veneto
+venetia|italy	Veneto
+hokaido|japan	Hokkaido
+honsyu|japan	Honshu
+gunma|japan	Kanto
+turgai|kazakhstan	Turgay
+central province|kenya	Central
+coast province|kenya	Coast
+kabamega|kenya	Kakamega
+kwale county|kenya	Kwale
+laikipia county |kenya	Laikipia County
+nairobi area|kenya	Nairobi
+great rift valley|kenya	Rift Valley
+rift-valley|kenya	Rift Valley
+riftyvalley|kenya	Rift Valley
+rifty valley|kenya	Rift Valley
+osch|kyrgyzstan	Osh
+attapeu prov.|laos	Attapu
+bolikhamsai|laos	Bolikhamxay
+houa phan|laos	Houaphan
+hua phan|laos	Houaphan
+huaphane|laos	Houaphan
+khammouane|laos	Khammouan
+luang prabang|laos	Louangphrabang
+louang phrabang|laos	Louangphrabang
+oudumaxi|laos	Oudomxai
+antananariov|madagascar	Antananarivo
+antsirinana|madagascar	Antsiranana
+antsirananana|madagascar	Antsiranana
+diego-suarez|madagascar	Antsiranana
+fianarantosa|madagascar	Fianarantsoa
+fianarantosoa|madagascar	Fianarantsoa
+majunga|madagascar	Mahajanga
+tulear|madagascar	Toliara
+melaka|malaysia	Malacca
+baja cal. n.|mexico	Baja California
+baja california norte|mexico	Baja California
+bcs|mexico	Baja California Sur
+chis|mexico	Chihuahua
+chiuahua|mexico	Chihuahua
+d. f.|mexico	Distrito Federal
+d.f.|mexico	Distrito Federal
+d.f.|mexico	Distrito Federal
+guerreo|mexico	Guerrero
+hdalgo|mexico	Hidalgo
+estado de mexico|mexico	Mexico State
+estado de mexico|mexico	Mexico State
+mexico|mexico	Mexico State
+michoacan |mexico	Michoacan
+oax.|mexico	Oaxaca
+queretaro |mexico	Queretaro
+archangay|mongolia	Arhangay
+arkhangai|mongolia	Arhangay
+arkhangay aimag|mongolia	Arhangay
+bayanchongor|mongolia	Bayanhongor
+bayankhongor aimag|mongolia	Bayanhongor
+bayan-ulegey aymak|mongolia	Bayanolgiy
+bayan-olgiy aimag|mongolia	Bayanolgiy
+bayon-olgiy aimag|mongolia	Bayanolgiy
+dornogovi|mongolia	Dorngovi
+gov`-altay|mongolia	Govi-Altay
+govi altai|mongolia	Govi-Altay
+govi-altai aimag|mongolia	Govi-Altay
+gobi|mongolia	Govi-Altay
+hovd aimag|mongolia	Hovd
+tov aymag|mongolia	Tov
+dzavhan zavkhan|mongolia	Zavkhan
+prov. zavkhan|mongolia	Zavkhan
+fes-boulemane|morocco	Fes-Boulemane Region
+fes-boulemane, sefrou|morocco	Fes-Boulemane Region
+meknes-tafilalet, ifrane|morocco	Meknes-Tafilalet Region
+meknes-tafillals m c. massarone|morocco	Meknes-Tafilalet Region
+tadla-azilal|morocco	Tadla-Azilal Region
+tangier-tetouan, assilah|morocco	Tangier-Tetouan Region
+tangier-tetouan|morocco	Tangier-Tetouan Region
+tangier-tetouan|morocco	Tangier-Tetouan Region
+capo delgado|mozambique	Cabo Delgado
+s. shan|myanmar	Shan
+noord-brabant|netherlands	North Brabant
+noord-holland|netherlands	North Holland
+nordholland|netherlands	North Holland
+zuid holland|netherlands	South Holland
+ut|netherlands	Utrecht
+ze|netherlands	Zeeland
+taraka prov.|nigeria	Taraba
+akershus |norway	Akershus
+aust-agder |norway	Aust-Agder
+aust agder|norway	Aust-Agder
+aust-agder |norway	Aust-Agder
+buskerud |norway	Buskerud
+finnmark |norway	Finnmark
+he[dmark]|norway	Hedmark
+hedemark|norway	Hedmark
+sor trondelag|norway	Hordaland
+moere og romsdal|norway	More og Romsdal
+more-og-romsdal|norway	More og Romsdal
+nord-trondelag |norway	Nord-Trondelag
+nord-trondelag|norway	Nord-Trondelag
+nord-troendelag|norway	Nord-Trondelag
+nord trondelag|norway	Nord-Trondelag
+nordland |norway	Nordland
+oppland |norway	Oppland
+oppland |norway	Oppland
+olso|norway	Oslo
+oslo fylke|norway	Oslo
+oslo |norway	Oslo
+oestfold|norway	Ostfold
+soer-troendelag|norway	Sor-Trondelag
+sor trondelag|norway	Sor-Trondelag
+sor-trondelag|norway	Sor-Trondelag
+sor-trondelag |norway	Sor-Trondelag
+vest agder|norway	Vest-Agder
+vest-agder |norway	Vest-Agder
+vestfold |norway	Vestfold
+vest-fold|norway	Vestfold
+zufar|oman	Dhofar
+azad jammu kashmir|pakistan	Azad Kashmir
+ajk|pakistan	Azad Kashmir
+azk|pakistan	Azad Kashmir
+balochistan|pakistan	Baluchistan
+dir|pakistan	Khyber Pakhtunkhwa
+kpkk|pakistan	Khyber Pakhtunkhwa
+kpk|pakistan	Khyber Pakhtunkhwa
+bocas|panama	Bocas Del Toro
+clon|panama	Colon
+panama, caribbean|panama	Panama
+papua new guinea|new britain (e)	East New Britain
+papua new guinea|east highlands	Eastern Highlands
+papua new guinea|manus isl.	Manus
+papua new guinea|morobe 	Morobe
+papua new guinea|w new britain province	West New Britain
+papua new guinea|new britain (w)	West New Britain
+papua new guinea|western highland	Western Highlands
+neuva asuncion|paraguay	Nueva Asuncion
+nueva ascuncion|paraguay	Nueva Asuncion
+arequipa prov|peru	Arequipa
+cusco dept.|peru	Cuzco
+cusco|peru	Cuzco
+dpto. junin|peru	Junin
+junin |peru	Junin
+m. de dios|peru	Madre de Dios
+madre de dios |peru	Madre de Dios
+dept. madre de dios|peru	Madre de Dios
+dpto. pasco|peru	Pasco
+pucallpa|peru	Ucayali
+cayagan|philippines	Cagayan Valley
+batangas |philippines	Calabarzon
+laguna|philippines	Calabarzon
+quezon|philippines	Calabarzon
+rizal|philippines	Calabarzon
+aurora 2007|philippines	Central Luzon
+luzon|philippines	Central Luzon
+leyte |philippines	Eastern Visayas
+guiuan|philippines	Eastern Visayas
+oriental mindoro|philippines	Mimaropa
+mindoro|philippines	Mimaropa
+mindanao|philippines	Mindanao Island
+metro manila|philippines	National Capital Region
+manila|philippines	National Capital Region
+metropolitan manila|philippines	National Capital Region
+ilolo|philippines	Western Visayas
+lubelskie|poland	Lublin
+podlasie, fb89|poland	Podlaskie
+pomorskie|poland	Pomeranian
+podkarpackie|poland	Subcarpathian
+pico, azores|portugal	Azores
+santa maria, azores|portugal	Azores
+sao miguel, azores|portugal	Azores
+castello branco|portugal	Castelo Branco
+carlibaba|romania	Suceava
+republic of adygea|russia	Adygeya
+altay|russia	Altai Krai
+archangelsk|russia	Arkhangelsk
+astrakhanâ€™ region|russia	Astrakhan
+respublika buryatiya|russia	Buryatiya
+buryatia|russia	Buryatiya
+repblic of buryatia|russia	Buryatiya
+cheljabinsk|russia	Chelyabinsk
+cheliabinsk oblast|russia	Chelyabinsk
+chelyabinsk region|russia	Chelyabinsk
+chukotka aut. okrug|russia	Chukot Autonomous Okrug
+irkutskaja|russia	Irkutsk
+jewish autonomous region|russia	Jewish Autonomous Oblast
+kalmykia|russia	Kalmykiya
+karachaevo-cherkessiya|russia	Karachay-Cherkessia
+russian carelia|russia	Karelia
+khabarovskiy kray|russia	Khabarovsk Krai
+khabarovsk|russia	Khabarovsk Krai
+northwestern federal distric|russia	Komi
+krasnodarskiy kray|russia	Krasnoyarsk Krai
+krasnodarskiy kray|russia	Krasnoyarsk Krai
+krasnoyarskiy kray|russia	Krasnoyarsk Krai
+krasnoyarsky|russia	Krasnoyarsk Krai
+krasnodarskii krai|russia	Krasnoyarsk Krai
+lipetsk oblast|russia	Lipetsk
+nizhniy novgorod oblast|russia	Nizhniy Novgorod
+novgorod oblast|russia	Novgorod
+novgorodskaya oblast,|russia	Novgorod
+novosibirsk region|russia	Novosibirsk
+novosibirskaya|russia	Novosibirsk
+primorkiy kray|russia	Primorsky Krai
+primorskiy|russia	Primorsky Krai
+primorya|russia	Primorsky Krai
+primorsky|russia	Primorsky Krai
+primorye|russia	Primorsky Krai
+primorskii|russia	Primorsky Krai
+prikorskiy kray|russia	Primorsky Krai
+sakhalin island|russia	Sakhalinskaya
+stavropol`skiy kray|russia	Stavropol Krai
+sverdlovsk oblast|russia	Sverdlovskaya
+tjumen district|russia	Tyumenskaya
+tumenskaya|russia	Tyumenskaya
+tuva|russia	Tyva
+ulyanovsk|russia	Ulyanovskaya
+ul'yanovsk|russia	Ulyanovskaya
+vladimir|russia	Vladimirskaya
+volgograd env.|russia	Volgograd
+vologda|russia	Volgograd
+volgogradskaya|russia	Vologodskaya
+volgogradskaya oblast|russia	Vologodskaya
+yamalo-nenets autonomous okrug|russia	Yamal-Nenets Autonomous Okrug
+yamal-nenets|russia	Yamal-Nenets Autonomous Okrug
+chita oblast|russia	Zabaykalsky Krai
+ouest|rwanda	Western
+south africa|east cape	Eastern Cape
+south africa|kwa-zulu natal	KwaZulu-Natal
+south africa|limpopo prov.	Limpopo
+south africa|n cape	Northern Cape
+south africa|n. cape	Northern Cape
+south africa|n. cape	Northern Cape
+south africa|n.cape	Northern Cape
+south africa|north cape	Northern Cape
+south africa|nw. cape	Northern Cape
+south africa|w. cape	Western Cape
+south africa|wcp	Western Cape
+andalucia|spain	Andalusia
+prov. almeria|spain	Andalusia
+andalucia|spain	Andalusia
+andaluzia|spain	Andalusia
+huesca|spain	Aragon
+mallorca|spain	Balearic Islands
+illes balears|spain	Balearic Islands
+pais vasco|spain	Basque Country
+castile and leon|spain	Castilla y Leon
+castile-la mancha|spain	Castilla-La Mancha
+com. valenciana|spain	Comunidad Valenciana
+valencia-alicante|spain	Comunidad Valenciana
+caceres, extremadura|spain	Extremadura
+galizia|spain	Galicia
+galizia, spain|spain	Galicia
+sipalawini|suriname	Sipaliwini
+dalarne|sweden	Dalarna
+gastrikland|sweden	Gotland
+lapland|sweden	Lappland
+asele lappmark|sweden	Lappland
+norrbottens lan|sweden	Norrbotten
+norbotten|sweden	Norrbotten
+skone|sweden	Skane
+scania|sweden	Skane
+ska|sweden	Skane
+varmland|sweden	Varmland
+vasternorrlands|sweden	Vasternorrland
+canton geneva|switzerland	Geneva
+geneve|switzerland	Geneva
+lucerne|switzerland	Luzern
+st. gallen|switzerland	Sankt Gallen
+tessin|switzerland	Ticino
+wallis|switzerland	Valais
+vs|switzerland	Vaud
+hualien|taiwan	Hualien County
+kaohsiung|taiwan	Kaohsiung City
+nantou xian|taiwan	Nantou County
+nantou|taiwan	Nantou County
+taipei|taiwan	New Taipei City
+pingdong xian|taiwan	Pingtung County
+taidong|taiwan	Taidong County
+taibei city|taiwan	Taipei City
+taoyuan|taiwan	Taoyuan County
+yilan|taiwan	Yilan County
+sughd province|tajikistan	Sughd
+dar es salaam|tanzania	Dar-Es-Salaam
+morongoro|tanzania	Morogoro
+iringa|tanzania	Morogoro
+chiang dao|thailand	Chiang Mai
+phattalung|thailand	Phatthalung
+patthalung|thailand	Phatthalung
+prachuap kiri khan|thailand	Prachuap Khiri Khan
+sakhon nakhon|thailand	Sakon Nakhon
+ubon rathathani|thailand	Ubon Ratchathani
+aydin ili|turkey	Aydin
+aydÄ±n|turkey	Aydin
+balÄ±kesir|turkey	Balikesir
+burdur ili|turkey	Burdur
+anatolia, erzincan|turkey	Erzincan
+erzican|turkey	Erzincan
+karamanmaras|turkey	Kahraman Maras
+prov. konya|turkey	Konya
+icel|turkey	Mersin
+prov. tokat|turkey	Tokat
+prov. van|turkey	Van
+van ili|turkey	Van
+eastern region|uganda	Eastern
+ivano-frankivsk|ukraine	Ivano-Frankovsk
+krim|ukraine	Krym
+amazonasazonas|venezuela	Amazonas
+ba ria - vung tau prov.|vietnam	Ba Ria-Vung Tau
+dac lac prov.|vietnam	Dac Lac
+da nang|vietnam	Dak Nong
+hai phon prov.|vietnam	Hai Phong
+lam dong prov.|vietnam	Lam Dong
+lao cai province|vietnam	Lao Cai
+vihn phu|vietnam	Vinh Phuc
+vin phuc|vietnam	Vinh Phuc
+copper belt province|zambia	North-Western
+north western province|zambia	North-Western
+parvan|afghanistan	Parwan
+provbuenosaires|argentina	Buenos Aires
+entrerÃ­os|argentina	Entre Rios
+aveiro|argentina	Mendoza
+rnegro|argentina	Rio Negro
+rnegro|argentina	Rio Negro
+neuquenrionegro|argentina	Rio Negro
+rionegro|argentina	Rio Negro
+sanluiz|argentina	San Luis
+santacruz|argentina	Santa Cruz
+kotayk|armenia	Kotayk'
+sjunik|armenia	Syunik'
+vayotsdzor|armenia	Vayots'Dzor
+act|australia	Australian Capital Territory
+nsw|australia	New South Wales
+nt|australia	Northern Territory
+qld|australia	Queensland
+sa|australia	South Australia
+tas|australia	Tasmania
+vic|australia	Victoria
+australia|australia	Western Australia
+wa|australia	Western Australia
+westaustralia|australia	Western Australia
+neusiedlersee|austria	Burgenland
+karnten|austria	Carinthia
+nierderoesterreich|austria	Niederosterreich
+niederoesterreich|austria	Niederosterreich
+nierderoesterreich|austria	Niederosterreich
+oberosterreich|austria	Oberoesterreich
+upperaustria|austria	Oberoesterreich
+steiermark|austria	Styria
+tyrol|austria	Tirol
+wien|austria	Vienna
+nakhichevan|azerbaijan	Naxcivan
+antwerpen|belgium	Antwerpen (Antwerp)
+hainaut|belgium	Henegouwen (Hainaut)
+namur|belgium	Namen (Namur)
+oostvlaanderen|belgium	Oost-Vlaanderen (East Flanders)
+vlaamsbrabant|belgium	Vlaams-Brabant (Flemish Brabant)
+thimbu|bhutan	Thimpu
+chuquisacaprovince|bolivia	Chuquisaca
+lapazprov|bolivia	La Paz
+lapazprovince|bolivia	La Paz
+santacruzprov|bolivia	Santa Cruz
+santacruzprov|bolivia	Santa Cruz
+cochabambasantacruz|bolivia	Santa Cruz
+am|brazil	Amazonas
+amanzonas|brazil	Amazonas
+ba|brazil	Bahia
+federaldistrict|brazil	Distrito Federal
+es|brazil	Espirito Santo
+espiritosantos|brazil	Espirito Santo
+goiais|brazil	Goias
+matrogrosso|brazil	Mato Grosso
+matogosso|brazil	Mato Grosso
+coximms|brazil	Mato Grosso do Sul
+pa|brazil	Para
+pr|brazil	Parana
+rs|brazil	Rio Grande do Sul
+ro|brazil	Roraima
+rr|brazil	Roraima
+sc|brazil	Santa Catarina
+sap|brazil	Sergipe
+tocantis|brazil	Tocantins
+smolyan|bulgaria	Sofiya
+sofia|bulgaria	Sofiya
+sofija|bulgaria	Sofiya
+bantaeymenchay|cambodia	Banteay Mean Cheay
+ratanakiri|cambodia	Rotanah Kiri
+rotanÄƒhkiri|cambodia	Rotanah Kiri
+southwest|cameroon	Sud-Ouest
+baminguibangoranpr|centralafricanrepublic	Bamingui-Bangoran
+laaraucania|chile	Araucania
+viiiregion|chile	Biobio
+xregion|chile	Los Lagos
+margamarga|chile	Valparaiso
+chongqing|china	Chongqing
+fukienfujian|china	Fujian
+lianhuashan|china	Gansu
+guanxi|china	Guangxi
+jiangxifujian|china	Jiangxi
+quinghai|china	Qinghai
+szechuansichuan|china	Sichuan
+setschuan|china	Sichuan
+yunan|china	Yunnan
+antioquia|colombia	Antioquia
+cundanimarca|colombia	Cundinamarca
+cundinamarcadept|colombia	Cundinamarca
+cundimarca|colombia	Cundinamarca
+guajira|colombia	La Guajira
+magdalenatal|colombia	Magdalena
+quindio|colombia	Quindio
+providencia|colombia	San Andres y Providencia
+cordileracentral|colombia	Tolima
+valle|colombia	Valle del Cauca
+sanhose|costarica	San Jose
+abijan|cotedivoire	Abidjan
+lika|croatia	Lika-Senj
+primorskogoranskazupanjia|croatia	Primorje-Gorski Kotar
+gramna|cuba	Granma
+sanctispiritus|cuba	Sancti-Spiritus
+santiagidecuba|cuba	Santiago de Cuba
+villacalara|cuba	Villa Clara
+pafos|cyprus	Paphos
+boh|czechrepublic	Central Bohemia
+bohemia|czechrepublic	Southern Bohemia
+moravia|czechrepublic	Southern Moravia
+bohemia|czechrepublic	Usti nad Labem
+kasai_oriental|democraticrepublicofthecongo	Kasai-Oriental
+nordostsjÃ¦lland|denmark	Nordjylland
+sjalland|denmark	Sjaelland
+sjalland|denmark	Sjaelland
+morona|ecuador	Morona-Santiago
+moronasantiago|ecuador	Morona-Santiago
+moronasantiago|ecuador	Morona-Santiago
+sanrafael|ecuador	Napo
+pinchincha|ecuador	Pichincha
+zamora|ecuador	Zamora Chinchipe
+zamorachinchipe|ecuador	Zamora Chinchipe
+laaevirumaa|estonia	Laane-Virumaa
+gondar|ethiopia	Gonder
+enontekionlappi|finland	Lapland
+llapland|finland	Lapland
+northostrobothnia|finland	Northern Ostrobothnia
+pohjoispohjanmaa|finland	Northern Ostrobothnia
+bretagnefr|france	Brittany
+bretagne|france	Brittany
+bourgogne|france	Burgundy
+champagneardennes|france	Champagne-Ardenne
+korsika|france	Corsica
+corse|france	Corsica
+eure|france	Haute Normandie
+iledefrance|france	Ile-de-France
+iledefrancefr|france	Ile-de-France
+llanguedocrousillon|france	Languedoc-Roussillon
+meurtheetmoselle|france	Lorraine
+midipyrenees|france	Midi-Pyrenees
+midipyrenees|france	Midi-Pyrenees
+pasdecalais|france	Nord-Pas-de-Calais
+nordpasdecalais|france	Nord-Pas-de-Calais
+mainandloire|france	Pays de la Loire
+paysdelaloire|france	Pays de la Loire
+picardie|france	Picardy
+poitoucharente|france	Poitou-Charentes
+provencealpes|france	Provence-Alpes-Cote d'Azur
+provencealpescotedazur|france	Provence-Alpes-Cote d'Azur
+bouchedurhone|france	Provence-Alpes-Cote d'Azur
+provencealpescotedazurfr|france	Provence-Alpes-Cote d'Azur
+provencealpescotedazur|france	Provence-Alpes-Cote d'Azur
+provencealps|france	Provence-Alpes-Cote d'Azur
+ardeche|france	Rhone-Alpes
+ardeche|france	Rhone-Alpes
+rhonealpes|france	Rhone-Alpes
+chayenne|frenchguiana	Cayenne
+gambierarchipelago|frenchpolynesia	Gambier Islands
+ogoueivindo|gabon	Ogooue-Ivindo
+ogooueivindo|gabon	Ogooue-Ivindo
+bw|germany	Baden-Wuerttemberg
+badenwuerttembergwuerttemberg|germany	Baden-Wuerttemberg
+badenwurttemberg|germany	Baden-Wuerttemberg
+badenwuertemberg|germany	Baden-Wuerttemberg
+badenwurttemberg|germany	Baden-Wuerttemberg
+bayern|germany	Bavaria
+oberbayern|germany	Bavaria
+unterfranken|germany	Bavaria
+bavaria|germany	Bavaria
+landbrandenburg|germany	Brandenburg
+brandeburg|germany	Brandenburg
+mecklenburgvorpommem|germany	Mecklenburg-Vorpommern
+mecklenburgvorpommen|germany	Mecklenburg-Vorpommern
+mecklenburgwesternpomerania|germany	Mecklenburg-Vorpommern
+lowersaxony|germany	Niedersachsen
+nordheinwestfalen|germany	North Rhine-Westphalia
+northrhinewestphalia|germany	North Rhine-Westphalia
+northrhinewestphalia|germany	North Rhine-Westphalia
+nordrhein|germany	North Rhine-Westphalia
+westfalen|germany	North Rhine-Westphalia
+northrhinewestphalia|germany	North Rhine-Westphalia
+palatinate|germany	Rhineland Palatinate
+rheinland|germany	Rhineland Palatinate
+rheinlandpfalz|germany	Rhineland Palatinate
+pfalz|germany	Rhineland Palatinate
+rhinelandpalatinate|germany	Rhineland Palatinate
+saxony|germany	Sachsen
+saxonia|germany	Sachsen
+sachsenanhalt|germany	Saxony-Anhalt
+saxonzanhalt|germany	Saxony-Anhalt
+sachsenanhalt|germany	Saxony-Anhalt
+schleswigholstein|germany	Schleswig-Holstein
+thuringen|germany	Thuringia
+thuringen|germany	Thuringia
+thueringen|germany	Thuringia
+attika|greece	Attica
+chaichidild|greece	East Macedonia and Thrace
+chalchidiki|greece	East Macedonia and Thrace
+anatolikimakedoniakaithraki|greece	East Macedonia and Thrace
+epiros|greece	Epirus
+peloponissos|greece	Peloponnese
+peloponnes|greece	Peloponnese
+peloponnes|greece	Peloponnese
+peloponnisosel|greece	Peloponnese
+saegean|greece	South Aegean
+thessalia|greece	Thessaly
+cuyunimazarunidistrict|guyana	Cuyuni-Mazaruni
+potarosiparunidistrict|guyana	Potaro-Siparuni
+siparuni|guyana	Potaro-Siparuni
+vezprem|hungary	Veszprem
+vezprem|hungary	Veszprem
+andamanislands|india	Andaman and Nicobar
+andrapradesh|india	Andhra Pradesh
+chhatishgarh|india	Chhattisgarh
+gujarath|india	Gujarat
+gujrat|india	Gujarat
+gujrath|india	Gujarat
+pondicherry|india	Maharashtra
+meghalya|india	Meghalaya
+odisha|india	Orissa
+odissa|india	Orissa
+rajashthan|india	Rajasthan
+tamilnadu|india	Tamil Nadu
+uttarakhand|india	Uttaranchal
+bengal|india	West Bengal
+javabarat|indonesia	Jawa Barat
+javaisland|indonesia	Jawa Barat
+eastjava|indonesia	Jawa Timur
+semnanprovince|iran	Semnan
+provtehran|iran	Tehran
+salahaddin|iraq	Saladin
+salahaddin|iraq	Saladin
+assulaymaniyah|iraq	Sulaymaniyah
+sulaimani|iraq	Sulaymaniyah
+dublin|ireland	Dublin City
+haifadistrict|israel	Haifa
+hadarom|israel	Southern
+southerndistrict|israel	Southern
+abruzzen|italy	Abruzzi
+abruzzo|italy	Abruzzi
+latina|italy	Campania
+sorrento|italy	Campania
+emiliaromagna|italy	Emilia-Romagna
+emigliaromagna|italy	Emilia-Romagna
+friulvenezia|italy	Friuli-Venezia Giulia
+lombardia|italy	Lombardy
+lombardiasondrio|italy	Lombardy
+piemonteit|italy	Piedmont
+piemont|italy	Piedmont
+asti|italy	Piedmont
+torino|italy	Piedmont
+sardegna|italy	Sardinia
+sicilia|italy	Sicily
+siciliait|italy	Sicily
+sudtirol|italy	South Tyrol
+traltoadige|italy	Trentino-Alto Adige
+trentinoaltoadige|italy	Trentino-Alto Adige
+trento|italy	Trentino-Alto Adige
+vinschgau|italy	Trentino-Alto Adige
+toscana|italy	Tuscany
+toskana|italy	Tuscany
+venetien|italy	Veneto
+vrveneto|italy	Veneto
+venezia|italy	Veneto
+venetia|italy	Veneto
+hokaido|japan	Hokkaido
+honsyu|japan	Honshu
+gunma|japan	Kanto
+turgai|kazakhstan	Turgay
+centralprovince|kenya	Central
+coastprovince|kenya	Coast
+kabamega|kenya	Kakamega
+kwalecounty|kenya	Kwale
+laikipiacounty|kenya	Laikipia County
+nairobiarea|kenya	Nairobi
+greatriftvalley|kenya	Rift Valley
+riftvalley|kenya	Rift Valley
+riftyvalley|kenya	Rift Valley
+riftyvalley|kenya	Rift Valley
+osch|kyrgyzstan	Osh
+attapeuprov|laos	Attapu
+bolikhamsai|laos	Bolikhamxay
+houaphan|laos	Houaphan
+huaphan|laos	Houaphan
+huaphane|laos	Houaphan
+khammouane|laos	Khammouan
+luangprabang|laos	Louangphrabang
+louangphrabang|laos	Louangphrabang
+oudumaxi|laos	Oudomxai
+antananariov|madagascar	Antananarivo
+antsirinana|madagascar	Antsiranana
+antsirananana|madagascar	Antsiranana
+diegosuarez|madagascar	Antsiranana
+fianarantosa|madagascar	Fianarantsoa
+fianarantosoa|madagascar	Fianarantsoa
+majunga|madagascar	Mahajanga
+tulear|madagascar	Toliara
+melaka|malaysia	Malacca
+bajacaln|mexico	Baja California
+bajacalifornianorte|mexico	Baja California
+bcs|mexico	Baja California Sur
+chis|mexico	Chihuahua
+chiuahua|mexico	Chihuahua
+df|mexico	Distrito Federal
+df|mexico	Distrito Federal
+df|mexico	Distrito Federal
+guerreo|mexico	Guerrero
+hdalgo|mexico	Hidalgo
+estadodemexico|mexico	Mexico State
+estadodemexico|mexico	Mexico State
+mexico|mexico	Mexico State
+michoacan|mexico	Michoacan
+oax|mexico	Oaxaca
+queretaro|mexico	Queretaro
+archangay|mongolia	Arhangay
+arkhangai|mongolia	Arhangay
+arkhangayaimag|mongolia	Arhangay
+bayanchongor|mongolia	Bayanhongor
+bayankhongoraimag|mongolia	Bayanhongor
+bayanulegeyaymak|mongolia	Bayanolgiy
+bayanolgiyaimag|mongolia	Bayanolgiy
+bayonolgiyaimag|mongolia	Bayanolgiy
+dornogovi|mongolia	Dorngovi
+govaltay|mongolia	Govi-Altay
+govialtai|mongolia	Govi-Altay
+govialtaiaimag|mongolia	Govi-Altay
+gobi|mongolia	Govi-Altay
+hovdaimag|mongolia	Hovd
+tovaymag|mongolia	Tov
+dzavhanzavkhan|mongolia	Zavkhan
+provzavkhan|mongolia	Zavkhan
+fesboulemane|morocco	Fes-Boulemane Region
+fesboulemanesefrou|morocco	Fes-Boulemane Region
+meknestafilaletifrane|morocco	Meknes-Tafilalet Region
+meknestafillalsmcmassarone|morocco	Meknes-Tafilalet Region
+tadlaazilal|morocco	Tadla-Azilal Region
+tangiertetouanassilah|morocco	Tangier-Tetouan Region
+tangiertetouan|morocco	Tangier-Tetouan Region
+tangiertetouan|morocco	Tangier-Tetouan Region
+capodelgado|mozambique	Cabo Delgado
+sshan|myanmar	Shan
+noordbrabant|netherlands	North Brabant
+noordholland|netherlands	North Holland
+nordholland|netherlands	North Holland
+zuidholland|netherlands	South Holland
+ut|netherlands	Utrecht
+ze|netherlands	Zeeland
+tarakaprov|nigeria	Taraba
+akershus|norway	Akershus
+austagder|norway	Aust-Agder
+austagder|norway	Aust-Agder
+austagder|norway	Aust-Agder
+buskerud|norway	Buskerud
+finnmark|norway	Finnmark
+hedmark|norway	Hedmark
+hedemark|norway	Hedmark
+sortrondelag|norway	Hordaland
+moereogromsdal|norway	More og Romsdal
+moreogromsdal|norway	More og Romsdal
+nordtrondelag|norway	Nord-Trondelag
+nordtrondelag|norway	Nord-Trondelag
+nordtroendelag|norway	Nord-Trondelag
+nordtrondelag|norway	Nord-Trondelag
+nordland|norway	Nordland
+oppland|norway	Oppland
+oppland|norway	Oppland
+olso|norway	Oslo
+oslofylke|norway	Oslo
+oslo|norway	Oslo
+oestfold|norway	Ostfold
+soertroendelag|norway	Sor-Trondelag
+sortrondelag|norway	Sor-Trondelag
+sortrondelag|norway	Sor-Trondelag
+sortrondelag|norway	Sor-Trondelag
+vestagder|norway	Vest-Agder
+vestagder|norway	Vest-Agder
+vestfold|norway	Vestfold
+vestfold|norway	Vestfold
+zufar|oman	Dhofar
+azadjammukashmir|pakistan	Azad Kashmir
+ajk|pakistan	Azad Kashmir
+azk|pakistan	Azad Kashmir
+balochistan|pakistan	Baluchistan
+dir|pakistan	Khyber Pakhtunkhwa
+kpkk|pakistan	Khyber Pakhtunkhwa
+kpk|pakistan	Khyber Pakhtunkhwa
+bocas|panama	Bocas Del Toro
+clon|panama	Colon
+panamacaribbean|panama	Panama
+newbritaine|papuanewguinea	East New Britain
+easthighlands|papuanewguinea	Eastern Highlands
+manusisl|papuanewguinea	Manus
+morobe|papuanewguinea	Morobe
+wnewbritainprovince|papuanewguinea	West New Britain
+newbritainw|papuanewguinea	West New Britain
+westernhighland|papuanewguinea	Western Highlands
+neuvaasuncion|paraguay	Nueva Asuncion
+nuevaascuncion|paraguay	Nueva Asuncion
+arequipaprov|peru	Arequipa
+cuscodept|peru	Cuzco
+cusco|peru	Cuzco
+dptojunin|peru	Junin
+junin|peru	Junin
+mdedios|peru	Madre de Dios
+madrededios|peru	Madre de Dios
+deptmadrededios|peru	Madre de Dios
+dptopasco|peru	Pasco
+pucallpa|peru	Ucayali
+cayagan|philippines	Cagayan Valley
+batangas|philippines	Calabarzon
+laguna|philippines	Calabarzon
+quezon|philippines	Calabarzon
+rizal|philippines	Calabarzon
+aurora2007|philippines	Central Luzon
+luzon|philippines	Central Luzon
+leyte|philippines	Eastern Visayas
+guiuan|philippines	Eastern Visayas
+orientalmindoro|philippines	Mimaropa
+mindoro|philippines	Mimaropa
+mindanao|philippines	Mindanao Island
+metromanila|philippines	National Capital Region
+manila|philippines	National Capital Region
+metropolitanmanila|philippines	National Capital Region
+ilolo|philippines	Western Visayas
+lubelskie|poland	Lublin
+podlasiefb89|poland	Podlaskie
+pomorskie|poland	Pomeranian
+podkarpackie|poland	Subcarpathian
+picoazores|portugal	Azores
+santamariaazores|portugal	Azores
+saomiguelazores|portugal	Azores
+castellobranco|portugal	Castelo Branco
+carlibaba|romania	Suceava
+republicofadygea|russia	Adygeya
+altay|russia	Altai Krai
+archangelsk|russia	Arkhangelsk
+astrakhanregion|russia	Astrakhan
+respublikaburyatiya|russia	Buryatiya
+buryatia|russia	Buryatiya
+repblicofburyatia|russia	Buryatiya
+cheljabinsk|russia	Chelyabinsk
+cheliabinskoblast|russia	Chelyabinsk
+chelyabinskregion|russia	Chelyabinsk
+chukotkaautokrug|russia	Chukot Autonomous Okrug
+irkutskaja|russia	Irkutsk
+jewishautonomousregion|russia	Jewish Autonomous Oblast
+kalmykia|russia	Kalmykiya
+karachaevocherkessiya|russia	Karachay-Cherkessia
+russiancarelia|russia	Karelia
+khabarovskiykray|russia	Khabarovsk Krai
+khabarovsk|russia	Khabarovsk Krai
+northwesternfederaldistric|russia	Komi
+krasnodarskiykray|russia	Krasnoyarsk Krai
+krasnodarskiykray|russia	Krasnoyarsk Krai
+krasnoyarskiykray|russia	Krasnoyarsk Krai
+krasnoyarsky|russia	Krasnoyarsk Krai
+krasnodarskiikrai|russia	Krasnoyarsk Krai
+lipetskoblast|russia	Lipetsk
+nizhniynovgorodoblast|russia	Nizhniy Novgorod
+novgorodoblast|russia	Novgorod
+novgorodskayaoblast|russia	Novgorod
+novosibirskregion|russia	Novosibirsk
+novosibirskaya|russia	Novosibirsk
+primorkiykray|russia	Primorsky Krai
+primorskiy|russia	Primorsky Krai
+primorya|russia	Primorsky Krai
+primorsky|russia	Primorsky Krai
+primorye|russia	Primorsky Krai
+primorskii|russia	Primorsky Krai
+prikorskiykray|russia	Primorsky Krai
+sakhalinisland|russia	Sakhalinskaya
+stavropolskiykray|russia	Stavropol Krai
+sverdlovskoblast|russia	Sverdlovskaya
+tjumendistrict|russia	Tyumenskaya
+tumenskaya|russia	Tyumenskaya
+tuva|russia	Tyva
+ulyanovsk|russia	Ulyanovskaya
+ulyanovsk|russia	Ulyanovskaya
+vladimir|russia	Vladimirskaya
+volgogradenv|russia	Volgograd
+vologda|russia	Volgograd
+volgogradskaya|russia	Vologodskaya
+volgogradskayaoblast|russia	Vologodskaya
+yamalonenetsautonomousokrug|russia	Yamal-Nenets Autonomous Okrug
+yamalnenets|russia	Yamal-Nenets Autonomous Okrug
+chitaoblast|russia	Zabaykalsky Krai
+ouest|rwanda	Western
+eastcape|southafrica	Eastern Cape
+kwazulunatal|southafrica	KwaZulu-Natal
+limpopoprov|southafrica	Limpopo
+ncape|southafrica	Northern Cape
+ncape|southafrica	Northern Cape
+ncape|southafrica	Northern Cape
+ncape|southafrica	Northern Cape
+northcape|southafrica	Northern Cape
+nwcape|southafrica	Northern Cape
+wcape|southafrica	Western Cape
+wcp|southafrica	Western Cape
+andalucia|spain	Andalusia
+provalmeria|spain	Andalusia
+andalucia|spain	Andalusia
+andaluzia|spain	Andalusia
+huesca|spain	Aragon
+mallorca|spain	Balearic Islands
+illesbalears|spain	Balearic Islands
+paisvasco|spain	Basque Country
+castileandleon|spain	Castilla y Leon
+castilelamancha|spain	Castilla-La Mancha
+comvalenciana|spain	Comunidad Valenciana
+valenciaalicante|spain	Comunidad Valenciana
+caceresextremadura|spain	Extremadura
+galizia|spain	Galicia
+galiziaspain|spain	Galicia
+sipalawini|suriname	Sipaliwini
+dalarne|sweden	Dalarna
+gastrikland|sweden	Gotland
+lapland|sweden	Lappland
+aselelappmark|sweden	Lappland
+norrbottenslan|sweden	Norrbotten
+norbotten|sweden	Norrbotten
+skone|sweden	Skane
+scania|sweden	Skane
+ska|sweden	Skane
+varmland|sweden	Varmland
+vasternorrlands|sweden	Vasternorrland
+cantongeneva|switzerland	Geneva
+geneve|switzerland	Geneva
+lucerne|switzerland	Luzern
+stgallen|switzerland	Sankt Gallen
+tessin|switzerland	Ticino
+wallis|switzerland	Valais
+vs|switzerland	Vaud
+hualien|taiwan	Hualien County
+kaohsiung|taiwan	Kaohsiung City
+nantouxian|taiwan	Nantou County
+nantou|taiwan	Nantou County
+taipei|taiwan	New Taipei City
+pingdongxian|taiwan	Pingtung County
+taidong|taiwan	Taidong County
+taibeicity|taiwan	Taipei City
+taoyuan|taiwan	Taoyuan County
+yilan|taiwan	Yilan County
+sughdprovince|tajikistan	Sughd
+daressalaam|tanzania	Dar-Es-Salaam
+morongoro|tanzania	Morogoro
+iringa|tanzania	Morogoro
+chiangdao|thailand	Chiang Mai
+phattalung|thailand	Phatthalung
+patthalung|thailand	Phatthalung
+prachuapkirikhan|thailand	Prachuap Khiri Khan
+sakhonnakhon|thailand	Sakon Nakhon
+ubonrathathani|thailand	Ubon Ratchathani
+aydinili|turkey	Aydin
+aydÄ±n|turkey	Aydin
+balÄ±kesir|turkey	Balikesir
+burdurili|turkey	Burdur
+anatoliaerzincan|turkey	Erzincan
+erzican|turkey	Erzincan
+karamanmaras|turkey	Kahraman Maras
+provkonya|turkey	Konya
+icel|turkey	Mersin
+provtokat|turkey	Tokat
+provvan|turkey	Van
+vanili|turkey	Van
+easternregion|uganda	Eastern
+ivanofrankivsk|ukraine	Ivano-Frankovsk
+krim|ukraine	Krym
+amazonasazonas|venezuela	Amazonas
+bariavungtauprov|vietnam	Ba Ria-Vung Tau
+daclacprov|vietnam	Dac Lac
+danang|vietnam	Dak Nong
+haiphonprov|vietnam	Hai Phong
+lamdongprov|vietnam	Lam Dong
+laocaiprovince|vietnam	Lao Cai
+vihnphu|vietnam	Vinh Phuc
+vinphuc|vietnam	Vinh Phuc
+copperbeltprovince|zambia	North-Western
+northwesternprovince|zambia	North-Western

@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Author: Remi Marchand
 # Date: May 13, 2016
 # Description: This script downloads metadata from the SRA database
@@ -16,13 +18,14 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 # global variables
-email = "thisisanemail@email.com"
+email = "thisisamail@email.com"
 base_url = "http://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=sra&id="
 database = "sra"
 
 # retrieve_accession_numbers: Str -> (listof Str)
-# This function retrieves accession numbers from the database of interest (SRA)
-# It takes in a search term and returns a list of accesion numbers
+# This function retrieves accession numbers from the database of interest,
+# (default=SRA). It takes in a search term and returns a list of
+# accesion numbers
 
 
 def retrieve_accession_numbers(query):
@@ -32,18 +35,20 @@ def retrieve_accession_numbers(query):
     handle.close()
     return record["IdList"]
 
-# generate_metadata: Str Str Str -> Str
+# download_metadata: Str Str Str -> Str
 # This function takes a name, start, and end query and input
 # and queries a database of interest (default=SRA) for metadata
 # Returns a string consisting of the directory name
 
 
-def main(query, delay):
+def download_metadata(query, delay):
     # Obtain list of IDs from query
     id_list = retrieve_accession_numbers(query)
     for acc_number in id_list:
+        # For each query, construct a url and download data from it
         address = base_url + acc_number
         data = urlopen(address)
+        # Open the data in xml format and write it to the outfile
         tree = ET.parse(data)
         filename = acc_number + ".xml"
         if os.path.exists(filename):
@@ -51,5 +56,6 @@ def main(query, delay):
         with open(filename, "w") as outFile:
             print ("\nWriting %s" % filename)
             tree.write(outFile)
+        # Include a delay between queries so as not to aggravate the database
         time.sleep(delay)
     os.chdir("..")

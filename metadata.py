@@ -1,7 +1,13 @@
+#!/usr/bin/env python
+
+# Author: Remi Marchand
+# Date: May 20, 2016
+# Description: Downloads metadata from the SRA database
+
 from optparse import OptionParser
-import generate_metadata_csv
-import download_metadata
-import parse_metadata
+from generate_metadata_csv import generate_metadata_csv
+from download_metadata import download_metadata
+from parse_metadata import parse_metadata
 import threading
 import itertools
 import time
@@ -13,13 +19,11 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-
 # global variables
 done = False
 
+
 # loading animation
-
-
 def animate():
     for c in itertools.cycle(['|', '/', '-', '\\']):
         if done:
@@ -28,22 +32,36 @@ def animate():
         sys.stdout.flush()
         time.sleep(0.1)
 
+# metadata: Str Str Str Str Bool -> None
+# The following functions are required in the same directory as this one:
+#   download_metadata.py
+#   parse_metadata.py
+#   generate_metadata_csv.py
+# This function calls all of the subscripts that download, parse,
+# and write metadata. The final output is 1. A list of raw xmls downloaded by
+# download_metadata.py and put into a folder named [name]_[start]_[end] and
+# 2. A csv file of the same name ([name]_[start]_end].csv) containing all of
+# the parsed metadata. This csv is ready to be run through downstream analysis
+# tools found in the folder analysis_tools
 
-def main(name, start, end, time, overwrite):
+
+def metadata(name, start, end, time, overwrite):
     directory = "%s_%s_%s" % (name, start, end)
+    # Overwrite the xmls if that is specified
     if overwrite is True or directory not in os.listdir(os.getcwd()):
         if directory not in os.listdir(os.getcwd()):
             os.mkdir(directory)
         for i in os.listdir(directory):
             os.system("rm %s" % directory + "/" + i)
         os.chdir(directory)
+        # Standardize the input
         start_date = start.replace("-", "/")
         end_date = end.replace("-", "/")
         # Build the query term
-        query = "(%s[Organism]) AND (\"%s\"[Publication Date] : \"%s\"[Publication \
-              Date])" % (name, start_date, end_date)
-        # Run the program
-        download_metadata.main(query, time)
+        query = "(%s[Organism]) AND (\"%s\"[Publication Date] : \"%s\" \
+                 [Publication Date])" % (name, start_date, end_date)
+        # Download the metadata
+        download_metadata(query, time)
         print "\nFinished downloading metadata\nParsing XML files"
 
     # Get xml_files inside of path
@@ -51,16 +69,11 @@ def main(name, start, end, time, overwrite):
     data = []
     # Parse all of the xml data together
     for i in xml_files:
-        data.append(parse_metadata.main(directory + "/" + i))
+        data.append(parse_metadata(directory + "/" + i))
     print "Finished parsing XML files\nWriting to CSV"
 
     # Write to csv based on xml files
-    generate_metadata_csv.main(data, directory)
-
-    # print "Cleaning up\n"
-    # for i in xml_files:
-    #     os.system("rm %s" % path + "/" + i)
-    # os.system("rmdir %s" % path)
+    generate_metadata_csv(data, directory)
 
 if __name__ == "__main__":
     os.chdir(os.getcwd())
@@ -76,7 +89,7 @@ if __name__ == "__main__":
                       between accession, default 0.1 sec", dest="time",
                       default=0.1)
     parser.add_option("-o", "--overwrite", help="set to True/T to overwrite\
-                      existing xml files", default=False)
+                      existing xml files, default = False", default=False)
     (options, args) = parser.parse_args()
 
     # Raise optparse errors as necessary
@@ -88,7 +101,7 @@ if __name__ == "__main__":
     t = threading.Thread(target=animate)
     t.start()
 
-    main(options.name, options.start, options.end, float(options.time),
-         bool(options.overwrite))
+    metadata(options.name, options.start, options.end, float(options.time),
+             bool(options.overwrite))
 
     done = True
