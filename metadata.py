@@ -11,7 +11,6 @@ from parse_metadata import parse_metadata
 import threading
 import itertools
 import time
-import sys
 import os
 
 # Set default string processing to Unicode-8

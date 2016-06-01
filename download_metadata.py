@@ -54,7 +54,7 @@ def download_metadata(query, delay):
         if os.path.exists(filename):
             os.remove(filename)
         with open(filename, "w") as outFile:
-            print ("\nWriting %s" % filename)
+            print "\nWriting %s" % filename
             tree.write(outFile)
         # Include a delay between queries so as not to aggravate the database
         time.sleep(delay)

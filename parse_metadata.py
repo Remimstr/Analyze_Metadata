@@ -105,7 +105,7 @@ def sample_study_data(my_tree, metadata):
                 sample_study_nodes(i, metadata, sample)
             # Add the center_name information to metadata
             # if i.tag == "SAMPLE":
-            #     print(i.tag, acc, tag)
+            #     print i.tag, acc, tag
             if i.tag == acc == "SAMPLE" and "center_name" in i.attrib:
                 metadata.add(sample + "center_name", i.attrib["center_name"])
 
