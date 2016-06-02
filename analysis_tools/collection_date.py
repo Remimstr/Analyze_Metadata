@@ -22,7 +22,12 @@ this_year = today.year
 
 # Global variables
 item_key = "DATE"
-other_keys = ["FLAG", "ERROR"]
+other_keys = ["ERROR", "FLAG"]
+
+# ambiguous_dates: datetime -> Bool
+# This function consumes a datetime object and outputs True if the date
+# is ambiguous (ex. 2016-01-03 could be January 3rd, 2016 or March 1st, 2016)
+# Output False otherwise.
 
 
 def ambiguous_dates(d):
@@ -31,6 +36,15 @@ def ambiguous_dates(d):
         return True
     else:
         return False
+
+# parse: Str -> Dict
+# This function attempts to parse the date from a string, raw_date
+# It returns a dictionary of values including the parsed date (if it exists)
+# with key == item_key (default: "DATE"), the error value, consisting of
+# the amount of error allowed for the given date value parsed with
+# key == other_keys[0] (default: "ERROR"), the flag value, representing the
+# original value if it fails to parse with key == other_keys[1]
+# (default: "FLAG").
 
 
 def parse(raw_date):
@@ -62,8 +76,8 @@ def parse(raw_date):
             new_date += datetime.timedelta(days=error - 1)
         new_date = new_date.strftime("%Y-%b-%d")
     return_vals[item_key] = new_date
-    return_vals[other_keys[0]] = flag
-    return_vals[other_keys[1]] = error
+    return_vals[other_keys[0]] = error
+    return_vals[other_keys[1]] = flag
     return return_vals
 
 

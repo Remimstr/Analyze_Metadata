@@ -6,10 +6,10 @@
 # based on organism name, and publication date limits. It outputs the
 # results in an xml file.
 
-from urllib import urlopen
-from Bio import Entrez
-import time
+import re
 import os
+import time
+from Bio import Entrez
 import xml.etree.ElementTree as ET
 
 # Set default string processing to Unicode-8
@@ -42,20 +42,22 @@ def retrieve_accession_numbers(query):
 
 
 def download_metadata(query, delay):
+    split_word = "<EXPERIMENT_PACKAGE>"
     # Obtain list of IDs from query
     id_list = retrieve_accession_numbers(query)
-    for acc_number in id_list:
-        # For each query, construct a url and download data from it
-        address = base_url + acc_number
-        data = urlopen(address)
-        # Open the data in xml format and write it to the outfile
-        tree = ET.parse(data)
-        filename = acc_number + ".xml"
+    data = Entrez.efetch(db=database, id=id_list)
+    tree = ET.parse(data)
+    root = tree.getroot()
+    xml_string = ET.tostring(root)
+    print "\nWriting XML Files"
+    for x, i in zip(xml_string.split(split_word)[1:], id_list):
+        x = re.sub(r"</*EXPERIMENT_PACKAGE(_SET)*>.*", "", x, flags=re.DOTALL)
+        x = split_word + x + "</EXPERIMENT_PACKAGE>"
+        filename = i + ".xml"
         if os.path.exists(filename):
             os.remove(filename)
         with open(filename, "w") as outFile:
-            print "\nWriting %s" % filename
-            tree.write(outFile)
-        # Include a delay between queries so as not to aggravate the database
-        time.sleep(delay)
+            outFile.write(x)
+    # Include a delay between queries so as not to aggravate the database
+    time.sleep(delay)
     os.chdir("..")
