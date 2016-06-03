@@ -61,15 +61,16 @@ def metadata(name, start, end, time, overwrite):
                  [Publication Date])" % (name, start_date, end_date)
         # Download the metadata
         download_metadata(query, time)
-        print "\nFinished downloading metadata\nParsing XML files"
+        print "\nFinished downloading metadata"
 
     # Get xml_files inside of path
     xml_files = os.listdir(directory)
+    print "\nParsing XML files from %s" % directory
     data = []
     # Parse all of the xml data together
     for i in xml_files:
         data.append(parse_metadata(directory + "/" + i))
-    print "Finished parsing XML files\nWriting to CSV"
+    print "\nWriting to CSV"
 
     # Write to csv based on xml files
     generate_metadata_csv(data, directory)

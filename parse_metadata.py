@@ -62,8 +62,9 @@ def accession_numbers(my_tree, metadata):
 
 def sample_attributes(sa, metadata, sample):
     for child in sa:
-        if (child[0].tag == "TAG") and (child[1].tag == "VALUE"):
-            metadata.add(sample + child[0].text, child[1].text)
+        if len(child) == 2:
+            if (child[0].tag == "TAG") and (child[1].tag == "VALUE"):
+                metadata.add(sample + child[0].text, child[1].text)
         else:
             metadata.add(sample + child.tag, child.text)
 

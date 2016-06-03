@@ -1,37 +1,37 @@
-Country/Ocean	replaceChars	/^United States of America$$/:::United States
-Country/Ocean	replaceChars	/^UNITED STATES OF AMERICA$$/:::United States
-Country/Ocean	replaceChars	/^America$$/:::United States
-Country/Ocean	replaceChars	/^U.S.A.$$/:::United States
-Country/Ocean	replaceChars	/^U.S.$$/:::United States
-Country/Ocean	replaceChars	/^Usa$$/:::United States
-Country/Ocean	replaceChars	/^Us$$/:::United States
-Country/Ocean	replaceChars	/^UNITED STATES$$/:::United States
-Country/Ocean	replaceChars	/^Can$$/:::Canada
-Country/Ocean	replaceChars	/^Mx$$/:::Mexico
-Country/Ocean	replaceChars	/^UK$/:::United Kingdom
-Country/Ocean	replaceChars	/^U.K$/:::United Kingdom
-Country/Ocean	replaceChars	/^uk$/:::United Kingdom
-Country/Ocean	replaceChars	/^u.k$/:::United Kingdom
-Country/Ocean	replaceChars	/Deutschland/:::Germany
-Country/Ocean	replaceChars	/deutschland/:::Germany
-Country/Ocean	replaceChars	/Brasil/:::Brazil
-Country/Ocean	replaceChars	/brasil/:::Brazil
-Country/Ocean	replaceChars	/Argentine/:::Argentina
-Country/Ocean	replaceChars	/Bolivien/:::Bolivia
-Country/Ocean	replaceChars	/Rca/:::Central African Republic
-Country/Ocean	replaceChars	/Kolumbien/:::Columbia
-Country/Ocean	replaceChars	/Czech.+/:::Czech Republic
-Country/Ocean	replaceChars	/Democratic Rebpublic.+Congo/:::Democratic Republic of the Congo
-Country/Ocean	replaceChars	/^Guiana$/:::Guyana
-Country/Ocean	replaceChars	/^Danmark$/:::Denmark
-Country/Ocean	replaceChars	/^Itali.+$/:::Italy
-Country/Ocean	replaceChars	/^Lao.+?$/:::Laos
-Country/Ocean	replaceChars	/^Kyrgyz.+.+?$/:::Kyrgyzstan
-Country/Ocean	replaceChars	/^png?$/:::Papua New Guinea
-Country/Ocean	replaceChars	/^Norge$/:::Norway
-Country/Ocean	replaceChars	/^Philipp.+/:::Philippines
-Country/Ocean	replaceChars	/RSA/:::South Africa
-Country/Ocean	replaceChars	/Rsa/:::South Africa
-Country/Ocean	replaceChars	/R.?S.?A.?/:::South Africa
-Country/Ocean	replaceChars	/R.?s.?a.?/:::South Africa
-Country/Ocean	replaceChars	/Russia.+?/:::Russia
+United States of America:United States
+UNITED STATES OF AMERICA:United States
+America$:United States
+U.S.A.$:United States
+U.*S.*$:United States
+Usa$:United States
+Us$:United States
+UNITED STATES$:United States
+Can$:Canada
+Mx$:Mexico
+UK$:United Kingdom
+U.K$:United Kingdom
+uk$:United Kingdom
+u.k$:United Kingdom
+Deutschland:Germany
+deutschland:Germany
+Brasil:Brazil
+brasil:Brazil
+Argentine:Argentina
+Bolivien:Bolivia
+Rca:Central African Republic
+Kolumbien:Columbia
+Czech.+:Czech Republic
+Democratic Rebpublic.+Congo:Democratic Republic of the Congo
+Guiana$:Guyana
+Danmark$:Denmark
+Itali.+$:Italy
+Lao.+?$:Laos
+Kyrgyz.+.+?$:Kyrgyzstan
+png?$:Papua New Guinea
+Norge$:Norway
+Philipp.+:Philippines
+RSA:South Africa
+Rsa:South Africa
+R.?S.?A.?:South Africa
+R.?s.?a.?:South Africa
+Russia.+?:Russia

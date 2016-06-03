@@ -11,18 +11,15 @@ import dateparser
 import datetime
 from datetime import date
 
-
 # Set default string processing to Unicode-8
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+# Global variables
+keys = ["DATE", "ERROR", "FLAG"]
 today = date.today()
 this_year = today.year
-
-# Global variables
-item_key = "DATE"
-other_keys = ["ERROR", "FLAG"]
 
 # ambiguous_dates: datetime -> Bool
 # This function consumes a datetime object and outputs True if the date
@@ -40,10 +37,10 @@ def ambiguous_dates(d):
 # parse: Str -> Dict
 # This function attempts to parse the date from a string, raw_date
 # It returns a dictionary of values including the parsed date (if it exists)
-# with key == item_key (default: "DATE"), the error value, consisting of
+# with key == keys[0] (default: "DATE"), the error value, consisting of
 # the amount of error allowed for the given date value parsed with
-# key == other_keys[0] (default: "ERROR"), the flag value, representing the
-# original value if it fails to parse with key == other_keys[1]
+# key == keys[1] (default: "ERROR"), the flag value, representing the
+# original value if it fails to parse with key == keys[2]
 # (default: "FLAG").
 
 
@@ -75,14 +72,12 @@ def parse(raw_date):
             new_date = date_obj["date_obj"].replace(day=1, month=1)
             new_date += datetime.timedelta(days=error - 1)
         new_date = new_date.strftime("%Y-%b-%d")
-    return_vals[item_key] = new_date
-    return_vals[other_keys[0]] = error
-    return_vals[other_keys[1]] = flag
+    return_vals[keys[0]] = new_date
+    return_vals[keys[1]] = error
+    return_vals[keys[2]] = flag
     return return_vals
 
 
-# This script takes in a list of metadata csv files, parses the collection
-# dates out of each one, and produces a new csv containing those dates
 for in_file in sys.argv[1:]:
-    utils.find_and_write("RUN", "collection_date", item_key, other_keys,
+    utils.find_and_write("RUN", ["collection_date"], keys,
                          in_file, "collection_date")

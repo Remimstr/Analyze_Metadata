@@ -6,7 +6,6 @@
 # based on organism name, and publication date limits. It outputs the
 # results in an xml file.
 
-import re
 import os
 import time
 from Bio import Entrez
@@ -38,26 +37,34 @@ def retrieve_accession_numbers(query):
 # download_metadata: Str Str Str -> Str
 # This function takes a name, start, and end query and input
 # and queries a database of interest (default=SRA) for metadata
-# Returns a string consisting of the directory name
+# It splits the retrieved metadata into individual files and places
+# them in a directory based on query. It provides this directory as
+# the return value.
 
 
 def download_metadata(query, delay):
-    split_word = "<EXPERIMENT_PACKAGE>"
     # Obtain list of IDs from query
     id_list = retrieve_accession_numbers(query)
-    data = Entrez.efetch(db=database, id=id_list)
-    tree = ET.parse(data)
-    root = tree.getroot()
-    xml_string = ET.tostring(root)
-    print "\nWriting XML Files"
-    for x, i in zip(xml_string.split(split_word)[1:], id_list):
-        x = re.sub(r"</*EXPERIMENT_PACKAGE(_SET)*>.*", "", x, flags=re.DOTALL)
-        x = split_word + x + "</EXPERIMENT_PACKAGE>"
+    handle = Entrez.efetch(db=database, id=id_list)
+    xml_list = []
+    # Fetch the root (eps) and the sub_elements (xml_list)
+    for event, element in ET.iterparse(handle):
+        if element.tag == "EXPERIMENT_PACKAGE_SET":
+            eps = element
+        elif element.tag == "EXPERIMENT_PACKAGE":
+            xml_list.append(element)
+    for element, i in zip(xml_list, id_list):
+        # Purge the root (eps) of all of its children
+        for child in list(eps):
+            eps.remove(child)
+        # Insert the current element as a subelement of the empty root (eps)
+        eps.insert(0, element)
+        tree = ET.tostring(eps)
         filename = i + ".xml"
         if os.path.exists(filename):
             os.remove(filename)
         with open(filename, "w") as outFile:
-            outFile.write(x)
-    # Include a delay between queries so as not to aggravate the database
-    time.sleep(delay)
+            outFile.write(tree)
+    handle.close()
     os.chdir("..")
+    time.sleep(delay)
