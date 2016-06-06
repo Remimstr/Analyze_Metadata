@@ -4,12 +4,12 @@
 # Date: May 24, 2016
 # Description: Parses collection dates from .csv's into a unified format
 
+import re
 import math
 import utils
 import calendar
 import dateparser
 import datetime
-from datetime import date
 
 # Set default string processing to Unicode-8
 import sys
@@ -17,8 +17,8 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 # Global variables
-keys = ["DATE", "ERROR", "FLAG"]
-today = date.today()
+keys = ["DATE", "ERROR", "ORIGINAL", "AMBIGUOUS"]
+today = datetime.date.today()
 this_year = today.year
 
 # ambiguous_dates: datetime -> Bool
@@ -27,12 +27,34 @@ this_year = today.year
 # Output False otherwise.
 
 
-def ambiguous_dates(d):
-    times = [d["date_obj"].year, d["date_obj"].month, d["date_obj"].day]
-    if len([i for i in times if (i < 12)]) > 1:
-        return True
-    else:
-        return False
+def ambiguous_dates(d, ambiguity=False):
+    if d["date_obj"] is not None and d["period"] == "day":
+        times = [d["date_obj"].year, d["date_obj"].month, d["date_obj"].day]
+        if len([i for i in times if (i < 12)]) > 1:
+            ambiguity = True
+    return ambiguity
+
+# parse_other: Str -> [Str, Str]
+# This function handles exceptions by parsing dates that fail the dateparser
+# but can be interpreted manually
+
+
+def date_exceptions(raw_date):
+    match_year = "[1, 2][0-9]{3}"
+    # This code parses two dates separated by a dash(-) or foreward slash (/)
+    # ex. 2008/2010
+    if re.match(r"%s[-/]%s" % (match_year, match_year), raw_date):
+        two_years = re.split(r"[-/]", raw_date)
+        two_years = [int(i) for i in two_years]
+        for i in two_years:
+            if i > this_year:
+                return ["", ""]
+            two_years[two_years.index(i)] = datetime.datetime(i, 1, 1)
+        diff = abs((two_years[0] - two_years[1]) / 2)
+        new_date = (two_years[0] + diff).strftime("%Y-%b-%d")
+        return [diff.days, new_date]
+    return ["", ""]
+
 
 # parse: Str -> Dict
 # This function attempts to parse the date from a string, raw_date
@@ -48,12 +70,10 @@ def parse(raw_date):
     return_vals = {}
     date_parser = dateparser.DateDataParser(languages=["en"])
     date_obj = date_parser.get_date_data(raw_date)
-    new_date, error, flag = "", "", ""
-    if date_obj["date_obj"] is None:
-        flag = raw_date
-    elif date_obj["period"] == "day" and ambiguous_dates(date_obj):
-        flag = raw_date
-    else:
+    new_date, error = "", ""
+    valid = date_obj["date_obj"] is not None
+    flag, ambiguous = raw_date, ambiguous_dates(date_obj)
+    if valid and not ambiguous:
         # If the precision is "day" then we're good to process as is
         if date_obj["period"] == "day":
             new_date = date_obj["date_obj"]
@@ -72,10 +92,17 @@ def parse(raw_date):
             new_date = date_obj["date_obj"].replace(day=1, month=1)
             new_date += datetime.timedelta(days=error - 1)
         new_date = new_date.strftime("%Y-%b-%d")
+    # If the date has failed to parse so far, run custom parsers on it
+    else:
+        error, new_date = date_exceptions(raw_date)
     return_vals[keys[0]] = new_date
     return_vals[keys[1]] = error
     return_vals[keys[2]] = flag
+    return_vals[keys[3]] = ambiguous if ambiguous is True else None
     return return_vals
+
+# Note: Be careful about what you feed this function. It WILL fail if you
+# give it something other than the output from metadata.py
 
 
 for in_file in sys.argv[1:]:

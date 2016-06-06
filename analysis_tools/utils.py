@@ -40,7 +40,7 @@ def find_positions(acc_str, item_strs, in_file):
         csvin.close()
         return None
     # Make a list of corresponding positions by matching
-    # id headers and date headers
+    # id headers and item headers
     pos = []
     for i in acc_col:
         acc_string = headers[i]
@@ -48,8 +48,8 @@ def find_positions(acc_str, item_strs, in_file):
                          s.isdigit()]
         pos.append([i])
         for j in item_col:
-            item_strsing = headers[j]
-            item_col_digit = [int(s) for s in item_strsing.split("_") if
+            item_string = headers[j]
+            item_col_digit = [int(s) for s in item_string.split("_") if
                               s.isdigit()]
             if acc_col_digit == item_col_digit:
                 pos[pos.index([i])].append(j)
@@ -103,4 +103,4 @@ def find_and_write(acc_str, item_strs, keys, in_file, mod):
             write_to_csv(reader, pos, headers, keys, mod, in_file, geo_info)
         else:
             write_to_csv(reader, pos, headers, keys, mod, in_file, None)
-    csvin.close()
+        csvin.close()
