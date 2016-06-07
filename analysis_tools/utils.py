@@ -34,7 +34,7 @@ def find_positions(acc_str, item_strs, in_file):
         if acc_str in headers[h]:
             acc_col.append(h)
         for i in item_strs:
-            if i in headers[h]:
+            if i in headers[h] and h not in item_col:
                 item_col.append(h)
     if acc_col == [] or item_col == []:
         csvin.close()
@@ -67,7 +67,7 @@ def find_positions(acc_str, item_strs, in_file):
 def write_to_csv(reader, pos, headers, keys, mod, filename, geo_info):
     module = importlib.import_module(mod)
     # Write all of the information found to the new csv file
-    with open(filename[:-4] + file_end, "wb") as csvout:
+    with open(filename, "wb") as csvout:
         csvwriter = csv.writer(csvout, delimiter=",")
         default_headers = []
         for my_tuple in pos:
@@ -93,17 +93,18 @@ def write_to_csv(reader, pos, headers, keys, mod, filename, geo_info):
             csvwriter.writerow(line_data)
 
 
-def find_and_write(acc_str, item_strs, keys, in_file, mod):
-    print(in_file)
+def find_and_write(acc_str, item_strs, keys, in_file, mod, file_end):
+    filename = in_file[:-4] + "_" + file_end + ".csv"
     result = find_positions(acc_str, item_strs, in_file)
     if result is None:
         print("Could not find what you wanted")
     else:
+        print("Writing %s" % filename)
         reader, pos, headers, csvin = result
         if mod == "geographic_location":
             open_geo_files = importlib.import_module("open_geo_files")
             geo_info = open_geo_files.return_dicts()
-            write_to_csv(reader, pos, headers, keys, mod, in_file, geo_info)
+            write_to_csv(reader, pos, headers, keys, mod, filename, geo_info)
         else:
-            write_to_csv(reader, pos, headers, keys, mod, in_file, None)
+            write_to_csv(reader, pos, headers, keys, mod, filename, None)
         csvin.close()

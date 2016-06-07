@@ -16,7 +16,7 @@ sys.setdefaultencoding('utf-8')
 keys = ["LOCATION", "ORIGINAL", "COLLECTION_NOTES"]
 # column_strs is a list of strings representing columns of interest
 column_strs = ["country", "geo_loc_name", "geographic_location",
-               "geographic_location_(country_and/or_sea,region"]
+               "geographic_location_(country_and/or_sea,region)"]
 
 # generic_match: Str -> Bool
 # This function returs True if both items, item1, and item2 match exactly,
@@ -67,9 +67,9 @@ def parse(raw_loc, geo_info):
         # If the country is equal to the key, add it to the output
         if country == key:
             out_string += country
-        # Add the province if it is in the list of values for the given country
-        if province in values and province != "":
-            out_string += ":" + province
+            # Add the province if it is in the list of values of the country
+            if province in values and province != "":
+                out_string += ":" + province
     # If elements were not found, place the data in the key column
     if province != "" and province not in out_string:
         collection_note += "Province: %s" % province
@@ -83,7 +83,7 @@ def parse(raw_loc, geo_info):
     return_vals[keys[2]] = collection_note
     return return_vals
 
-
-for in_file in sys.argv[1:]:
-    utils.find_and_write("RUN", column_strs, keys,
-                         in_file, "geographic_location")
+if __name__ == "__main__":
+    for in_file in sys.argv[1:]:
+        utils.find_and_write("RUN", column_strs, keys,
+                             in_file, "geographic_location", "geo_locs")

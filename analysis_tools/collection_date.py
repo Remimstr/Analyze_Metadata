@@ -76,8 +76,8 @@ def parse(raw_date):
     if valid and not ambiguous:
         # If the precision is "day" then we're good to process as is
         if date_obj["period"] == "day":
-            new_date = date_obj["date_obj"]
             error = 0
+            new_date = date_obj["date_obj"]
         # If the precision is "month", adjust accordingly
         if date_obj["period"] == "month":
             month, year = date_obj["date_obj"].month, date_obj["date_obj"].year
@@ -104,7 +104,7 @@ def parse(raw_date):
 # Note: Be careful about what you feed this function. It WILL fail if you
 # give it something other than the output from metadata.py
 
-
-for in_file in sys.argv[1:]:
-    utils.find_and_write("RUN", ["collection_date"], keys,
-                         in_file, "collection_date")
+if __name__ == "__main__":
+    for in_file in sys.argv[1:]:
+        utils.find_and_write("RUN", ["collection_date"], keys,
+                             in_file, "collection_date", "dates")
