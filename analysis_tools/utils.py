@@ -42,17 +42,19 @@ def find_positions(acc_str, item_strs, in_file):
     # Make a list of corresponding positions by matching
     # id headers and item headers
     pos = []
-    for i in acc_col:
-        acc_string = headers[i]
+    for a in acc_col:
+        acc_string = headers[a]
         acc_col_digit = [int(s) for s in acc_string.split("_") if
                          s.isdigit()]
-        pos.append([i])
-        for j in item_col:
-            item_string = headers[j]
+        pos.append([a])
+        corr_cols = []
+        for i in item_col:
+            item_string = headers[i]
             item_col_digit = [int(s) for s in item_string.split("_") if
                               s.isdigit()]
             if acc_col_digit == item_col_digit:
-                pos[pos.index([i])].append(j)
+                corr_cols.append(i)
+        pos[pos.index([a])].extend(corr_cols)
     return [reader, pos, headers, csvin]
 
 
@@ -92,6 +94,7 @@ def write_to_csv(reader, pos, headers, keys, mod, filename, geo_info):
 
 
 def find_and_write(acc_str, item_strs, keys, in_file, mod):
+    print(in_file)
     result = find_positions(acc_str, item_strs, in_file)
     if result is None:
         print("Could not find what you wanted")

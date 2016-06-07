@@ -13,7 +13,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 # Global variables
-keys = ["LOCATION", "FLAG"]
+keys = ["LOCATION", "ORIGINAL", "COLLECTION_NOTES"]
 # column_strs is a list of strings representing columns of interest
 column_strs = ["country", "geo_loc_name", "geographic_location",
                "geographic_location_(country_and/or_sea,region"]
@@ -42,22 +42,27 @@ def parse(raw_loc, geo_info):
     # Import files that contain parsing information
     cr_data, gl_data, sp_data = geo_info
 
-    formatted_loc = raw_loc.partition(": ")
-    country, province = formatted_loc[0], formatted_loc[2]
+    formatted_loc = re.split(r":\s*", raw_loc)
+    country, province = "", ""
+    if len(formatted_loc) > 0:
+        country = formatted_loc[0]
+    if len(formatted_loc) > 1:
+        province = formatted_loc[1]
+    collection_note = ""
     # Standardize the country if it exists
     for key in cr_data.keys():
         if generic_match(key, country):
             country = cr_data[key]
             break
-    # If a province is present, standardize it too
-    for key in sp_data.keys():
-        if generic_match(key, country) and \
-           generic_match(sp_data[key][0], province):
-            province = sp_data[key][1]
+    # If a province is present, standardize it also
+    for loc in sp_data:
+        if generic_match(loc[0], province) and \
+           generic_match(loc[1], country):
+            province = loc[2]
             break
     # Figure out what values to add to each column of the output dictionary
     return_vals = {}
-    out_string, flag_string = "", ""
+    out_string, original_string = "", ""
     for key, values in gl_data.iteritems():
         # If the country is equal to the key, add it to the output
         if country == key:
@@ -67,14 +72,15 @@ def parse(raw_loc, geo_info):
             out_string += ":" + province
     # If elements were not found, place the data in the key column
     if province != "" and province not in out_string:
-        flag_string = out_string + ":" + province
-        out_string = ""
+        collection_note += "Province: %s" % province
     elif country != "" and country not in out_string:
-        flag_string = out_string
+        original_string = out_string
         out_string = ""
     # Set the output values
     return_vals[keys[0]] = out_string
-    return_vals[keys[1]] = flag_string
+    return_vals[keys[1]] = original_string if original_string != "" else \
+        raw_loc
+    return_vals[keys[2]] = collection_note
     return return_vals
 
 

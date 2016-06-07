@@ -99,10 +99,9 @@ parvan|afghanistan	Parwan
 prov. buenos aires|argentina	Buenos Aires
 entre rÃ­os|argentina	Entre Rios
 aveiro|argentina	Mendoza
-r. negro |argentina	Rio Negro
-r. negro |argentina	Rio Negro
+r. negro|argentina	Rio Negro
 neuquen/rio negro|argentina	Rio Negro
-rio negro |argentina	Rio Negro
+rio negro|argentina	Rio Negro
 san luiz|argentina	San Luis
 santa cruz |argentina	Santa Cruz
 kotayk|armenia	Kotayk'
@@ -173,21 +172,23 @@ viii region|chile	Biobio
 x region|chile	Los Lagos
 marga marga|chile	Valparaiso
 chong qing|china	Chongqing
-fukien (=fujian)|china	Fujian
+fukien|china	Fujian
+fujian|china	Fujian
 lianhuashan|china	Gansu
 guanxi|china	Guangxi
 jiangxi-fujian|china	Jiangxi
 quinghai |china	Qinghai
-szechuan (=sichuan)|china	Sichuan
+szechuan|china	Sichuan
+sichuan|china	Sichuan
 setschuan|china	Sichuan
 yunan|china	Yunnan
-antioquiaÂ |colombia	Antioquia
+antioquiaÂ|colombia	Antioquia
 cundanimarca|colombia	Cundinamarca
 cundinamarca dept.|colombia	Cundinamarca
 cundimarca|colombia	Cundinamarca
 guajira|colombia	La Guajira
 magdalenatal|colombia	Magdalena
-quindio |colombia	Quindio
+quindio|colombia	Quindio
 providencia|colombia	San Andres y Providencia
 cordilera central|colombia	Tolima
 valle|colombia	Valle del Cauca
@@ -211,7 +212,7 @@ sjalland|denmark	Sjaelland
 morona|ecuador	Morona-Santiago
 morona santiago|ecuador	Morona-Santiago
 morona-san-tiago|ecuador	Morona-Santiago
-san rafael |ecuador	Napo
+san rafael|ecuador	Napo
 pinchincha|ecuador	Pichincha
 zamora|ecuador	Zamora Chinchipe
 zamora-chinchipe|ecuador	Zamora Chinchipe
@@ -221,7 +222,7 @@ enontekion lappi|finland	Lapland
 llapland|finland	Lapland
 north ostrobothnia|finland	Northern Ostrobothnia
 pohjois-pohjanmaa|finland	Northern Ostrobothnia
-bretagne (fr)|france	Brittany
+bretagne|france	Brittany
 bretagne|france	Brittany
 bourgogne|france	Burgundy
 champagne-ardennes|france	Champagne-Ardenne
@@ -229,7 +230,7 @@ korsika|france	Corsica
 corse|france	Corsica
 eure|france	Haute Normandie
 ile de france|france	Ile-de-France
-ile-de-france (fr)|france	Ile-de-France
+ile-de-france|france	Ile-de-France
 llanguedoc-rousillon|france	Languedoc-Roussillon
 meurthe et moselle|france	Lorraine
 midi pyrenees|france	Midi-Pyrenees
@@ -243,7 +244,7 @@ poitou-charente|france	Poitou-Charentes
 provence alpes|france	Provence-Alpes-Cote d'Azur
 provence-alpes-cote dâ€™azur|france	Provence-Alpes-Cote d'Azur
 bouche du rhone|france	Provence-Alpes-Cote d'Azur
-provence-alpes-cote- d'azur (fr)|france	Provence-Alpes-Cote d'Azur
+provence-alpes-cote- d'azur|france	Provence-Alpes-Cote d'Azur
 provence-alpes cote dÂ´azur|france	Provence-Alpes-Cote d'Azur
 provence-alps|france	Provence-Alpes-Cote d'Azur
 ardeche|france	Rhone-Alpes
