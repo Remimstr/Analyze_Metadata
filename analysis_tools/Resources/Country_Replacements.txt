@@ -2,7 +2,7 @@ United States of America:United States
 UNITED STATES OF AMERICA:United States
 America$:United States
 U.S.A.$:United States
-U.*S.*$:United States
+U.S.$:United States
 Usa$:United States
 Us$:United States
 UNITED STATES$:United States
@@ -22,6 +22,7 @@ Rca:Central African Republic
 Kolumbien:Columbia
 Czech.+:Czech Republic
 Democratic Rebpublic.+Congo:Democratic Republic of the Congo
+(Democratic )?Republic of (the )?Congo:Democratic Republic of the Congo
 Guiana$:Guyana
 Danmark$:Denmark
 Itali.+$:Italy
@@ -35,3 +36,5 @@ Rsa:South Africa
 R.?S.?A.?:South Africa
 R.?s.?a.?:South Africa
 Russia.+?:Russia
+Viet Nam:Vietnam
+Burma:Myanmar

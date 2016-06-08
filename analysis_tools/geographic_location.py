@@ -20,15 +20,76 @@ column_strs = ["country", "geo_loc_name", "geographic_location",
 
 # generic_match: Str -> Bool
 # This function returs True if both items, item1, and item2 match exactly,
-# except for case.
+# ingnoring differences in case (upper and lower) if there are any.
 
 
 def generic_match(item1, item2):
     if item1 != "" and item2 != "":
-        match = re.match((r"%s" % item1), item2, flags=re.IGNORECASE)
+        match = re.match((r"%s$" % item1), item2, flags=re.IGNORECASE)
         return match
     else:
         return False
+
+# standardize_country: Str Dict -> Str
+# This function standardizes a query_country against a dict of standardized
+# countries, cr_data. If query_country is found in cr_data, it returns the
+# standardized country, otherwise it returns query_country.
+
+
+def standardize_country(query_country, cr_data):
+    for key in cr_data.keys():
+        if generic_match(key, query_country):
+            return cr_data[key]
+    return query_country
+
+# standardize_province: Str Str Dict -> Str
+# This function standardizes a query_province using a dict of standardized
+# provinces, sp_data. If query_province is found in sp_data, it returns the
+# standardized province, otherwise it returns query_province. If a country is
+# specified, it will ensure that the country and province match, otherwise
+# we skip this step.
+
+
+def standardize_province(query_province, sp_data, country=None):
+    for loc in sp_data:
+        if country is not None:
+            if generic_match(loc[0], query_province) and \
+                    generic_match(loc[1], country):
+                return loc[2]
+        else:
+            if generic_match(loc[0], query_province):
+                return loc[2]
+    return query_province
+
+# search_for_country: Str Dict -> Str or False
+# This function searches for a country in a standardized dict of countries,
+# gl_data. If the country is found, it returns the country, otherwise it
+# returns false.
+
+
+def search_for_country(country, gl_data):
+    for key in gl_data.keys():
+        if country == key:
+            return country
+    return False
+
+# search_for_province: Str Dict -> Str or False
+# This function searches for a province in a standardized dict of countries,
+# gl_data. If the province is found, it returns the province, otherwise it
+# returns false. If a country is specified, it will ensure that the country
+# and province match, otherwise we skip this step.
+
+
+def search_for_province(province, gl_data, country=None):
+    for key, value in gl_data.iteritems():
+        if country is not None:
+            if country == key and value == province:
+                return province
+        else:
+            if value == province:
+                return province
+    return False
+
 
 # parse: Str -> Dict
 # This function attempts to parse the geographic location from a string,
@@ -39,47 +100,42 @@ def generic_match(item1, item2):
 
 
 def parse(raw_loc, geo_info):
+    out_string, collection_note, return_vals = "", "", {}
     # Import files that contain parsing information
     cr_data, gl_data, sp_data = geo_info
-
+    # Split the string according via colon and proceeding whitespace
     formatted_loc = re.split(r":\s*", raw_loc)
-    country, province = "", ""
-    if len(formatted_loc) > 0:
-        country = formatted_loc[0]
-    if len(formatted_loc) > 1:
-        province = formatted_loc[1]
-    collection_note = ""
-    # Standardize the country if it exists
-    for key in cr_data.keys():
-        if generic_match(key, country):
-            country = cr_data[key]
-            break
-    # If a province is present, standardize it also
-    for loc in sp_data:
-        if generic_match(loc[0], province) and \
-           generic_match(loc[1], country):
-            province = loc[2]
-            break
-    # Figure out what values to add to each column of the output dictionary
-    return_vals = {}
-    out_string, original_string = "", ""
-    for key, values in gl_data.iteritems():
-        # If the country is equal to the key, add it to the output
-        if country == key:
+    # If there is only one location, we will attempt to figure out what it is
+    if len(formatted_loc) == 1:
+        loc_str = formatted_loc[0]
+        # Attempt to standardize the string and then search for the country
+        country = standardize_country(loc_str, cr_data)
+        province = standardize_province(loc_str, sp_data)
+        if (search_for_country(country, gl_data)):
             out_string += country
-            # Add the province if it is in the list of values of the country
-            if province in values and province != "":
+        # Search for the province
+        elif (search_for_province(province, gl_data)):
+            out_string += province
+    # If there are multiple locations, check if the first one is a country
+    # and if the province exists in any piece of the remaining string
+    else:
+        # Attempt to standardize the country part of the formatted_loc string
+        # and add to the out_string if it is a valid country
+        country = standardize_country(formatted_loc[0], cr_data)
+        if (search_for_country(country, gl_data)):
+            out_string += country
+        # Split the remaining section of formatted_loc by comma and whitespace
+        for sub in re.split(r"\,\s*", formatted_loc[1]):
+            province = standardize_province(sub, sp_data, country)
+            # Search for the province
+            if not (search_for_province(province, gl_data, country)):
                 out_string += ":" + province
-    # If elements were not found, place the data in the key column
-    if province != "" and province not in out_string:
-        collection_note += "Province: %s" % province
-    elif country != "" and country not in out_string:
-        original_string = out_string
-        out_string = ""
+                break
+            else:
+                collection_note += ":" + province
     # Set the output values
     return_vals[keys[0]] = out_string
-    return_vals[keys[1]] = original_string if original_string != "" else \
-        raw_loc
+    return_vals[keys[1]] = raw_loc
     return_vals[keys[2]] = collection_note
     return return_vals
 

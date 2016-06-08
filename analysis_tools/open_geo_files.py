@@ -35,7 +35,7 @@ def parse_files(open_file, regex, option):
         split_line = re.split(r"%s" % regex, line)
         # Add the data to the dict
         if option == "cr":
-            data[split_line[0]] = split_line[1]
+            data[split_line[0]] = split_line[1].strip("\n")
         elif option == "sp":
             data[split_line[2]] = [split_line[0], split_line[1]]
         elif option == "gl":
@@ -63,7 +63,7 @@ def parse_sp_data(open_file, regex, option):
 
 def return_dicts():
     # Set the regular expressions needed for each file
-    cr_re, gl_re, sp_re = "[:(\n)]", "[\|(\n)]", "[\|(\t)(\n)]"
+    cr_re, gl_re, sp_re = ":", "[\|(\n)]", "[\|(\t)(\n)]"
     cr, gl, sp = open(paths["cr"]), open(paths["gl"]), open(paths["sp"])
     cr_data = parse_files(cr, cr_re, "cr")
     gl_data = parse_files(gl, gl_re, "gl")

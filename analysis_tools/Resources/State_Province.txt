@@ -7,7 +7,7 @@ bc|canada	British Columbia
 pe|canada	Prince Edward Island
 sk|canada	Saskatchewan
 ab|canada	Alberta
-nl|canada	Newfoundland
+nl|canada	Newfoundland and Labrador
 yukon|canada	Yukon Territory
 al|united states	Alabama
 ak|united states	Alaska
