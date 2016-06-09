@@ -81,15 +81,16 @@ def search_for_country(country, gl_data):
 
 
 def search_for_province(province, gl_data, country=None):
-    for key, value in gl_data.iteritems():
+    for key, values in gl_data.iteritems():
         if country is not None:
-            if country == key and value == province:
-                return province
+            for v in values:
+                if country == key and v == province:
+                    return province
         else:
-            if value == province:
-                return province
+            for v in values:
+                if v == province:
+                    return province
     return False
-
 
 # parse: Str -> Dict
 # This function attempts to parse the geographic location from a string,
@@ -105,17 +106,26 @@ def parse(raw_loc, geo_info):
     cr_data, gl_data, sp_data = geo_info
     # Split the string according via colon and proceeding whitespace
     formatted_loc = re.split(r":\s*", raw_loc)
+    # Remove whitespace characters on either end of the string
+    formatted_loc = [i.strip() for i in formatted_loc]
     # If there is only one location, we will attempt to figure out what it is
     if len(formatted_loc) == 1:
         loc_str = formatted_loc[0]
         # Attempt to standardize the string and then search for the country
         country = standardize_country(loc_str, cr_data)
         province = standardize_province(loc_str, sp_data)
-        if (search_for_country(country, gl_data)):
+        if search_for_country(country, gl_data):
             out_string += country
         # Search for the province
-        elif (search_for_province(province, gl_data)):
+        elif search_for_province(province, gl_data):
             out_string += province
+            collection_note += ":" + province
+        # See if it's formatted as "Province, Country" ex. New York, USA
+        else:
+            split_string = re.split(r"\,\s*", formatted_loc[0])
+            if len(split_string) == 2:
+                x = comma_except(split_string, out_string, collection_note)
+                out_string, collection_note = x
     # If there are multiple locations, check if the first one is a country
     # and if the province exists in any piece of the remaining string
     else:
@@ -128,7 +138,7 @@ def parse(raw_loc, geo_info):
         for sub in re.split(r"\,\s*", formatted_loc[1]):
             province = standardize_province(sub, sp_data, country)
             # Search for the province
-            if not (search_for_province(province, gl_data, country)):
+            if (search_for_province(province, gl_data, country)):
                 out_string += ":" + province
                 break
             else:

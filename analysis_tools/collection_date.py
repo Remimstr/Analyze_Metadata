@@ -30,7 +30,7 @@ this_year = today.year
 def ambiguous_dates(d, ambiguity=False):
     if d["date_obj"] is not None and d["period"] == "day":
         times = [d["date_obj"].year, d["date_obj"].month, d["date_obj"].day]
-        if len([i for i in times if (i < 12)]) > 1:
+        if len([i for i in times if (i <= 12)]) > 1:
             ambiguity = True
     return ambiguity
 
@@ -73,7 +73,7 @@ def parse(raw_date):
     new_date, error = "", ""
     valid = date_obj["date_obj"] is not None
     flag, ambiguous = raw_date, ambiguous_dates(date_obj)
-    if valid and not ambiguous:
+    if valid:
         # If the precision is "day" then we're good to process as is
         if date_obj["period"] == "day":
             error = 0
@@ -88,7 +88,7 @@ def parse(raw_date):
             leap = True if calendar.isleap(date_obj["date_obj"].year) \
                 else False
             year_count = 366 if leap else 365
-            error = int(math.ceil(year_count) / 2.0)
+            error = int(math.floor(year_count) / 2.0)
             new_date = date_obj["date_obj"].replace(day=1, month=1)
             new_date += datetime.timedelta(days=error - 1)
         new_date = new_date.strftime("%Y-%b-%d")

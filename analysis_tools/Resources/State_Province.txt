@@ -8,6 +8,7 @@ pe|canada	Prince Edward Island
 sk|canada	Saskatchewan
 ab|canada	Alberta
 nl|canada	Newfoundland and Labrador
+Newfoundland|canada	Newfoundland and Labrador
 yukon|canada	Yukon Territory
 al|united states	Alabama
 ak|united states	Alaska
