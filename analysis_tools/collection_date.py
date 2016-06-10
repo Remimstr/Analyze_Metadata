@@ -18,6 +18,8 @@ sys.setdefaultencoding('utf-8')
 
 # Global variables
 keys = ["DATE", "ERROR", "ORIGINAL", "AMBIGUOUS"]
+# column_strs is a list of strings representing columns of interest
+column_strs = ["collection_date"]
 today = datetime.date.today()
 this_year = today.year
 
@@ -106,5 +108,5 @@ def parse(raw_date):
 
 if __name__ == "__main__":
     for in_file in sys.argv[1:]:
-        utils.find_and_write("RUN", ["collection_date"], keys,
+        utils.find_and_write("RUN", column_strs, keys,
                              in_file, "collection_date", "dates")

@@ -22,12 +22,9 @@ file_end = "_standardized.csv"
 # responsible for closing in_file (use .close())
 
 
-def find_positions(acc_str, item_strs, in_file):
+def find_positions(acc_str, item_strs, headers):
     # For each entry in the csv file, retrieve the accession number position(s)
     # and the item of interest position(s)
-    csvin = open(in_file, "rb")
-    reader = csv.reader(csvin, delimiter=",")
-    headers = reader.next()
     acc_col, item_col = [], []
     # Find the indices for all of the relevant columns
     for h in range(0, len(headers)):
@@ -37,7 +34,6 @@ def find_positions(acc_str, item_strs, in_file):
             if i in headers[h] and h not in item_col:
                 item_col.append(h)
     if acc_col == [] or item_col == []:
-        csvin.close()
         return None
     # Make a list of corresponding positions by matching
     # id headers and item headers
@@ -55,7 +51,7 @@ def find_positions(acc_str, item_strs, in_file):
             if acc_col_digit == item_col_digit:
                 corr_cols.append(i)
         pos[pos.index([a])].extend(corr_cols)
-    return [reader, pos, headers, csvin]
+    return pos
 
 
 # write_to_csv: Str, csv_reader, (listof(listof Int)), (listof Str) -> None
@@ -64,33 +60,26 @@ def find_positions(acc_str, item_strs, in_file):
 # relevant columns (specified by pos).
 
 
-def write_to_csv(reader, pos, headers, keys, mod, filename, geo_info):
+def write_body(line, pos, headers, keys, mod, geo_info):
     module = importlib.import_module(mod)
     # Write all of the information found to the new csv file
-    with open(filename, "wb") as csvout:
-        csvwriter = csv.writer(csvout, delimiter=",")
-        default_headers = []
-        for my_tuple in pos:
-            default_headers.append(headers[my_tuple[0]])
-            for item in my_tuple[1:]:
-                for key in keys:
-                    default_headers.append(headers[item] + "_" + key)
-        # Write the headers to the new csv
-        csvwriter.writerow(default_headers)
-        csv_data = []
-        for line in reader:
-            line_data = []
-            for p in pos:
-                line_data.append(line[p[0]])
-                for c in p[1:]:
-                    if geo_info is None:
-                        item_info = module.parse(line[c])
-                    else:
-                        item_info = module.parse(line[c], geo_info)
-                    for key in keys:
-                        line_data.append(item_info[key])
-            csv_data.append(line_data)
-            csvwriter.writerow(line_data)
+    default_headers = []
+    for my_tuple in pos:
+        default_headers.append(headers[my_tuple[0]])
+        for item in my_tuple[1:]:
+            for key in keys:
+                default_headers.append(headers[item] + "_" + key)
+    line_data = []
+    for p in pos:
+        line_data.append(line[p[0]])
+        for c in p[1:]:
+            if geo_info is None:
+                item_info = module.parse(line[c])
+            else:
+                item_info = module.parse(line[c], geo_info)
+            for key in keys:
+                line_data.append(item_info[key])
+    return line_data
 
 
 def find_and_write(acc_str, item_strs, keys, in_file, mod, file_end):
