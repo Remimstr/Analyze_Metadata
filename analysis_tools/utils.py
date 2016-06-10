@@ -34,7 +34,7 @@ def find_positions(acc_str, item_strs, headers):
             if i in headers[h] and h not in item_col:
                 item_col.append(h)
     if acc_col == [] or item_col == []:
-        return None
+        return []
     # Make a list of corresponding positions by matching
     # id headers and item headers
     pos = []

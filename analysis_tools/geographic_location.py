@@ -121,11 +121,13 @@ def parse(raw_loc, geo_info):
             out_string += province
             collection_note += ":" + province
         # See if it's formatted as "Province, Country" ex. New York, USA
+        '''
         else:
             split_string = re.split(r"\,\s*", formatted_loc[0])
             if len(split_string) == 2:
                 x = comma_except(split_string, out_string, collection_note)
                 out_string, collection_note = x
+        '''
     # If there are multiple locations, check if the first one is a country
     # and if the province exists in any piece of the remaining string
     else:
