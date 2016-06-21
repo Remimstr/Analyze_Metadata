@@ -105,6 +105,7 @@ def parse(raw_loc, geo_info):
     # Import files that contain parsing information
     cr_data, gl_data, sp_data = geo_info
     # Split the string according via colon and proceeding whitespace
+    raw_loc = raw_loc.strip()
     formatted_loc = re.split(r":\s*", raw_loc)
     # Remove whitespace characters on either end of the string
     formatted_loc = [i.strip() for i in formatted_loc]

@@ -20,13 +20,14 @@ sys.setdefaultencoding('utf-8')
 # *Important: set modules to the ones you want to include in your desired order
 # scripts of these titles must be in the same folder as this one for the
 # function to run properly
-modules = ["collection_date", "geographic_location", "serovar"]
+temp = ["collection_date", "geographic_location"]
+modules = ["serovar"]
+file_ext = "_serovar.csv"
 
 
-# write_body: Str, csv_reader, (listof(listof Int)), (listof Str) -> None
-# This function writes information given to it in the form of a csv reader to
-# to a new csv file (specified by filename) with the given headers and
-# relevant columns (specified by pos).
+# return_body: (listof Str) (listof Str) (listof Str) Str Str -> (listof Str)
+# This function takes a line of data and returns parsed data, the location
+# (or column) of which is specified by pos, and the parser specified by mod.
 
 
 def return_body(line, pos, keys, mod, extra_info):
@@ -43,9 +44,13 @@ def return_body(line, pos, keys, mod, extra_info):
                 line_data.append(item_info[key])
     return line_data
 
+# return_headers: (listof Str) (listof Str) (listof Str) -> (listof Str)
+# This function returns relevant headers from the variable headers, specified
+# by pos. The extra information to include at each position is specified by
+# keys.
+
 
 def return_headers(pos, headers, keys):
-    # Write all of the information found to the new csv file
     default_headers = []
     for my_tuple in pos:
         default_headers.append(headers[my_tuple[0]])
@@ -53,6 +58,11 @@ def return_headers(pos, headers, keys):
             for key in keys:
                 default_headers.append(headers[item] + "_" + key)
     return default_headers
+
+# main: (listof Str) -> None
+# This function processes relevant metadata from all input files according
+# to modules specified by the variable modules. It runs each module on every
+# input file, concatenating the results into a single output file.
 
 
 if __name__ == "__main__":
@@ -64,7 +74,7 @@ if __name__ == "__main__":
     for in_file in sys.argv[1:]:
         csvin = open(in_file, "rb")
         # Set up the output csv for writing
-        filename = in_file[:-4] + "_standardized2.csv"
+        filename = in_file[:-4] + file_ext
         reader = csv.reader(csvin, delimiter=",")
         headers = reader.next()
         data = [i for i in reader]
@@ -82,6 +92,7 @@ if __name__ == "__main__":
                 if mod == "geographic_location":
                     lines.append(return_body(line, pos, keys, mod, geo_info))
                 elif mod == "serovar":
+                    print mod
                     lines.append(return_body(line, pos, keys, mod, sero_info))
                 else:
                     lines.append(return_body(line, pos, keys, mod, None))
@@ -92,12 +103,10 @@ if __name__ == "__main__":
             csvout = open(filename, "wb")
             csvwriter = csv.writer(csvout, delimiter=",")
             csvwriter.writerow(new_headers)
-            x = 0
-            while(x < len(data_set[0])):
+            for x in range(0, len(data_set[0])):
                 line = []
-                for set in data_set:
-                    line.extend(set[x])
-                    csvwriter.writerow(line)
-                x += 1
+                for mod in data_set:
+                    line.extend(mod[x])
+                csvwriter.writerow(line)
             csvout.close()
         csvin.close()
