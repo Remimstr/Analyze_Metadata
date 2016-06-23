@@ -24,4 +24,5 @@ def parse(raw_serovar, sero_info):
             return_vals[keys[1]] = raw_serovar
             return_vals[keys[2]] = new_sero_info[1]
             return_vals[keys[3]] = new_sero_info[2]
-    return return_vals
+            return return_vals
+        

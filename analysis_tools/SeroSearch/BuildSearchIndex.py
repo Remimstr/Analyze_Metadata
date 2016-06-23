@@ -3,10 +3,10 @@
 # Original Method: James Robertson as BuildSearchIndex.php
 # Python Version: Remi Marchand - June 16, 2016
 # Description: A short script to build a search index (default: sys.argv[2]
-# from a newline-delimited text file (default: sys.argv[4]). The index is built
-# out of k-mer chunks (default: sys.argv[1]) from the text file. Furthermore,
-# each line from the text file is re-formatted to a new text file (default:
-# sys.argv[3])
+#              from a newline-delimited text file (default: sys.argv[4]).
+#              The index is built out of k-mer chunks (default: sys.argv[1])
+#              from the text file. Furthermore, each line from the text file
+#              is re-formatted to a new text file (default: sys.argv[3])
 
 from KmerTdf_Idf import KmerTdf_Idf
 

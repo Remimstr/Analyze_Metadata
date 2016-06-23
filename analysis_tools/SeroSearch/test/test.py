@@ -1,15 +1,12 @@
 #!/usr/bin/env python
 
-# Created by: Remi Marchand
-# Date: June 20, 2016
-# Descriptions: I don't know what this does yet
+# Original Method: James Robertson as test.php
+# Python Version: Remi Marchand - June 20, 2016
+# Description: I don't know what this does yet
 
 import sys
 sys.path.append("..")
 
-from TF_IDF_SimilaritySearch import TF_IDF_SimilaritySearch
-from SpellCheck import SpellCheck
-from KmerTdf_Idf import KmerTdf_Idf
 from intelligent_suggest import intelligent_suggest
 
 word_size = 3

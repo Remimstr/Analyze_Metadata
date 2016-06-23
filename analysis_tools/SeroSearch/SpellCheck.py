@@ -1,11 +1,14 @@
 #!/usr/bin/env/python
 
-# Created by: Remi Marchand
-# Date: June 20, 2016
-# Description: I don't know what this does yet
+# Original Method: James Robertson as SpellCheck.php
+# Python Version: Remi Marchand - June 20, 2016
+# Description: Class to perform a simple spellcheck on a string to see if
+#              it exists in this list with minor variation (ex. a single
+#              substitution, deletion, insertion, transposition) exists in
+#              the standardized list.
 
 from __future__ import division
-import Levenshtein
+from Levenshtein import distance
 
 # Set default string processing to Unicode-8
 import sys
@@ -15,7 +18,7 @@ sys.setdefaultencoding('utf-8')
 class SpellCheck:
     def __init__(self):
         self.dictionary = {}
-        self.alphabet = 'abcdefghijklmnopqrstuvwxyz1234567890.()[],+:- '
+        self.alphabet = 'abcdefghijklmnopqrstuvwxyz1234567890.()[],+:-_ '
         self.delimeter = "\t"
 
     def setAlphabet(self, alpha):
@@ -24,11 +27,11 @@ class SpellCheck:
     def getAlphabet(self):
         return self.alphabet
 
-    def getDelimeter(self):
-        return self.delimeter
-
     def setDelimiter(self, d):
         self.delimeter = d
+
+    def getDelimeter(self):
+        return self.delimeter
 
     def build(self, f):
         d = self.getDelimeter()
@@ -47,7 +50,6 @@ class SpellCheck:
             return False
 
     def inList(self, word):
-        #print "Word is %s, dict is %s" % (word, self.dictionary.keys())
         if word in self.dictionary.keys():
             return True
         else:
@@ -141,7 +143,9 @@ class SpellCheck:
             for word in edits.values():
                 if (self.inList(word) and word[0] == original[0].lower()):
                     word, original = self.get(word).lower(), original.lower()
-                    candidates[self.get(word)] = Levenshtein.distance(word, original) / len(original) * 100
+                    d = distance(word, original)
+                    l = len(original)
+                    candidates[self.get(word)] = d / l * 100
         return candidates
 
     def openFile(self, filename):

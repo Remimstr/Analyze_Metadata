@@ -1,8 +1,11 @@
 #!/usr/bin/env python
 
-# Created by: Remi Marchand
-# Date: June 14, 2016
-# Description: I don't know what this does yet
+# Original Method: James Robertson as KmerTdf_Idf.php
+# Python Version: Remi Marchand - June 14, 2016
+# Description: Class to build on the functionality of kmer_similarity. It uses
+#              the alphabet-based kmer array produced by kmer_similarity as a
+#              reference against which to compare k-mers found in the input
+#              file (filename).
 
 import math
 from kmer_similarity import Kmer_Similarity
@@ -11,6 +14,9 @@ from kmer_similarity import Kmer_Similarity
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
+msg = "It looks like this kmer has an element that is not in the \
+alphabet provided: %s"
 
 
 class KmerTdf_Idf(Kmer_Similarity):
@@ -39,6 +45,8 @@ class KmerTdf_Idf(Kmer_Similarity):
                 if len(k) != size:
                     continue
                 pos = self.calc_position(k)
+                if pos < 0:
+                    print msg % k
                 increment = self.getFreq(pos) + 1
                 self.setFreq(pos, increment)
                 if len(self.getAssoc(pos)) == 0:
