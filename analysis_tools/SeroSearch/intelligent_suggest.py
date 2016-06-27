@@ -17,12 +17,6 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-
-def print_if(query):
-    if query == "cuba": return True
-    else: return False
-
-
 class intelligent_suggest:
     def __init__(self, word_list_fileName, word_index_fileName):
         self.word_size = 3
@@ -110,7 +104,6 @@ class intelligent_suggest:
         return candidates
 
     def filter_results(self, query, candidates):
-        if print_if(query): print candidates
         limit = self.getLimit()
         filtered = {}
         tracker = 0
@@ -121,7 +114,6 @@ class intelligent_suggest:
             word = self.getWordFromList(c)
             wLen = len(word)
             lDiff = abs(wLen - qLen) / qLen * 100
-            if print_if(query): print query, word.lower(), lDiff, word[0].lower() != query[0].lower()
             if (query[0].lower() != word[0].lower()) or \
                     lDiff > self.lengthDiff:
                 # print type(query[0].lower()), type(word[0].lower())
@@ -132,7 +124,6 @@ class intelligent_suggest:
             score = self.calcDistance(word, query)
             filtered[word] = score
             tracker += 1
-        if print_if(query): print filtered
         return filtered
 
     def calcDistance(self, str1, str2):

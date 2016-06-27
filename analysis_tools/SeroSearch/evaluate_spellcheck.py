@@ -11,10 +11,10 @@ import csv
 from intelligent_suggest import intelligent_suggest
 
 word_size = 3
-word_targets = "../Resources/Messed_Serovars.txt"
+word_targets = "./test/Messed_Serovars.txt"
 word_list_file = "../Resources/Standard_Serovars.txt"
 word_index_file = "../Resources/Standard_Serovars_Index.txt"
-csv_file = "../Tested_Serovars.csv"
+csv_file = "./test/Tested_Serovars.csv"
 item_suggest = intelligent_suggest(word_list_file, word_index_file)
 
 

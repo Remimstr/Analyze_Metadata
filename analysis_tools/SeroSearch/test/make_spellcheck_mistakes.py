@@ -15,7 +15,7 @@ sys.setdefaultencoding('utf-8')
 
 # Class to make the kinds of data entry mistakes humans would make to compare
 # them to the suggestions that the spell check would make.
-class Eval_Spellcheck():
+class Make_Spellcheck_Mistakes():
     def __init__(self, inFile, outFile):
         self.alphabet = 'abcdefghijklmnopqrstuvwxyz1234567890.()[],+:-_ '
         self.choice_list = [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 3]
@@ -170,11 +170,4 @@ class Eval_Spellcheck():
 
 inFile = sys.argv[1]
 outFile = sys.argv[2]
-x = Eval_Spellcheck(inFile, outFile)
-
-# Retrieve all of the standard seronames from filename
-
-"""
-x = Eval_Spellcheck()
-x.remove_square_brackets("4,[5],1[2]:d:-")
-"""
+x = Make_Spellcheck_Mistakes(inFile, outFile)

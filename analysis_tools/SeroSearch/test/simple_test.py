@@ -2,7 +2,7 @@
 
 # Original Method: James Robertson as test.php
 # Python Version: Remi Marchand - June 20, 2016
-# Description: I don't know what this does yet
+# Description: Simple test for the spellchecker
 
 import sys
 sys.path.append("..")
