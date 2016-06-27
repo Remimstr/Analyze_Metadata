@@ -1,0 +1,1018 @@
+ Enteritidis
+0:4,12:g,s,t :e,n,x
+1,13,22:i:-
+1,4,[5],12:i:1,2
+1,4,5,12:e,h:-
+1,4,5,12:i:-
+1,4,5:b:z6
+1,40:g,z51:-
+1,40:z35:-
+1,40:z4,z32:-
+1,6,14,25:a:e,n,x
+1,6,14:a:e,n,x
+1,9,12:-:-
+11:a:1,5
+11:b:1,7
+11:b:e,n,x
+11:z4,z23:-
+13,22:z29:enx
+13,23:z:-
+13:-:-
+16:b:-
+16:z4,z32:-
+18:z10:z6
+18:z4,z23:-
+18:z4,z32:-
+21:z4,z23:-
+28:e,h:-
+3,10:e,h:-
+3,10:z41:2,5
+30:1,z28:z6
+38:(k):z35:-
+38:z10:z53
+39:b:-
+4,[5],12:b:-
+4,[5],12:d:-
+4,[5],12:i:-
+4,[5],12:r:-
+4,12:-:1,2
+4,12:d:-
+4,12:i:-
+4,12:r:-
+4,5,12: i :-
+4,5,12:b:-
+4,5,12:i:-
+4,5,12:r:-
+4,5:i:-
+40:z35:-
+40:z4,z24:[z39]
+41:b:1,7
+41:z4,z23:-
+42:b:1,5
+42:f:g,t:-
+42:z:1,5
+43:z4,z23:-
+43:z4,z32:-
+44:r:-
+44:z36[z38]:-
+44:z39:-
+44:z4,z24:-
+45:a:e,n,x
+45:d:-
+45:g,z51:-
+47:a:1,5
+47:b:1,5
+47:d:z39
+47:l,v:e,n,x
+47:z4,z23:-
+47:z4z23:-
+48: nonmotile
+48: z10: e,n,x,z15
+48:a:-
+48:d:z6
+48:g,z51:-
+48:i:-
+48:i:z
+48:z35:-
+48:z39:-
+48:z4,z23,z32:-
+48:z4,z24:-
+48:z4,z32:-
+48:z41:-
+50:-:-
+50:b:z6
+50:g,f:-
+50:g,z51:-
+50:k:z
+50:k:z35
+50:y:-
+50:z4,z23:-
+53:lz28:z39
+55:k:z39
+56:z10:e,n,x
+56:z4,z23,(z32):-
+58:a:-
+58:d:z6
+58:l,z13,z28:z6
+6, 7: k: -
+6, 8: e, h: -
+6, 8:e, h:-
+6,14,24,25:a:e,n,z15
+6,14,25:b:-
+6,14,25:z10:1,(2),7
+6,7,14:g,m[p],s:[1,2,7]
+6,7,14:k:-
+6,7: l w:-
+6,7:-:-
+6,7:-:1,5
+6,7:c:1,5
+6,7:e,h:-
+6,7:g,m,s:e,n,z15
+6,7:k:-
+6,7:k:z35
+6,7:l,w:-
+6,7:m,t:-
+6,7:r:-
+6,7:z:1,5
+6,7:z10:-
+6,7:z41:1,7
+6,8,20:e,h:-
+6,8:2:-
+6,8:e,h:-
+6,8:eh:-
+6.8:eh:-
+60:g,m,t:z6
+60:r:e,n,x,z15
+60:r:z
+60:z41:-
+61:-:1,5,7
+61:k:1,5,(7)
+61:l,v:1,5,7
+61:z35:-
+62:z36:-
+62:z4:z23:-
+63:g,z51:-
+65:(k):z
+66:z41:-
+66:z65:-
+7,14:z29:-
+8,20 :-: z6
+8,20:-:z6
+8,20:e,h:-
+8,20:nonmotile
+8:-:-
+8:y:-
+9,12,[Vi]:d:[Z66]
+9,12:-:-
+9,12:5:-
+9,12:L,z28:-
+Aba
+Abaeeteuba
+Abaetetuba
+Aberdeen
+Abidjan
+Abony
+Abortusequi
+Abortusovis
+Adabraka
+Adelaide
+Aderike
+Agama
+Agbeni
+Ago
+Agona
+Agoueve
+Ajiobo
+Alachua
+Albany
+Albert
+Altona
+Amager
+Amersfoort
+Amherstiana
+Amoutive
+Amsterdam
+Amsterdam var O 15+,34+ (Drypool)
+Anatum
+Anatum var. 15+
+Anatum var. O 15+
+Anatum var. O 15+,34+ (Minneapolis)
+Anecho
+Anfo
+Ank
+Apapa
+Apeyeme
+Aqua
+Arechavaleta
+Aschersleben
+Astridplein
+Atento
+Athinai
+Augustenborg
+B 1,4,5,12:b:-
+Babelsberg
+Baguida
+Bahati
+Bahrenfeld
+Baildon
+Ball
+Banana
+Bangkok
+Banjul
+Bardo
+Bareilly
+Bargny
+Barranquilla
+Beaudesert
+Benin
+Benue
+Bere
+Berta
+Bilthoven
+Binza
+Birkenhead
+Bispebjerg
+Blegdam
+Blijdorp
+Blockley
+Bochum
+Bonariensis
+Bonn
+Bournemouth
+Bovis-morbificans
+Bovismorbificans
+Braenddrup
+Braenderup
+Brancaster
+Brandenberg
+brandenburg
+Brazzaville
+Bredeney
+Bredeny
+Brezany
+Brisbane
+Brookfield
+Brunei
+Bsilla
+Buckeye
+Budapest
+Butantan
+Buzu
+Cambridge
+Canastel
+Cannstatt
+Caracas
+Carmel
+Carno
+Carrau
+Cerro
+Cerro var. O 14+ (Siegburg)
+Chailey
+Champaign
+Chandans
+Charity
+Chester
+Chicago
+Chincol
+Chingola
+Cholerae-suis
+Choleraesuis
+Choleraesuis var. Kunzendorf
+CHOLERAESUIS VAR.KUNZENDORF
+Claibornei
+Coeln
+Coleypark
+Colindale
+Colobane
+Concord
+Corvalis
+Corvallis
+Cotham
+Cremieu
+Cubana
+Curacao
+Decateur
+Degania
+Denver
+derby
+Deversoir
+Djibouti
+Djugu
+Dortmund
+Drypool
+Dublin
+Duesseldorf
+Duisberg
+Duisburg
+Dunkwa
+Durban
+Durham
+Ealing
+Eastbourne
+Ebrie
+Ede
+Edinburg
+Eimsbuettel
+Eko
+Elisabethville
+Elizabethville
+Emek
+Enteriditis
+enteritidis
+Enteritidis atypical
+Enteritidis atypical
+Eschberg
+Essen
+Euston
+Everleigh
+Falkensee
+Fanti
+Farmsen
+Ferrush
+Finchley
+Finkenwerder
+Fischerstrasse
+Florida
+Fluntern
+Freetown
+Freiburg
+Fresno
+Fulda
+Fulica
+Gafsa
+Gaillac
+Galiema
+Gallinarum
+Gamaba
+Gaminara
+Gateshead
+Gatow
+Gera
+Give
+Give var. O 15+ (Newbrunswick)
+Giza
+Glostrup
+Goelzau
+Goerlitz
+Gold-coast
+Goldcoast
+Gombe
+Goulfey
+Goverdhan
+Gozo
+Grancanaria
+Grumpensis
+Haardt
+Hadar
+Haduna
+Haifa
+Harmelen
+Harrisonburg
+Hartford
+Hato
+Havana
+Heidelberg
+Heidelberg (H2Sneg)
+Hermannswerder
+Herston
+Hidalgo
+Hiduddify
+Hillingdon
+Hindmarsh
+Hofit
+Holcomb
+Huddinge
+Hull
+Huvudsta
+Hvittingfoss
+I  3,10:-:1,5
+I  6,7:y:1,2,5
+I 1,3,19:z10:1,5 (Yenne)
+I 11:c:-
+I 13,22:z:-
+I 13,23:b:-
+I 16:d:-
+I 17:g,t:-
+I 18:k:1,7
+I 3,10,15:i:1,2
+I 3,10:e,h:-
+I 3,10:nonmotile
+I 3,15,34:d:-
+I 3,15:e,h:-
+I 3,19:-
+I 3,19:-:-
+I 39:b:-
+I 4,[5],12:b:-
+I 4,[5],12:b:- L(+) tartrate +
+I 4,[5],12:d:-
+I 4,[5],12:e,h:-
+I 4,[5],12:i:-
+I 4,[5],12:r:-
+I 4,12:1:-
+I 4,12:d: -
+I 4,12:d:-
+I 4,12:i: -
+I 4,12:i:-
+I 4,12:nonmotile
+I 4,12:r:-
+I 4,5,12: i : -
+I 4,5,12:-:1,2
+I 4,5,12:d:-
+I 4,5,12:i-
+I 4,5,12:i:-
+I 4,5,12:nonmotile
+I 4,5,12:r:-
+I 42:
+I 47:z4,z23:-
+I 6,14,19:y:1,7
+I 6,14,25:b:1,6
+I 6,14,25:b:e,n,z15
+I 6,7:-:-
+I 6,7:-:1,5
+I 6,7:-:e,n,z15
+i 6,7:-1,5
+I 6,7:e,h:-
+I 6,7:k:-
+I 6,7:nonmotile
+I 6,7:r:-
+I 6,7:rough:rough
+I 6,8:d:-
+I 6,8:d:- (monophasic)
+I 6,8:e,h:-
+I 6,8:i:-
+I 8,20: - :z6
+I 8,20:y:-
+I 8:-:1,5
+I 8:y:1,5
+I 9,12,46:-
+I 9,12:-:-
+I 9,12:nonmotile
+I4,[5],12:i:-
+Ibadan
+Idikan
+II 28:r:e,n,z15
+II 3,10:l,z28:1,5
+II 3,10:z4,z24
+II 42:r:- (Nairobi)
+II 42:z:1,5 (Detroit)
+II 47:b:1,5 (Phoenix)
+II 48:d:z6 (Hagenbeck)
+II 48:g,m,t:- (Erlangen)
+II 50:Z10:Z6:Z42 (Hooggraven)
+II 9,12,46:l,w:e,n,z15
+II 9,12:z29:1,5
+II 9,12:z29:1,5 (Canastel)
+II 9,46:d:1,5
+II O60:z10:z39
+III 16:z10:e,n,x,z15
+III 41:z4,z23:-
+III 44:z4,z32:-
+III 50:r:z
+III 60:r:z
+IIIa -:z4,z23:-
+IIIa 18:z4,z23:-
+IIIa 18:z4,z32:-
+IIIa 3,19:-:-
+IIIa 35
+IIIa 35:z4,z23:-
+IIIa 40:z36:-
+IIIa 40:z4,z23:-
+IIIa 41:z4,z23:-
+IIIa 42:z4,z24:-
+IIIa 48:g,z51:-
+IIIa 48:z4,z23,z32:-
+IIIa 48:z4,z23:-
+IIIa 48:z4,z32:-
+IIIa 9,12:-:1,5
+IIIb 11:k:z53
+IIIb 35:i:z35
+IIIb 47:k:z35
+IIIb 48:i:z
+IIIb 58:r:-
+IIIb 58:z52:z35
+IIIb 60:r:e,n,x,z15
+IIIb 60:r:e,n,z15
+IIIb 61
+IIIb 61:-:1,5,7
+IIIb 61:l,[v],[z13]:1,5,[7]
+IIIb 61:l,v
+IIIb 61:l,v:1,5,7
+IIIb 61:l,v:1,5,7:[z57]
+IIIb 61:l,z13:1,7
+Ilala
+Ilugun
+indiana
+Infantis
+Inganda
+Inpraw
+Inverness
+Ipswich
+Irumu
+Isangi
+Istanbul
+Itami
+Ituri
+IV 11:z4,z23:- (Parera)
+IV 16:z4,z32:-
+IV 16:z4,z32:- (Chameleon)
+IV 40:z4,z24:-
+IV 40:z4,z32:-
+IV 43:z23:-
+IV 43:z4,z23:- (Houten)
+IV 44:z4, z32:-
+IV 44:z4,z32:-
+IV 50:g,z51:-
+IV 50:z4,z23:-
+IV 50:z4,z23:- (Flint)
+Jangwani
+Java
+Javiana
+Jedburgh
+Johannesburg
+Jukestown
+Kalina
+Kambole
+Kedougou
+Kentucky
+Kenya
+Khami
+Kiambu
+Kibusi
+Kimuenza
+Kingabwa
+Kingston
+Kintambo
+Kirkee
+Kisangani
+Kisarawe
+Kohbu
+Kokomlemle
+Kottbus
+Koumra
+Krefeld
+Kua
+Kumasi
+Labadi
+Lagos
+Langensalza
+Langford
+Lanka
+Lansing
+Larochelle
+Lattenkamp
+Lerum
+Lexington
+Lexington var O 15+,34+ (Illinois)
+Lexington var. O 15+ (Manila)
+Lille
+Limete
+Lingiwala
+Lingwala
+Litchfield
+Liverpool
+Livingstone
+Livingtone var.14+
+Llandoff
+Lomalinda
+Lome
+Lomita
+London
+Loubomo
+Louga
+Luciana
+Luke
+Maastricht
+Madelia
+Madras
+Magwa
+Malstatt
+Manchester
+Manhattan
+Manhatten
+Maricopa
+Marina
+Maritzburg
+Marseille
+Martonos
+Matadi
+Mathura
+Matopeni
+Mbadaka
+Mbandaka
+Mbandaka var. O:14 +
+Mbandaska
+Meleagridis
+Meleagridis var. O 15+, var. O 34+
+Memphis
+Menden
+Mendoza
+Menston
+Meunchen
+Mgulani
+Miami
+Michigan
+Mikawasima
+Milwaukee
+Minneapolis
+Minnesota
+Mishmarhaemek
+Mississippi
+Mkamba
+Molade
+Monschaui
+Montevideo
+Mountpleasant
+Mpouto
+muenchen
+Muenster
+Muenster var. O 15+, 34+ (Arkansas)
+Nagoya
+Nairobi
+Napoli
+Nchanga
+Nchanga var. O:15 +
+Nessziona
+Neukoelln
+New-brunswick
+Newington
+Newlands
+Newmexico
+Newport
+Nigeria
+Nima
+Norwich
+Nottingham
+Noya
+Nyborg
+O: 4,12,27:g,s,t,e,n,x
+O:11:g,z25:-
+O:14:r:z
+O:17:l,v:
+O:35:(K):z35
+O:4,12,27:
+O:4,12,27:g,s,t :e,n,x
+O:6,7:m,s,t:e,n,x
+O:6,7:m,t:-
+O:6,7:m,t::-
+O:6,8:e,h:
+O:9,12:l,z28:
+O:9,12:l,z28:1,5
+O1,13,22:i:-
+O1,40:z81:-
+O1,40z35:-
+O13,22:r:-
+O13,22:z39:-
+O44:r:-
+O44:z39:-
+O48:b:-
+O48:i:-
+O48:z35:-
+O48:z39:-
+O48:z41:-
+O48:z65:-
+O48:z81:-
+O60:z41:-
+O61:z35:-
+O66:z35:-
+O66:z39:-
+O66:z65:-
+O66:z81:-
+Oakland
+Obogu
+Offa
+Ohio
+Oldenburg
+Olten
+Omderman
+Ona
+Onarimon
+Onderstepoort
+Onireke
+Oranienberg
+Oranienburg
+Oranienburg (E1093)
+Oranienburg var. O 14+ (Thielallee)
+Orientalis
+Orion
+Orion var. O 15+ (Binza)
+Orion var. O 15+,34+ (Thomasville)
+Oritamerin
+Oslo
+Othmarschen
+Ouakam
+Overschie
+panama
+Paratyphi A
+Paratyphi B
+Paratyphi B var Java
+Paratyphi B var L-tartrate+
+Paratyphi B var. L(+) tartrate +
+Paratyphi B var. L(+) tartrate + (Java)
+Paratyphi B, monophasic
+Paratyphi C
+Paratyphi var Java
+Paratyphi_B_var._L-tartrate+
+Parera
+Pensacola
+Perth
+Plymouth
+Poano
+Pomona
+Poona
+Portland
+Postdam
+Potsdam
+Pretoria
+Pullorum
+Putten
+Quakam
+Ramat-gan
+Ramatgan
+Reading
+Redhill
+Redlands
+Richmond
+Rideau
+Ridge
+Rissen
+Risssen
+Rough -:l,z13:-
+Rubislaw
+Rubuislaw
+Ruiru
+S.typhimurium
+Sachsenwald
+Sainpaul
+Saint-paul
+Saintpaul
+Saitpaul
+Salford
+Salmonella Aba
+Salmonella Abony
+Salmonella Adelaide
+Salmonella Agama
+Salmonella Agbeni
+Salmonella Ago
+Salmonella Agona
+Salmonella Ajiobo
+Salmonella Alachua
+Salmonella Albany
+Salmonella Albert
+Salmonella Altona
+Salmonella Amager
+Salmonella Anatum
+Salmonella Arechavaleta
+Salmonella Augustenborg
+Salmonella Bakau
+Salmonella Ball
+Salmonella Bareilly
+Salmonella Blockley
+Salmonella Bonariensis
+Salmonella Bovis-morbificans
+Salmonella Braenderup
+Salmonella Brandenburg
+Salmonella Bredeney
+Salmonella Bristol
+Salmonella Bron
+Salmonella Brunei
+Salmonella Butantan
+Salmonella Cerro
+Salmonella Chailey
+Salmonella Chester
+Salmonella Cholerae-suis
+Salmonella Coeln
+Salmonella Concord
+Salmonella Corvallis
+Salmonella Cremieu
+Salmonella Cubana
+Salmonella Curacao
+Salmonella Derby
+Salmonella Djugu
+Salmonella Dublin
+Salmonella Durham
+Salmonella Eastbourne
+Salmonella Eko
+Salmonella Emek
+Salmonella Enteritidis
+Salmonella Gaminara
+Salmonella Gdansk
+Salmonella Give
+Salmonella Glostrup
+Salmonella Gold-coast
+Salmonella Hadar
+Salmonella Haifa
+Salmonella Hartford
+Salmonella Havana
+Salmonella Heidelberg
+Salmonella Hull
+Salmonella Hvittingfoss
+Salmonella Ibadan
+Salmonella Idikan
+Salmonella Indiana
+Salmonella Infantis
+Salmonella Isangi
+Salmonella Itami
+Salmonella Ituri
+Salmonella Java
+Salmonella Javiana
+Salmonella Joal
+Salmonella Johannesburg
+Salmonella Kallo
+Salmonella Kambole
+Salmonella Kastrup
+Salmonella Kedougou
+Salmonella Kentucky
+Salmonella Khami
+Salmonella Kiambu
+Salmonella Kimuenza
+Salmonella Kingabwa
+Salmonella Kingston
+Salmonella Kisangani
+Salmonella Kottbus
+Salmonella Lanka
+Salmonella Larochelle
+Salmonella Lindern
+Salmonella Litchfield
+Salmonella Livingstone
+Salmonella London
+Salmonella Los-angeles
+Salmonella Louisiana
+Salmonella Malstatt
+Salmonella Manchester
+Salmonella Mbandaka
+Salmonella Meleagridis
+Salmonella Mikawasima
+Salmonella Minneapolis
+Salmonella Minnesota
+Salmonella Mississippi
+Salmonella Monschaui
+Salmonella Montevideo
+Salmonella Mount-pleasant
+Salmonella Muenchen
+Salmonella Muenster
+Salmonella Napoli
+Salmonella Newport
+Salmonella Nima
+Salmonella Ohio
+Salmonella Oranienburg
+Salmonella Oslo
+Salmonella Othmarschen
+Salmonella Panama
+Salmonella Paratyphi A
+Salmonella Paratyphi B
+Salmonella Pomona
+Salmonella Poona
+Salmonella Potsdam
+Salmonella Reading
+Salmonella Remo
+Salmonella Richmond
+Salmonella Ridge
+Salmonella Rissen
+Salmonella Saint-paul
+Salmonella San-diego
+Salmonella Schwarzengrund
+Salmonella Sekondi
+Salmonella Senftenberg
+Salmonella Shubra
+Salmonella Singapore
+Salmonella Soerenga
+Salmonella Stanley
+Salmonella Szentes
+Salmonella Takoradi
+Salmonella Tel-el-kebir
+Salmonella Tennessee
+Salmonella Thompson
+Salmonella Typhi
+Salmonella Typhimurium
+Salmonella Typhimurium - monophasic
+Salmonella Uganda
+Salmonella Ughelli
+Salmonella Umbilo
+Salmonella Urbana
+Salmonella Virchow
+Salmonella Vitkin
+Salmonella Wandsbek
+Salmonella Wangata
+Salmonella Wassenaar
+Salmonella Waycross
+Salmonella Weltevreden
+Salmonella Wilhelmsburg
+San-diego
+Sandiego
+Sangalkam
+Sanjuan
+Sao
+Saphra
+Saugus
+Schleissheim
+Schwardzengrund
+Schwarzengru
+Schwarzengrund
+Seftenburg
+Sendai
+Senegal
+Senftenberg
+Seremban
+serovar_s
+Shamba
+Shubra
+SI 4,[5],12:i:-
+SI 4,12:i:-
+SI 4,5,12: i: -
+SI 6,7:g,m,s:e,n,z15
+Simi
+Singapore
+Sinstorf
+Soahanina
+Soerenga
+Sofia
+Solt
+Soumbedioune
+Southbank
+Stanley
+Stanley ville
+Stanleyville
+Stockholm
+Stormont
+Stourbridge
+Strathcona
+Suelldorf
+Sundsvall
+Szentes
+Takoradi
+Tallahassee
+Tamale
+Tamberma
+Tananarive
+Tanger
+Tarshyne
+Teddington
+Tees
+Teko
+Tel-el-kebir
+Telaviv
+Telelkebir
+Telhashomer
+Tennessee
+Texas
+Thompson
+Thompson (Cardiff)
+Tibati
+Togba
+Tomegbe
+Tornow
+Toronto
+Trachau
+Tranaroa
+Treforest
+Troy
+Tshiongwe
+Tucson
+Tudu
+Typhi
+Typhi H58
+Typhi H58
+Typhimurium
+Typhimurium (S. typhimurium)
+Typhimurium Copenhagen
+Typhimurium v. Copenhagen
+Typhimurium var 5-
+Typhimurium var O:5-
+Typhimurium var. 5 - (Copenhagen)
+Typhimurium var. 5-
+Typhimurium var. Copenhagen
+Typhimurium var. O 5 - (Copenhagen)
+Typhimurium var. O 5-(Copenhagen)
+Typhimurium var. O:5-
+Typhimurium var.copenhagen
+Typhimuriun var. 5-
+Typhisuis
+Tyresoe
+Uganda
+Uganda var. O 15+ (Kinshasa)
+Ughelli
+Umbilo
+Uphill
+Uppsala
+Urbana
+Uzaramo
+Vejle
+Veneziana
+VI  1,6,14,25:a:e,n,z15
+VI 6,14,25:a:e,n,x
+Victoria
+Vilvoorde
+Vinnorrhady
+Vinobrady
+Vinohrady
+Virchow
+Virginia
+Vitkin
+Volkmarsdorf
+Wandsworth
+Wangata
+Warragul
+Wassenaar
+Waycross
+Welikade
+Weltenvreden
+Weltervreden
+Weltevreden
+Weltevreden var. O 15+ (Lanka)
+Wentworth
+Weslaco
+Westhampton
+Westminster
+Westthampton
+Weybridge
+Wien
+Wilhemsburg
+Wimborne
+Wippra
+Woodinville
+Worb
+Worthington
+Yarrabah
+Yoruba
+Zaiman
+Zanzibar

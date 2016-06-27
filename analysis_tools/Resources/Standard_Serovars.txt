@@ -9,7 +9,6 @@ Travis
 V 1,40:z35:-
 IV 1,40:z4,z32:-
 VI [1],6,14,[25]:a:e,n,x
-VI [1],6,14,[25]:a:e,n,x
 Gallinarum
 Marseille
 VI 11:a:1,5
@@ -40,17 +39,11 @@ IV 21:z4,z23:-
 39:b:-
 I 4,[5],12:b:-
 I 1,4,[5],12:d:-
-I 1,4,[5],12:i:-
 I 1,4,[5],12:r:-
 I 1,4,[5],12:r:1,2
 I 4,[5],12:d:-
-I 1,4,[5],12:i:-
 1,4,[5],12:r:-
-I 1,4,[5],12:i:-
 I 1,4,[5],12:b:-
-I 1,4,[5],12:i:-
-1,4,[5],12:r:-
-I 1,4,[5],12:i:-
 40:z35:-
 40:z4,z24:[z39]
 41:b:1,7
@@ -134,7 +127,6 @@ I 1,4,[5],12:i:-
 60:z41:-
 61:-:1,5,7
 IIIb 61:k:1,5,(7)
-IIIb 61:k:1,5,(7)
 V 61:z35:-
 62:z36:-
 62:z4:z23:-
@@ -150,11 +142,9 @@ V 61:z35:-
 8:-:-
 8:y:-
 Typhi
-Gallinarum
 9,12:5:-
 9,12:L,z28:-
 Aba
-Abaetetuba
 Abaetetuba
 Aberdeen
 Abidjan
@@ -179,10 +169,6 @@ Amersfoort
 Amherstiana
 Amoutive
 Amsterdam
-Amsterdam
-Anatum
-Anatum
-Anatum
 Anatum
 Anecho
 Anfo
@@ -196,9 +182,7 @@ Astridplein
 Atento
 Athinai
 Augustenborg
-I 1,4,[5],12:b:-
 Babelsberg
-Baguida
 Bahati
 Bahrenfeld
 Baildon
@@ -227,14 +211,10 @@ Bonariensis
 Bonn
 Bournemouth
 Bovismorbificans
-Bovismorbificans
-Braenderup
 Braenderup
 Brancaster
 Brandenburg
-Brandenburg
 Brazzaville
-Bredeney
 Bredeney
 Brezany
 Brisbane
@@ -252,8 +232,6 @@ Caracas
 Carmel
 Carno
 Carrau
-Cerro
-Cerro
 Chailey
 Champaign
 Chandans
@@ -263,9 +241,6 @@ Chicago
 Chincol
 Chingola
 Choleraesuis
-Choleraesuis
-Choleraesuis
-Choleraesuis
 Claibornei
 Coeln
 Coleypark
@@ -273,12 +248,10 @@ Colindale
 Colobane
 Concord
 Corvallis
-Corvallis
 Cotham
 Cremieu
 Cubana
 Curacao
-Choleraesuis
 II 40:z4,z24:z39
 Denver
 Derby
@@ -286,10 +259,8 @@ Deversoir
 Djibouti
 Djugu
 Dortmund
-Amsterdam
 Dublin
 Duesseldorf
-Duisburg
 Duisburg
 Dunkwa
 Durban
@@ -302,12 +273,7 @@ Edinburg
 Livingstone
 Eko
 Elisabethville
-Elisabethville
 Emek
-Enteritidis
-Enteritidis
-Enteritidis
-Enteritidis
 Eschberg
 Essen
 Euston
@@ -329,19 +295,16 @@ Fulica
 Gafsa
 Gaillac
 Galiema
-Gallinarum
 Gamaba
 Gaminara
 Gateshead
 Gatow
 Gera
 Give
-Give
 Giza
 Glostrup
 Goelzau
 Vejle
-Goldcoast
 Goldcoast
 Gombe
 Goulfey
@@ -358,7 +321,6 @@ Harrisonburg
 Hartford
 Hato
 Havana
-Heidelberg
 Heidelberg
 Hermannswerder
 Herston
@@ -389,9 +351,6 @@ I 3,15:e,h:-
 I 3,19:-
 I 3,19:-:-
 I 39:b:-
-I 4,[5],12:b:-
-I 4,[5],12:b:-
-I 4,[5],12:d:-
 I 4,[5],12:e,h:-
 I 4,[5],12:i:-
 I 4,[5],12:r:-
@@ -405,10 +364,7 @@ I 4,12:r:-
 I 4,5,12: i : -
 I 4,5,12:-:1,2
 I 4,5,12:d:-
-I 4,[5],12:i:-
-I 4,[5],12:i:-
 I 4,5,12:-:-
-I 4,[5],12:r:-
 I 42:-:-
 I 47:z4,z23:-
 I 6,14,19:y:1,7
@@ -420,10 +376,7 @@ I 6,7:-:e,n,z15
 i 6,7:-1,5
 I 6,7:e,h:-
 I 6,7:k:-
-I 6,7:-:-
 I 6,7:r:-
-I 6,7:-:-
-I 6,8:d:-
 I 6,8:d:-
 I 6,8:e,h:-
 I 6,8:i:-
@@ -432,9 +385,6 @@ I 8,20:y:-
 I 8:-:1,5
 I 8:y:1,5
 I 9,12,46:-
-Gallinarum
-Gallinarum
-I 4,[5],12:i:-
 Ibadan
 Idikan
 II 28:r:e,n,z15
@@ -447,8 +397,6 @@ II 48:d:z6
 II 48:g,m,t:-
 II 50:Z10:Z6:Z42
 II 9,12,46:l,w:e,n,z15
-II 9,12:z29:1,5
-II 9,12:z29:1,5
 II 9,46:d:1,5
 II 60:z10:z39
 III 16:z10:e,n,x,z15
@@ -457,7 +405,6 @@ III 44:z4,z32:-
 III 50:r:z
 III 60:r:z
 IIIa -:z4,z23:-
-IIIa 18:z4,z23:-
 IIIa 18:z4,z32:-
 IIIa 3,19:-:-
 IIIa 35:-:-
@@ -499,9 +446,6 @@ Isangi
 Istanbul
 Itami
 Ituri
-IV 11:z4,z23:-
-IV 16:z4,z32:-
-IV 16:z4,z32:-
 IV 40:z4,z24:-
 IV 40:z4,z32:-
 IV 43:z23:-
@@ -509,7 +453,6 @@ IV 43:z4,z23:-
 IV 44:z4, z32:-
 IV 44:z4,z32:-
 IV 50:g,z51:-
-IV 50:z4,z23:-
 IV 50:z4,z23:-
 Jangwani
 Paratyphi B
@@ -533,7 +476,6 @@ Kirkee
 Kisangani
 Kisarawe
 Korbol
-II 47:b:e,n,x,z15
 Kottbus
 Koumra
 Krefeld
@@ -549,16 +491,11 @@ Larochelle
 Lattenkamp
 Lerum
 Lexington
-Lexington
-Lexington
 Lille
 Limete
 Lingwala
-Lingwala
 Litchfield
 Liverpool
-Livingstone
-Livingstone
 Llandoff
 Lomalinda
 Lome
@@ -575,21 +512,14 @@ Magwa
 Malstatt
 Manchester
 Manhattan
-Manhattan
 Maricopa
 IV 48:g,z51:-
 Maritzburg
-Marseille
 Martonos
 Matadi
 Mathura
 Matopeni
 Mbandaka
-Mbandaka
-Mbandaka
-Mbandaka
-Meleagridis
-Meleagridis
 Memphis
 Menden
 Mendoza
@@ -600,7 +530,6 @@ Miami
 Michigan
 Mikawasima
 Milwaukee
-Anatum
 Minnesota
 Mishmarhaemek
 Mississippi
@@ -610,18 +539,12 @@ Monschaui
 Montevideo
 Mountpleasant
 Mpouto
-Muenchen
-Muenster
 Muenster
 Nagoya
-II 42:r:-
 Napoli
-Nchanga
 Nchanga
 Nessziona
 Neukoelln
-Give
-Anatum
 Newlands
 Newmexico
 Newport
@@ -640,14 +563,9 @@ IIIb 35:(k):z35
 II 1,4,12,[27]:g,[m],[s],t:e,n,x
 6,7:m,s,t:e,n,x
 II 6,7:m,t:-
-II 6,7:m,t:-
-I 6,8:e,h:-
 9,12:l,z28:-
-Javiana
 II 9,12:l,z28:1,5
-V 1,13,22:i:-
 V 1,40:z81:-
-V 1,40:z35:-
 V 13,22:r:-
 V 13,22:z39:-
 V 44:r:-
@@ -660,7 +578,6 @@ V 48:z41:-
 V 48:z65:-
 V 48:z81:-
 V 60:z41:-
-V 61:z35:-
 V 66:z35:-
 V 66:z39:-
 V 66:z65:-
@@ -671,19 +588,12 @@ Offa
 Ohio
 Oldenburg
 Olten
-Amersfoort
 Ona
 Onarimon
 Onderstepoort
 Onireke
 Oranienburg
-Oranienburg
-Oranienburg
-Oranienburg
 Orientalis
-Orion
-Orion
-Orion
 Oritamerin
 Oslo
 Othmarschen
@@ -691,16 +601,7 @@ Ouakam
 Overschie
 Panama
 Paratyphi A
-Paratyphi B
-Paratyphi B
-Paratyphi B
-Paratyphi B
-Paratyphi B
-I 1,4,[5],12:b:-
 Paratyphi C
-Paratyphi B
-Paratyphi B
-IV 11:z4,z23:-
 Pensacola
 Perth
 Plymouth
@@ -709,12 +610,9 @@ Pomona
 Poona
 Portland
 Potsdam
-Potsdam
 Pretoria
 Pullorum
 Putten
-Ouakam
-Ramatgan
 Ramatgan
 Reading
 Redhill
@@ -723,140 +621,22 @@ Richmond
 Rideau
 Ridge
 Rissen
-Rissen
-V 66:z81:-
-Rubislaw
 Rubislaw
 Ruiru
-Typhimurium
 IV 1,40:z4,z23:-
 Saintpaul
-Saintpaul
-Saintpaul
-Saintpaul
 Salford
-Aba
-Abony
-Adelaide
-Agama
-Agbeni
-Ago
-Agona
-Ajiobo
-Alachua
-Albany
-Albert
-Altona
-Amager
-Anatum
-Arechavaleta
-Augustenborg
 Bakau
-Ball
-Bareilly
-Blockley
-Bonariensis
-Bovismorbificans
-Braenderup
-Brandenburg
-Bredeney
 Bristol
 Bron
-Brunei
-Butantan
-Cerro
-Chailey
-Chester
-Choleraesuis
-Coeln
-Concord
-Corvallis
-Cremieu
-Cubana
-Curacao
-Derby
-Djugu
-Dublin
-Durham
-Eastbourne
-Eko
-Emek
-Enteritidis
-Gaminara
 Gdansk
-Give
-Glostrup
-Goldcoast
-Hadar
-Haifa
-Hartford
-Havana
-Heidelberg
-Hull
-Hvittingfoss
-Ibadan
-Idikan
-Indiana
-Infantis
-Isangi
-Itami
-Ituri
-Paratyphi B
-Javiana
 Joal
-Johannesburg
 Kallo
-Kambole
 Kastrup
-Kedougou
-Kentucky
-II 47:b:e,n,x,z15
-Kiambu
-Kimuenza
-Kingabwa
-Kingston
-Kisangani
-Kottbus
-Weltevreden
-Larochelle
 Lindern
-Litchfield
-Livingstone
-London
 Losangeles
 Louisiana
-Malstatt
-Manchester
-Mbandaka
-Meleagridis
-Mikawasima
-Anatum
-Minnesota
-Mississippi
-Monschaui
-Montevideo
-Mountpleasant
-Muenchen
-Muenster
-Napoli
-Newport
-Nima
-Ohio
-Oranienburg
-Oslo
-Othmarschen
-Panama
-Paratyphi A
-Paratyphi B
-Pomona
-Poona
-Potsdam
-Reading
 Remo
-Richmond
-Ridge
-Rissen
-Saintpaul
 Sandiego
 Schwarzengrund
 Sekondi
@@ -870,9 +650,6 @@ Takoradi
 Telelkebir
 Tennessee
 Thompson
-Typhi
-Typhimurium
-Typhimurium
 Uganda
 Ughelli
 Umbilo
@@ -881,44 +658,28 @@ Virchow
 Vitkin
 II 21:z10:z6
 Wangata
-IV 50:g,z51:-
 Waycross
-Weltevreden
 Wilhelmsburg
-Sandiego
-Sandiego
 Sangalkam
 Sanjuan
 Sao
 Saphra
 Saugus
 Schleissheim
-Schwarzengrund
-Schwarzengrund
-Schwarzengrund
-Senftenberg
 Sendai
 Senegal
-Senftenberg
 Seremban
 curated_serovar
 Shamba
-Shubra
-I 4,[5],12:i:-
-I 4,12:i:-
 I 4,5,12: i: -
 I 6,7:g,m,s:e,n,z15
 Simi
-Singapore
 Sinstorf
 Soahanina
-Soerenga
 II 1,4,12,[27]:b:[e,n,x]
 Solt
 Soumbedioune
 Southbank
-Stanley
-Stanleyville
 Stanleyville
 Stockholm
 Stormont
@@ -926,8 +687,6 @@ Stourbridge
 Strathcona
 Suelldorf
 Sundsvall
-Szentes
-Takoradi
 Tallahassee
 Tamale
 Tamberma
@@ -937,14 +696,9 @@ Tarshyne
 Teddington
 Tees
 Teko
-Telelkebir
 Telaviv
-Telelkebir
 Telhashomer
-Tennessee
 Texas
-Thompson
-Thompson
 Tibati
 Togba
 Tomegbe
@@ -957,64 +711,28 @@ Troy
 Tshiongwe
 Tucson
 Tudu
-Typhi
-Typhi
-Enteritidis
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
-Typhimurium
 Typhisuis
 Tyresoe
-Uganda
-Uganda
-Ughelli
-Umbilo
 II 42:b:e,n,x,z15
 Uppsala
-Urbana
 Uzaramo
-Vejle
 Veneziana
 VI 1,6,14,25:a:e,n,z15
 VI 6,14,25:a:e,n,x
 Victoria
 Vilvoorde
 Vinohrady
-Vinohrady
-Vinohrady
-Virchow
 Virginia
-Vitkin
 Volkmarsdorf
 Wandsworth
-Wangata
 Warragul
-IV 50:g,z51:-
-Waycross
 Welikade
-Weltevreden
-Weltevreden
-Weltevreden
-Weltevreden
 Wentworth
 Weslaco
 Westhampton
 Westminster
-Westhampton
 Weybridge
 Wien
-Wilhelmsburg
 Wimborne
 Wippra
 Woodinville

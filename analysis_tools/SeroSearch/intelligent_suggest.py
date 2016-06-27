@@ -18,6 +18,11 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
+def print_if(query):
+    if query == "cuba": return True
+    else: return False
+
+
 class intelligent_suggest:
     def __init__(self, word_list_fileName, word_index_fileName):
         self.word_size = 3
@@ -28,7 +33,7 @@ class intelligent_suggest:
         self.word_index = {}
         self.limit = 25
         self.candidates = {}
-        self.lengthDiff = 25
+        self.lengthDiff = 50
 
         if not os.path.isfile(word_list_fileName):
             raise IOError("Error Word list -%s-file does not exist"
@@ -105,24 +110,29 @@ class intelligent_suggest:
         return candidates
 
     def filter_results(self, query, candidates):
+        if print_if(query): print candidates
         limit = self.getLimit()
         filtered = {}
         tracker = 0
         qLen = len(query)
-        for c, score in candidates.iteritems():
+        for c, score in candidates:
             if tracker == limit:
                 break
             word = self.getWordFromList(c)
             wLen = len(word)
             lDiff = abs(wLen - qLen) / qLen * 100
+            if print_if(query): print query, word.lower(), lDiff, word[0].lower() != query[0].lower()
             if (query[0].lower() != word[0].lower()) or \
                     lDiff > self.lengthDiff:
+                # print type(query[0].lower()), type(word[0].lower())
+                # print lDiff > self.lengthDiff
                 continue
             if word is None:
                 continue
             score = self.calcDistance(word, query)
             filtered[word] = score
             tracker += 1
+        if print_if(query): print filtered
         return filtered
 
     def calcDistance(self, str1, str2):
@@ -169,16 +179,18 @@ class intelligent_suggest:
     def suggest(self, query):
         query = query.lower()
         if self.spellCheckObj.inList(query) or query == "":
-            print "found %s" % query
+            # print "found %s" % query
             return {}
         else:
-            print "Not found %s" % query
+            # print "Not found %s" % query
             candidates = self.spellCheckObj.search(query)
             if len(candidates) > 0:
                 return candidates
             else:
-                return self.filter_results(query,
-                                           self.ktuple_candidate_search(query))
+                candidates = self.ktuple_candidate_search(query)
+                c_list = sorted(candidates.items(), key=lambda x: x[1],
+                                reverse=True)
+                return self.filter_results(query, c_list)
 
     def openFile(self, filename, delimiter=None):
         match_dict = {}
