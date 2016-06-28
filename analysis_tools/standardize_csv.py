@@ -6,7 +6,6 @@
 
 import sys
 import csv
-import utils
 import importlib
 
 
@@ -23,6 +22,40 @@ sys.setdefaultencoding('utf-8')
 temp = ["collection_date", "geographic_location"]
 modules = ["serovar"]
 file_ext = "_serovar.csv"
+
+# find_positions: Str (listof Str) Str -> [] or (listof Int)
+# This function searches headers provided, headers, for the strings
+# provided, acc_str, and item_strs. It returns the positions found.
+
+
+def find_positions(acc_str, item_strs, headers):
+    acc_col, item_col = [], []
+    # Find the indices for all of the relevant columns
+    for h in range(0, len(headers)):
+        if acc_str in headers[h]:
+            acc_col.append(h)
+        for i in item_strs:
+            if i in headers[h] and h not in item_col:
+                item_col.append(h)
+    if acc_col == [] or item_col == []:
+        return []
+    # Make a list of corresponding positions by matching
+    # id headers and item headers
+    pos = []
+    for a in acc_col:
+        acc_string = headers[a]
+        acc_col_digit = [int(s) for s in acc_string.split("_") if
+                         s.isdigit()]
+        pos.append([a])
+        corr_cols = []
+        for i in item_col:
+            item_string = headers[i]
+            item_col_digit = [int(s) for s in item_string.split("_") if
+                              s.isdigit()]
+            if acc_col_digit == item_col_digit:
+                corr_cols.append(i)
+        pos[pos.index([a])].extend(corr_cols)
+    return pos
 
 
 # return_body: (listof Str) (listof Str) (listof Str) Str Str -> (listof Str)
@@ -85,7 +118,7 @@ if __name__ == "__main__":
             lines = []
             columns = importlib.import_module(mod).column_strs
             keys = importlib.import_module(mod).keys
-            pos = utils.find_positions("RUN", columns, headers)
+            pos = find_positions("RUN", columns, headers)
             if pos == []:
                 break
             new_headers.extend(return_headers(pos, headers, keys))

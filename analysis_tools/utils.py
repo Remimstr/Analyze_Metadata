@@ -14,17 +14,12 @@ sys.setdefaultencoding('utf-8')
 
 file_end = "_standardized.csv"
 
-# find_positions: Str (listof Str) Str -> None or
-# (listof ReaderObject, (listof Int), (listof Str))
-# This function searches the headers of an input csv for the strings
-# provided, acc_str, and item_strs. It returns the csv_reader object,
-# the positions found, and the headers of the csv file. The caller is
-# responsible for closing in_file (use .close())
+# find_positions: Str (listof Str) Str -> [] or (listof Int)
+# This function searches headers provided, headers, for the strings
+# provided, acc_str, and item_strs. It returns the positions found.
 
 
 def find_positions(acc_str, item_strs, headers):
-    # For each entry in the csv file, retrieve the accession number position(s)
-    # and the item of interest position(s)
     acc_col, item_col = [], []
     # Find the indices for all of the relevant columns
     for h in range(0, len(headers)):

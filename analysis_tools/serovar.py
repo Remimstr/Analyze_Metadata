@@ -11,7 +11,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/SeroSearch/")
+sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/SpellCheck/")
 path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
 from intelligent_suggest import intelligent_suggest
 
