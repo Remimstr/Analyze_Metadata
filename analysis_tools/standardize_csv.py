@@ -75,6 +75,7 @@ if __name__ == "__main__":
         csvin = open(in_file, "rb")
         # Set up the output csv for writing
         filename = in_file[:-4] + file_ext
+        print "Working on %s" % filename
         reader = csv.reader(csvin, delimiter=",")
         headers = reader.next()
         data = [i for i in reader]
@@ -92,14 +93,12 @@ if __name__ == "__main__":
                 if mod == "geographic_location":
                     lines.append(return_body(line, pos, keys, mod, geo_info))
                 elif mod == "serovar":
-                    print mod
                     lines.append(return_body(line, pos, keys, mod, sero_info))
                 else:
                     lines.append(return_body(line, pos, keys, mod, None))
             data_set.append(lines)
         # For each RUN number, find all data and append it
         if data_set != []:
-            print "Working on %s" % filename
             csvout = open(filename, "wb")
             csvwriter = csv.writer(csvout, delimiter=",")
             csvwriter.writerow(new_headers)

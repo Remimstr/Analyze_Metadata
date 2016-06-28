@@ -4,7 +4,8 @@ endSeconds=$(date -j -f "%Y-%m-%d" $2 "+%s")
 offset=518400
 increment=86400
 
-# Downloads Salmonella metadata using metadata.py in 1-week increments, starting at $1 and going to $2
+# Downloads Salmonella metadata using metadata.py in 1-week increments,
+# starting at $1 and going to $2
 while [ "$currentSeconds" -le "$endSeconds" ]
 do
   currentDateTs=$(date -j -f "%s" $currentSeconds "+%Y-%m-%d")
