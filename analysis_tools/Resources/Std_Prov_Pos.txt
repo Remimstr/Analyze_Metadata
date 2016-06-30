@@ -1,0 +1,2631 @@
+0	Arachosia
+1	Badakhshan
+2	Badghisat
+3	Baghlan
+4	Balkh
+5	Baman
+6	Farah
+7	Faryab
+8	Ghazn
+9	Ghowr
+10	Helmand
+11	Herat
+12	Jowzjan
+13	Juzjan
+14	Kabul
+15	Kapsa
+16	Konarha
+17	Laghman
+18	Lowgar
+19	Nangarhar
+20	Nmrz
+21	Orzgan
+22	Pakta
+23	Paktka
+24	Parvan
+25	Parwan
+26	Qandahar
+27	Qondz
+28	Samangan
+29	Takhar
+30	Vardak
+31	Zabol
+32	Berat
+33	Diber
+34	Durres
+35	Elbasan
+36	Fier
+37	Gjirokaster
+38	Korce
+39	Kukes
+40	Lezhe
+41	Shkoder
+42	Tirana
+43	Vlore
+44	Adrar
+45	Ain Defla
+46	Ain Temouchent
+47	Alger
+48	Algiers
+49	Annaba
+50	Batna
+51	Bechar
+52	Bejaia
+53	Biskra
+54	Blida
+55	Bordj Bou Arreridj
+56	Bouira
+57	Boumerdes
+58	Chlef
+59	Constantine
+60	Djelfa
+61	El Bayadh
+62	El Boulaida
+63	El Oued
+64	El Taref
+65	Ghardaia
+66	Guelma
+67	Illizi
+68	Jijel
+69	Khenchela
+70	Laghouat
+71	Lemdiyya
+72	M'Sila
+73	M'sila
+74	Mascara
+75	Medea
+76	Mila
+77	Mostaganem
+78	Naama
+79	Oran
+80	Ouargla
+81	Oum el-Bouaghi
+82	Relizane
+83	Saida
+84	Setif
+85	Sidi Bel Abbes
+86	Skikda
+87	Souk Ahras
+88	Tamanghasset
+89	Tebessa
+90	Tiaret
+91	Tindouf
+92	Tipasa
+93	Tissemsilt
+94	Tizi Ouzou
+95	Tlemcen
+96	Andorra le Vella
+97	Canillo
+98	Encamp
+99	Escaldes-Engordany
+100	La Massana
+101	Ordino
+102	Sant Julia de Loria
+103	Bengo
+104	Benguela
+105	Bie
+106	Cabinda
+107	Cuando Cubango
+108	Cuanza Norte
+109	Cuanza Sul
+110	Cunene
+111	Huambo
+112	Huila
+113	Luanda
+114	Lunda Norte
+115	Lunda Sul
+116	Malanje
+117	Moxico
+118	Namibe
+119	Uige
+120	Zaire
+121	Deception Island
+122	Halfmoon Island
+123	Livingston Island
+124	Ross Sea
+125	Antigua
+126	Barbuda
+127	Buenos Aires
+128	Catamarca
+129	Chaco
+130	Chubut
+131	Cordoba
+132	Corrientes
+133	Entre Rios
+134	Formosa
+135	Jujuy
+136	La Pampa
+137	La Rioja
+138	Mendoza
+139	Misiones
+140	Neuquen
+141	Rio Negro
+142	Salta
+143	San Juan
+144	San Luis
+145	Santa Cruz
+146	Santa Fe
+147	Santiago del Estero
+148	Tierra del Fuego
+149	Tucuman
+150	Aragatsotn
+151	Ararat
+152	Armavir
+153	Geghark'unik'
+154	Kotayk'
+155	Lori
+156	Shirak
+157	Syunik'
+158	Tavush
+159	Vayots'Dzor
+160	Yerevan
+161	Australian Antarctic Territory
+162	Australian Capital Territory
+163	Christmas Island
+164	Cocos (Keeling) Islands
+165	New South Wales
+166	Norfolk Island
+167	Northern Territory
+168	Queensland
+169	South Australia
+170	Tasmania
+171	Victoria
+172	Western Australia
+173	Burgenland
+174	Carinthia
+175	Niederosterreich
+176	Oberoesterreich
+177	Salzburg
+178	Styria
+179	Tirol
+180	Upper Austria
+181	Vienna
+182	Vorarlberg
+183	Khanlar
+184	Kutkashen
+185	Lerik
+186	Naxcivan
+187	Sal'yany
+188	Cat Island
+189	Exuma
+190	Barisal
+191	Chittagong
+192	Khulna
+193	Rajshahi
+194	Rangpur
+195	Sylhet
+196	Brestskaya Voblasts'
+197	Homyel'skaya Voblasts'
+198	Hrodzyenskaya Voblasts'
+199	Mahilyowskaya Voblasts'
+200	Minskaya Voblasts'
+201	Vitsyebskaya Voblasts'
+202	Antwerpen (Antwerp)
+203	Henegouwen (Hainaut)
+204	Limburg
+205	Luik (Liege)
+206	Luxembourg
+207	Namen (Namur)
+208	Oost-Vlaanderen (East Flanders)
+209	Vlaams-Brabant (Flemish Brabant)
+210	Waals-Brabant (Walloon Brabant)
+211	West-Vlaanderen
+212	Cayo
+213	Orange Walk
+214	Stann Creek
+215	Toledo
+216	Alibori
+217	Atakora
+218	Atlantique
+219	Borgou
+220	Collines
+221	Donga
+222	Kouffo
+223	Littoral
+224	Mono
+225	Oueme
+226	Plateau
+227	Zou
+228	Devonshire
+229	Hamilton
+230	Paget
+231	Pembroke
+232	Saint George's
+233	Sandy's
+234	Smith's
+235	Southampton
+236	Warwick
+237	Chirang
+238	Mongar
+239	Paro
+240	Punakha
+241	Thimpu
+242	Trongsa
+243	Beni
+244	Chuquisaca
+245	Cochabamba
+246	La Paz
+247	Oruro
+248	Pando
+249	Potosi
+250	Tarija
+251	Federation of Bosnia and Herzegovina
+252	Republika Srpska
+253	Central
+254	Chobe
+255	Ngamiland
+256	Acre
+257	Alagoas
+258	Amapa
+259	Amazonas
+260	Bahia
+261	Ceara
+262	Distrito Federal
+263	Espirito Santo
+264	Goias
+265	Maranhao
+266	Mato Grosso
+267	Mato Grosso do Sul
+268	Minas Gerais
+269	Para
+270	Paraiba
+271	Parana
+272	Pernambuco
+273	Piaui
+274	Rio Grande do Norte
+275	Rio Grande do Sul
+276	Rio de Janeiro
+277	Rondonia
+278	Roraima
+279	Santa Catarina
+280	Sao Paulo
+281	Sergipe
+282	Tocantins
+283	Anegada
+284	Beef Island
+285	Cooper Island
+286	Dog Islands
+287	Fallen Jerusalem
+288	Ginger Island
+289	Great Camanoe
+290	Great Thatch Island
+291	Great Tobago Island
+292	Guana Island
+293	Jost Van Dyke
+294	Little Tobago
+295	Necker Island
+296	Norman Island
+297	Peter Island
+298	Salt Island
+299	Scrub Island
+300	Tortola
+301	Virgin Gorda
+302	Belait
+303	Brunei and Muara
+304	Temburong
+305	Tutong
+306	Burgas
+307	Khaskovo
+308	Lovech
+309	Montana
+310	Plovdiv
+311	Ruse
+312	Sofiya
+313	Sofiya-Grad
+314	Varna
+315	Bale
+316	Bam
+317	Banwa
+318	Bazega
+319	Bougouriba
+320	Boulgou
+321	Boulkiemde
+322	Comoe
+323	Ganzourgou
+324	Gnagna
+325	Gourma
+326	Houe
+327	Ioba
+328	Kadiogo
+329	Kenedougou
+330	Komandjari
+331	Kompienga
+332	Kossi
+333	Koupelogo
+334	Kouritenga
+335	Kourweogo
+336	Leraba
+337	Loroum
+338	Mouhoun
+339	Nahouri
+340	Namentenga
+341	Naumbiel
+342	Nayala
+343	Oubritenga
+344	Oudalan
+345	Passore
+346	Poni
+347	Samentenga
+348	Sanguie
+349	Seno
+350	Sissili
+351	Soum
+352	Sourou
+353	Tapoa
+354	Tuy
+355	Yagha
+356	Yatenga
+357	Ziro
+358	Zondomo
+359	Zoundweogo
+360	Bubanza
+361	Bujumbura
+362	Bujumbura Mairie
+363	Bururi
+364	Cankuzo
+365	Cibitoke
+366	Gitega
+367	Karuzi
+368	Kayanza
+369	Kirundo
+370	Makamba
+371	Muramvya
+372	Muyinga
+373	Mwaro
+374	Ngozi
+375	Rutana
+376	Ruyigi
+377	Banteay Mean Cheay
+378	Batdambang
+379	Kampong Cham
+380	Kampong Chhnang
+381	Kampong Spoe
+382	Kampong Thum
+383	Kampot
+384	Kandal
+385	Kaoh Kong
+386	Kracheh
+387	Mondol Kiri
+388	Otdar Mean Cheay
+389	Pouthisat
+390	Preah Vihear
+391	Prey Veng
+392	Rotanah Kiri
+393	Siem Reab
+394	Stoeng Treng
+395	Svay Rieng
+396	Takev
+397	Adamawa
+398	Centre
+399	Centre-Sud
+400	Est
+401	Nord
+402	Nord-Ouest
+403	Ouest
+404	Sud
+405	Sud-Ouest
+406	Alberta
+407	British Columbia
+408	Manitoba
+409	New Brunswick
+410	Newfoundland and Labrador
+411	Northwest Territories
+412	Nova Scotia
+413	Nunavut
+414	Ontario
+415	Prince Edward Island
+416	Quebec
+417	Saskatchewan
+418	Yukon Territory
+419	Barlavento
+420	Sotavento
+421	Grand Cayman
+422	Bamingui-Bangoran
+423	Basse-Kotto
+424	Haut-Moumou
+425	Haute Kotto
+426	Kemo
+427	Lobaye
+428	Mambere-Kadei
+429	Mbomou
+430	Nana-Gribizi
+431	Nana-Mambere
+432	OmbellaMpoko
+433	Ouaka
+434	Ouham
+435	Ouham-Pende
+436	Sangha-Mbaere
+437	Vakaga
+438	Aisen
+439	Antofagasta
+440	Araucania
+441	Atacama
+442	Biobio
+443	Coquimbo
+444	Los Lagos
+445	Los Rios
+446	Magallanes-Antartica
+447	Maule
+448	O'Higgins
+449	Santiago
+450	Tarapaca
+451	Valparaiso
+452	Anhui
+453	Beijing Shi
+454	Canton
+455	Chongqing
+456	Fujian
+457	Gansu
+458	Guangdong
+459	Guangxi
+460	Guizhou
+461	Hainan
+462	Hebei
+463	Heilongjiang Sheng
+464	Henan
+465	Hong Kong
+466	Hong Kong Special Administrative Region
+467	Hubei
+468	Hunan
+469	Inner Mongolia
+470	Jiangsu
+471	Jiangxi
+472	Jilin
+473	Liaoning
+474	Macao
+475	Ningxia
+476	Qinghai
+477	Shaanxi
+478	Shandong
+479	Shanghai
+480	Shanxi
+481	Sichuan
+482	Taiwan
+483	Tianjin
+484	Tibet
+485	Xinjiang Uygur Zizhiqu
+486	Yunnan
+487	Zhejiang
+488	Antioquia
+489	Arauca
+490	Atlantico
+491	Bogota Capital District
+492	Bolivar
+493	Boyaca
+494	Caldas
+495	Caqueta
+496	Casanare
+497	Cauca
+498	Cesar
+499	Choco
+500	Cundinamarca
+501	Guainia
+502	Guaviare
+503	La Guajira
+504	Magdalena
+505	Meta
+506	Narino
+507	Norte de Santander
+508	Putumayo
+509	Quindio
+510	Risaralda
+511	San Andres Providencia and Santa Catalina
+512	San Andres y Providencia
+513	Santander
+514	Sucre
+515	Tolima
+516	Valle del Cauca
+517	Vaupes
+518	Vichada
+519	Grande Comore
+520	Mwali
+521	Nzwane
+522	Rarotonga
+523	Alajuela
+524	Cartago
+525	Guanacaste
+526	Heredia
+527	Limon
+528	Puntarenas
+529	San Jose
+530	Abidjan
+531	Agneby
+532	Bafing
+533	Bas-Sassandra
+534	Bouake
+535	Denguele
+536	Dix-Huit Montagnes
+537	Fromager
+538	Haut-Sassandra
+539	Lacs
+540	Lagunes
+541	Marahoue
+542	Moyen-Cavally
+543	Moyen-Comoe
+544	N'zi-Comoe
+545	Savanes
+546	Sud-Bandama
+547	Sud-Comoe
+548	Vallee du Bandama
+549	Worodougou
+550	Zanzan
+551	Bjelovar-Bilogora
+552	Brod-Posavina
+553	City of Zagreb
+554	Dubrovnik-Neretva
+555	Istria
+556	Karlovac
+557	Koprivnica-Krizevci
+558	Krapina-Zagorje
+559	Lika-Senj
+560	Medimurje
+561	Osijek-Baranja
+562	Pozega-Slavonia
+563	Primorje-Gorski Kotar
+564	Sibenik-Knin
+565	Sisak-Moslavina
+566	Split-Dalmatia
+567	Varazdin
+568	Virovitica-Podravina
+569	Vukovar-Syrmia
+570	Zadar
+571	Zagreb County
+572	Camaguey
+573	Ciego de Avila
+574	Cienfuegos
+575	Ciudad de la Habana
+576	Granma
+577	Guantanamo
+578	Holguin
+579	La Habana
+580	Las Tunas
+581	Matanzas
+582	Pinar del Rio
+583	Sancti-Spiritus
+584	Santiago de Cuba
+585	Villa Clara
+586	Kyrenia
+587	Limassol
+588	Nicosia
+589	Northern Cyprus
+590	Paphos
+591	Central Bohemia
+592	Hradec Kralove
+593	Karlovy
+594	Liberec
+595	Moravian-Silesian
+596	Northern Bohemia
+597	Olomouc
+598	Pardubice
+599	Plzen
+600	Prague
+601	Southern Bohemia
+602	Southern Moravia
+603	Usti nad Labem
+604	Vysocina
+605	Western Bohemia
+606	Zlin
+607	Bandundu
+608	Bas-Congo
+609	Equateur
+610	Ituri
+611	Kasai-Occidental
+612	Kasai-Oriental
+613	Katanga
+614	Kinshasa
+615	Maniema
+616	Nord-Kivu
+617	Orientale
+618	Sud-Kivu
+619	Tshopo
+620	Faroe Islands
+621	Hovedstaden
+622	Midtjylland
+623	Nordjylland
+624	Sjaelland
+625	Syddanmark
+626	Azua
+627	Bahoruco
+628	Barahona
+629	Dajabon
+630	Duarte
+631	El Seibo
+632	Espaillat
+633	Hato Mayor
+634	Independencia
+635	La Altagracia
+636	La Estrelleta
+637	La Romana
+638	La Vega
+639	Maria Trinidad Sanchez
+640	Monsenor Nouel
+641	Monte Cristi
+642	Monte Plata
+643	National District
+644	Pedernales
+645	Peravia
+646	Puerto Plata
+647	Salcedo
+648	Samana
+649	San Cristobal
+650	San Pedro de Macoris
+651	Sanchez Ramirez
+652	Santiago Rodriguez
+653	Valverde
+654	Amazonica
+655	Azuay
+656	Canar
+657	Carchi
+658	Chimborazo
+659	Cotopaxi
+660	El Oro
+661	Esmeraldas
+662	Galapagos
+663	Guayas
+664	Imbabura
+665	Loja
+666	Manabi
+667	Morona-Santiago
+668	Napo
+669	Orellana
+670	Pastaza
+671	Pichincha
+672	Santa Elena
+673	Santo Domingo de los Tsachilas
+674	Sucumbios
+675	Tungurahua
+676	Zamora Chinchipe
+677	Al Sharqia
+678	Alexandria
+679	Aswan
+680	Asyut
+681	Beheira
+682	Beni Suef
+683	Cairo
+684	Dakahlia
+685	Damietta
+686	Faiyum
+687	Gharbia
+688	Giza
+689	Ismailia
+690	Kafr el-Sheikh
+691	Luxor
+692	Matruh
+693	Minya
+694	Monufia
+695	New Valley
+696	North Sinai
+697	Port Said
+698	Qalyubia
+699	Qena
+700	Red Sea
+701	Sohag
+702	South Sinai
+703	Suez
+704	Ahuachapan
+705	Cabanas
+706	Chalatenango
+707	Cuscatlan
+708	La Libertad
+709	La Union
+710	Morazan
+711	San Miguel
+712	San Salvador
+713	San Vicente
+714	Santa Ana
+715	Sonsonate
+716	Usulutan
+717	Bioko
+718	Harju
+719	Hiiu
+720	Ida-Viru
+721	Jarva
+722	Jogeva
+723	Laane
+724	Laane-Virumaa
+725	Parnu
+726	Polva
+727	Rapla
+728	Saare
+729	Tartu
+730	Valga
+731	Viljandi
+732	Voru
+733	Arsi
+734	Gamo Gofa
+735	Gojam
+736	Gonder
+737	Harerge
+738	Ilubabor
+739	Kefa
+740	Oromia
+741	Shewa
+742	Sidamo
+743	Tigray Kifle Hager
+744	Welega
+745	Welo
+746	Nordoyar
+747	Streymoy
+748	Suduroy
+749	Vagar
+750	Cakaudrove
+751	Kadavu
+752	Lomaiviti
+753	Macuata
+754	Nadroga-Navosa
+755	Naitasiri
+756	Namosi
+757	Northern Division
+758	Rewa
+759	Rotuma
+760	Serua
+761	Viti Levu Island
+762	Vuda
+763	Aland Islands
+764	Central Finland
+765	Central Ostrobothnia
+766	Finland Proper
+767	Kainuu
+768	Kymenlaakso
+769	Lapland
+770	North Karelia
+771	Northern Ostrobothnia
+772	Northern Savonia
+773	Ostrobothnia
+774	Paijanne Tavastia
+775	Pirkanmaa
+776	Satakunta
+777	South Karelia
+778	Southern Ostrobothnia
+779	Southern Savonia
+780	Tavastia Proper
+781	Uusimaa
+782	Alsace
+783	Aquitaine
+784	Auvergne
+785	Basse-Normandie
+786	Brittany
+787	Burgundy
+788	Champagne-Ardenne
+789	Clipperton Island
+790	Corsica
+791	Franche-Comte
+792	French Southern and Antarctic Lands
+793	Haute Normandie
+794	Ile-de-France
+795	Languedoc-Roussillon
+796	Limousin
+797	Lorraine
+798	Midi-Pyrenees
+799	Nord-Pas-de-Calais
+800	Pays de la Loire
+801	Picardy
+802	Poitou-Charentes
+803	Provence-Alpes-Cote d'Azur
+804	Reunion
+805	Rhone-Alpes
+806	Saint Pierre And Miquelon
+807	Wallis and Futuna Islands
+808	Cayenne
+809	St-Laurent-du-Maroni
+810	Gambier Islands
+811	Marquesas Islands
+812	Mururoa
+813	Society Islands
+814	Tahiti
+815	Tuamotu Islands
+816	Tubuai Islands
+817	Estuaire
+818	Haut-Ogooue
+819	Moyen-Ogooue
+820	Ngounie
+821	Nyanga
+822	Ogooue-Ivindo
+823	Ogooue-Lolo
+824	Ogooue-Maritime
+825	Woleu-Ntem
+826	Abkhazia
+827	Adzharia
+828	Kakheti
+829	South Ossetia
+830	Baden
+831	Baden-Wuerttemberg
+832	Bavaria
+833	Berlin
+834	Brandenburg
+835	Bremen
+836	Hamburg
+837	Hesse
+838	Mecklenburg-Vorpommern
+839	Niedersachsen
+840	North Rhine-Westphalia
+841	Rhineland Palatinate
+842	Saarland
+843	Sachsen
+844	Saxony-Anhalt
+845	Schleswig-Holstein
+846	Thuringia
+847	Ashanti
+848	Brong-Ahafo
+849	Eastern
+850	Greater Accra
+851	Northern
+852	Upper East
+853	Upper West
+854	Volta
+855	Western
+856	Attica
+857	Central Greece
+858	Central Macedonia
+859	Crete
+860	East Macedonia and Thrace
+861	Epirus
+862	Ionian Islands
+863	North Aegean
+864	Peloponnese
+865	South Aegean
+866	Thessaly
+867	West Greece
+868	West Macedonia
+869	Kujalleq
+870	Qaasuitsup
+871	Qeqqata
+872	Sermersooq
+873	Alta Verapaz
+874	Baja Verapaz
+875	Chimaltenango
+876	Chiquimula
+877	El Progreso
+878	Escuintla
+879	Guatemala
+880	Huehuetenango
+881	Izabal
+882	Jalapa
+883	Jutiapa
+884	Peten
+885	Quezaltenango
+886	Quiche
+887	Retalhuleu
+888	Sacatepequez
+889	San Marcos
+890	Santa Rosa
+891	Solola
+892	Suchitepequez
+893	Totonicapan
+894	Zacapa
+895	Kindia
+896	Labe
+897	Nzerekore
+898	Barima-Waini
+899	Cuyuni-Mazaruni
+900	Demerara-Mahaica
+901	East Berbice-Corentyne
+902	Essequibo Islands-West Demerara
+903	Pomeroon-Supenaam
+904	Potaro-Siparuni
+905	Siparuni
+906	Upper Demerara-Berbice
+907	Upper Takutu-Upper Essequibo
+908	Artibonite
+909	Grand Anse
+910	Atlantida
+911	Choluteca
+912	Colon
+913	Comayagua
+914	Copan
+915	Cortes
+916	Francisco Morazan
+917	Gracias a Dios
+918	Intibuca
+919	Islas de la Bahia
+920	Lempira
+921	Ocotepeque
+922	Olancho
+923	Paraiso
+924	Santa Barbara
+925	Valle
+926	Yoro
+927	Bacs-Kiskun
+928	Baranya
+929	Bekes
+930	Borsod-Abauj-Zemplen
+931	Budapest
+932	Csongrad
+933	Fejer
+934	Gyor-Moson-Sopron
+935	Hajdu-Bihar
+936	Heves
+937	Jasz-Nagykun-Szolnok
+938	Komarom-Esztergom
+939	Nograd
+940	Pest
+941	Somogy
+942	Szabolcs-Szatmar-Bereg
+943	Tolna
+944	Vas
+945	Veszprem
+946	Zala
+947	Austurland
+948	Capital Region
+949	Nordurland eystra
+950	Nordurland vestra
+951	Sudurland
+952	Sudurnes
+953	Vestfirdir
+954	Vesturland
+955	Andaman and Nicobar
+956	Andhra Pradesh
+957	Arunachal Pradesh
+958	Assam
+959	Bihar
+960	Chandigarh
+961	Chhattisgarh
+962	Delhi National Capital Territory
+963	Goa
+964	Gujarat
+965	Haryana
+966	Himachal Pradesh
+967	Jammu-Kashmir
+968	Jharkhand
+969	Karnataka
+970	Kerala
+971	Madhya Pradesh
+972	Maharashtra
+973	Manipur
+974	Meghalaya
+975	Mizoram
+976	Nagaland
+977	Orissa
+978	Pondicherry
+979	Punjab
+980	Rajasthan
+981	Sikkim
+982	Tamil Nadu
+983	Telangana
+984	Tripura
+985	Uttar Pradesh
+986	Uttaranchal
+987	West Bengal
+988	Aceh
+989	Bali
+990	Banten
+991	Bengkulu
+992	Jakarta Raya
+993	Jambi
+994	Jawa Barat
+995	Jawa Tengah
+996	Jawa Timur
+997	Kalimantan Barat
+998	Kalimantan Selatan
+999	Kalimantan Tengah
+1000	Kalimantan Timur
+1001	Lampung
+1002	Maluku
+1003	Nusa Tenggara Barat
+1004	Nusa Tenggara Timur
+1005	Papua
+1006	Papua Barat
+1007	Riau
+1008	Sulawesi Barat
+1009	Sulawesi Selatan
+1010	Sulawesi Tengah
+1011	Sulawesi Tenggara
+1012	Sulawesi Utara
+1013	Sumatera Barat
+1014	Sumatera Selatan
+1015	Sumatera Utara
+1016	Yogyakarta
+1017	Alborz
+1018	Ardabil
+1019	Boyer Ahmadi-e Kohkiluyeh
+1020	Bushehr
+1021	Chahar Mahal-e Bakhtiari
+1022	East Azerbaijan
+1023	Esfahan
+1024	Fars
+1025	Gilan
+1026	Golestan
+1027	Hamadan
+1028	Hormozgan
+1029	Ilam
+1030	Kerman
+1031	Kermanshahan
+1032	Khorasan
+1033	Khuzestan
+1034	Kordestan
+1035	Kuhistan
+1036	Lorestan
+1037	Markazi
+1038	Mazandaran
+1039	Qazvin
+1040	Qom
+1041	Semnan
+1042	Sistan-e Baluchestan
+1043	Tehran
+1044	West Azerbaijan
+1045	Yazd
+1046	Zanjan
+1047	Al Anbar
+1048	Babil
+1049	Baghdad
+1050	Basra
+1051	Dahok
+1052	Dhi Qar
+1053	Diyala
+1054	Erbil
+1055	Halabja
+1056	Irbil
+1057	Karbala
+1058	Kirkuk
+1059	Maysan
+1060	Muthanna
+1061	Najaf
+1062	Nineveh
+1063	Qadisiyyah
+1064	Saladin
+1065	Sulaymaniyah
+1066	Wasit
+1067	Carlow
+1068	Cavan
+1069	Clare
+1070	Connemara
+1071	Cork
+1072	Cork City
+1073	Donegal
+1074	Dublin City
+1075	Dun Laoghaire-Rathdown
+1076	Fingal
+1077	Galway
+1078	Galway City
+1079	Kerry
+1080	Kildare
+1081	Kilkenny
+1082	Laois
+1083	Leinster
+1084	Leitrim
+1085	Limerick
+1086	Limerick City
+1087	Longford
+1088	Louth
+1089	Mayo
+1090	Meath
+1091	Monaghan
+1092	North Tipperary
+1093	Offaly
+1094	Roscommon
+1095	Sligo
+1096	South Dublin
+1097	South Tipperary
+1098	Waterford
+1099	Waterford City
+1100	Westmeath
+1101	Wexford
+1102	Wicklow
+1103	Central Coastal Plain
+1104	Golan Heights
+1105	Haifa
+1106	Jerusalem
+1107	Southern
+1108	West Bank
+1109	Abruzzi
+1110	Aosta Valley
+1111	Basilicata
+1112	Calabria
+1113	Campania
+1114	Cuneo
+1115	Emilia-Romagna
+1116	Friuli-Venezia Giulia
+1117	Lazio
+1118	Liguria
+1119	Lombardy
+1120	Marches
+1121	Molise
+1122	Piedmont
+1123	Puglia
+1124	Sardinia
+1125	Sicily
+1126	South Tyrol
+1127	Trentino
+1128	Trentino-Alto Adige
+1129	Tuscany
+1130	Umbria
+1131	Veneto
+1132	Cornwall
+1133	Middlesex
+1134	Surrey
+1135	Chubu
+1136	Chugoku
+1137	Hokkaido
+1138	Honshu
+1139	Kanto
+1140	Kinki
+1141	Kyushu-chiho
+1142	Okinawa
+1143	Shikoku-chiho
+1144	Tohoku-chiho
+1145	Al'Aqabah
+1146	Amman
+1147	Irbid
+1148	Jarash
+1149	Karak
+1150	Ma'an
+1151	Mafraq
+1152	Tafila
+1153	Akmola
+1154	Aktyubinsk
+1155	Almaty
+1156	Atyrau
+1157	Dzhambul
+1158	Dzhezkazgan
+1159	East Kazakhstan
+1160	Karaganda
+1161	Kokchetav
+1162	Kustanay
+1163	Kzyl-Orda
+1164	Mangistau
+1165	Pavlodar
+1166	Semipalatinsk
+1167	Severo-Kazakhstan
+1168	Shymkent
+1169	South Kazakhstan
+1170	Taldy-Kurgan
+1171	Taraz
+1172	Turgay
+1173	Zapadno-Kazakhstan
+1174	Baringo
+1175	Bomet
+1176	Bungoma
+1177	Busia
+1178	Coast
+1179	Elgeyo-Marakwet
+1180	Embu
+1181	Garissa
+1182	Homa Bay
+1183	Isiolo
+1184	Kajiado
+1185	Kakamega
+1186	Kericho
+1187	Kiambu
+1188	Kilifi
+1189	Kirinyaga
+1190	Kisii
+1191	Kisumu
+1192	Kitui
+1193	Kwale
+1194	Laikipia
+1195	Laikipia County
+1196	Lamu
+1197	Machakos
+1198	Makueni
+1199	Mandera
+1200	Marsabit
+1201	Meru
+1202	Migori
+1203	Mombasa
+1204	Murang'a
+1205	Nairobi
+1206	Nakuru
+1207	Nandi
+1208	Narok
+1209	North Eastern
+1210	Nyamira
+1211	Nyandarua
+1212	Nyanza
+1213	Nyeri
+1214	Rift Valley
+1215	Samburu
+1216	Siaya
+1217	Taita-Taveta
+1218	Tana River
+1219	Tharaka-Nithi
+1220	Trans Nzoia
+1221	Turkana
+1222	Uasin Gishu
+1223	Vihiga
+1224	Wajir
+1225	West Pokot
+1226	Al-Ahmadi
+1227	Al-Asimah
+1228	Al-Farwaniyah
+1229	Al-Jahra
+1230	Capital
+1231	Hawalli
+1232	Batken
+1233	Chuy
+1234	Jalal-Abad
+1235	Kirgizia
+1236	Naryn
+1237	Osh
+1238	Talas
+1239	Tash-Komur
+1240	Toktogul
+1241	Ysyk-Kol
+1242	Attapu
+1243	Bokeo
+1244	Bolikhamxay
+1245	Champasak
+1246	Houaphan
+1247	Khammouan
+1248	Louang Namtha
+1249	Louangphrabang
+1250	Oudomxai
+1251	Phongsali
+1252	Saravan
+1253	Savannakhet
+1254	Vientiane
+1255	Xaignabouri
+1256	Xekong
+1257	Xiangkhoang
+1258	Riga
+1259	Beirut
+1260	Beqaa
+1261	Mount Lebanon
+1262	Nabatieh
+1263	North
+1264	South
+1265	Grand Cape Mount
+1266	Nimba
+1267	Tripoli
+1268	Alytus
+1269	Kaunas
+1270	Klaipeda
+1271	Marijampole
+1272	Panevezys
+1273	Siauliai
+1274	Taurage
+1275	Telsai
+1276	Utena
+1277	Vilnius
+1278	Diekirch
+1279	Grevenmacher
+1280	Northeastern
+1281	Pelagonia
+1282	Polog
+1283	Skopje
+1284	Southeastern
+1285	Southwestern
+1286	Vardar
+1287	Antananarivo
+1288	Antsiranana
+1289	Fianarantsoa
+1290	Mahajanga
+1291	Toamasina
+1292	Toliara
+1293	Mangochi
+1294	Zomba
+1295	Federal Territory of Kuala Lumpur
+1296	Federal Territory of Labuan
+1297	Federal Territory of Putrajaya
+1298	Johor
+1299	Kedah
+1300	Kelantan
+1301	Malacca
+1302	Negeri Sembilan
+1303	Pahang
+1304	Perak
+1305	Perlis
+1306	Pinang
+1307	Sabah
+1308	Sarawak
+1309	Selangor
+1310	Terengganu
+1311	West Malaysia
+1312	Gozo
+1313	Malta Majjistral
+1314	Malta Xlokk
+1315	Flacq
+1316	Grand Port
+1317	Moka
+1318	Pamplemousses
+1319	Plaines Wilhems
+1320	Port Louis
+1321	Riviere Noire
+1322	Riviere du Rempart
+1323	Rodrigues
+1324	Savanne
+1325	Aguascalientes
+1326	Baja California
+1327	Baja California Sur
+1328	Campeche
+1329	Chiapas
+1330	Chihuahua
+1331	Coahuila
+1332	Colima
+1333	Durango
+1334	Guanajuato
+1335	Guerrero
+1336	Hidalgo
+1337	Jalisco
+1338	Mexico State
+1339	Michoacan
+1340	Morelos
+1341	Nayarit
+1342	Nuevo Leon
+1343	Oaxaca
+1344	Puebla
+1345	Queretaro
+1346	Quintana Roo
+1347	San Luis Potosi
+1348	Sinaloa
+1349	Sonora
+1350	Tabasco
+1351	Tamaulipas
+1352	Tlaxcala
+1353	Veracruz
+1354	Yucatan
+1355	Zacatecas
+1356	Chuuk
+1357	Kosrae
+1358	Pohnpei
+1359	Yap
+1360	Anenii Noi
+1361	Basarabeasca
+1362	Brinceni
+1363	Cahul
+1364	Cainari
+1365	Calaras
+1366	Camenca
+1367	Cantemir
+1368	Causeni
+1369	Ciadir-Lunga
+1370	Cimislia
+1371	Comrat
+1372	Criuleni
+1373	Donduseni
+1374	Drochia
+1375	Dubasari
+1376	Edinet
+1377	Falesti
+1378	Floresti
+1379	Glodeni
+1380	Grigoriopol
+1381	Hancesti
+1382	Ialoveni
+1383	Leova
+1384	Nisporeni
+1385	Ocnita
+1386	Orhei
+1387	Rezina
+1388	Ribnita
+1389	Riscani
+1390	Singerei
+1391	Slobozia
+1392	Soldanesti
+1393	Soroca
+1394	Stefan-Voda
+1395	Straseni
+1396	Taraclia
+1397	Telenesti
+1398	Ungheni
+1399	Vulcanesti
+1400	Arhangay
+1401	Bayanhongor
+1402	Bayanolgiy
+1403	Boyan-Khongor
+1404	Bulgan
+1405	Djungar Gobi
+1406	Dorngovi
+1407	Dornod
+1408	Dundgovi
+1409	Dzavhan
+1410	Govi-Altay
+1411	Hentiy
+1412	Hovd
+1413	Hovsgol
+1414	Khenteyskiy Aymak
+1415	Kobdo Aymak
+1416	Ovorhangay
+1417	Selenge
+1418	Shargyn-Gobi
+1419	South Gobi
+1420	South Khangai
+1421	Suhbaatar
+1422	Tov
+1423	Uvs
+1424	Zavkhan
+1425	Fes-Boulemane Region
+1426	Gharb-Chrarda-Beni Hssen Region
+1427	Guelmim-Es Semara Region
+1428	Marrakech-Tensift-El Haouz Region
+1429	Meknes-Tafilalet Region
+1430	Oriental Region
+1431	Rabat-Sale-Zemmour-Zaer Region
+1432	Souss-Massa-Draa Region
+1433	Tadla-Azilal Region
+1434	Tangier-Tetouan Region
+1435	Taza-Al Hoceima-Taounate Region
+1436	Cabo Delgado
+1437	Gaza
+1438	Inhambane
+1439	KwaZulu-Natal
+1440	Manica
+1441	Maputo
+1442	Nampula
+1443	Niassa
+1444	Sofala
+1445	Tete
+1446	Zambezia
+1447	Arakan
+1448	Chin
+1449	Kachin
+1450	Kayin
+1451	Magway
+1452	Mandalay
+1453	Sagaing
+1454	Shan
+1455	Tanintharyi
+1456	Yangon
+1457	Caprivi
+1458	Erongo
+1459	Hardap
+1460	Karas
+1461	Kavango
+1462	Khomas
+1463	Kunene
+1464	Ohangwena
+1465	Okavango
+1466	Oshikoto
+1467	Otjozondjupa
+1468	Far-western
+1469	Mid-western
+1470	Bonaire
+1471	Drenthe
+1472	Flevoland
+1473	Friesland
+1474	Gelderland
+1475	Groningen
+1476	North Brabant
+1477	North Holland
+1478	Overijssel
+1479	Saba
+1480	Sint Eustatius
+1481	South Holland
+1482	Utrecht
+1483	Zeeland
+1484	Chesterfield Islands
+1485	Isle of Pines
+1486	Loyalty Islands
+1487	Auckland
+1488	Chatham Islands
+1489	Kermadec Islands
+1490	Marlborough
+1491	Nelson
+1492	North Island
+1493	Otago
+1494	Snares Islands
+1495	South Island
+1496	Waikato
+1497	Wellington
+1498	Boaco
+1499	Carazo
+1500	Chinandega
+1501	Chontales
+1502	Esteli
+1503	Granada
+1504	Jinotega
+1505	Leon
+1506	Madriz
+1507	Managua
+1508	Masaya
+1509	Matagalpa
+1510	Nueva Segovia
+1511	Rio San Juan
+1512	Rivas
+1513	Zelaya
+1514	Abia
+1515	Abuja
+1516	Akwa-Ibom
+1517	Anambra
+1518	Bauchi
+1519	Benue
+1520	Borno
+1521	Cross River
+1522	Delta
+1523	Edo
+1524	Enugu
+1525	Imo
+1526	Jigawa
+1527	Kaduna
+1528	Kano
+1529	Katsina
+1530	Kebbi
+1531	Kogi
+1532	Kwara
+1533	Lagos
+1534	Niger
+1535	Ogun
+1536	Ondo
+1537	Osun
+1538	Oyo
+1539	Rivers
+1540	Sokoto
+1541	Taraba
+1542	Yobe
+1543	Maradi
+1544	Chagang
+1545	Kangwon
+1546	North Pyongyang
+1547	Pyongyang
+1548	Ryanggang
+1549	South Hwanghae
+1550	South Pyongyang
+1551	Johnston Atoll
+1552	Maug Islands
+1553	Pagan
+1554	Rota
+1555	Saipan
+1556	Tinian
+1557	Akershus
+1558	Aust-Agder
+1559	Bouvetoya
+1560	Buskerud
+1561	Finnmark
+1562	Hedmark
+1563	Hordaland
+1564	More og Romsdal
+1565	Nord-Trondelag
+1566	Nordland
+1567	Oppland
+1568	Oslo
+1569	Ostfold
+1570	Rogaland
+1571	Sogn og Fjordane
+1572	Sor-Trondelag
+1573	Svalbard
+1574	Telemark
+1575	Troms
+1576	Vest-Agder
+1577	Vestfold
+1578	Ad Dakhiliyah
+1579	Ad Dhahirah
+1580	Al Batinah North
+1581	Al Batinah South
+1582	Al Buraimi
+1583	Al Wusta
+1584	Ash Sharqiyah North
+1585	Ash Sharqiyah South
+1586	Dhofar
+1587	Musandam
+1588	Muscat
+1589	Indo-West Pacific
+1590	Azad Kashmir
+1591	Baluchistan
+1592	Gilgit-Baltistan
+1593	Islamabad
+1594	Khyber Pakhtunkhwa
+1595	Sind
+1596	Tribal Areas
+1597	Palau Islands
+1598	Bocas Del Toro
+1599	Canal Zone
+1600	Chiriqui
+1601	Cocle
+1602	Darien
+1603	Guna Yala
+1604	Herrera
+1605	Los Santos
+1606	Panama
+1607	San Blas
+1608	Veraguas
+1609	Bougainville
+1610	Chimbu
+1611	East New Britain
+1612	East Sepik
+1613	Eastern Highlands
+1614	Enga
+1615	Gulf
+1616	Madang
+1617	Manus
+1618	Milne Bay
+1619	Morobe
+1620	National Capital District
+1621	New Ireland
+1622	Southern Highlands
+1623	West New Britain
+1624	West Sepik
+1625	Western Highlands
+1626	Alto Paraguay
+1627	Alto Parana
+1628	Amambay
+1629	Asuncion
+1630	Boqueron
+1631	Caaguazu
+1632	Caazapa
+1633	Canindeyu
+1634	Concepcion
+1635	Cordillera
+1636	Guaira
+1637	Itapua
+1638	Neembucu
+1639	Nueva Asuncion
+1640	Paraguari
+1641	Presidente Hayes
+1642	San Pedro
+1643	Ancash
+1644	Apurimac
+1645	Arequipa
+1646	Ayacucho
+1647	Cajamarca
+1648	Callao
+1649	Cuzco
+1650	Huancavelica
+1651	Huanuco
+1652	Ica
+1653	Junin
+1654	Lambayeque
+1655	Lima
+1656	Loreto
+1657	Madre de Dios
+1658	Moquegua
+1659	Pasco
+1660	Piura
+1661	Puno
+1662	San Martin
+1663	Tacna
+1664	Tumbes
+1665	Ucayali
+1666	Autonomous Region in Muslim Mindanao
+1667	Bicol Region
+1668	Bohol
+1669	Cagayan Valley
+1670	Calabarzon
+1671	Caraga
+1672	Cebu
+1673	Central Luzon
+1674	Central Visayas
+1675	Cordillera Administrative Region
+1676	Davao
+1677	Eastern Visayas
+1678	Ilocos Region
+1679	Iloilo
+1680	Mimaropa
+1681	Mindanao Island
+1682	Misamis Oriental
+1683	National Capital Region
+1684	Northern Mindanao
+1685	Soccsksargen
+1686	Western Visayas
+1687	Zamboanga Peninsula
+1688	Greater Poland
+1689	Kuyavian-Pomeranian
+1690	Lesser Poland
+1691	Lodz
+1692	Lower Silesian
+1693	Lublin
+1694	Lubusz
+1695	Masovian
+1696	Opole
+1697	Podlaskie
+1698	Pomeranian
+1699	Silesia
+1700	Silesian
+1701	Subcarpathian
+1702	Swietokrzyskie
+1703	Warmian-Masurian
+1704	West Pomeranian
+1705	Alentejo
+1706	Aveiro
+1707	Azores
+1708	Beja
+1709	Braga
+1710	Braganca
+1711	Castelo Branco
+1712	Coimbra
+1713	Evora
+1714	Faro
+1715	Guarda
+1716	Leira
+1717	Lisboa
+1718	Madeira
+1719	Minho
+1720	Portalegre
+1721	Porto
+1722	Santarem
+1723	Setubal
+1724	Viana do Castelo
+1725	Vila Real
+1726	Viseu
+1727	Adjuntas
+1728	Aguada
+1729	Aguadilla
+1730	Aguas Buenas
+1731	Aibonito
+1732	Anasco
+1733	Arecibo
+1734	Arroyo
+1735	Barceloneta
+1736	Barranquitas
+1737	Bayamon
+1738	Cabo Rojo
+1739	Caguas
+1740	Camuy
+1741	Canovanas
+1742	Carolina
+1743	Catano
+1744	Cayey
+1745	Ceiba
+1746	Ciales
+1747	Cidra
+1748	Coamo
+1749	Comerio
+1750	Corozal
+1751	Culebra
+1752	Dorado
+1753	Fajardo
+1754	Florida
+1755	Guanica
+1756	Guayama
+1757	Guayanilla
+1758	Guaynabo
+1759	Gurabo
+1760	Hatillo
+1761	Hormigueros
+1762	Humacao
+1763	Isabela
+1764	Jayuya
+1765	Juana Diaz
+1766	Juncos
+1767	Lajas
+1768	Lares
+1769	Las Marias
+1770	Las Piedras
+1771	Loiza
+1772	Luquillo
+1773	Manati
+1774	Maricao
+1775	Maunabo
+1776	Mayaguez
+1777	Moca
+1778	Morovis
+1779	Naguabo
+1780	Naranjito
+1781	Orocovis
+1782	Patillas
+1783	Penuelas
+1784	Ponce
+1785	Quebradillas
+1786	Rincon
+1787	Rio Grande
+1788	Sabana Grande
+1789	Salinas
+1790	San German
+1791	San Lorenzo
+1792	San Sebastian
+1793	Santa Isabel
+1794	Toa Alta
+1795	Toa Baja
+1796	Trujillo Alto
+1797	Utuado
+1798	Vega Alta
+1799	Vega Baja
+1800	Vieques
+1801	Villalba
+1802	Yabucoa
+1803	Yauco
+1804	Al Daayen
+1805	Al Khor
+1806	Al Wakrah
+1807	Ar Rayyan
+1808	Doha
+1809	Madinatash Shamal
+1810	Umm Salal
+1811	Bouenza
+1812	Brazzaville
+1813	Cuvette
+1814	Kouilou
+1815	Lekoumou
+1816	Likouala
+1817	Niari
+1818	Plateaux
+1819	Pool
+1820	Sangha
+1821	Alba
+1822	Arad
+1823	Arges
+1824	Bacau
+1825	Bihor
+1826	Bistrita-Nasaud
+1827	Botosani
+1828	Braila
+1829	Brasov
+1830	Bucharest
+1831	Buzau
+1832	Caras-Severin
+1833	Cluj
+1834	Constanta
+1835	Covasna
+1836	Crisana
+1837	Dambovita
+1838	Dobrogea
+1839	Galati
+1840	Gorj
+1841	Harghita
+1842	Hunedoara
+1843	Iasi
+1844	Ilfov
+1845	Maramures
+1846	Mehedinti
+1847	Moldavia
+1848	Muntenia
+1849	Mures
+1850	Neamt
+1851	Olt
+1852	Oltenia
+1853	Prahova
+1854	Salaj
+1855	Sibiu
+1856	Suceava
+1857	Timis
+1858	Tulcea
+1859	Valcea
+1860	Vaslui
+1861	Adygeya
+1862	Altai Krai
+1863	Altai Republic
+1864	Amur
+1865	Arkhangelsk
+1866	Astrakhan
+1867	Bashkortostan
+1868	Belgorod
+1869	Bryansk
+1870	Buryatiya
+1871	Chechnya
+1872	Chelyabinsk
+1873	Chukot Autonomous Okrug
+1874	Chuvashia
+1875	Dagestan
+1876	Ingushetia
+1877	Irkutsk
+1878	Ivanovo
+1879	Jewish Autonomous Oblast
+1880	Kabardino-Balkaria
+1881	Kaliningrad
+1882	Kalmykiya
+1883	Kaluga
+1884	Kamchatka Krai
+1885	Karachay-Cherkessia
+1886	Karelia
+1887	Kemerovo
+1888	Khabarovsk Krai
+1889	Khakassia
+1890	Khanty-Mansi Autonomous Okrug
+1891	Kirov
+1892	Komi
+1893	Kostroma
+1894	Krasnodar Krai
+1895	Krasnoyarsk Krai
+1896	Kurgan
+1897	Kursk
+1898	Leningrad
+1899	Lipetsk
+1900	Magadan
+1901	Mari El
+1902	Mordovia
+1903	Moscow Federal City
+1904	Moskovskaya
+1905	Murmansk
+1906	Nenets Autonomous Okrug
+1907	Nizhniy Novgorod
+1908	North Ossetia-Alania
+1909	Novgorod
+1910	Novosibirsk
+1911	Omsk
+1912	Orenburg
+1913	Oryol
+1914	Penza
+1915	Perm Krai
+1916	Primorsky Krai
+1917	Pskov
+1918	Rostov
+1919	Ryazan
+1920	Saint Petersburg
+1921	Sakha-Yakutiya
+1922	Sakhalinskaya
+1923	Samara
+1924	Saratov
+1925	Smolenskaya
+1926	Stavropol Krai
+1927	Sverdlovskaya
+1928	Tambovskaya
+1929	Tatarstan
+1930	Tomsk
+1931	Tulskaya Oblast
+1932	Tverskaya
+1933	Tyumenskaya
+1934	Tyva
+1935	Udmurtskaya
+1936	Ulyanovskaya
+1937	Vladimirskaya
+1938	Volgograd
+1939	Vologodskaya
+1940	Voronezh
+1941	Yamal-Nenets Autonomous Okrug
+1942	Yaroslavskaya
+1943	Zabaykalsky Krai
+1944	Ascension Island
+1945	Saint Helena
+1946	Tristan da Cunha
+1947	Nevis
+1948	Anse-la-Raye
+1949	Babonneau
+1950	Castries
+1951	Dennery
+1952	Gros Islet
+1953	Micoud
+1954	Soufriere
+1955	Vieux Fort
+1956	Charlotte Parish
+1957	Grenadines Parish
+1958	Saint Andrew Parish
+1959	Saint David Parish
+1960	Saint George Parish
+1961	Saint Patrick Parish
+1962	Saint Vincent
+1963	Principe
+1964	Sao Tome
+1965	Asir
+1966	Bahah
+1967	Ha'il
+1968	Jawf
+1969	Jizan
+1970	Madinah
+1971	Makkah
+1972	Najran
+1973	Northern Borders
+1974	Qasim
+1975	Riyad
+1976	Tabuk
+1977	Dakar
+1978	Fatick
+1979	Kedougou
+1980	Kolda
+1981	Saint-Louis
+1982	Thies
+1983	Belgrade
+1984	Kosovo and Metohija
+1985	Southern and Eastern Serbia
+1986	Sumadija and Western Serbia
+1987	Vojvodina
+1988	Amirantes
+1989	Mahe
+1990	Banska Bystrica
+1991	Bratislava
+1992	Kosice
+1993	Nitra
+1994	Presov
+1995	Trencin
+1996	Trnava
+1997	Zilina
+1998	Carniola
+1999	Central Sava
+2000	Central Slovenia
+2001	Coastal-Karst
+2002	Drava
+2003	Gorizia
+2004	Inner Carniola-Karst
+2005	Lower Sava
+2006	Mura
+2007	Savinja
+2008	Slovenske Konjice
+2009	Southeast Slovenia
+2010	Upper Carniola
+2011	Choiseul
+2012	Guadalcanal
+2013	Isabel
+2014	Makira
+2015	Malaita
+2016	Cape of Good Hope
+2017	Eastern Cape
+2018	Free State
+2019	Gauteng
+2020	Limpopo
+2021	Mpumalanga
+2022	North-West
+2023	Northern Cape
+2024	Transkei
+2025	Western Cape
+2026	South Georgia Island
+2027	South Sandwich Islands
+2028	Busan Metro City
+2029	Cheju-do
+2030	Daegu Metro City
+2031	Daejeon Metro City
+2032	Gwangju Metro City
+2033	Incheon Metro City
+2034	Kangwon-do
+2035	Kyonggi-do
+2036	North Ch'ungch'ong
+2037	North Cholla
+2038	North Kyongsang
+2039	Sejong Special City
+2040	Seoul Special City
+2041	South Ch'ungch'ong
+2042	South Cholla
+2043	South Kyongsang
+2044	Ulsan Metro City
+2045	Central Equatoria
+2046	Albacete
+2047	Almeria
+2048	Andalusia
+2049	Aragon
+2050	Asturias
+2051	Balearic Islands
+2052	Basque Country
+2053	Canary Islands
+2054	Cantabria
+2055	Castilla y Leon
+2056	Castilla-La Mancha
+2057	Catalonia
+2058	Comunidad Valenciana
+2059	Comunidad de Madrid
+2060	Cuenca
+2061	Extremadura
+2062	Galicia
+2063	Murcia
+2064	Navarra
+2065	Zaragoza
+2066	North Central
+2067	North Western
+2068	Sabaragamuwa
+2069	Uva
+2070	Blue Nile
+2071	Khartoum
+2072	White Nile
+2073	Brokopondo
+2074	Commewijne
+2075	Coronie
+2076	Marowijne
+2077	Nickerie
+2078	Paramaribo
+2079	Saramacca
+2080	Sipaliwini
+2081	Suriname
+2082	Hhohho
+2083	Lubombo
+2084	Manzini
+2085	Mhlume
+2086	Shiselweni
+2087	Blekinge
+2088	Dalarna
+2089	Gavleborg
+2090	Gotland
+2091	Halland
+2092	Jamtland
+2093	Jonkoping
+2094	Kalmar
+2095	Kronoberg
+2096	Lappland
+2097	Norrbotten
+2098	Orebro
+2099	Ostergotland
+2100	Skane
+2101	Sodermanland
+2102	Stockholm
+2103	Uppsala
+2104	Varmland
+2105	Vasterbotten
+2106	Vasternorrland
+2107	Vastmanland
+2108	Vastra Gotaland
+2109	Aargau
+2110	Appenzell-Ausser Rhoden
+2111	Appenzell-Inner Rhoden
+2112	Basel-Landschaft
+2113	Basel-Stadt
+2114	Bern
+2115	Fribourg
+2116	Geneva
+2117	Glarus
+2118	Graubunden
+2119	Jura
+2120	Luzern
+2121	Neuchatel
+2122	Nidwalden
+2123	Obwalden
+2124	Sankt Gallen
+2125	Schaffhausen
+2126	Schwyz
+2127	Solothurn
+2128	Thurgau
+2129	Ticino
+2130	Uri
+2131	Valais
+2132	Vaud
+2133	Zug
+2134	Zurich
+2135	Al Ladhiqiyah
+2136	Al-Hasakah
+2137	Al-Qunaytirah
+2138	Ar-Raqqah
+2139	As Suwayda
+2140	Damascus
+2141	Dar'a
+2142	Dayr az-Zawr
+2143	Halab
+2144	Hamah
+2145	Hims
+2146	Idlib
+2147	Tartus
+2148	Fujian Province
+2149	Hsinchu City
+2150	Hsinchu County
+2151	Hualien City
+2152	Hualien County
+2153	Jiayi City
+2154	Jiayi County
+2155	Kaohsiung City
+2156	Keelung City
+2157	Kinmen County
+2158	Lienchiang County
+2159	Miaoli County
+2160	Nantou County
+2161	New Taipei City
+2162	Penghu County
+2163	Pingtung County
+2164	Taichung City
+2165	Taidong County
+2166	Tainan City
+2167	Taipei City
+2168	Taiwan Province
+2169	Taoyuan County
+2170	Yilan County
+2171	Yunlin County
+2172	Zhanghua County
+2173	Dushanbe
+2174	Gorno-Badakhshan
+2175	Region of Republican Subordination
+2176	Sughd
+2177	Arusha
+2178	Dar-Es-Salaam
+2179	Dodoma
+2180	Iringa
+2181	Kagera
+2182	Kigoma
+2183	Kilimanjaro
+2184	Lindi
+2185	Manyara
+2186	Mara
+2187	Mbeya
+2188	Morogoro
+2189	Mtwara
+2190	Mwanza
+2191	Pemba Island
+2192	Pwani
+2193	Rukwa
+2194	Ruvuma
+2195	Shinyanga
+2196	Singida
+2197	Tabora
+2198	Tanga
+2199	Zanzibar
+2200	Ang Thong
+2201	Bangkok
+2202	Buriram
+2203	Chaiyaphum
+2204	Chanthaburi
+2205	Chiang Mai
+2206	Chiang Rai
+2207	Chon Buri
+2208	Chumphon
+2209	Kalasin
+2210	Kamphaeng Phet
+2211	Kanchanaburi
+2212	Khon Kaen
+2213	Krabi
+2214	Krung Thep Mahanakhon
+2215	Lampang
+2216	Lamphun
+2217	Loei
+2218	Lop Buri
+2219	Mae Hong Son
+2220	Maha Sarakham
+2221	Nakhon Nayok Nayok
+2222	Nakhon Pathom
+2223	Nakhon Phanom
+2224	Nakhon Ratchasima
+2225	Nakhon Sawan
+2226	Nakhon Si Thammarat
+2227	Nan
+2228	Narathiwat
+2229	Nong Bua Lamphu
+2230	Nong Khai
+2231	Pattani
+2232	Phangnga
+2233	Phatthalung
+2234	Phayao
+2235	Phet Buri
+2236	Phetchabun
+2237	Phichit
+2238	Phitsanulok
+2239	Phra Nakhon Si Ayutthaya
+2240	Phrae
+2241	Phuket
+2242	Prachin Buri
+2243	Prachuap Khiri Khan
+2244	Ranong
+2245	Rat Buri
+2246	Ratchaburi
+2247	Rayong
+2248	Roi Et
+2249	Sakon Nakhon
+2250	Samut Sakhon
+2251	Samut Songkhram
+2252	Sara Buri
+2253	Saraburi
+2254	Satun
+2255	Sing Buri
+2256	Songkhla
+2257	Suphan Buri
+2258	Surat Thani
+2259	Surin
+2260	Tak
+2261	Trang
+2262	Trat
+2263	Ubon Ratchathani
+2264	Udon Thani
+2265	Uthai Thani
+2266	Uttaradit
+2267	Yala
+2268	Aileu
+2269	Ainaro
+2270	Baucau
+2271	Bobonaro
+2272	Cova Lima
+2273	Dili
+2274	Ermera
+2275	Lautem
+2276	Manufahi
+2277	Oecusse
+2278	Viqueque
+2279	De la Kara
+2280	Des Plateaux
+2281	Des Savanes
+2282	Maritime Region
+2283	Region Centrale
+2284	'Eua
+2285	Ha'apai
+2286	Niuas
+2287	Tongatapu
+2288	Vava'u
+2289	Caroni
+2290	Mayaro
+2291	Nariva
+2292	Saint Andrew
+2293	Saint David
+2294	Saint George
+2295	Saint Patrick
+2296	Ariana
+2297	Bajah
+2298	Ben Arous
+2299	Bizerte
+2300	Gabes
+2301	Gafsa
+2302	Jendouba
+2303	Kairouan
+2304	Kasserine
+2305	Kebili
+2306	Kef
+2307	Mahdia
+2308	Manouba
+2309	Medenine
+2310	Monastir
+2311	Nabeul
+2312	Sfax
+2313	Sidi Bouzid
+2314	Siliana
+2315	Sousse
+2316	Tataouine
+2317	Tozeur
+2318	Tunis
+2319	Zaghouan
+2320	Adana
+2321	Adiyaman
+2322	Afyon
+2323	Agri
+2324	Aksaray
+2325	Amasya
+2326	Ankara
+2327	Antalya
+2328	Ardahan
+2329	Artvin
+2330	Aydin
+2331	Balikesir
+2332	Bartin
+2333	Batman
+2334	Bayburt
+2335	Bilecik
+2336	Bingol
+2337	Bitlis
+2338	Bolu
+2339	Burdur
+2340	Bursa
+2341	Canakkale
+2342	Cankiri
+2343	Corum
+2344	Denizli
+2345	Diyarbakir
+2346	Duzce
+2347	Edirne
+2348	Elazig
+2349	Erzincan
+2350	Erzurum
+2351	Eskisehir
+2352	Gaziantep
+2353	Giresun
+2354	Gumushane
+2355	Hakkari
+2356	Hatay
+2357	Igdir
+2358	Isparta
+2359	Istanbul
+2360	Izmir
+2361	Kahraman Maras
+2362	Karabuk
+2363	Karaman
+2364	Kars
+2365	Kastamonu
+2366	Kayseri
+2367	Kilis
+2368	Kirikkale
+2369	Kirklareli
+2370	Konya
+2371	Kutahya
+2372	Malatya
+2373	Manisa
+2374	Mardin
+2375	Marmara
+2376	Mersin
+2377	Mugla
+2378	Mus
+2379	Nevsehir
+2380	Nigde
+2381	Ordu
+2382	Osmaniye
+2383	Rize
+2384	Sakarya
+2385	Samsun
+2386	Sanliurfa
+2387	Siirt
+2388	Sinop
+2389	Sirnak
+2390	Sivas
+2391	Tekirdag
+2392	Tokat
+2393	Trabzon
+2394	Tunceli
+2395	Usak
+2396	Van
+2397	Yozgat
+2398	Zonguldak
+2399	Ahal
+2400	Ashgabat City
+2401	Balkan
+2402	Chardzhou
+2403	Dasoguz
+2404	Krasnovodskaya
+2405	Kushka
+2406	Mary
+2407	Cerkassy
+2408	Cernigov
+2409	Cernovcy
+2410	Char'kov
+2411	Cherson
+2412	Dnepropetrovsk
+2413	Doneck
+2414	Ivano-Frankovsk
+2415	Kiev
+2416	Kirovohrad
+2417	Kmel'nitskaya
+2418	Krym
+2419	L'viv
+2420	Luhansk
+2421	Nikolajev
+2422	Odessa
+2423	Poltava
+2424	Rovno
+2425	Sumy
+2426	Ternopol
+2427	Vinnica
+2428	Volyn
+2429	Zakarpatskaja
+2430	Zaporozje
+2431	Zitomir
+2432	Abu Dhabi
+2433	Ajman
+2434	Dubai
+2435	Fujairah
+2436	Ras al-Khaymah
+2437	Sharjah
+2438	Umm al-Qaywayn
+2439	England
+2440	Northern Ireland
+2441	Scotland
+2442	Turks and Caicos Islands
+2443	Wales
+2444	Saint Croix
+2445	Saint John
+2446	Saint Thomas
+2447	Alabama
+2448	Alaska
+2449	American Samoa
+2450	Arizona
+2451	Arkansas
+2452	California
+2453	Colorado
+2454	Connecticut
+2455	Delaware
+2456	District of Columbia
+2457	Georgia
+2458	Hawaii
+2459	Idaho
+2460	Illinois
+2461	Indiana
+2462	Iowa
+2463	Kansas
+2464	Kentucky
+2465	Louisiana
+2466	Maine
+2467	Maryland
+2468	Massachusetts
+2469	Michigan
+2470	Minnesota
+2471	Mississippi
+2472	Missouri
+2473	Nebraska
+2474	Nevada
+2475	New Hampshire
+2476	New Jersey
+2477	New Mexico
+2478	New York
+2479	North Carolina
+2480	North Dakota
+2481	Ohio
+2482	Oklahoma
+2483	Oregon
+2484	Pennsylvania
+2485	Rhode Island
+2486	South Carolina
+2487	South Dakota
+2488	Tennessee
+2489	Texas
+2490	Utah
+2491	Vermont
+2492	Virginia
+2493	Washington
+2494	West Virginia
+2495	Wisconsin
+2496	Wyoming
+2497	Artigas
+2498	Canelones
+2499	Maldonado
+2500	Montevideo
+2501	Paysandu
+2502	Rivera
+2503	Rocha
+2504	Soriano
+2505	Tacuarembo
+2506	Treinta y Tres
+2507	Andizhanskaya
+2508	Bukhara
+2509	Buxoro
+2510	Central Kyzyl-Kum
+2511	Fergana
+2512	Jizzax Viloyati
+2513	Khorazm
+2514	Namangan
+2515	Navoi
+2516	Qashqadaryo
+2517	Qoraqalpog'iston
+2518	Samarqand
+2519	Sirdaryo
+2520	Surkhondaryo
+2521	Surxondaryo Viloyati
+2522	Tashkent
+2523	Malampa
+2524	Sanma
+2525	Shefa
+2526	Tafea
+2527	Torba
+2528	Anzoategui
+2529	Apure
+2530	Aragua
+2531	Barinas
+2532	Carabobo
+2533	Cojedes
+2534	Falcon
+2535	Guarico
+2536	Lara
+2537	Merida
+2538	Miranda
+2539	Monagas
+2540	Nueva Esparta
+2541	Portuguesa
+2542	Tachira
+2543	Trujillo
+2544	Yaracuy
+2545	Zulia
+2546	An Giang
+2547	Ba Ria-Vung Tau
+2548	Bac Giang
+2549	Bac Kan
+2550	Bac Lieu
+2551	Bac Ninh
+2552	Ben Tre
+2553	Binh Dinh
+2554	Binh Duong
+2555	Binh Phuoc
+2556	Binh Thuan
+2557	Ca Mau
+2558	Can Tho
+2559	Cao Bang
+2560	Da Nang City
+2561	Dac Lac
+2562	Dak Nong
+2563	Dien Bien
+2564	Dong Nai
+2565	Dong Thap
+2566	Gia Lai
+2567	Ha Giang
+2568	Ha Nam
+2569	Ha Noi City
+2570	Ha Tinh
+2571	Hai Duong
+2572	Hai Phong
+2573	Hau Giang
+2574	Hoa Binh
+2575	Hung Yen
+2576	Khanh Hoa
+2577	Kien Giang
+2578	Kon Tum
+2579	Lai Chau
+2580	Lam Dong
+2581	Lang So'n
+2582	Lao Cai
+2583	Long An
+2584	Nam Dinh
+2585	Nghe An
+2586	Ninh Binh
+2587	Ninh Thuan
+2588	North Vietnam
+2589	Phu Tho
+2590	Phu Yen
+2591	Quang Binh
+2592	Quang Nam
+2593	Quang Ngai
+2594	Quang Ninh
+2595	Quang Tri
+2596	So'n La
+2597	Soc Trang
+2598	South Vietnam
+2599	Tay Ninh
+2600	Thai Binh
+2601	Thai Nguyen
+2602	Thanh Hoa
+2603	Thanh Pho-Ho Chi Minh
+2604	Thua Thien Hue
+2605	Tien Giang
+2606	Tra Vinh
+2607	Tuyen Quang
+2608	Vinh Long
+2609	Vinh Phuc
+2610	Yen Bai
+2611	Al-Mahwit
+2612	Ibb
+2613	Sana
+2614	Shabwah
+2615	Taizz
+2616	al-Hudaydah
+2617	Copperbelt
+2618	Luapula
+2619	Lusaka
+2620	North-Western
+2621	Bulawayo
+2622	Harare
+2623	Manicaland
+2624	Mashonaland Central
+2625	Mashonaland East
+2626	Mashonaland West
+2627	Masvingo District
+2628	Matabeleland North
+2629	Matabeleland South
+2630	Midlands

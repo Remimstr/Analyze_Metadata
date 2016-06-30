@@ -1,0 +1,253 @@
+Afghanistan	tfghanisnaA
+Albania	+lbania
+Algeria	Algeria
+Andorra	Akndorra
+Angola	lngoAaa
+Anguilla	Anguilla
+Antarctica	Antar_-tica
+Antigua and Barbuda	Antigua and Barbuda
+Arctic Ocean	Arctic Ocean
+Argentina	Argentina
+Armenia	Armena
+Aruba	Aruba
+Atlantic Ocean	ntlantic OceaA
+Australia	us(ralia
+Austria	Austri0
+Azerbaijan	-zerbiajn
+Bahamas	Bazhamaps
+Bahrain	Bahrain
+Baltic Sea	Baltic Sea
+Bangladesh	Bangladesc
+Barbados	Barbdos
+Belarus	elarux
+Belgium	gilBuem
+Belize	Bli
+Benin	Bnein
+Bermuda	Beud
+Bhutan	Bhutan
+Bolivia	Boiilva
+Bosnia and Herzegovina	Bosniaeand Herz govina
+Botswana	Boaswant
+Brazil	Bzrazil
+British Indian Ocean Territory	British Indian Ocea Teritory
+British Virgin Islands	British) Virgin Isla[nds
+Brunei	Br-yeh
+Bulgaria	Bilgarua
+Burkina Faso	Burkina F4aso
+Burundi	Burundi
+Cambodia	Cambodia
+Cameroon	Cwameroon
+Canada	Canada
+Cape Verde	Cape Verde
+Caribbean Sea	Caribbean Sea
+Cayman Islands	Cayman Ilands
+Central African Republic	Centrat African Republic
+Chad	Chad
+Chile	Chie
+China	Chin
+Colombia	Coomia
+Comoros	aComo_roqs
+Cook Islands	Cook Islan4ds
+Costa Rica	Cota Rica
+Cote d'Ivoire	Codte'voie
+Croatia	Croatnia
+Cuba	Cub:a
+Curacao	Curacao
+Cyprus	Cy3rus
+Czech Republic	Czech Reopufblic
+Democratic Republic of the Congo	Democratic Republic of the Congo
+Denmark	Denmak
+Djibouti	Djibouti
+Dominican Republic	DominicanRepubic
+Dominica	Domiinca
+Ecuador	Ecdor
+Egypt	gyp
+El Salvador	El Salvaor
+Equatorial Guinea	Equatxorial Guinea
+Eritrea	Edritr)ea
+Estonia	Estonia
+Ethiopia	7[hiopi5
+Exception - Aquarium	Exception - Aquarium
+Exception - Cultivated	Exception3- Cultivated
+Exception - Culture	Exceptifon - Culture
+Exception - Laboratory Colony	Exception - Laboratory Colony
+Exception - Quarantine Capture	ExceQtiont- puaran ine Capture
+Exception - Zoological Park	Exception - Zoologccal Park
+Faeroe Islands	Faeroe +Islands
+Falkland Islands	Falkland Islands
+Fiji	Fiji
+Finland	Filnland
+France	nraFce
+French Guiana	French Guipna
+French Polynesia	Franch Polynesie
+Gabon	Gabon
+Gambia	)ambia
+Georgia	Gergia
+Germany	ermany
+Ghana	hynua
+Gibraltar	Gibraltar
+Greece	0reece
+Greenland	Greeuland
+Grenada	Grenada
+Guadeloupe	Guadeloue
+Guam	Guam
+Guatemala	Guatemala
+Guernsey	Guernsey
+Guinea-Bissau	Guinea-Bissau
+Guinea	6ia
+Gulf of Mexico	luGf of Mexico
+Guyana	Guyana
+Haiti	Haoti
+Honduras	Honduras
+Hungary	Hungaru
+Iceland	Iceland
+Indian Ocean	IqdianOcean
+India	:ndia
+Indonesia	Indonesia
+Iran	Iran
+Iraq	raq
+Ireland	Irxland
+Isle of Man	Isle of Man
+Israel	Israel
+Italy	I]aly
+Jamaica	Ja1maica
+Japan	Jnaap
+Jersey	Jersey
+Jordan	Jordan
+Kazakhstan	Kaakhstan
+Kenya	eKnya
+Kiribati	Kiribati
+Kosovo	Kosovo
+Kuwait	Kuw2a-it
+Kyrgyzstan	Kyrgyzstan
+Laboratory Culture	Lboratory Culture
+Laos	saoL
+Latvia	Latvia
+Lebanon	Lebanon
+Lesotho	p3uotho
+Liberia	eibLria
+Libya	Libay
+Liechtenstein	Liechtenstein
+Lithuania	aitiLnua
+Luxembourg	Luxe2bourg
+Macedonia	Maedonia
+Madagascar	Maaascar
+Malawi	sal[wi
+Malaysia	Mlaysia
+Maldives	Ma(dives
+Mali	M(li
+Malta	Mialta
+Marshall Islands	Marshall Islands
+Martinique	Martiniue
+Mauritania	Mauri6:nia
+Mauritius	dMauritus
+Mayotte	Ma:8yotte
+Mediterranean Sea	Mediterranean Sea
+Mexico	Mxec
+Micronesia	Miconesia
+Moldova	sMold+ova
+Monaco	Monacro
+Mongolia	Mongolia
+Montenegro	Mo.ntenhegro
+Montserrat	Monttser,rat
+Morocco	Moronco
+Mozambique	Mozambque
+Myanmar	Myanmar
+Namibia	9Namibia
+Nauru	Nauk5
+Nepal	epal
+Netherlands Antilles	Netherlands Antilles
+Netherlands	Netherlands
+New Caledonia	Nedew rCalednoia
+New Zealand	New eZaland
+Nicaragua	Nicaragua
+Nigeria	Nigria
+Niger	Nig[0]r
+Niue	N2nupe
+Norfolk Island	Norfolk Island
+North Atlantic Ocean	North Atlantic Ocean
+North Korea	North Korea
+North Pacific Ocean	North Pacific Ocean
+North Sea	North Ses
+Northern Mariana Islands	orthern Mariana Ilands
+Norway	Norway
+Oman	Omn
+Pacific Ocean	Pacific Ocean
+Pakistan	xkistan
+Palau	Paual
+Panama	Panabma
+Papua New Guinea	Papua :ew Gu nea
+Paraguay	Paraguay
+Peru	Pru
+Philippines	Philihppines
+Pitcairn Islands	Picairn Islans
+Poland	odlPna
+Portugal	Portugl
+Puerto Rico	Puerto Rico
+Qatar	Qatar
+Republic of the Congo	Republic orf the Congo
+Romania	R1mania
+Russia	Ruissa
+Rwanda	Rwanda
+Saint Helena Ascension and Tristan da Cunha	Saint Helena Asscension and Tristan da Cunha
+Saint Kitts and Nevis	Saint Kitts and Nevis
+Saint Lucia	Saintr Luci8a
+Saint Vincent and the Grenadines	Saint Vincen an the Grenadihes
+Samoa	Sgaxmoa
+San Marino	an Marino
+Sao Tome and Principe	Sao Tome and Principe
+Saudi Arabia	Sadi Asbia
+Senegal	Senegal
+Serbia	rbia
+Seychelles	eychelces
+Sierra Leone	SiLrra eeone
+Singapore	aingSpore
+Sint Maarten	Sint Madrten
+Slovakia	olSvakia
+Slovenia	Svkeovenia
+Solomon Islands	Solomon Ilands
+Somalia	Somalia
+South Africa	South cfriAa
+South Atlantic Ocean	South Atlantic Ocean
+South China Sea	South Chi1nat Sea
+South Georgia and the South Sandwich Islands	South Georgia and the South Sandwich Islands
+South Korea	Soth Krea
+South Pacific Ocean	South .acific Ocean
+South Sudan	2Sou_th Sudan
+Southern Ocean	Soutehrn Ocean
+Spain	Spain
+Sri Lanka	riLanka
+Sudan	Suean
+Suriname	Suriname
+Swaziland	Swaziland
+Sweden	Sw-edeen
+Switzerland	Switz erland
+Syria	Syria
+Taiwan	Taijan
+Tajikistan	Tajikista
+Tanzania	Tanzanic
+Tasman Sea	Ta9sman Sea
+Thailand	Thailand
+Timor-Leste	Temor-Lesti
+Togo	Togo
+Tokelau	Tokeehlau
+Tonga	Tona
+Trinidad and Tobago	Trinidad an dTobago
+Tunisia	,unisia
+Turkey	urk
+Turkmenistan	Turkmenistan
+Tuvalu	Tuv9alt
+Uganda	Ughanada
+Ukraine	Ukrzine
+United Arab Emirates	United 5rab Emirltes
+United Kingdom	United Kingdom
+United States Virgin Islands	United States Virgin Islands
+United States	Unitexd Stoates
+Uruguay	Urcuguuay
+Uzbekistan	Uzbekistan
+Vanuatu	Vanuatu
+Venezuela	enezelua
+Vietnam	Vietna,m
+Yemen	Ymen
+Zambia	Zambia
+Zimbabwe	Zimbawe

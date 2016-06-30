@@ -104,7 +104,6 @@ class intelligent_suggest:
         return candidates
 
     def filter_results(self, query, candidates):
-        print "candidates: %s" % candidates
         limit = self.getLimit()
         filtered = {}
         tracker = 0
@@ -117,14 +116,12 @@ class intelligent_suggest:
             lDiff = abs(wLen - qLen) / qLen * 100
             if (query[0].lower() != word[0].lower()) or \
                     lDiff > self.lengthDiff:
-                print query, word, query[0].lower(), word[0].lower()
                 continue
             if word is None:
                 continue
             score = self.calcDistance(word, query)
             filtered[word] = score
             tracker += 1
-        print "filtered: %s" % filtered
         return filtered
 
     def calcDistance(self, str1, str2):
@@ -171,7 +168,7 @@ class intelligent_suggest:
     def suggest(self, query):
         if self.spellCheckObj.inList(query.lower()) or query == "":
             print "found %s" % query
-            return {query: 1}
+            return {self.spellCheckObj.get(query.lower()): 1}
         else:
             print "Not found %s" % query
             candidates = self.spellCheckObj.search(query)

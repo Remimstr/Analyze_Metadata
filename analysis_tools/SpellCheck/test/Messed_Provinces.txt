@@ -1,0 +1,2779 @@
+Arachosia	srachoaiA
+Badakhshan	B:dakhshan
+Badghisat	Badghisat
+Baghlan	Bkaghlan
+Balkh	kalBah
+Baman	Baman
+Farah	F a_ah
+Faryab	Faryab
+Ghazn	Ghazn
+Ghowr	Ghow
+Helmand	Helmand
+Herat	teraH
+Jowzjan	o(zjan
+Juzjan	Juzja.
+Kabul	_alu
+Kapsa	K1apsqa
+Konarha	Konarha
+Laghman	Laghman
+Lowgar	Lowgac
+Nangarhar	Nangahar
+Nmrz	mrx
+Orzgan	nrOagz
+Pakta	Pk
+Paktka	Pkatka
+Parvan	Pra
+Parwan	Parwan
+Qandahar	Qaadanhr
+Qondz	Qdnoz
+Samangan	Sanangam
+Takhar	T1akhar
+Vardak	Vark
+Zabol	Z[abo]l
+Berat	Be-ah
+Diber	eibDr
+Durres	Durr4es
+Elbasan	Eablsan
+Fier	Fier
+Gjirokaster	Gjwirokaster
+Korce	Korce
+Kukes	Kukes
+Lezhe	Lezhe
+Shkoder	Shkoer
+Tirana	Ttrana
+Vlore	Vlore
+Adrar	Adrr
+Ain Defla	Ain Defl
+Ain Temouchent	Ain emochent
+Alger	aAlg eqr
+Algiers	Algier5s
+Annaba	Anaba
+Batna	tn
+Bechar	Bechoar
+Bejaia	Beja-ia
+Biskra	Biskra
+Blida	Bl4da
+Bordj Bou Arreridj	Bordj Bou oArrferidj
+Bouira	Bouira
+Boumerdes	Boumeres
+Chlef	Chlef
+Constantine	Constntie
+Djelfa	Djefla
+El Bayadh	El yadh
+El Boulaida	l Boulaia
+El Oued	El Oud
+El Taref	Elx Taref
+Ghardaia	Gdharda[ia
+Guelma	Guelma
+Illizi	8]liz5
+Jijel	Jijel
+Khenchela	Khe4chela
+Laghouat	Lagfhouat
+Lemdiyya	Lemdiyya
+M'Sila	SiM'la
+M'sila	M'sica
+Mascara	Mas:cara
+Medea	Medea
+Mila	Mila
+Mostaganem	Mosltaganem
+Naama	aaNma
+Oran	Orap
+Ouargla	Oaarglu
+Oum el-Bouaghi	Oum el-Bouaghi
+Relizane	R[lizane
+Saida	Sida
+Setif	etif
+Sidi Bel Abbes	Sdi Bly Abubes
+Skikda	Skikda
+Souk Ahras	.ouk Ahras
+Tamanghasset	Tamanuhasset
+Tebessa	Tebessa
+Tiaret	Tiare
+Tindouf	Tindouf
+Tipasa	Tipasa
+Tissemsilt	Tissemsilt
+Tizi Ouzou	Tizi Ouzou
+Tlemcen	T7mn
+Andorra le Vella	ondArra le Vella
+Canillo	Canillo
+Encamp	Enoamp
+Escaldes-Engordany	Eslacdes-Engordany
+La Massana	La Massanu
+Ordino	Ordino
+Sant Julia de Loria	Sqnt Juliade Loria
+Bengo	-engo
+Benguela	Benguela
+Bie	Bie
+Cabinda	abinda
+Cuando Cubango	Cuandy Cubango
+Cuanza Norte	Cuanza Norte
+Cuanza Sul	Cuanza Sul
+Cunene	C,nene
+Huambo	Hu2ambo
+Huila	Hauli
+Luanda	Luanda
+Lunda Norte	ndLua Norte
+Lunda Sul	Luda Sul
+Malanje	Mlaanje
+Moxico	Moxico
+Namibe	Namibe
+Uige	Ui2g_e
+Zaire	Zaire
+	
+Deception Island	Dception Island
+Halfmoon Island	lalfmoon IsHand
+Livingston Island	Livingston Island
+Ross Sea	Ross Sea
+Antigua	p4uigua
+Barbuda	barBuda
+	
+Buenos Aires	Buenos Aiser
+Catamarca	Catamarca
+Chaco	ocCh
+Chubut	Ch2but
+Cordoba	Crdoba
+Corrientes	Corentes
+Entre Rios	Ettre ]ios
+Formosa	Frmosa
+Jujuy	J)juy
+La Pampa	La )ampa
+La Rioja	La iRioja
+Mendoza	Mendoza
+Misiones	Misioes
+Neuquen	Neu7-en
+Rio Negro	dRio Nero
+Salta	S-9alta
+San Juan	San Juan
+San Luis	Sn ais
+Santa Cruz	Sana Cruz
+Santa Fe	sSant:a Fe
+Santiago del Estero	Santiago del Estrero
+Tierra del Fuego	Tierra del Fuego
+Tucuman	T.ucuiman
+Aragatsotn	Araguats+otn
+Ararat	Aranat
+Armavir	Armair
+Geghark'unik'	Geghark'unik'
+Kotayk'	9Kotayk'
+Lori	Lok5
+Shirak	Sirak
+Syunik'	Syunik'
+Tavush	Tavush
+Vayots'Dzor	Vedayrots'zDor
+Yerevan	Yeervan
+	
+	
+Australian Antarctic Territory	Australian Antarctic Territory
+Australian Capital Territory	Australian Caital Territory
+Christmas Island	Christmas I.land
+Cocos (Keeling) Islands	Cocos (Keling) Islans
+New South Wales	New South Wles
+Norfolk Island	Norfolk Island
+Northern Territory	Northerc Territory
+Queensland	nQueensland
+South Australia	South Australis
+Tasmania	asmana
+Victoria	Victoria
+Western Australia	Western ustralia
+Burgenland	Burgenland
+Carinthia	yrinthia
+Niederosterreich	Niederostcrreieh
+Oberoesterreich	Oberoesterrbeich
+Salzburg	Sal:bu'g
+Styria	Styria
+Tirol	Tiol
+Upper Austria	Upperi Austria
+Vienna	ienn
+Vorarlberg	rlgaroberV
+Khanlar	Khanlr
+Kutkashen	Kutknshea
+Lerik	Lerik
+Naxcivan	Naxrcivan
+Sal'yany	Sa2'yany
+Cat Island	Cat aslInd
+Exuma	Exmua
+	
+	
+Barisal	Basrisal
+Chittagong	Chittagong
+Khulna	Khurln9a
+Rajshahi	Rasahh
+Rangpur	Ragnxgpur
+Sylhet	ylhet
+	
+Brestskaya Voblasts'	Brestskaya Voblasts'
+Homyel'skaya Voblasts'	Homye'skaya sobasts'
+Hrodzyenskaya Voblasts'	Hrodzyenskaya Voblasts'
+Mahilyowskaya Voblasts'	Mahyowskaya Voblasts'
+Minskaya Voblasts'	inskaya Volacsts'
+Vitsyebskaya Voblasts'	VitsVebskaya yoblasts'
+Antwerpen (Antwerp)	Antwerpen (Antwerp)
+Henegouwen (Hainaut)	Henegouwen (dainaut)
+Limburg	miLburg
+Luik (Liege)	Lwukek (Liege)
+Luxembourg	Luxemburg
+Namen (Namur)	Namen (Namur)
+Oost-Vlaanderen (East Flanders)	Oost-Vlaanderen (rast FlandeEs)
+Vlaams-Brabant (Flemish Brabant)	Vlaams-Brabant (Flemish Brabant)
+Waals-Brabant (Walloon Brabant)	Waals-Brabant (Wallo1on Burabant)
+West-Vlaanderen	West-Vlaanderen
+Cayo	Co
+Orange Walk	Ora.ge Walk
+Stann Creek	2Sta nn Creek
+Toledo	Tloedo
+Alibori	Alibori
+Atakora	tkora
+Atlantique	Atlaf:ique
+Borgou	Borgou
+Collines	Collines
+Donga	Do_nega
+Kouffo	Kou'ffo
+Littoral	Littoral
+Mono	Moko
+Oueme	Ouem
+Plateau	Plateac
+Zou	0Zou
+Devonshire	Dveonshire
+Hamilton	Hnmiltoa
+Paget	Paget
+Pembroke	Pembrfhoke
+Saint George's	Saint Geore's
+Sandy's	Sandy's
+Smith's	+mnth's
+Southampton	Suthamon
+Warwick	Warwick
+Chirang	Chi0raug
+Mongar	Mohngaar
+Paro	Pzro
+Punakha	Pu6akla
+Thimpu	Thimpu
+Trongsa	Trongsa
+Beni	Byeoni
+Chuquisaca	Chcuquivsaca
+Cochabamba	Cochabamba
+La Paz	La Paz
+Oruro	ruor
+Pando	Pand+o
+Potosi	Poosi
+Santa Cruz	Santa Cruz
+Tarija	Taria
+Federation of Bosnia and Herzegovina	Federation of Bosnia and Herzegovina
+Republika Srpska	epublkka Srpska
+Central	Cent6arl
+Chobe	hCobe
+Ngamiland	Ngamnlaid
+Acre	Acre
+Alagoas	Algoas
+Amapa	Amapa
+Amazonas	Amazonas
+Bahia	h-B]ahia
+Ceara	Cearwva
+Distrito Federal	Distrituo Federal
+Espirito Santo	spirit Santo
+Goias	Goieas
+Maranhao	Maranhao
+Mato Grosso	Moto Grsso
+Mato Grosso do Sul	Mato roysso do Sul
+Minas Gerais	Minas Gerais
+Para	Para
+Paraiba	Paraiba
+Parana	Paeana
+Pernambuco	Pe,rnamuco
+Piaui	aui
+Rio Grande do Norte	Rio Grande do Norte
+Rio Grande do Sul	Rio Grande o ySul
+Rio de Janeiro	Ro de Janeiro
+Rondonia	Rondrnia
+Roraima	Roraima
+Santa Catarina	Srnta Cataaina
+Sao Paulo	Sao Paulo
+Sergipe	Sergipe
+Tocantins	Tocantins
+	
+Anegada	Anegada
+Beef Island	Beef Island
+Cooper Island	Coopwr Island
+Dog Islands	Dog Islands
+Fallen Jerusalem	Fallen Jerusal
+Ginger Island	Giger Is0and
+Great Camanoe	Great Camanoe
+Great Thatch Island	nGreat Thatch Island
+Great Tobago Island	GreatTobagxo Iland
+Guana Island	-Guana Island
+Jost Van Dyke	Jost Van Dyke
+Little Tobago	Little Tobago
+Necker Island	Nbckek Island
+Norman Island	lorman Island
+Peter Island	Pet(r Isla-d
+Salt Island	Salt Island
+Scrub Island	Scrub Island
+Tortola	Totola
+Virgin Gorda	VirginGor0a
+Belait	Belait
+Brunei and Muara	Bunei and Muara
+Temburong	Tembrg
+Tutong	Tutong
+Burgas	Burgas
+Khaskovo	Koasaovo
+Lovech	Lovech
+Montana	Montana
+Plovdiv	Plovdniv
+Ruse	Ru3e
+Sofiya	Sofa
+Sofiya-Grad	Sofiya-Grad
+Varna	V0arna
+Bale	Bao4le
+Bam	Bam
+Banwa	Bagnwa
+Bazega	Bazega
+Bougouriba	Boxgouriba
+Boulgou	Boulgou
+Boulkiemde	ouliemde
+Comoe	Ckomoe
+Ganzourgou	Ganzur7gou
+Gnagna	Gnac_gna
+Gourma	Gourma
+Houe	Hoe
+Ioba	Io9a
+Kadiogo	Kadiocgo
+Kenedougou	Kenedouou
+Komandjari	Komadar
+Kompienga	Kompi(nga
+Kossi	soKsi
+Koupelogo	pouK.eloo
+Kouritenga	Kouritxnga
+Kourweogo	Kourweogo
+Leraba	Leraba
+Loroum	Lomour
+Mouhoun	Mouhoun
+Nahouri	Nahouri
+Namentenga	Namentenga
+Naumbiel	muiNbael
+Nayala	Nayala
+Oubritenga	Oubrnteiga
+Oudalan	_udalan
+Passore	Psso0e
+Poni	Poni
+Samentenga	Sam1ntengh
+Sanguie	Sanuie
+Seno	Seno
+Sissili	Sssili
+Soum	o[7]um
+Sourou	Sourou
+Tapoa	Tapoa
+Tuy	un
+Yagha	63ghu
+Yatenga	Yatenga
+Ziro	Ziro
+Zondomo	Zondoxg
+Zoundweogo	Zondweog
+Bubanza	[9]uba:za
+Bujumbura	Bujumbura
+Bujumbura Mairie	Bujumbra Mairie
+Bururi	+-Buurri
+Cankuzo	Cankuzo
+Cibitoke	Cibitoke
+Gitega	Gettgia
+Karuzi	Kruzi
+Kayanza	Kay7anza
+Kirundo	u[9]Kirnd
+Makamba	Makamba
+Muramvya	Murvmaya
+Muyinga	Maingu
+Mwaro	Mwargo
+Ngozi	Ngozi
+Rutana	Rut[1]ana
+Ruyigi	Ruyig]
+Banteay Mean Cheay	Bantea Mean Cheay
+Batdambang	Batda_mbang
+Kampong Cham	Kampong Cham
+Kampong Chhnang	Kampong Chhnng
+Kampong Spoe	Kpmpong Saoe
+Kampong Thum	 ampongKThum
+Kampot	Koampuko
+Kandal	Kanal
+Kaoh Kong	Kaoh Kong
+Kracheh	Kacheh
+Mondol Kiri	Mondoi Klri
+Otdar Mean Cheay	Otdar eanCheay
+Pouthisat	P+out)hisat
+Preah Vihear	Prear Vieah
+Prey Veng	Prey Venj
+Rotanah Kiri	Ronatah Kiri
+Siem Reab	Si7m Rea40
+Stoeng Treng	Stoeng Treng
+Svay Rieng	Svaay Rieng
+Takev	Taev
+Adamawa	Adamawa
+Centre	Cen2t2re
+Centre-Sud	Centre-Sud
+Est	+Et
+Littoral	Littorak
+Nord	Nrod
+Nord-Ouest	Nord-kOuest
+Ouest	O:est
+Sud	Sud
+Sud-Ouest	Sud-Oues]
+Alberta	Alberta
+British Columbia	British Columbia
+Manitoba	Manitba
+New Brunswick	New Brunswick
+Newfoundland and Labrador	Newfoundland and Labrador
+Northwest Territories	Northwest erritories
+Nova Scotia	Nova Scotai
+Nunavut	Nun+vut
+Ontario	Ontario
+Prince Edward Island	Prince Eward sland
+Quebec	Queec
+Saskatchewan	Saskatcewa
+Yukon Territory	Yukon (Ter1ritorxy
+Barlavento	Barlavent_o
+Sotavento	toSdvento
+	
+Grand Cayman	Grand Cayman
+Bamingui-Bangoran	Bamingui-Bangoran
+Basse-Kotto	Basse-Kotto
+Haut-Moumou	Haut-mMou9mou
+Haute Kotto	Haute )otto
+Kemo	Kemo
+Lobaye	Lboaye
+Mambere-Kadei	MamereKadei
+Mbomou	sMbomou
+Nana-Gribizi	Nana3G1ibizi
+Nana-Mambere	Nana-jMambere
+OmbellaMpoko	OmbelllMpoko
+Ouaka	Oura1ka
+Ouham	Ouham
+Ouham-Pende	Ouha-mPende
+Sangha-Mbaere	Sangha-Mbaere
+Vakaga	Vgkaaa
+	
+Aisen	Aiges
+Antofagasta	Antofagasta
+Araucania	6raucani8
+Atacama	Aacama
+Biobio	Bwx9bio
+Coquimbo	Coquimbo
+Los Lagos	Los[Lagos
+Los Rios	Los5Ris
+Magallanes-Antartica	Magalla)es-Antartica
+Maule	Meula
+O'Higgins	O'Hisging
+Santiago	Santiago
+Tarapaca	Tar7apaca
+Valparaiso	Vparaiso
+Anhui	Alhu+
+Beijing Shi	Beijing Shi
+Canton	anton
+Chongqing	Chongqing
+Fujian	Fujinn
+Gansu	aunG
+Guangdong	Guangdong
+Guangxi	angxi
+Guizhou	Guihou
+Hainan	tHainan
+Hebei	ebg
+Heilongjiang Sheng	Heilogjang Sheng
+Henan	H'jan
+Hong Kong	H_ongx Kong
+Hong Kong Special Administrative Region	Hong Kong Speial Administrati4've Region
+Hubei	Hueb5i
+Hunan	Hun
+Inner Mongolia	InnMr eongolia
+Jiangsu	Jiang[u
+Jiangxi	Jiangxi
+Jilin	Jirlin
+Liaoning	2Liao(ning
+Macao	acao
+Ningxia	Ninga[sx
+Qinghai	Qinahgi
+Shaanxi	Shaanxi
+Shandong	Shanfong
+Shanghai	Shanghai
+Shanxi	Sanxi
+Sichuan	Sichuan
+Taiwan	Ta+wan
+Tianjin	ianjin
+Tibet	Tibet
+Xinjiang Uygur Zizhiqu	Xin iaqgjUygur Zizhinu
+Yunnan	Yunnan
+Zhejiang	Zhjeian
+Amazonas	Amaz)8jonas
+Antioquia	Antioquia
+Arauca	Aruca
+Atlantico	Atlanvico
+Bogota Capital District	Bogota Cpital District
+Bolivar	Bolivar
+Boyaca	oyaca
+Caldas	Caldsa
+Caqueta	Caqueta
+Casanare	Casanar
+Cauca	Cauca
+Cesar	Cesar
+Choco	pChoc[o
+Cordoba	Cordoba
+Cundinamarca	Cundinamca
+Guainia	Guainia
+Guaviare	Gua,viare
+Huila	Huila
+La Guajira	La Gajlia
+Magdalena	Magdalena
+Meta	Meta
+Narino	Nario
+Norte de Santander	Norte de Sastander
+Putumayo	Put]ma6yyo
+Quindio	Quindo
+Risaralda	Risaralda
+San Andres Providencia and Santa Catalina	San Andres Providencia aid Santa Catalnna
+San Andres y Providencia	San Andres y Providenci3
+Santander	Santander
+Sucre	Sucre
+Tolima	olim
+Valle del Cauca	Valle del Cauca
+Vaupes	Vaupes
+Vichada	Vicada
+Grande Comore	Grazde Comore
+Mwali	Mneali
+Nzwane	Nzne
+Rarotonga	Rarntooga
+Alajuela	Alajuela
+Cartago	Caotagr
+Guanacaste	Gunacaste
+Heredia	He edia
+Limon	imon
+Puntarenas	g'ntarenas
+San Jose	San Jose
+Abidjan	Abidjan
+Agneby	ngAeby
+Bafing	9+afing
+Bas-Sassandra	Bas-Sa1sandra
+Bouake	Buake
+Denguele	Denguele
+Dix-Huit Montagnes	Dix-Hit Montagnes
+Fromager	Fromager
+Haut-Sassandra	Haut-kassandra
+Lacs	acL:6s
+Lagunes	Lag-unes
+Marahoue	Marahoke
+Moyen-Cavally	Mo2ypen-Cavally
+Moyen-Comoe	Myen-Comoe
+N'zi-Comoe	N'zi-Com2)oe
+Savanes	Svaes
+Sud-Bandama	Sud-Bandama
+Sud-Comoe	-udeComoS
+Vallee du Bandama	Vallee duaBand ma
+Worodougou	Worodougou
+Zanzan	Zan1an
+Bjelovar-Bilogora	Bjalovar-Bilogore
+Brod-Posavina	Brod-Posavina
+City of Zagreb	Ciy of Zagreb
+Dubrovnik-Neretva	Dubrovnik-Neretva
+Istria	1rtsia
+Karlovac	Karlovac
+Koprivnica-Krizevci	Koprivnw9ca-Krizevci
+Krapina-Zagorje	Kranipa-Zagorje
+Lika-Senj	0ika-Senj
+Medimurje	edemrje
+Osijek-Baranja	Osijjk-Baranea
+Pozega-Slavonia	Pozega-Slavo.ia
+Primorje-Gorski Kotar	PrimorjerGKrski oota-
+Sibenik-Knin	SibenikKnin
+Sisak-Moslavina	Sisak-Moslav5ina
+Split-Dalmatia	Split-Dalmqtia
+Varazdin	aVara,zudin
+Virovitica-Podravina	Virovitica-Podravina
+Vukovar-Syrmia	rukovaV-Syrmia
+Zadar	Z7(aa
+Zagreb County	Zagreb County
+Camaguey	Camaguey
+Ciego de Avila	Ciego de Avila
+Cienfuegos	Cienfuxegos
+Ciudad de la Habana	Cijudhad de la Habanaa
+Granma	Granmj
+Guantanamo	Gauntanamo
+Holguin	Holguin
+La Habana	La Habana
+Las Tunas	La+s Tunas
+Matanzas	M2atanzas
+Pinar del Rio	0Pinarmdel bio
+Sancti-Spiritus	Sancti-Swp2ritw]us
+Santiago de Cuba	antiago de Cuba
+Villa Clara	Villa Cara
+	
+Kyrenia	Kyrep4ia
+Limassol	fm sso]
+Nicosia	Nico]ia
+Northern Cyprus	Northern Cyprus
+Paphos	Papho
+Central Bohemia	Central Bohemia
+Hradec Kralove	H.radec Kralove
+Karlovy	Karlov_y
+Liberec	Liberec
+Moravian-Silesian	Moravian-Silesan
+Northern Bohemia	NormherB nohetia
+Olomouc	Olomouc
+Pardubice	Pardubice
+Plzen	Pezn
+Prague	mPrauhf
+Southern Bohemia	Southejrn Bohemi2a
+Southern Moravia	Syouthern Moravia
+Usti nad Labem	bosti nad LaUem
+Vysocina	V[ysocina
+Western Bohemia	Western Bohemia
+Zlin	Zlin
+Bandundu	Bandundu
+Bas-Congo	Bas.Congo
+Equateur	Equateur
+Ituri	,tu'vi
+Kasai-Occidental	Kisaa-Occiazntdl
+Kasai-Oriental	Kasri-Oriental
+Katanga	Ktanga
+Kinshasa	Kinshasa
+Maniema	Maniema
+Nord-Kivu	NordKi-0
+Orientale	Orientale
+Sud-Kivu	Sud-Kqvu
+Tshopo	Tshopo
+Faroe Islands	Faroe Islayds
+Hovedstaden	Hovedstade
+Midtjylland	Midtlyljand
+Nordjylland	Nordjllad
+Sjaelland	Sj elland
+Syddanmark	Snddaymark
+	
+Azua	A3ua
+Bahoruco	Buho:aco
+Barahona	Ba7ahona
+Dajabon	Dnjaaob
+Duarte	Drute
+El Seibo	Elf Seibo
+Espaillat	Elpaislat
+Hato Mayor	at ayor
+Independencia	Independencia
+La Altagracia	La Altagracia
+La Estrelleta	La Estrxlleta
+La Romana	aa Romana
+La Vega	La Vega
+Maria Trinidad Sanchez	Maria Trinidad Sanchoez
+Monsenor Nouel	Monsenor loueN
+Monte Cristi	Monte Cristi
+Monte Plata	Mondte Plata
+National District	Nati[nal District
+Pedernales	Pezdernales
+Peravia	aerPvia
+Puerto Plata	Puayrto Plate
+Salcedo	Salcedo
+Samana	Samana
+San Cristobal	San Cristoal
+San Juan	San Juan
+San Pedro de Macoris	San Pedro de Macoris
+Sanchez Ramirez	Sanchez Ramilrez
+Santiago	Sntigao
+Santiago Rodriguez	Santiago Rodriguez
+Valverde	Vavere
+	
+Amazonica	Amazonicna
+Azuay	Azua
+Bolivar	gBolivar
+Canar	Cana
+Carchi	Cch
+Chimborazo	Chimborazo
+Cotopaxi	Cotoiaxp
+El Oro	ElrO o
+Esmeraldas	Esmera+das
+Galapagos	Glapagos
+Guayas	Guayas
+Imbabura	Imb'aburia
+Loja	Loma
+Los Rios	Los Rigs
+Manabi	aabi
+Morona-Santiago	Morona-Santiago
+Napo	Napo
+Orellana	Orellna
+Pastaza	Pastaza
+Pichincha	5Pichincha
+Santa Elena	Santa8 Elen5a
+Santo Domingo de los Tsachilas	Santo Domingo de2 los Tsachilas
+Sucumbios	Sucumbi8os
+Tungurahua	Tunguarhua
+Zamora Chinchipe	Zamodra Chinchipe
+Al Sharqia	Al Sharqia
+Alexandria	A4nxaedbria
+Aswan	]Azwan
+Asyut	A5yut
+Beheira	Beheira
+Beni Suef	fBeni [3]Suef
+Cairo	Cairo
+Dakahlia	Daka:lia
+Damietta	Damiettp
+Faiyum	Fkiyuc
+Gharbia	iharbG0
+Giza	Gi
+Ismailia	Ismaili
+Kafr el-Sheikh	Kalr ef-Sheikh
+Luxor	Luxr
+Matruh	[0]atrlh
+Minya	zinya
+Monufia	iMonufja
+New Valley	New Valley
+North Sinai	NorthSinai
+Port Said	Port Said
+Qalyubia	Qaluubia
+Qena	Qen
+Red Sea	e Sa
+Sohag	aohSg
+South Sinai	Southnai
+Suez	S5uez
+Ahuachapan	Ahuahapan
+Cabanas	Cabanas
+Chalatenango	Chalatenangdo
+Cuscatlan	Cscatlan
+La Libertad	La gitertkd
+La Paz	z aPaL
+La Union	La Uni,n
+Morazan	Morazan
+San Miguel	San Miguel
+San Salvador	San Salvador
+San Vicente	San Vicente
+Santa Ana	Santa Ana
+Sonsonate	Soasonnte
+Usulutan	Usslutan
+Bioko	iobko
+	
+Harju	0rr)
+Hiiu	u
+Ida-Viru	Ida-Viru
+Jarva	Jarqa
+Jogeva	9Jogev.a
+Laane	Laa,e
+Laane-Virumaa	Laank-Virumaa
+Parnu	P]arnu
+Polva	oPylva
+Rapla	Rapla
+Saare	Saera
+Tartu	-utr
+Valga	Valg_
+Viljandi	Viland
+Voru	ou
+Arsi	Arsi
+Bale	Bae
+Gamo Gofa	Gam Gofa
+Gojam	Gjoam
+Gonder	eondGr
+Harerge	raHerge
+Ilubabor	Ilubaboxn'
+Kefa	Kef:a
+Oromia	Ormota
+Shewa	Sh[6]ewa
+Sidamo	Sidamo
+Tigray Kifle Hager	Tigray Kifle H[8]ager
+Welega	W)0lega
+Welo	Weo
+	
+	
+	
+	
+	
+	
+Nordoyar	Nordn)oyar
+Streymoy	Streymoy
+Suduroy	Suduroy
+Vagar	Vaga
+	
+Cakaudrove	fakaudrove
+Kadavu	Kadavu
+Lomaiviti	Lomiviti
+Macuata	Macuata
+Nadroga-Navosa	Nadroga-Navosa
+Naitasiri	Naitasi.i
+Namosi	Namosi
+Northern Division	Northern Divison
+Rewa	eRwa
+Rotuma	Ro4:uma
+Serua	Sperua
+Viti Levu Island	oViti Levu Islahn9d
+Vuda	uadV
+Aland Islands	ylan6wIslands
+Central Finland	Centralcminland
+Central Ostrobothnia	Central Os-trobothnia
+Finland Proper	FinlandoPr per
+Kainuu	oKainuu
+Kymenlaakso	Kymnlaakso
+Lapland	Lap0ano
+North Karelia	NoithlKare ra
+Northern Ostrobothnia	Northern Ostrohothnbia
+Northern Savonia	Northe0 Savonia
+Ostrobothnia	Ostrobothnia
+Paijanne Tavastia	Paijanne avastia
+Pirkanmaa	Pirkz8]maa
+Satakunta	Satakunta
+South Karelia	Sout( Karenia
+Southern Ostrobothnia	Southern Ostrobothnia
+Southern Savonia	Southern Savonia
+Tavastia Proper	avstia Prope
+Uusimaa	Uusi[aa
+Alsace	Alsace
+Aquitaine	Auitaine
+Auvergne	Ae[uvergne
+Basse-Normandie	Basse-Normandie
+Brittany	Brittqany
+Burgundy	urgundy
+Centre	Centre
+Champagne-Ardenne	Champagne-Ande0re
+Clipperton Island	dlipperton Island
+Corsica	Co]rsica
+Franche-Comte	Frkanche-Comte
+French Southern and Antarctic Lands	French Southern and Antrctic Lands
+Haute Normandie	aute Normandie
+Ile-de-France	Ile-de-Fra5nce
+Languedoc-Roussillon	Langu doce-Roussillon
+Limousin	Limousin
+Lorraine	Lorraine
+Midi-Pyrenees	Midi'wPyrenees
+Nord-Pas-de-Calais	Nord-Pas-de-Calais
+Pays de la Loire	PayL de l]a iosre
+Picardy	Picaryo
+Poitou-Charentes	Poithu-Coarents
+Provence-Alpes-Cote d'Azur	Prove,ce-Alpes-Cote d'Azur
+Reunion	Reunaion
+Rhone-Alpes	Rhone-Alpyes
+Saint Pierre And Miquelon	Saint Pierre And Miquelon
+Wallis and Futuna Islands	Wallis[0]and Futuna Islands
+Cayenne	Cayenne
+St-Laurent-du-Maroni	St-Laurent-du-Maroni
+Gambier Islands	Gambier Ialsnds
+Marquesas Islands	Marjquqsasr Islaqnds
+Mururoa	Muoa
+Society Islands	Soci)ty Islands
+Tahiti	Tahiti
+Tuamotu Islands	Tuamotu Islands
+Tubuai Islands	Tubuai oIslands
+Estuaire	Estuaimre
+Haut-Ogooue	caut-Ogoo3t
+Moyen-Ogooue	Moyen-Ogoue
+Ngounie	Nuongie
+Nyanga	Nyang(a
+Ogooue-Ivindo	Ogooue-Ivindo
+Ogooue-Lolo	sOgooue-Lolo
+Ogooue-Maritime	Ogooue-Maritim
+Woleu-Ntem	Woleu-N7em
+	
+Abkhazia	Abahkzia
+Adzharia	Adzharia
+Kakheti	akheti
+South Ossetia	Suth Osseta
+Baden	Baden
+Baden-Wuerttemberg	Baden-Wuettremberg
+Bavaria	Bavaria
+Berlin	Berln
+Brandenburg	Braenrubg
+Bremen	nremen
+Hamburg	Haburg
+Hesse	wHesse
+Mecklenburg-Vorpommern	Meckleburg-Vorpommern
+Niedersachsen	Nieder7rsachs(en
+North Rhine-Westphalia	North Rhine-Wevstphalia
+Rhineland Palatinate	Rhineland Palatinate
+Saarland	Sarland
+Sachsen	ea7hSsen
+Saxony-Anhalt	Saxony-Anhalt
+Schleswig-Holstein	Schle2wigsHolstein
+Thuringia	i9uringTa
+Ashanti	hsAanti
+Brong-Ahafo	Brong-Aha3o
+Central	Ckental
+Eastern	Easter7n
+Greater Accra	Geatr Accra
+Northern	Northern
+Upper East	Upper Ea7svt
+Upper West	epe WUst
+Volta	Vlta
+Western	Webstern
+	
+Attica	Attica
+Central Greece	Centr(l Greece
+Central Macedonia	Central Mac:donih
+Crete	Crete
+East Macedonia and Thrace	EasteMacedonia and Thrac 
+Epirus	Epirus
+Ionian Islands	Ion aniIslands
+North Aegean	North aegeAn
+Peloponnese	Peloponmnese
+South Aegean	Soutr Aegean
+Thessaly	Thelsasy
+West Greece	Westt Greece
+West Macedonia	West Macedonia
+Kujalleq	Kujalleq
+Qaasuitsup	Qaasuitsup
+Qeqqata	qeqQata
+Sermersooq	Sermersooq
+	
+	
+	
+Alta Verapaz	Alaqerapaz
+Baja Verapaz	Baja Verap_az
+Chimaltenango	Chimaltenango
+Chiquimula	Chiauimulq
+El Progreso	Ecld Prsgreo
+Escuintla	Escniut4l
+Guatemala	Guatemala
+Huehuetenango	Huehuete1nango
+Izabal	Iza2bal
+Jalapa	Jalapa
+Jutiapa	Jutcapa
+Peten	4ntee
+Quezaltenango	Quezaltenango
+Quiche	Quiche
+Retalhuleu	Retahueu
+Sacatepequez	Sacatpequez
+San Marcos	vSan Marcos
+Santa Rosa	aant, RosS
+Solola	Solola
+Suchitepequez	Suchitepequez
+Totonicapan	Totfnicapan
+Zacapa	Za(capa
+	
+	
+Kindia	iKndia
+Labe	[7]abe
+Nzerekore	Nz4rekore
+	
+Barima-Waini	Barima-Waini
+Cuyuni-Mazaruni	Cuy)uni-Mazar+uni
+Demerara-Mahaica	Demerara-Maaica
+East Berbice-Corentyne	tEast Berbice-Corentyne
+Essequibo Islands-West Demerara	Essequibo Islandst-West Demerara
+Pomeroon-Supenaam	Ptomeroon-Supenaam
+Potaro-Siparuni	Pot6aro-iparuni
+Siparuni	Siparuni
+Upper Demerara-Berbice	UpperDemerara-Berbice
+Upper Takutu-Upper Essequibo	Upper akutu-Upper Essequibo
+Artibonite	Artnboiite
+Grand Anse	Grand nAse
+Ouest	Ouest
+Sud	Subd
+Atlantida	itlaabtxAdn
+Choluteca	Ch-lutbcsa
+Colon	oCnol
+Comayagua	Coma4agua
+Copan	Copan
+Cortes	Cotres
+Francisco Morazan	Franicsco Morazan
+Gracias a Dios	Graciai a Dsos
+Intibuca	Intibua
+Islas de la Bahia	Islas de la Bahi
+La Paz	za PaL
+Lempira	rempiLa
+Ocotepeque	Oqotepecue
+Olancho	Ola[]ho
+Paraiso	P[iaraiso
+Santa Barbara	aSnta arBbara
+Valle	Valle
+Yoro	Y
+Bacs-Kiskun	Bacs-Kiskun
+Baranya	Baranya
+Bekes	Bekes
+Borsod-Abauj-Zemplen	Borsod-Abauj-Zemplen
+Budapest	Budaest
+Csongrad	Csovgrad
+Fejer	hejer
+Gyor-Moson-Sopron	Gyor-Moson-Soprof
+Hajdu-Bihar	Hajdu-Biha
+Heves	ee
+Jasz-Nagykun-Szolnok	Jasz-Nagykun-Szolnok
+Komarom-Esztergom	Komarom-Esztergom
+Nograd	oNgf5d
+Pest	Peqs
+Somogy	Somogsy
+Szabolcs-Szatmar-Bereg	Szalbolcs-Szatmar-Bereg
+Tolna	wTo1lna
+Vas	saV
+Veszprem	Veprprem
+Zala	Zala
+Austurland	Aultursand
+Capital Region	Capital) Region
+Nordurland eystra	Nordurlad eysta
+Nordurland vestra	Norduqland vestra
+Sudurland	Sudurnald
+Sudurnes	rudeSnus
+Vestfirdir	Vestfridir
+Vesturland	Vesturkand
+	
+Andaman and Nicobar	Andaman and icobar
+Andhra Pradesh	Andhra Pradesh
+Arunachal Pradesh	Arunacha Pradesh
+Assam	Assam
+Bihar	Bihar
+Chandigarh	Chandigarh
+Chhattisgarh	Chhattisgarh
+Delhi National Capital Territory	Delhi National Capitl Territory
+Goa	ioa
+Gujarat	zukGrat
+Haryana	4Harayan
+Himachal Pradesh	Hichal Pradesh
+Jammu-Kashmir	eammu-Kash6ir
+Jharkhand	Jhakhad
+Karnataka	Karnataka
+Kerala	Keral
+Madhya Pradesh	Madha Prdesh
+Maharashtra	Maharashtra
+Manipur	Ma1nipur
+Meghalaya	Meghalaya
+Mizoram	Mzoram
+Nagaland	Nugaland
+Orissa	Orassa
+Pondicherry	Pondichrry
+Punjab	0unj3b
+Rajasthan	oajasth)aln
+Sikkim	Sikkim
+Tamil Nadu	Taml Nadu
+Telangana	Telangana
+Tripura	ripura
+Uttar Pradesh	Uttar  Prademsh
+Uttaranchal	Uttaranchal
+West Bengal	W seeBtngal
+Aceh	Aceh
+Bali	-ali
+Banten	Banten
+Bengkulu	Bengku_u
+Jakarta Raya	JakartayRa a
+Jambi	maJbi
+Jawa Barat	Jawa Barat
+Jawa Tengah	Jawa Tangqh
+Jawa Timur	awa (Timur
+Kalimantan Barat	Kalimantan Barat
+Kalimantan Selatan	Kalimantan Selatan
+Kalimantan Tengah	Kalimantan Tengah
+Kalimantan Timur	Kalimantuan Timur
+Lampung	ampung
+Maluku	o lcku
+Nusa Tenggara Barat	Nusa Tenggara Barat
+Nusa Tenggara Timur	Nusa Ttnggara Timur
+Papua	Papua
+Papua Barat	,apua Baat
+Riau	'iua
+Sulawesi Barat	Sulawegsiz Barat
+Sulawesi Selatan	Susweai elaan
+Sulawesi Tengah	Sulawesi Tngah
+Sulawesi Tenggara	Sulawsi Tenggara
+Sulawesi Utara	Sulawesi Utara
+Sumatera Barat	]Sumatera Barat
+Sumatera Selatan	Sumtera Selatn
+Sumatera Utara	Sumatera Utara
+Yogyakarta	Yogyakhrht
+Alborz	lborz
+Ardabil	Ardabil
+Boyer Ahmadi-e Kohkiluyeh	Boyer Ahmadi-e Kohkiluyeh
+Bushehr	Bushehr
+Chahar Mahal-e Bakhtiari	ChaBar Maaal-e hikhtihra
+East Azerbaijan	Eat6Azerbaijan
+Esfahan	5sfaha
+Fars	Falrs
+Gilan	Gilan
+Golestan	Golestan
+Hamadan	Hamadan
+Hormozgan	Hormozfgan
+Ilam	lam
+Kerman	Keman
+Kermanshahan	Kermanshahan
+Khorasan	Kholzan
+Khuzestan	Khzstan
+Kordestan	Kordestan
+Kuhistan	Kuistan
+Lorestan	Loresan
+Markazi	Marazi
+Mazandaran	Mzandan
+Qazvin	3Qazvvin
+Qom	[osm
+Semnan	Semnban
+Sistan-e Baluchestan	Sistan-e0 Baluchestan
+Tehran	Thhran
+West Azerbaijan	Wat Azeeirjan
+Yazd	Yazh
+Zanjan	Zanjan
+Al Anbar	zl Anbar
+Babil	Bb6i
+Baghdad	Bagdad
+Basra	asr
+Dahok	aho
+Dhi Qar	Dhi Qaz
+Diyala	)ixala
+Erbil	Erbi
+Halabja	Halabja
+Irbil	Irpfol
+Karbala	Krbala
+Kirkuk	Kikiur
+Maysan	Mnysaa
+Muthanna	Muthanna
+Najaf	Nja
+Nineveh	68Nineveh
+Qadisiyyah	Qadisiyyah
+Saladin	Slaadin
+Sulaymaniyah	Sulaymaniyah
+Wasit	Wasit
+Carlow	Carlow
+Cavan	Cavan
+Clare	Cl1a2re
+Connemara	Conynemara
+Cork	Cork
+Cork City	Coyk Citr
+Donegal	bDonegal
+Dublin City	Dublin Cty
+Dun Laoghaire-Rathdown	Dun Laoghaire-Rathdohwn
+Fingal	Fingal
+Galway	Gzalwady
+Galway City	Galwat Cyiyy
+Kerry	Kyrra
+Kildare	Kildare
+Kilkenny	Kilkenjny
+Laois	Lao
+Leinster	Leinster
+Leitrim	Leictrim
+Limerick	Limericq
+Limerick City	Limerick City
+Longford	Longford
+Louth	uoLth
+Mayo	Maydo
+Meath	heatM
+Monaghan	Monaghan
+North Tipperary	North Tipperary
+Offaly	Ofyalf
+Roscommon	Roscommtn
+Sligo	Sligo
+South Dublin	South D lin
+South Tipperary	Sou+th Tipperary
+Waterford	Wirtejrfoad
+Waterford City	Wanterf'rd City
+Westmeath	Westmeath
+Wexford	Wexford
+Wicklow	Wickolw
+	
+Central Coastal Plain	Centa Coastal Plai
+Golan Heights	Golan H(ights
+Haifa	H9ifa
+Jerusalem	)eruJsmlea
+Northern	Northren
+Southern	Southearn
+West Bank	 est Banyk
+Abruzzi	Abuzi
+Aosta Valley	Aoata Valley
+Basilicata	Baiilscata
+Calabria	Calabria
+Campania	Campania
+Cuneo	C7neo
+Emilia-Romagna	Emilia-Roma[na
+Friuli-Venezia Giulia	Fliuli-Venezia Giuria
+Lazio	:Lazoi
+Liguria	Liguria
+Lombardy	Lombardy
+Marches	carMhes
+Molise	M,olise
+Piedmont	Pie8uwmonbt
+Puglia	Puglia
+Sardinia	Sar9inia
+Sicily	Sicily
+South Tyrol	Sout Tyrol
+Trentino	T]rentin]o
+Trentino-Alto Adige	Trentino-Aito Adlg
+Tuscany	Tuscany
+Umbria	0mbriU
+Veneto	Veet
+Cornwall	C-rnwall
+Middlesex	Middlsex
+Surrey	Surre1
+Chubu	Chubu
+Chugoku	hugCko
+Hokkaido	Hokkaio
+Honshu	Honshu
+Kanto	Kanto
+Kinki	K6inki
+Kyushu-chiho	Kyu[hu-chih 
+Okinawa	Okinawa
+Shikoku-chiho	Shi2oku-chiho
+Tohoku-chiho	Tohobku-ch7iho
+	
+Al'Aqabah	Al'aqhbxA
+Amman	Am,man
+Irbid	Irbid
+Jarash	crt:sah
+Karak	Kaa
+Ma'an	Ma'an
+Mafraq	Mafraq
+Tafila	Taila
+Akmola	Akmola
+Aktyubinsk	Akty binsk
+Almaty	Al:aty
+Atyrau	Atyrau
+Dzhambul	mzhalD
+Dzhezkazgan	Dz]hezkazgn
+East Kazakhstan	East Kazakhstan
+Karaganda	Karagand
+Kokchetav	Khk2octav
+Kustanay	Kuy.anay
+Kzyl-Orda	Kzyl-Orda
+Mangistau	Man_istau
+Pavlodar	Pavloar
+Semipalatinsk	Semipalatisk
+Severo-Kazakhstan	aevero-KSzakhstan
+Shymkent	Shyknet
+South Kazakhstan	South Kazkhstan
+Taldy-Kurgan	Talpy-Kurgan
+Taraz	Tarab
+Turgay	:yrgau
+Zapadno-Kazakhstan	Zapadno-Kazakhsan
+Baringo	Babingo
+Bomet	Bo[dmet
+Bungoma	Bgnuoma
+Busia	Bu0ia
+Central	lCentral
+Coast	Coast
+Eastern	Eastern
+Elgeyo-Marakwet	Elgeyo-Marakwet
+Embu	Embu
+Garissa	Gaissa
+Homa Bay	Homa Bay
+Isiolo	Isoilo
+Kajiado	eKajiado
+Kakamega	Kakamega
+Kericho	Ke2rvuicho
+Kiambu	Kimbu
+Kilifi	Kilif(
+Kirinyaga	airKnyagi
+Kisii	Kisii
+Kisumu	Kiq,sumu
+Kitui	Kui
+Kwale	iwae
+Laikipia	Laikipia
+Laikipia County	Laikipia County
+Lamu	hamu
+Machakos	Machakos
+Makueni	Majuen
+Mandera	Md.aera
+Marsabit	Marsabit
+Meru	Mereu
+Migori	Migori
+Mombasa	Mombasa
+Murang'a	ujracg'a
+Nairobi	Nairobi
+Nakuru	Nakru
+Nandi	Naidn
+Narok	arok
+North Eastern	North Eastern
+Nyamira	Nyamibra
+Nyandarua	ryandarua
+Nyanza	7Nyanza
+Nyeri	Nyeri
+Rift Valley	yift ValleR
+Samburu	Sumbura
+Siaya	Siaya
+Taita-Taveta	Tavtahaieta
+Tana River	Tana River
+Tharaka-Nithi	Tharaka-Nithi
+Trans Nzoia	Trans Nz[ia
+Turkana	7urkanh
+Uasin Gishu	Uasi Gish
+Vihiga	Vih2iga
+Wajir	Wajir
+West Pokot	Wst Pokot
+Western	nWsetern
+	
+	
+Al-Ahmadi	Al-Ahjadi
+Al-Asimah	Al-Asi8mah
+Al-Farwaniyah	Al-Farwanmyah
+Al-Jahra	l-Jahra
+Capital	Capiial
+Hawalli	Hawballi
+Batken	tke.4n
+Chuy	Chuy
+Jalal-Abad	Jalal-Abad
+Kirgizia	3Kirgizia
+Naryn	Naryn
+Osh	wOs9jh
+Talas	Talas
+Tash-Komur	Tash-Kour
+Toktogul	Toltoguk
+Ysyk-Kol	Ysyk-Kol
+	
+Attapu	Attapu
+Bokeo	Bokeo
+Bolikhamxay	Bhlikoamxay
+Champasak	Champakas
+Houaphan	Hquaphan
+Khammouan	Khammouan
+Louang Namtha	Louang Namtha
+Louangphrabang	Louangphrabang
+Oudomxai	Osudomxai
+Phongsali	Phonasgli
+Saravan	S ravan
+Savannakhet	Savahnaknet
+Vientiane	Vienct-iane
+Xaignabouri	aignabouri
+Xekong	X0kong
+Xiangkhoang	Xiangkhoang
+Riga	R.5a
+Beirut	7Beirut
+Beqaa	B0eq
+Mount Lebanon	Mount Lebanon
+Nabatieh	Naebtiha
+North	No]th
+South	Sth
+	
+Grand Cape Mount	4Grand Cdape Mount
+Nimba	Nimba
+Tripoli	Tripoli
+	
+Alytus	Alytus
+Kaunas	Kaounas
+Klaipeda	laipeda
+Marijampole	Marijompale
+Panevezys	Panzveeys
+Siauliai	cSiauliai
+Taurage	Taurage
+Telsai	Telsai
+Utena	Utena
+Vilnius	0ilnius
+Diekirch	Dmckirch
+Grevenmacher	Grevenmacher
+Luxembourg	Luxembu
+Eastern	pEastern
+Northeastern	Northestern
+Pelagonia	Pelagonia
+Polog	P[1]logg
+Skopje	uSkopje
+Southeastern	Soue1theastern
+Southwestern	6outhwester-
+Vardar	Vardar
+Antananarivo	Antan)anarivo
+Antsiranana	Antsiranana
+Fianarantsoa	Fianarantsa
+Mahajanga	Mahajanga
+Toamasina	Toaa-sina
+Toliara	loTiara
+Central	Ceatral
+Mangochi	Majglchi
+Northern	Nortehrn
+Southern	Southern
+Zomba	Zom6ba
+Federal Territory of Kuala Lumpur	Federal hTerritory of Kualal Lumpur
+Federal Territory of Labuan	Federal Territory of Lwabuan
+Federal Territory of Putrajaya	Faderal Territory of Putrajeya
+Johor	Johro
+Kedah	hedaK
+Kelantan	Ke,9ntan
+Malacca	Malacca
+Negeri Sembilan	Negeri Sembilan
+Pahang	Panahg
+Perak	Peark
+Perlis	Pejhr3lis
+Pinang	Pinang
+Sabah	tSabah
+Sarawak	Sarawak
+Selangor	Selangor
+Terengganu	Terengganu
+West Malaysia	Wes]t Malayvsia
+	
+	
+Gozo	Gbozo
+Malta Majjistral	Malta Majistral
+Malta Xlokk	Malta Xlokk
+	
+	
+	
+Flacq	Fqrcl
+Grand Port	Grand Port
+Moka	Mka
+Pamplemousses	Pamp4eemoxssep
+Plaines Wilhems	Plaine ilhem
+Port Louis	Poru Lotis
+Riviere Noire	Riveeri Noire
+Riviere du Rempart	Riviere gdu Rempart
+Rodrigues	Ro7rigues
+Savanne	Savacnu
+	
+	
+Aguascalientes	Aguascalientes
+Baja California	Baja Clifornia
+Baja California Sur	Baja California Sur
+Campeche	Campepche
+Chiapas	Chiapas
+Chihuahua	Chihuahua
+Coahuila	Coahci[a
+Colima	moliCa
+Distrito Federal	Distito Federal
+Durango	Durang
+Guanajuato	Guanajuato
+Guerrero	Gu9errerlo
+Hidalgo	Hib)llo
+Jalisco	Jalscio
+Mexico State	Mexico Sta1e
+Michoacan	]icaan
+Morelos	oMreelos
+Nayarit	yart
+Nuevo Leon	Nuevo 9Leon
+Oaxaca	:axac:
+Puebla	Pu4-lm
+Queretaro	Queaetrro
+Quintana Roo	Quintana Roo
+San Luis Potosi	San Luis Potosi
+Sinaloa	Sinaloa
+Sonora	So,qra
+Tabasco	0Tabasxco
+Tamaulipas	Tvmaulipas
+Tlaxcala	xlaTcala
+Veracruz	4Veracruz
+Yucatan	Yucadtan
+Zacatecas	acaZecas
+Chuuk	2Chuuk
+Kosrae	Kosrae
+Pohnpei	ohpei
+Yap	hqa1p
+Anenii Noi	Anenii Noki
+Basarabeasca	basara9Boeasca
+Brinceni	Brincens
+Cahul	bC ahul
+Cainari	Cbainari
+Calaras	Calas
+Camenca	Camenca
+Cantemir	Cantemir
+Causeni	Causeni
+Ciadir-Lunga	Ciadir-Lunga
+Cimislia	Ciimsl5ia
+Comrat	Cmrat
+Criuleni	Criuleni
+Donduseni	Doneusdni
+Drochia	Drocahia
+Dubasari	Dubasa
+Edinet	Epinet
+Falesti	alest
+Floresti	Florestji
+Glodeni	Gloideni
+Grigoriopol	Grigoriopol
+Hancesti	Ha3ncesti
+Ialoveni	Ialovein
+Leova	L9ova
+Nisporeni	Nsporni
+Ocnita	Oantic
+Orhei	Ornh-ei
+Rezina	7Rezina
+Ribnita	Rsibnita
+Riscani	li4sc]n:
+Singerei	Singeri
+Slobozia	Slobozia
+Soldanesti	Sold2ane+fsti
+Soroca	Sorol ca
+Stefan-Voda	-tefanSVdoa
+Straseni	Straseni
+Taraclia	T1racl a
+Telenesti	Telenesti
+Ungheni	 nghegi
+Vulcanesti	Vulcanesti
+	
+Arhangay	Arhangy
+Bayanhongor	Bayanhongo)
+Bayanolgiy	Baan8olgiy
+Boyan-Khongor	Boyan-Kb7ngor
+Bulgan	nulan
+Djungar Gobi	Djukgar Gobi
+Dorngovi	Dorngovi
+Dornod	Dornod
+Dundgovi	Dnidgovu
+Dzavhan	Dznvhaa
+Govi-Altay	Govi-rltay
+Hentiy	Hehti.
+Hovd	Hdvo
+Hovsgol	wHvsgol
+Khenteyskiy Aymak	Khenteyskiy Aymak
+Kobdo Aymak	oobdK Aymak
+Ovorhangay	Ohorvangay
+Selenge	Snlenge
+Shargyn-Gobi	Syargbn]-Gohi
+South Gobi	So5uth Gobi
+South Khangai	South ihangaK
+Suhbaatar	Suhbaatar
+Tov	Tyov
+Uvs	Uvs
+Zavkhan	Zakvhan
+	
+	
+Fes-Boulemane Region	Fes-Boulemane Region
+Gharb-Chrarda-Beni Hssen Region	Gharb-Chrarda-Beni Hss-n Region
+Guelmim-Es Semara Region	Gu,elmim-Es Segmara Region
+Marrakech-Tensift-El Haouz Region	Marrakech-Tensift-el Haouz REgion
+Meknes-Tafilalet Region	Meknes-Tafilalet Reg3o[
+Oriental Region	Oria tglneeon
+Rabat-Sale-Zemmour-Zaer Region	Rabat-Sale-Zemmour-Zaer Region
+Souss-Massa-Draa Region	Souss-Massa-Draa Region
+Tadla-Azilal Region	Tadla-AzilalRegion
+Tangier-Tetouan Region	Tangier-Tetouan Remin
+Taza-Al Hoceima-Taounate Region	Taza-cl HoAeima-Taounate Region
+Cabo Delgado	Cabo Delgydo
+Gaza	Gaza
+Inhambane	Inhambane
+KwaZulu-Natal	KwaZulu-Nata
+Manica	Mania
+Maputo	Mmpuwo
+Nampula	Na(mpula
+Niassa	Niita]ssa
+Sofala	Soala
+Tete	aetee
+Zambezia	Zambezia
+Arakan	Arak:n
+Chin	Chin
+Kachin	Ka[chin
+Kayin	Kayin
+Magway	Magway
+Mandalay	Mandalay
+Sagaing	Saain:
+Shan	Shan
+Tanintharyi	Tanintharyi
+Yangon	Yangon
+Caprivi	rapCivi
+Erongo	Emokngo
+Hardap	Harpad
+Karas	Karass
+Kavango	Kvango
+Khomas	Khomns
+Kunene	Kbpene
+Ohangwena	Ohangwena
+Okavango	Okavanbgo
+Oshikoto	Ohikoto
+Otjozondjupa	Otjozondjupa
+	
+Central	Central
+Eastern	aqster
+Far-western	Far-destern
+Mid-western	Mid-testern
+Western	sten
+	
+Bonaire	Bonair0
+Drenthe	Drenth
+Flevoland	Flevolan
+Friesland	Friesland
+Gelderland	Gnlderlaed
+Groningen	goninren
+Limburg	Ltimburg
+North Brabant	North Brabant
+North Holland	Nor htHolland
+Overijssel	Overijssel
+Saba	Saba
+Sint Eustatius	Sint Eustaktius
+South Holland	oouth HSlland
+Utrecht	Utrecht
+Zeeland	Zeel_nd
+Chesterfield Islands	Cesterfield Islands
+Isle of Pines	5sle of Pines
+Loyalty Islands	Loyalty Islands
+North	orth
+South	uoSth
+Auckland	[Auckelankd
+Chatham Islands	Chatham Islands
+Kermadec Islands	Kerrma2dec Islands
+Marlborough	arlborouh
+Nelson	Nelson
+North Island	Nortoh Island
+Otago	ntaga
+Snares Islands	Snares Islands
+South Island	S6outh Island
+Waikato	Waokati
+Wellington	Wellnigton
+Boaco	Baco
+Carazo	C3rfzo
+Chinandega	Chinandeg
+Chontales	Ch:ntales
+Esteli	2ste2li
+Granada	Granada
+Jinotega	mJiksoctega
+Leon	Lpon
+Madriz	Mdariz
+Managua	Manaaug
+Masaya	Masaya
+Matagalpa	Matagal6pa
+Nueva Segovia	Nu1va Sego]e[ia
+Rio San Juan	Rio SanJhan
+Rivas	Rdivas
+Zelaya	Zsfaya
+Abia	A)i+a
+Abuja	Abja
+Adamawa	Adamawa
+Akwa-Ibom	Akwma-7Ibom
+Anambra	Anambra
+Bauchi	Bauyc'hi
+Benue	Be9nue
+Borno	fBorno
+Cross River	Crosst River
+Delta	Delta
+Edo	d3Eo
+Enugu	Enug-u
+Imo	mIo
+Jigawa	Jawa
+Kaduna	Kaduna
+Kano	oanK
+Katsina	Ka[scna
+Kebbi	Kebbi
+Kogi	dKogi
+Kwara	Kwra
+Lagos	5Lagos
+Niger	Nger
+Ogun	Ogun
+Ondo	Ondo
+Osun	sOsun
+Oyo	Ogo
+Plateau	Plateau
+Rivers	Rivers
+Sokoto	Sokoto
+Taraba	Tar'aba
+Yobe	obe
+Maradi	aarMdi
+	
+	
+	
+Chagang	Chanagg
+Kangwon	angwon
+North Pyongyang	North Pyong1yang
+Pyongyang	Pyongyang
+Ryanggang	Ryangga
+South Hwanghae	SouthiHwanghae
+South Pyongyang	tguh Pyongyang
+Johnston Atoll	Johnston Atoll
+	
+Maug Islands	g4Maug Isltands
+Pagan	Pagan
+Rota	Rota
+Saipan	Saipa6
+Tinian	Tinyi-a
+Akershus	8Akershujs
+Aust-Agder	Aust-Agd+er
+Bouvetoya	uoBvetoya
+Buskerud	Bueksrud
+Finnmark	Finnmabrk
+Hedmark	Hedsrk
+Hordaland	oHrdaland
+More og Romsdal	More 2og Romsdal
+Nord-Trondelag	Nord-Tdonrelag
+Nordland	Nordland
+Oppland	Opan2d
+Oslo	Os(o
+Ostfold	Ostfold
+Rogaland	oRgaland
+Sogn og Fjordane	Sogn og Fjordane
+Sor-Trondelag	Sor-Trondelag
+Svalbard	Svalbard
+Telemark	meelT,ark
+Troms	Trms
+Vest-Agder	Ves6-Agder
+Vestfold	Vcstfld
+Ad Dakhiliyah	AdiDakhil yah
+Ad Dhahirah	Ad Dhahirah
+Al Batinah North	Al Batinah North
+Al Batinah South	A Batinah South
+Al Buraimi	Al Buraimi
+Al Wusta	Al Wusta
+Ash Sharqiyah North	Ash Sh rqiyahaNorth
+Ash Sharqiyah South	Ash Sharqiyah South
+Dhofar	Dhofar
+Musandam	Muaandsm
+Muscat	Musaj
+Indo-West Pacific	Info-West Pacidic
+Azad Kashmir	AzadiK9ashm r
+Baluchistan	Baltchisuan
+Gilgit-Baltistan	Gigit-Baltstan
+Islamabad	Ilamabs
+Khyber Pakhtunkhwa	Khyber5 Pakhtun5k-wa
+Punjab	Pnjab
+Sind	Si52nd
+Tribal Areas	Tribaj Areas
+Palau Islands	Palau Isinds
+Bocas Del Toro	Bocns Del [4]Toro
+Canal Zone	Cana(lZone
+Chiriqui	Ch[irijquoi
+Cocle	Coc0e
+Colon	on
+Darien	Darien
+Guna Yala	Guna Yala
+Herrera	Herrera
+Los Santos	Los Saston
+Panama	Panama
+San Blas	SanlB as
+Veraguas	Veraguaj
+Bougainville	Bougainvile
+Central	Cjntral
+Chimbu	Chmibu
+East New Britain	East vNew B)ritain
+East Sepik	Ebast +Sepik
+Eastern Highlands	Eacstern Highlands
+Enga	gn(a
+Gulf	u
+Madang	Madan
+Manus	aqMnus
+Milne Bay	Mlne Ba
+Morobe	Mobe
+National Capital District	National 3Capital District
+New Ireland	New Inela9d
+Northern	bNortnerh
+Southern Highlands	SouthernHighlan4s
+West New Britain	West NBw eritain
+West Sepik	Wesv3Sepik
+Western	Westbrn
+Western Highlands	Western Highlands
+Alto Paraguay	Alto Paraguay
+Alto Parana	Alta Parona
+Amambay	Ama:xbay
+Asuncion	Asuncion
+Boqueron	Boquerotn
+Caaguazu	Caugaazu
+Caazapa	Caazvapa
+Canindeyu	Caninueyd
+Central	Cantrel
+Chaco	Chaco
+Concepcion	Concepcioc
+Cordillera	Cord)ille[2]ra
+Guaira	Gu4aira
+Itapua	Iaaput
+Misiones	+i8sitone
+Neembucu	Neembucu
+Nueva Asuncion	Nueva Asuncion
+Paraguari	Paraguari
+Presidente Hayes	Pr sidenteeHayes
+San Pedro	San Perdo
+Amazonas	Amgazronas
+Ancash	hncasA
+Apurimac	Apurmac
+Arequipa	Arequipa
+Ayacucho	Ayacuho
+Cajamarca	Cajamarca
+Callao	Cao
+Cuzco	Cuzco
+Huancavelica	Huancavelica
+Huanuco	Huanuco
+Ica	cIa
+Junin	Jnniu
+La Libertad	a Libertad
+Lambayeque	Lambayeque
+Lima	Lkma
+Loreto	Logrs
+Madre de Dios	Madre de Dios
+Moquegua	qoMguuea
+Pasco	oascP
+Piura	Puira
+Puno	Pun3
+San Martin	san Martin
+Tacna	can
+Tumbes	bTut
+Ucayali	Ucyali
+Autonomous Region in Muslim Mindanao	Autonomous Region inMuslim Mindanao
+Bicol Region	Bic0l Region
+Bohol	[Bowhhol
+Cagayan Valley	CagayaValley
+Calabarzon	Calabarzon
+Caraga	Caryia
+Cebu	Ceogbu
+Central Luzon	Centrl Luzon
+Central Visayas	Central Visayas
+Cordillera Administrative Region	Cordillera Aministative Regio
+Davao	avao
+Eastern Visayas	Eastern Visayas
+Ilocos Region	Ilvocos Region
+Iloilo	Il.ilo
+Mimaropa	Mimaropa
+Mindanao Island	Mindanao .sland
+Misamis Oriental	MisaOis mrlentai
+National Capital Region	National apital Region
+Northern Mindanao	Noathern Mindanro
+Soccsksargen	Soccsksargen
+Western Visayas	Western Visayas
+Zamboanga Peninsula	Zamboanga Peninsula
+	
+Greater Poland	Greater [6]oland
+Kuyavian-Pomeranian	Kuyavian-Pomeranian
+Lesser Poland	Lesser Polad
+Lodz	Lozd
+Lower Silesian	Lower ilesian
+Lublin	Lublin
+Lubusz	Lubus[
+Masovian	Masovian
+Opole	Opole
+Podlaskie	odlsie
+Pomeranian	Pomeranican
+Silesia	Silesia
+Silesian	Sifesgan
+Subcarpathian	Subcarpathian
+Swietokrzyskie	Swiettokrzyskie
+Warmian-Masurian	Wdrmian-Masu5ian
+West Pomeranian	aeet PomsrWnian
+Alentejo	Alentejo
+Aveiro	Aveixro
+Azores	Azore
+Beja	Beja
+Braga	Braga
+Braganca	Brantgca
+Castelo Branco	Cas[7]elo Branco
+Coimbra	Coimbra
+Evora	1rvoEa
+Faro	war
+Guarda	ruaGda
+Leira	vLeira
+Lisboa	sLbi.u
+Madeira	Madriea
+Minho	Minho
+Portalegre	Portalegre
+Porto	Pbrto
+Santarem	Santarem
+Setubal	S-tubal
+Viana do Castelo	Vianado Castelo
+Vila Real	iafReal
+Viseu	Vis[u
+Adjuntas	Adjuntas
+Aguada	guda
+Aguadilla	Agurad(lla
+Aguas Buenas	AguaB suenas
+Aibonito	Abionito
+Anasco	Anasco
+Arecibo	1recibo
+Arroyo	Arroy
+Barceloneta	Barcleoneta
+Barranquitas	Barranquitas
+Bayamon	dayamon
+Cabo Rojo	jabo RooC
+Caguas	Cagus
+Camuy	Cauy
+Canovanas	Canovan]s
+Carolina	Cmrolina
+Catano	Catano
+Cayey	Cayey
+Ceiba	Cieb,a
+Ciales	Ciale
+Cidra	idra
+Coamo	dCoamo
+Comerio	Comerio
+Corozal	aCorozla
+Culebra	Culea
+Dorado	Dondo
+Fajardo	Fajard7o
+Florida	Flzoridl
+Guanica	Guainca
+Guayama	Gaayamu
+Guayanilla	Guiynaalla
+Guaynabo	Guynabo
+Gurabo	0Gnura(bo
+Hatillo	Hxatillo
+Hormigueros	Hormgueros
+Humacao	Humacao
+Isabela	Isabela
+Jayuya	]ajuya
+Juana Diaz	Juana Diaz
+Juncos	Juncos
+Lajas	Lajas
+Lares	Laes
+Las Marias	Las Mariass
+Las Piedras	Lau Piedras
+Loiza	0sioa
+Luquillo	Luluiqlo
+Manati	Man,t0
+Maricao	Mairca
+Maunabo	Maunlabo
+Mayaguez	yague
+Moca	Moc
+Morovis	Moovis
+Naguabo	N.guabh
+Naranjito	Naran1jito
+Orocovis	Orocovis
+Patillas	Patillas
+Penuelas	Pmnuelas
+Ponce	Ponce
+Quebradillas	Qusbrauillae
+Rincon	Rincno
+Rio Grande	Ri1cGran-e
+Sabana Grande	Sabana Grand3
+Salinas	aSlinas
+San German	San German
+San Juan	aSn Juan
+San Lorenzo	San Lorenzo
+San Sebastian	San Sebistaan
+Santa Isabel	Santa Isabel
+Toa Alta	Toa Alta
+Toa Baja	Toa Baja
+Trujillo Alto	Trujilfo Alto
+Utuado	U2tuad3
+Vega Alta	Vega Alta
+Vega Baja	Vega aja
+Vieques	Vqeiues
+Villalba	qbillalVa
+Yabucoa	Yabcuo
+Yauco	Yuaco
+Al Daayen	AleDaayen
+Al Khor	Al ho
+Al Wakrah	Al Wa-rah
+Ar Rayyan	Ar Ray0an
+Doha	Doha
+Madinatash Shamal	Madinatash Shamal
+Umm Salal	Umm Satal
+Bouenza	Bouena
+Brazzaville	Br)zzaille
+Cuvette	Cuvette
+Kouilou	1[3oliu
+Lekoumou	Lekoumou
+Likouala	Likouala
+Niari	Niari
+Plateaux	Plateawx
+Pool	P+o l
+Sangha	San]gha
+Alba	Alka
+Arad	0r 
+Arges	Arges
+Bacau	Bacau
+Bihor	Bihor
+Bistrita-Nasaud	Bistrita-asaud
+Botosani	Botosanp
+Braila	Braia
+Brasov	Brasov
+Bucharest	Bucharest
+Buzau	Buzvu
+Caras-Severin	Caras-Severin
+Cluj	Cluj
+Constanta	Con6tanta
+Covasna	Covapnx
+Crisana	hrisaCa
+Dambovita	D_mbovita
+Dobrogea	Dobrogea
+Galati	Galati
+Gorj	G-rj
+Harghita	Ham5rghita
+Hunedoara	Hunedoara
+Iasi	Iasi
+Ilfov	Ilfov
+Maramures	Mmraaures
+Mehedinti	Mdheeinti
+Moldavia	Molqdavia
+Muntenia	Muntenia
+Mures	Msreu
+Neamt	eat
+Olt	lOt
+Oltenia	Oltenia
+Prahova	Praho7vha
+Salaj	Salaj
+Sibiu	Sb+z
+Suceava	Scueava
+Timis	smi
+Tulcea	Tl,lcea
+Valcea	Valcoa
+Vaslui	Vaslui
+Adygeya	odygya
+Altai Krai	Altai Krai
+Altai Republic	Altai Republic
+Amur	Amur
+Arkhangelsk	Arknahgelsk
+Astrakhan	pAstrakhan
+Bashkortostan	Bashsortoktan
+Belgorod	Bel-gorod
+Bryansk	Bsyanrk
+Buryatiya	Buryatiya
+Chechnya	yhechnC1
+Chelyabinsk	Chelyabinsk
+Chukot Autonomous Okrug	Chukot Autonomous Okrug
+Chuvashia	Chuvaohai
+Dagestan	Dagestan
+Ingushetia	Ingushetja
+Irkutsk	Irkutsk
+Ivanovo	Ivanmovo
+Jewish Autonomous Oblast	Jewish Autonomous Oblagst
+Kabardino-Balkaria	Kabanrrdino-B9alkaria
+Kaliningrad	Kaliningrad
+Kalmykiya	Kalmykiy]
+Kaluga	Kawluga
+Kamchatka Krai	Kamchatka Krah
+Karachay-Cherkessia	Karayhac-Cherkessia
+Karelia	Karelia
+Kemerovo	Komerove
+Khabarovsk Krai	Khabarovsk Kra
+Khakassia	Khakasria
+Khanty-Mansi Autonomous Okrug	Khanty-Mansi Autonomous 'Okrug
+Kirov	Kirov
+Komi	Komi
+Kostroma	Kostrxma
+Krasnodar Krai	Krasnod raKrai
+Krasnoyarsk Krai	Krasnoarys[4] Krai
+Kurgan	Kkufrg an
+Kursk	Kur3k
+Leningrad	L[eningrad
+Lipetsk	L(ipetsk
+Magadan	aagMdna
+Mari El	Mari El
+Mordovia	Mtrkovra
+Moscow Federal City	Moscow Federal Cigty
+Moskovskaya	Moskovsrkaya
+Murmansk	Murmasnk
+Nenets Autonomous Okrug	Nenets Autonomous Okrug
+Nizhniy Novgorod	Nizhniy Novgor.od
+North Ossetia-Alania	North Ossethia0-Alana
+Novgorod	Nov+gorod
+Novosibirsk	Novosibirsk
+Omsk	m
+Orenburg	Orenburg
+Oryol	Ory(l
+Penza	)Penza
+Perm Krai	Px5erm Krai
+Primorsky Krai	Primorska Kryi
+Pskov	Pskov
+Rostov	Rostov
+Ryazan	yRazan
+Saint Petersburg	Saiet Pntersburg
+Sakha-Yakutiya	Sakha-Yjautiyk
+Sakhalinskaya	Sakh,al9nskaya
+Samara	Samra
+Saratov	Sratov
+Smolenskaya	Somlnskaya
+Stavropol Krai	Stavropol Krai
+Sverdlovskaya	Sverylovskada
+Tambovskaya	Tmbovkaa
+Tatarstan	Tataqstan
+Tomsk	Tomsk
+Tulskaya Oblast	Tulskaya Oblast
+Tverskaya	Trskaay
+Tyumenskaya	Tyumeskaya
+Tyva	Tyva
+Udmurtskaya	Udmurtskaya
+Ulyanovskaya	Ulyaovskay+
+Vladimirskaya	Vladimirs0aya
+Volgograd	Volgograd
+Vologodskaya	Vrologiodskaya
+Voronezh	Vneoorzh
+Yamal-Nenets Autonomous Okrug	Yamal-Nenets Autoncomous Okrug
+Yaroslavskaya	Yaroslabskaya
+Zabaykalsky Krai	abaykalsky Krai
+Western	Werewrp
+Ascension Island	Ascensimnl Isoand
+Saint Helena	Saint Helena
+Tristan da Cunha	Tristan da Cunvha
+Nevis	Nm2vis
+Anse-la-Raye	Anse-la-Raye
+Babonneau	Babo4nnneau
+Castries	7astries
+Dennery	Dennery
+Gros Islet	orGs Islet
+Micoud	Micou
+Soufriere	Soufriree
+Vieux Fort	Vieux Fort
+Charlotte Parish	Charlote Parish
+Grenadines Parish	Grenadiies Psrnah
+Saint Andrew Parish	Saint Andrew Pdrish
+Saint David Parish	Saint D vidrPaaish
+Saint George Parish	Saint +George Parish
+Saint Patrick Parish	7Saint Patrick Parish
+Saint Vincent	Sa ntiVinrcent
+	
+	
+Principe	erincipP
+Sao Tome	Sao Tome
+Asir	As+ir
+Bahah	Bahar
+Eastern	astern
+Ha'il	H8'3s
+Jawf	Jawf
+Jizan	Jian
+Madinah	Maaindh
+Makkah	_Makkah
+Najran	Nrjana
+Northern Borders	Northern Borders
+Qasim	Qsim
+Riyad	Rixab
+Tabuk	babuk
+Dakar	Daka2
+Fatick	F'athicg)
+Kedougou	Kedougou
+Kolda	Knlda
+Saint-Louis	Saint-Louis
+Thies	Thies
+Belgrade	Belgrade
+Kosovo and Metohija	Kosovo and Metohija
+Southern and Eastern Serbia	Southern and 9astern Serbia
+Sumadija and Western Serbia	Sumadija and Western Serbia
+Vojvodina	oVjvodina
+Amirantes	Amirantes
+Mahe	3 e
+Eastern	(aste2rn
+Northern	Norher
+Southern	South:rn
+Western	Western
+	
+	
+Banska Bystrica	Banska Bystrica
+Bratislava	Bratislava
+Kosice	Kosici
+Nitra	Nitra
+Presov	Presov
+Trencin	Tencn
+Trnava	Tr8nava
+Zilina	Z-fina
+Carinthia	Car,t4iha
+Carniola	Carnila
+Central Sava	Cntral Sava
+Central Slovenia	Central Slovenia
+Coastal-Karst	Coasrtal-Karst
+Drava	Draa
+Gorizia	Gorizia
+Inner Carniola-Karst	Inner Carnioa-Karst
+Lower Sava	ower Sava
+Mura	ra
+Savinja	,avimja
+Slovenske Konjice	Sl2ovenske Konjice
+Southeast Slovenia	Southeast Sloven2ia
+Upper Carniola	Upper Carniola
+Choiseul	Chos6eul
+Guadalcanal	G15uac:adlnan
+Isabel	sabel
+Makira	Makirk
+Malaita	3ava,ta
+Western	Western
+	
+Cape of Good Hope	Capeof Goo Hode
+Eastern Cape	Eastern ape
+Free State	Free State
+Gauteng	Gaduateng
+KwaZulu-Natal	KwaZulu-Natal
+Limpopo	Limtopo
+Mpumalanga	Mpumalanxa
+North-West	North-Wesjt
+Northern Cape	Norhern Cape
+Transkei	Transki
+Western Cape	Western1 Cape
+	
+	
+South Georgia Island	Soutph Georgia Island
+South Sandwich Islands	South Sandwich Isllnds
+Busan Metro City	Busfan Metro City
+Cheju-do	heu-o
+Daegu Metro City	Daegu Metro City
+Daejeon Metro City	nDaejeokn Metro C,ity
+Gwangju Metro City	GCangju Metro wity
+Incheon Metro City	Incheon Metro City
+Kangwon-do	Kangwon-do
+Kyonggi-do	yonggi-do
+North Ch'ungch'ong	North Ch'unnch'ogg
+North Cholla	NorthlCh0al 
+North Kyongsang	North Kyongbsang
+Sejong Special City	Sejong Special nCity
+Seoul Special City	Seoul Special City
+South Ch'ungch'ong	South Ch'ungch'ong
+South Cholla	South Cholla
+South Kyongsang	Sou'th Kyongsang
+Ulsan Metro City	Ulsan etro City
+	
+Central Equatoria	Central Equatoria
+	
+Albacete	Albacete
+Almeria	lmera
+Andalusia	Apda4u_ia
+Aragon	Areamgon
+Asturias	Aitursas
+Balearic Islands	Balearic Islansd
+Basque Country	BasCue qountry
+Canary Islands	Canary Isjanzs
+Cantabria	Cantaria
+Castilla y Leon	CeLtslla y iaon
+Castilla-La Mancha	Castilla-La Maxcha
+Catalonia	Catalonia
+Comunidad Valenciana	Comunidad Valenciana
+Comunidad de Madrid	Cmnidad de Madrid
+Cuenca	Cuencna
+Extremadura	Extremadura
+Galicia	alaGcii
+Granada	Grana-da
+La Rioja	La Riojua
+Murcia	Mucia
+Navarra	pa8arra
+Zaragoza	Zaragoza
+Central	Centrl
+Eastern	Easter
+North Central	Nor th Central
+North Western	North Westrn
+Northern	Northeurn
+Sabaragamuwa	Sabaragamuwa
+Southern	Southern
+Uva	Uia
+Western	netserW
+Blue Nile	le Nibl[0]e
+Khartoum	Koarthum
+Red Sea	Red zSea
+White Nile	Whibne Neile
+Brokopondo	Brokopondo
+Commewijne	Commewijne
+Coronie	Coronie
+Marowijne	Marowljnq
+Nickerie	Nickerite
+Para	Pra
+Paramaribo	Paramario
+Saramacca	Saaamaccr
+Sipaliwini	Sipaliwini
+Suriname	Suriname
+Hhohho	hhoHho
+Lubombo	Lubom:bo
+Manzini	Minzina
+Mhlume	Mhlmue
+Shiselweni	Shise0dweni
+Blekinge	Bleki3nge
+Dalarna	Dalarna
+Gavleborg	Gavlebo7g
+Gotland	Gotland
+Halland	Halland
+Jamtland	Jamtland
+Jonkoping	Jovnkoping
+Kalmar	Kalmar
+Kronoberg	Krkbonerg
+Lappland	Lappand
+Norrbotten	Norrbotten
+Orebro	rebro
+Ostergotland	Ostergotland
+Skane	kane
+Sodermanland	tSodermanaajd
+Sor-Trondelag	Sor-Trondelg
+Stockholm	Stockholm
+Uppsala	Upasalp
+Varmland	Varmvland
+Vasterbotten	Vasterbotten
+Vasternorrland	Vast0rnorrland
+Vastmanland	Vastmanland
+Vastra Gotaland	Vastra Gotaland
+Aargau	bAargau
+Appenzell-Ausser Rhoden	Appenz2ell-Ausser Rhoden
+Appenzell-Inner Rhoden	Appenz)ll-Inner Rhoden
+Basel-Landschaft	5asyl-Landschaft
+Basel-Stadt	Basel-Stadt
+Bern	9enr
+Fribourg	Fbirourg
+Geneva	Geneva
+Glarus	uarls
+Graubunden	Grauunden
+Jura	buura
+Luzern	Luzer
+Neuchatel	Neuchatel
+Nidwalden	Nidwalde+
+Obwalden	bwalden
+Sankt Gallen	Sankt Gallvc
+Schaffhausen	Sfhaf5hbusen
+Schwyz	Schw(z
+Solothurn	Solnthuro
+Thurgau	Th:rgau
+Ticino	aicino
+Uri	sri
+Valais	Valais
+Vaud	Va9u
+Zug	gu'Z
+Zurich	ruZihc
+Al Ladhiqiyah	Al L)adhiqiyah
+Al-Hasakah	Al-Haakah
+Al-Qunaytirah	Al-Qunaytirah
+Ar-Raqqah	-rARaqqah
+As Suwayda	As Suwayda
+Damascus	Damascu
+Dar'a	Dar'a
+Dayr az-Zawr	Dayr az-awZr
+Halab	laHab
+Hamah	Hamah
+Hims	His_
+Idlib	Idlib
+Tartus	Tastur
+Fujian Province	Fujan roince
+Hsinchu City	Hsinchu City
+Hsinchu County	Hsinchu County
+Hualien City	 Hua-lien City
+Hualien County	HalienCouny
+Jiayi City	Jiayi C+ ity
+Jiayi County	Jiayi County
+Kaohsiung City	Kkhsiung Citw
+Keelung City	Keelung City
+Kinmen County	Kinmewn County
+Lienchiang County	Lienchiang County
+Miaoli County	Miaoli County
+Nantou County	Nadtou County
+New Taipei City	New Taipei City
+Penghu County	Pengahu County
+Pingtung County	Pingtcung County
+Taichung City	Taichung City
+Taidong County	Taidong Conty
+Tainan City	Tainan City
+Taipei City	Taipei City
+Taiwan Province	Taiwxa Pro)ince
+Taoyuan County	Taoyuan County
+Yilan County	Yilan 2County
+Yunlin County	Yunlin Crunty
+Zhanghua County	Zhanghua County
+Dushanbe	Dushanbe
+Gorno-Badakhshan	GornoB-adakshahn
+Region of Republican Subordination	Region of Repubiican Subordinatio 
+Sughd	Sughd
+Arusha	Acr[gusha
+Dar-Es-Salaam	Dar-Es-Sala4am
+Dodoma	Ddo_a
+Iringa	Iri'ga
+Kagera	gera
+Kigoma	K'gomx
+Kilimanjaro	Kilimanja[ro
+Lindi	Lindi
+Manyara	Manyaar
+Mara	Mara
+Mbeya	Mya
+Morogoro	8Mooogomrr
+Mtwara	Mtwara
+Mwanza	Mwanza
+Pemba Island	Pemba Island
+Pwani	Pwni
+Rukwa	_Rukwa
+Ruvuma	Ruvuma
+Shinyanga	Shinyanga
+Singida	Sgda
+Tabora	sTabora
+Tanga	+Tznga
+Zanzibar	Zaznibar
+	
+Ang Thong	ng Thog8
+Bangkok	Bangkok
+Buriram	Burvram
+Chaiyaphum	hCuiyaphum
+Chanthaburi	Chanthaburi
+Chiang Mai	ghMainC ziai
+Chiang Rai	Chiang Rai
+Chon Buri	Chon uri
+Chumphon	Chgmph4n
+Kalasin	Kalasdn
+Kamphaeng Phet	Kamphaeng Phet
+Kanchanaburi	Kanchanaburi
+Khon Kaen	Kho Kaen
+Krabi	Krabi
+Krung Thep Mahanakhon	Krang Thep Mahunakhon
+Lampang	Lamjan:
+Lamphun	Lamphun
+Loei	Lboei
+Lop Buri	7Lo1 Buri
+Mae Hong Son	Mae Hong Son
+Maha Sarakham	Maha Sarakham
+Nakhon Nayok Nayok	Nakhon Nayok Nayok
+Nakhon Pathom	Nakhon Ptahom
+Nakhon Phanom	Nakhon Phanom
+Nakhon Ratchasima	Nakhon Rchasima
+Nakhon Sawan	Nakhun Sawan
+Nakhon Si Thammarat	akhon Si Thammarat
+Nan	Na
+Narathiwat	Nrathiwat
+Nong Bua Lamphu	Non Bua Lamphu
+Nong Khai	Nong Khai
+Pattani	atani
+Phangnga	Phannga
+Phatthalung	Phatthalung
+Phayao	Phayao
+Phet Buri	vPhet Buri
+Phetchabun	P1etchab_n
+Phichit	ihct
+Phitsanulok	Phjitsanulok
+Phra Nakhon Si Ayutthaya	4hra Nakho8nSi Ayutthaya
+Phrae	Phdae
+Phuket	Phuket
+Prachin Buri	PrachinBur
+Prachuap Khiri Khan	Prachaup Khiri Khan
+Ranong	Ranon
+Rat Buri	Rat Buri
+Ratchaburi	iatchaburR
+Rayong	R_ayong
+Roi Et	Ro Et
+Sakon Nakhon	Sakon Nakhon
+Samut Sakhon	Samut Skon
+Samut Songkhram	Samut Songkhram
+Sara Buri	Saga Buri
+Saraburi	Saraburi
+Satun	Sa+tu n
+Sing Buri	S1ing Buri
+Songkhla	S'7gghla
+Suphan Buri	Suphah Burl
+Surat Thani	Scurat Thani
+Surin	Surin
+Tak	Tak
+Trang	Tnarg
+Trat	Trat
+Ubon Ratchathani	Uboyn Ra:chathani
+Udon Thani	Ud)n Thani
+Uthai Thani	Utfhai Thani
+Uttaradit	Utatradit
+Yala	Yalba
+Aileu	Aileu
+Ainaro	Ainaro
+Baucau	aucau
+Bobonaro	Bobonao
+Cova Lima	Coova Lima
+Dili	Di li
+Ermera	Ermera
+Lautem	Lmauet
+Manufahi	aanufMhi
+Oecusse	Oecusse
+Viqueque	Viqueque
+De la Kara	De la K_ara
+Des Plateaux	Des P7latexux
+Des Savanes	Des Savanes
+Maritime Region	Maiitime Reron
+Region Centrale	Region Centrae
+	
+'Eua	'Eu
+Ha'apai	ya'apa6
+Niuas	Nsuai
+Tongatapu	]Tongatapu
+Vava'u	Vavxa'u
+Caroni	Caroni
+Mayaro	Mayarv
+Nariva	:Nariva
+Saint Andrew	Sint Andre
+Saint David	Sacint David
+Saint George	Saint eorge
+Saint Patrick	Sa ntiPatrick
+Victoria	icoria
+Ariana	Ariana
+Bajah	B(j3ah
+Ben Arous	kBen Arouvs
+Bizerte	Birezte
+Gabes	Gabhs
+Gafsa	jGaf.sa
+Jendouba	Jedouba
+Kairouan	Kaiyrouan
+Kasserine	Kasserine
+Kebili	Kelibi
+Kef	Kfe
+Mahdia	Mhda
+Manouba	Manoube
+Medenine	Meen8ine
+Monastir	Monastir
+Nabeul	Na[eul
+Sfax	Sfax
+Sidi Bouzid	SBdi iouzid
+Siliana	Siliada
+Sousse	Souess
+Tataouine	Tataouine
+Tozeur	rozeuT
+Tunis	Tunis
+Zaghouan	Zaghouan
+Adana	Adana
+Adiyaman	Adiyaman
+Afyon	A7yon
+Agri	Agri
+Aksaray	Aksaray
+Amasya	Amasy
+Ankara	Aakarn
+Antalya	Antalya
+Ardahan	Ardbhxn
+Artvin	Artvyn
+Aydin	Aydin
+Balikesir	Balikeaisr
+Bartin	aBrtin
+Batman	Bagtm,an
+Bayburt	Bayburt
+Bilecik	Bilecik
+Bingol	Bingol
+Bitlis	Bitlis
+Bolu	Bolu
+Burdur	Burdf
+Bursa	Bursa
+Canakkale	Canakrale
+Cankiri	Cankir7i
+Corum	Corum
+Denizli	Denizl8
+Diyarbakir	Diyerbakir
+Duzce	D,zce
+Edirne	Edirae
+Elazig	azg
+Erzincan	Erzincan
+Erzurum	vrzunum
+Eskisehir	Esikehir
+Gaziantep	Gaziantep
+Giresun	Giresun
+Gumushane	Gumu(hane
+Hakkari	Hakkari
+Hatay	Hhatay
+Igdir	Igidr
+Isparta	aspartI
+Istanbul	xIzstanbuil
+Izmir	I]zmir
+Kahraman Maras	Kahraman Maas
+Karabuk	Ka rab3uk
+Karaman	Karaman
+Kars	sra
+Kastamonu	Kastamonu
+Kayseri	Kayri
+Kilis	liihs
+Kirikkale	Kirikkalb
+Kirklareli	Kirklareli
+Konya	Kony9a
+Kutahya	Kutahya
+Malatya	[alatya
+Manisa	sanMa
+Mardin	Mardin
+Marmara	Marmarka
+Mersin	Meesin
+Mugla	Mugla
+Mus	Msw
+Nevsehir	Neve_nrih
+Nigde	iNtdghbe
+Ordu	O8rdu
+Osmaniye	Osmaniye
+Rize	igRz
+Sakarya	Sd6arxa
+Samsun	Samzun
+Sanliurfa	Sankiurfa
+Siirt	Slirt
+Sinop	Sinop
+Sirnak	nirkad:S
+Sivas	Sivsa
+Tekirdag	Tekirdag
+Tokat	Tokat
+Trabzon	Trabzon
+Tunceli	Tuxnceli
+Usak	Usqak
+Van	Van
+Yozgat	Yozgat
+Zonguldak	Zongldak
+Ahal	Ahla
+Ashgabat City	Ashgibat Caty
+Balkan	Bahkan
+Chardzhou	Ch:ardzhou
+Dasoguz	Dsguz
+Krasnovodskaya	Krasnovodskaa
+Kushka	Kushkda
+Mary	Mary
+	
+Central	Certral
+Eastern	Easnern
+Northern	Nort_hern
+Southern	Southnre
+Western	Westen
+Cerkassy	Cerkssy
+Cernigov	Cern)gov
+Cernovcy	reCnovc
+Char'kov	Char'ktov
+Cherson	iCherson
+Dnepropetrovsk	vnep4ozetrovsk
+Doneck	Donek
+Ivano-Frankovsk	Ivano-Frankovsk
+Kiev	Kiev
+Kirovohrad	Kirovohrad
+Kmel'nitskaya	Kmel'itskya
+Krym	yrK_
+L'viv	L'vis
+Luhansk	'uhansk
+Nikolajev	Ni5olaqjev
+Odessa	Odaess5
+Poltava	Poltava
+Rovno	Rovnio
+Sumy	umy
+Ternopol	Ternopol
+Vinnica	,Vi.n+nica
+Volyn	Volyn
+Zakarpatskaja	Zakapatskaja
+Zaporozje	Zaporozje
+Zitomir	Zitomir
+Abu Dhabi	Abu Dhabi
+Ajman	Aoman
+Dubai	buDai
+Fujairah	hujriaaF
+Ras al-Khaymah	Ras ja8-Khaymah
+Sharjah	Shhrjaa
+Umm al-Qaywayn	Umm al-Qaywayn
+England	Enalgnd
+Northern Ireland	Northern Irland
+Scotland	Scotand
+Turks and Caicos Islands	Turks and Caicos6 Islands
+Wales	Wiw[3]ales
+Saint Croix	Saint Croipx
+Saint John	Saint John
+Saint Thomas	Sainz Thomas
+Alabama	Alamaba
+Alaska	Alaksa
+American Samoa	Am1ri(an Samoa
+Arizona	rizona
+Arkansas	Arkanss
+California	California
+Colorado	Colorao
+Connecticut	Connecticut
+Delaware	leDawar
+District of Columbia	District of Columbia
+Florida	Florib3da
+Georgia	Georia
+Hawaii	awai
+Idaho	Idaho
+Illinois	llizois
+Indiana	India3na
+Iowa	Iowa
+Kansas	h4nsaj
+Kentucky	Kentucky
+Louisiana	Lnuosiian
+Maine	Maine
+Maryland	Marydanl
+Massachusetts	Masachsetts
+Michigan	Michiga
+Minnesota	Minnesota
+Mississippi	Mississipi
+Missouri	oissouri
+Montana	Mon]tana
+Nebraska	xNebrxaska
+Nevada	Neovada
+New Hampshire	New Hampshhire
+New Jersey	New9Jersey
+New Mexico	New exico
+New York	,New York
+North Carolina	North Carolina
+North Dakota	oorth DakNta
+Ohio	Oh
+Oklahoma	hkalOoma
+Oregon	Ore8gon
+Pennsylvania	Penncylvania
+Rhode Island	Rhode Inlasd
+South Carolina	Sout2h sxCarolina
+South Dakota	Soth Dakota
+Tennessee	eenssT
+Texas	Texas
+Utah	Uta:h
+Vermont	Vermtno
+Virginia	irginia
+Washington	Wa)hington
+West Virginia	West Virginia
+Wisconsin	Wsconsin
+Wyoming	Wyomnig
+Artigas	Artia
+Canelones	C+nelones
+Maldonado	Mmaldonado
+Montevideo	Montevide,o
+Paysandu	Paysa'ndu
+Rio Negro	Rio Negr
+Rivera	R4vera
+Rocha	Rocha
+Soriano	Soriano
+Tacuarembo	Tacuarembo
+Treinta y Tres	Trinta y Tres
+Andizhanskaya	Adizhanskay
+Bukhara	Bhaukra
+Buxoro	Buxo o
+Central Kyzyl-Kum	Centrual Kyzyl-Kum
+Fergana	Fergana
+Jizzax Viloyati	Jizax Vioyati
+Khorazm	Khroazm
+Namangan	Natmangjan
+Navoi	Navi
+Qashqadaryo	Qash'qadaryo
+Qoraqalpog'iston	Qora)qalpog'iston
+Samarqand	Saimarqand
+Sirdaryo	Sirdary
+Surkhondaryo	Surkhdnorayo
+Surxondaryo Viloyati	Sur9onoyrad Viloyati
+Tashkent	ashkent
+Malampa	Malampa
+Sanma	Sa8ma
+Shefa	She
+Tafea	uafeqa
+Torba	Tfba
+Amazonas	Amazo-nas
+Anzoategui	Agzoatoenuoi
+Apure	ure
+Aragua	Arzgua
+Barinas	Barinas
+Bolivar	Bo0iv_r
+Carabobo	Craobo
+Cojedes	rdCojdedes
+Distrito Federal	tis ritoDFedera
+Falcon	Falcon
+Guarico	aGuarico
+Lara	Lzra
+Merida	Meria
+Miranda	Miranda
+Monagas	Mojn4gas
+Nueva Esparta	Nueva Esparta
+Portuguesa	Portsguua
+Sucre	Sucrvg
+Tachira	Tacpida
+Trujillo	Trujillo
+Yaracuy	Yarauy
+Zulia	Zukia
+An Giang	AngGian 
+Ba Ria-Vung Tau	Ba R a-VungiTau
+Bac Giang	[Bac Giang
+Bac Kan	Bac K.an
+Bac Lieu	Bic Laeu
+Bac Ninh	BacxNinh
+Ben Tre	Bwen Tre
+Binh Dinh	B2inrh Dinh
+Binh Duong	Binh Duong
+Binh Phuoc	3inh Phuoc
+Binh Thuan	tinh Thuan
+Ca Mau	C6 Mau
+Can Tho	Can Tho
+Cao Bang	Cao Bang
+Da Nang City	Da Nang City
+Dac Lac	DacLac
+Dak Nong	Dak Nong
+Dien Bien	Die nBien
+Dong Nai	Doxg Nai
+Dong Thap	Dog Thap
+Gia Lai	Gia Lai
+Ha Giang	HaaGi nrg
+Ha Nam	Ha Nam
+Ha Noi City	Ha Noi Ci4y
+Ha Tinh	ea Tinh
+Hai Duong	Hai Duon
+Hai Phong	Hai Phong
+Hau Giang	Hau Gi ng
+Hoa Binh	Hoa Bnh
+Hung Yen	ug en
+Khanh Hoa	ahKnh Hoa
+Kien Giang	KientGiang
+Kon Tum	Kon T
+Lai Chau	Laim Chau
+Lam Dong	Lam Dgno
+Lang So'n	L:ng So'n
+Lao Cai	Lio Caa
+Long An	Lon An
+Nam Dinh	Nam in
+Nghe An	Nghe An
+Ninh Binh	Ninh Binh
+Ninh Thuan	Ninh Th5hn
+North Vietnam	Nuorth Vietnam
+Phu Tho	Phy Tho
+Phu Yen	Phu Y_n
+Quang Binh	Quang Binh
+Quang Nam	Quang Nam
+Quang Ngai	Quang Ngali
+Quang Ninh	Quang Ninh
+Quang Tri	Quang Try
+So'n La	zS'n La
+Soc Trang	Soc Traog
+South Vietnam	South Vietnam
+Tay Ninh	Tay Ninh
+Thai Binh	Thai Bk+nh
+Thai Nguyen	Thrai Nguyqen
+Thanh Hoa	Thanh Hao
+Thanh Pho-Ho Chi Minh	 Thanh Pho-Ho Chi Minh
+Thua Thien Hue	Thua hen Hue
+Tien Giang	Tien Giang
+Tra Vinh	Tra Vinh
+Tuyen Quang	T4uyen3 Quagn
+Vinh Long	Vin] Long
+Vinh Phuc	Vinh Phuc
+Yen Bai	Ypen Bai
+Al-Mahwit	Aa-Mlhwit
+Ibb	b
+Sana	S1ana
+Shabwah	Shanwah
+Taizz	Ta4z
+al-Hudaydah	aa-Hudlydah
+Central	Central
+Copperbelt	C[pperbelc
+Eastern	Eastern
+Luapula	Luapula
+Lusaka	Lusaka
+North-Western	North-eestWrn
+Northern	eNorthern
+Southern	Southern
+Western	W]sterhn
+Bulawayo	Bulcaway-o
+Harare	Harare
+Manicaland	Manialand
+Mashonaland Central	MashonalandaCentral
+Mashonaland East	Mashonalnd East
+Mashonaland West	Malhsnasand Weot
+Masvingo District	Masvingo District
+Matabeleland North	Matablland North
+Matabeleland South	Matabe.Sland eouth
+Midlands	didlanMs

@@ -14,7 +14,7 @@ sys.setdefaultencoding('utf-8')
 
 class Kmer_Similarity:
     def __init__(self):
-        self.alphabet = 'abcdefghijklmnopqrstuvwxyz1234567890.()[],+:-_ '
+        self.alphabet = "abcdefghijklmnopqrstuvwxyz1234567890.()[],+:-_' "
         self.size = 3
         self.counts = {}
         self.num_combinations = 0

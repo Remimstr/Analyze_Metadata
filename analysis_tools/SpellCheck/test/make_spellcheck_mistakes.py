@@ -17,8 +17,8 @@ sys.setdefaultencoding('utf-8')
 # them to the suggestions that the spell check would make.
 class Make_Spellcheck_Mistakes():
     def __init__(self, inFile, outFile):
-        self.alphabet = 'abcdefghijklmnopqrstuvwxyz1234567890.()[],+:-_ '
-        self.choice_list = [0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 2, 2, 2, 3]
+        self.alphabet = "abcdefghijklmnopqrstuvwxyz1234567890.()[],+:-_ '"
+        self.choice_list = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3]
         self.index_file = "../Resources/Standard_Serovars_Index.txt"
         self.standard_file = "../Resources/Standard_Serovars.txt"
         self.function_ref = {0: self.insert_square_brackets,
@@ -34,8 +34,8 @@ class Make_Spellcheck_Mistakes():
     def process_contents(self):
         # For each line, randomly assign some changes to be made
         for pos in range(len(self.mutated_words)):
-            print self.mutated_words[0]
-            print pos
+            if self.getWord(pos) == "":
+                continue
             # Choose the number of changes to be made
             c = choice(self.choice_list)
             ref = copy.copy(self.function_ref).keys()

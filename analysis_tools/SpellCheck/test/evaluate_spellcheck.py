@@ -2,20 +2,33 @@
 
 # Written by: Remi Marchand - June 20, 2016
 
+import csv
+
 # Set default string processing to Unicode-8
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-import csv
+sys.path.append("..")
+sys.path.append("~/Desktop")
 from intelligent_suggest import intelligent_suggest
 
 word_size = 3
-word_targets = "./test/Messed_Serovars.txt"
-word_list_file = "../Resources/Standard_Serovars.txt"
-word_index_file = "../Resources/Standard_Serovars_Index.txt"
-csv_file = "./test/Tested_Serovars.csv"
-item_suggest = intelligent_suggest(word_list_file, word_index_file)
+
+fileSet = {"Countries": ["Messed_Countries.txt",
+                         "../../Resources/Standard_Countries.txt",
+                         "../../Resources/Standard_Countries_Index.txt",
+                         "Tested_Countries.csv"],
+
+           "Provinces": ["Messed_Provinces.txt",
+                         "../../Resources/Standard_Provinces.txt",
+                         "../../Resources/Standard_Provinces_Index.txt",
+                         "Tested_Provinces.csv"],
+
+           "Serovars": ["Messed_Serovars.txt",
+                        "../../Resources/Standard_Serovars.txt",
+                        "../../Resources/Standard_Serovars_Index.txt",
+                        "Tested_Serovars.csv"]}
 
 
 def openFile(filename, delimiter=None):
@@ -25,6 +38,7 @@ def openFile(filename, delimiter=None):
             match_dict[i] = line.strip("\n").split(delimiter)
     return match_dict
 
+
 def write_to_csv(filename, data):
     with open(filename, "w") as csvfile:
         headers = ["Original", "Mutated", "Spellchecked", "Score"]
@@ -33,9 +47,11 @@ def write_to_csv(filename, data):
         for line in data:
             writer.writerow(line)
 
-def run():
+
+def run(word_targets, list_file, index_file, csv_file):
     targets = openFile(word_targets, delimiter="\t")
     out_data = []
+    item_suggest = intelligent_suggest(list_file, index_file)
     for target in targets.values():
         suggestions = item_suggest.suggest(target[1])
         if suggestions == {}:
@@ -52,4 +68,5 @@ def run():
 
 
 if __name__ == "__main__":
-    run()
+    files = fileSet[sys.argv[1]]
+    run(*files)

@@ -105,7 +105,7 @@ if __name__ == "__main__":
     geo_info = open_geo_files.return_dicts()
     # Open the csv files of interest
     for in_file in sys.argv[1:]:
-        csvin = open(in_file, "rb")
+        csvin = open(in_file, "rU")
         # Set up the output csv for writing
         filename = in_file[:-4] + file_ext
         print "Working on %s" % filename

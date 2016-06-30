@@ -18,7 +18,7 @@ sys.setdefaultencoding('utf-8')
 class SpellCheck:
     def __init__(self):
         self.dictionary = {}
-        self.alphabet = 'abcdefghijklmnopqrstuvwxyz1234567890.()[],+:-_ '
+        self.alphabet = "abcdefghijklmnopqrstuvwxyz1234567890.()[],+:-_' "
         self.delimeter = "\t"
 
     def setAlphabet(self, alpha):
