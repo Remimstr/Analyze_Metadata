@@ -1,10 +1,10 @@
 Afghanistan	tfghanisnaA
-Albania	+lbania
+Albania	:lbania
 Algeria	Algeria
 Andorra	Akndorra
 Angola	lngoAaa
 Anguilla	Anguilla
-Antarctica	Antar_-tica
+Antarctica	Antar _tica
 Antigua and Barbuda	Antigua and Barbuda
 Arctic Ocean	Arctic Ocean
 Argentina	Argentina
@@ -13,7 +13,7 @@ Aruba	Aruba
 Atlantic Ocean	ntlantic OceaA
 Australia	us(ralia
 Austria	Austri0
-Azerbaijan	-zerbiajn
+Azerbaijan	_zerbiajn
 Bahamas	Bazhamaps
 Bahrain	Bahrain
 Baltic Sea	Baltic Sea
@@ -31,7 +31,7 @@ Botswana	Boaswant
 Brazil	Bzrazil
 British Indian Ocean Territory	British Indian Ocea Teritory
 British Virgin Islands	British) Virgin Isla[nds
-Brunei	Br-yeh
+Brunei	Br_yeh
 Bulgaria	Bilgarua
 Burkina Faso	Burkina F4aso
 Burundi	Burundi
@@ -46,12 +46,12 @@ Chad	Chad
 Chile	Chie
 China	Chin
 Colombia	Coomia
-Comoros	aComo_roqs
+Comoros	aComo roqs
 Cook Islands	Cook Islan4ds
 Costa Rica	Cota Rica
 Cote d'Ivoire	Codte'voie
 Croatia	Croatnia
-Cuba	Cub:a
+Cuba	Cub-a
 Curacao	Curacao
 Cyprus	Cy3rus
 Czech Republic	Czech Reopufblic
@@ -73,7 +73,7 @@ Exception - Culture	Exceptifon - Culture
 Exception - Laboratory Colony	Exception - Laboratory Colony
 Exception - Quarantine Capture	ExceQtiont- puaran ine Capture
 Exception - Zoological Park	Exception - Zoologccal Park
-Faeroe Islands	Faeroe +Islands
+Faeroe Islands	Faeroe :Islands
 Falkland Islands	Falkland Islands
 Fiji	Fiji
 Finland	Filnland
@@ -102,7 +102,7 @@ Honduras	Honduras
 Hungary	Hungaru
 Iceland	Iceland
 Indian Ocean	IqdianOcean
-India	:ndia
+India	-ndia
 Indonesia	Indonesia
 Iran	Iran
 Iraq	raq
@@ -118,7 +118,7 @@ Kazakhstan	Kaakhstan
 Kenya	eKnya
 Kiribati	Kiribati
 Kosovo	Kosovo
-Kuwait	Kuw2a-it
+Kuwait	Kuw2a_it
 Kyrgyzstan	Kyrgyzstan
 Laboratory Culture	Lboratory Culture
 Laos	saoL
@@ -139,17 +139,17 @@ Mali	M(li
 Malta	Mialta
 Marshall Islands	Marshall Islands
 Martinique	Martiniue
-Mauritania	Mauri6:nia
+Mauritania	Mauri6-nia
 Mauritius	dMauritus
-Mayotte	Ma:8yotte
+Mayotte	Ma-8yotte
 Mediterranean Sea	Mediterranean Sea
 Mexico	Mxec
 Micronesia	Miconesia
-Moldova	sMold+ova
+Moldova	sMold:ova
 Monaco	Monacro
 Mongolia	Mongolia
 Montenegro	Mo.ntenhegro
-Montserrat	Monttser,rat
+Montserrat	Monttser+rat
 Morocco	Moronco
 Mozambique	Mozambque
 Myanmar	Myanmar
@@ -176,7 +176,7 @@ Pacific Ocean	Pacific Ocean
 Pakistan	xkistan
 Palau	Paual
 Panama	Panabma
-Papua New Guinea	Papua :ew Gu nea
+Papua New Guinea	Papua -ew Gu'nea
 Paraguay	Paraguay
 Peru	Pru
 Philippines	Philihppines
@@ -213,15 +213,15 @@ South China Sea	South Chi1nat Sea
 South Georgia and the South Sandwich Islands	South Georgia and the South Sandwich Islands
 South Korea	Soth Krea
 South Pacific Ocean	South .acific Ocean
-South Sudan	2Sou_th Sudan
+South Sudan	2Sou th Sudan
 Southern Ocean	Soutehrn Ocean
 Spain	Spain
 Sri Lanka	riLanka
 Sudan	Suean
 Suriname	Suriname
 Swaziland	Swaziland
-Sweden	Sw-edeen
-Switzerland	Switz erland
+Sweden	Sw_edeen
+Switzerland	Switz'erland
 Syria	Syria
 Taiwan	Taijan
 Tajikistan	Tajikista
@@ -233,7 +233,7 @@ Togo	Togo
 Tokelau	Tokeehlau
 Tonga	Tona
 Trinidad and Tobago	Trinidad an dTobago
-Tunisia	,unisia
+Tunisia	+unisia
 Turkey	urk
 Turkmenistan	Turkmenistan
 Tuvalu	Tuv9alt
@@ -247,7 +247,7 @@ Uruguay	Urcuguuay
 Uzbekistan	Uzbekistan
 Vanuatu	Vanuatu
 Venezuela	enezelua
-Vietnam	Vietna,m
+Vietnam	Vietna+m
 Yemen	Ymen
 Zambia	Zambia
 Zimbabwe	Zimbawe

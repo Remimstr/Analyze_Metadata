@@ -68,5 +68,8 @@ def run(word_targets, list_file, index_file, csv_file):
 
 
 if __name__ == "__main__":
-    files = fileSet[sys.argv[1]]
+    if sys.argv[1] in fileSet.keys():
+        files = fileSet[sys.argv[1]]
+    else:
+        files = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
     run(*files)

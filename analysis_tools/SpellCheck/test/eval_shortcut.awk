@@ -16,15 +16,20 @@ BEGIN {
 {sub(/\r$/,"")}
 
 # Print out the new headers (Correctly Spellchecked at $5)
-NR==1 {print $0 ",Correctly Spellchecked?"}
+NR==1 {print $0 ",Correctly Spellchecked?,Comments"}
+
+## Get the first character of columns 1 and 3
+#{print (substr($1, 1, 1) == substr($3, 1, 1))}
 
 # For each line evaluate criteria and print out information accordingly
 {if (NR!=1)
  {if ($1 == $3)
-  $5 = "Yes";
+    $5 = "Yes";
   else if ($1 == $2)
-  $5 =  "-";
+    $5 =  "-";
   else
-  $5 = "No";
+    $5 = "No";
+    {if (substr($1, 1, 1) != substr($2, 1, 1))
+        $6 = "First character mismatch"}
   print $0}
  }

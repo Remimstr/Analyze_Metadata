@@ -17,7 +17,7 @@ sys.setdefaultencoding('utf-8')
 # them to the suggestions that the spell check would make.
 class Make_Spellcheck_Mistakes():
     def __init__(self, inFile, outFile):
-        self.alphabet = "abcdefghijklmnopqrstuvwxyz1234567890.()[],+:-_ '"
+        self.alphabet = "abcdefghijklmnopqrstuvwxyz1234567890.()[]+:-_ '"
         self.choice_list = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 3]
         self.index_file = "../Resources/Standard_Serovars_Index.txt"
         self.standard_file = "../Resources/Standard_Serovars.txt"

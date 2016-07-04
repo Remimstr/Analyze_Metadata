@@ -116,6 +116,7 @@ class intelligent_suggest:
             lDiff = abs(wLen - qLen) / qLen * 100
             if (query[0].lower() != word[0].lower()) or \
                     lDiff > self.lengthDiff:
+                if query[0] == "k" or query[0] == "K": print word, lDiff
                 continue
             if word is None:
                 continue
