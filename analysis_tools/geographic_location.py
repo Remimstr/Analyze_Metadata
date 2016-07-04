@@ -5,7 +5,6 @@
 # Descrition: Parses geographic locations from .csv's into a unified format
 
 import re
-import utils
 
 # Set default string processing to Unicode-8
 import sys
@@ -151,8 +150,3 @@ def parse(raw_loc, geo_info):
     return_vals[keys[1]] = raw_loc
     return_vals[keys[2]] = collection_note
     return return_vals
-
-if __name__ == "__main__":
-    for in_file in sys.argv[1:]:
-        utils.find_and_write("RUN", column_strs, keys,
-                             in_file, "geographic_location", "geo_locs")

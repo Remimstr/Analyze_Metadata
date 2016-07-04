@@ -6,7 +6,6 @@
 
 import re
 import math
-import utils
 import calendar
 import dateparser
 import datetime
@@ -102,11 +101,3 @@ def parse(raw_date):
     return_vals[keys[2]] = flag
     return_vals[keys[3]] = ambiguous if ambiguous is True else None
     return return_vals
-
-# Note: Be careful about what you feed this function. It WILL fail if you
-# give it something other than the output from metadata.py
-
-if __name__ == "__main__":
-    for in_file in sys.argv[1:]:
-        utils.find_and_write("RUN", column_strs, keys,
-                             in_file, "collection_date", "dates")
