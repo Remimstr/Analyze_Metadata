@@ -15,20 +15,20 @@ from intelligent_suggest import intelligent_suggest
 
 word_size = 3
 
-fileSet = {"Countries": ["Messed_Countries.txt",
-                         "../../Resources/Standard_Countries.txt",
-                         "../../Resources/Standard_Countries_Index.txt",
-                         "Tested_Countries.csv"],
+fileSet = {"Countries": ["../results/Messed_Countries.txt",
+                         "../../../Resources/Standard_Countries.txt",
+                         "../../../Resources/Standard_Countries_Index.txt",
+                         "../Tested_Countries.csv"],
 
-           "Provinces": ["Messed_Provinces.txt",
-                         "../../Resources/Standard_Provinces.txt",
-                         "../../Resources/Standard_Provinces_Index.txt",
-                         "Tested_Provinces.csv"],
+           "Provinces": ["../results/Messed_Provinces.txt",
+                         "../../../Resources/Standard_Provinces.txt",
+                         "../../../Resources/Standard_Provinces_Index.txt",
+                         "../Tested_Provinces.csv"],
 
-           "Serovars": ["Messed_Serovars.txt",
-                        "../../Resources/Standard_Serovars.txt",
-                        "../../Resources/Standard_Serovars_Index.txt",
-                        "Tested_Serovars.csv"]}
+           "Serovars": ["../Messed_Serovars.txt",
+                        "../../../Resources/Standard_Serovars.txt",
+                        "../../../Resources/Standard_Serovars_Index.txt",
+                        "../Tested_Serovars.csv"]}
 
 
 def openFile(filename, delimiter=None):

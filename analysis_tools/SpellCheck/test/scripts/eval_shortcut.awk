@@ -19,7 +19,6 @@ BEGIN {
 NR==1 {print $0 ",Correctly Spellchecked?,Comments"}
 
 ## Get the first character of columns 1 and 3
-#{print (substr($1, 1, 1) == substr($3, 1, 1))}
 
 # For each line evaluate criteria and print out information accordingly
 {if (NR!=1)
