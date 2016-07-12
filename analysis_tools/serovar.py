@@ -20,8 +20,8 @@ keys = ["CURATED", "VARIANT", "OTHER_INFO", "ORIGINAL", "SUGGESTION"]
 # column_strs is a list of strings representing columns of interest
 column_strs = ["serovar"]
 
-list_f = path + "Standard_Serovars.txt"
-index_f = path + "Standard_Serovars_Index.txt"
+list_f = path + "/Standard_Files/Standard_Serovars.txt"
+index_f = path + "/Index_Files/Standard_Serovars_Index.txt"
 
 
 def spellcheck(word_target, list_file=list_f, index_file=index_f):

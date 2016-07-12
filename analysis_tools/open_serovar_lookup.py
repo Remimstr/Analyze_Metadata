@@ -19,7 +19,7 @@ path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
 paths = {"sl": path + "Serovar_Replacement_Lookup.csv"}
 
 
-# parse_files: openfile, Str, Str -> Dict
+# return_dicts: None -> Dict
 # This function is specifically designed to open and parse the file:
 # "Serovar_Replacement_Lookup.txt"
 

@@ -15,7 +15,7 @@ BEGIN {
 # Replace all bad newline characters
 {sub(/\r$/,"")}
 
-# Print out the new headers (Correctly Spellchecked at $5)
+# Print out the new headers (Correctly Spellchecked at $5, Comments at $6)
 NR==1 {print $0 ",Correctly Spellchecked?,Comments"}
 
 ## Get the first character of columns 1 and 3

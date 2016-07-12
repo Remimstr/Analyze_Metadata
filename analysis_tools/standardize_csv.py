@@ -20,8 +20,8 @@ sys.setdefaultencoding('utf-8')
 # scripts of these titles must be in the same folder as this one for the
 # function to run properly
 temp = ["collection_date", "geographic_location"]
-modules = ["serovar"]
-file_ext = "_serovar.csv"
+modules = ["isolation_source"]
+file_ext = "_isolation_source.csv"
 
 # find_positions: Str (listof Str) Str -> [] or (listof Int)
 # This function searches headers provided, headers, for the strings
@@ -103,9 +103,11 @@ if __name__ == "__main__":
     sero_info = open_serovar_files.return_dicts()
     open_geo_files = importlib.import_module("open_geo_files")
     geo_info = open_geo_files.return_dicts()
+    open_iso_src_files = importlib.import_module("open_iso_src_files")
+    iso_info = open_iso_src_files.return_dicts()
     # Open the csv files of interest
     for in_file in sys.argv[1:]:
-        csvin = open(in_file, "rb")
+        csvin = open(in_file, "rU")
         # Set up the output csv for writing
         filename = in_file[:-4] + file_ext
         print "Working on %s" % filename
@@ -127,6 +129,8 @@ if __name__ == "__main__":
                     lines.append(return_body(line, pos, keys, mod, geo_info))
                 elif mod == "serovar":
                     lines.append(return_body(line, pos, keys, mod, sero_info))
+                elif mod == "isolation_source":
+                    lines.append(return_body(line, pos, keys, mod, iso_info))
                 else:
                     lines.append(return_body(line, pos, keys, mod, None))
             data_set.append(lines)

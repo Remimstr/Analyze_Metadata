@@ -24,6 +24,7 @@ lst = {}
 out_file = open(out_name, "w")
 with open(filename, "rU") as in_file:
     for i, line in enumerate(in_file):
+        # Separate by "|" delimiter
         row = line.strip().split("|")
         count = len(row)
         if count == 0:

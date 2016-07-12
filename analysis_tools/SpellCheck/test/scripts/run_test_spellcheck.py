@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 
 # Written by: Remi Marchand - June 20, 2016
+# Description: Function to run the spellchecker on an input csv file.
+#              Produces a csv file containing the original queries
+#              as well as the new spellchecked names.
 
 import csv
 
@@ -10,7 +13,6 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 sys.path.append("..")
-sys.path.append("~/Desktop")
 from intelligent_suggest import intelligent_suggest
 
 word_size = 3
