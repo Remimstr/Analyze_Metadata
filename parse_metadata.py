@@ -5,12 +5,17 @@
 # Description: This script parses metadata from an xml file into a
 # dictionary which it returns to the user.
 
+import os
 from lxml import etree
 
 # Set default string processing to Unicode-8
 import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
+
+path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Xml_Validation/"
+sys.path.append(path)
+from validate_xml import validate_xml
 
 # Set fields to ignore while searching for "primary_IDs" and "grandparents"
 exclude_list = ["EXPERIMENT_REF", "MEMBER", "Member", "DEFAULT_MEMBER"]
@@ -64,6 +69,7 @@ def sample_attributes(sa, metadata, sample):
     for child in sa:
         if len(child) == 2:
             if (child[0].tag == "TAG") and (child[1].tag == "VALUE"):
+                print child[0].tag, child[1].tag, child[1].text
                 metadata.add(sample + child[0].text, child[1].text)
         else:
             metadata.add(sample + child.tag, child.text)
@@ -134,6 +140,9 @@ def parse_metadata(xml_file):
     # Initialize a dictionary of header:value pairs
     metadata = SimpleDict()
     tree = etree.parse(xml_file)
+    # Validate that the xml file is a valid XML, otherwise throw and error
+    if not validate_xml(tree):
+        raise ValueError("%s is an invalid XML file" % xml_file)
     # Add the accession numbers to metadata
     accession_numbers(tree, metadata)
     # Retrieve all metadata related to the sample accession numbers

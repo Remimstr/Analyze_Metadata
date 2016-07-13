@@ -69,6 +69,7 @@ def metadata(name, start, end, time, overwrite):
     data = []
     # Parse all of the xml data together
     for i in xml_files:
+        print i
         data.append(parse_metadata(directory + "/" + i))
     print "\nWriting to CSV"
 
