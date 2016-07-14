@@ -1,6 +1,6 @@
 # Analyze_Metadata
 A collection of tools to download, parse, and standardize sequence metadata from NCBI databases.<br />
-Written by Remi Marchand from May 13, 2016 to August 26, 2016.
+Written by Remi Marchand between May 13, 2016 and August 26, 2016.
 
 ## Scope
 This collection of tools, by default, manipulates data from the Sequence Read Archive (SRA) database.<br />

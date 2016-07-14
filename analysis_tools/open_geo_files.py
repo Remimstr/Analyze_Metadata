@@ -2,7 +2,7 @@
 
 # Author: Remi Marchand
 # Date: June 3, 2016
-# Descrition: Some functions to open geo location files for parsing
+# Descrition: Module to open geo location files for parsing
 
 import re
 import os

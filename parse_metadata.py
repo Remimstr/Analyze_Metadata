@@ -44,6 +44,7 @@ class SimpleDict:
                 iteration += 1
             self.my_dict[next_key] = [value]
 
+
 # accession_numbers: ElementTree SimpleDict -> None
 # This function retrieves and parses all of the accession numbers
 # (SRR, ERR, SRX, etc) from my_tree and adds them to metadata.
@@ -69,8 +70,8 @@ def sample_attributes(sa, metadata, sample):
     for child in sa:
         if len(child) == 2:
             if (child[0].tag == "TAG") and (child[1].tag == "VALUE"):
-                print child[0].tag, child[1].tag, child[1].text
-                metadata.add(sample + child[0].text, child[1].text)
+                if child[0].text is not None:
+                    metadata.add(sample + child[0].text, child[1].text)
         else:
             metadata.add(sample + child.tag, child.text)
 
@@ -140,7 +141,7 @@ def parse_metadata(xml_file):
     # Initialize a dictionary of header:value pairs
     metadata = SimpleDict()
     tree = etree.parse(xml_file)
-    # Validate that the xml file is a valid XML, otherwise throw and error
+    # Validate that the xml file is a valid XML, otherwise throw an error
     if not validate_xml(tree):
         raise ValueError("%s is an invalid XML file" % xml_file)
     # Add the accession numbers to metadata
