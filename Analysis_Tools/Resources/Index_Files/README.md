@@ -5,5 +5,5 @@ Run the script BuildSearchIndex.py from the SpellCheck directory
 (../../SpellCheck/) as: <br /> python
 BuildSearchIndex.py word_size inFile_path outFile_path indexFile_path
 
-__Note: You should re-create each index file every time you change its
-corresponding standardized list__
+**Note: You should re-create each index file every time you change its
+corresponding standardized list**

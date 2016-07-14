@@ -8,11 +8,11 @@ The database can be found here: http://www.ncbi.nlm.nih.gov/sra
 
 ## Usage
 
-#### metadata.py
+### metadata.py
 Main program that queries and downloads xml files based on organism name and date.<br />
-__Usage:__ metadata.py options (run python metadata.py -h to see options)<br />
-__Download in Bulk:__ bash download_Salmonella.sh start_date end_date<br />
+**Usage:** metadata.py options (run python metadata.py -h to see options)<br />
+**Download in Bulk:** bash download_Salmonella.sh start_date end_date<br />
 
-#### AnalysisTools/standardize_csv.py (in progress)
+### AnalysisTools/standardize_csv.py (in progress)
 Main program that standardizes relevant columns from input csv files.<br />
-__Usage:__ standardize_csv.py csv_files<br />
+**Usage:** standardize_csv.py csv_files<br />
