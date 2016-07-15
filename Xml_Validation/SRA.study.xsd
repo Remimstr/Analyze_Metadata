@@ -3,9 +3,9 @@
 <!-- $Id$ -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <xs:include schemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-6a/SRA.common.xsd?view=co"/>
-  <xs:include schemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-6a/SRA.attribution.xsd?view=co"/>
-  
+  <xs:include schemaLocation="SRA.common.xsd"/>
+  <xs:include schemaLocation="SRA.attribution.xsd"/>
+
   <xs:element name="STUDY_SET">
     <xs:annotation>
       <xs:documentation>STUDY_SET is a container for a set of studies.</xs:documentation>
@@ -16,16 +16,16 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  
+
   <xs:element name="STUDY" type="StudyType"/>
-  
+
   <xs:complexType name="StudyType">
     <xs:annotation>
       <xs:documentation> A Study is a container for a sequencing investigation that may comprise multiple experiments. The
       Study has an overall goal, but is otherwise minimally defined in the SRA. A Study is composed of a descriptor, zero
       or more experiments, and zero or more analyses. The submitter may decorate the Study with web links and properties. </xs:documentation>
     </xs:annotation>
-    
+
     <xs:sequence>
       <xs:element name="IDENTIFIERS" type="IdentifierType" maxOccurs="1" minOccurs="0">
         <xs:annotation>
@@ -65,12 +65,12 @@
             </xs:element>
             <xs:element name="CENTER_PROJECT_NAME" maxOccurs="1" minOccurs="0" type="xs:string">
               <xs:annotation>
-                <xs:documentation> DEPRECATED: use STUDY/IDENTIFIERS for all indetifiers. 
+                <xs:documentation> DEPRECATED: use STUDY/IDENTIFIERS for all indetifiers.
                   Submitter defined project name. This field is intended for backward tracking of
                   the study record to the submitter's LIMS. </xs:documentation>
               </xs:annotation>
             </xs:element>
-            
+
             <xs:element name="RELATED_STUDIES" minOccurs="0" maxOccurs="1">
               <xs:annotation>
                 <xs:documentation> DEPRECATED: use STUDY/IDWENTIFIERS for alterantive identifiers of the study and LINK for references to umbrella projects. </xs:documentation>
@@ -96,11 +96,11 @@
                       </xs:sequence>
                     </xs:complexType>
                   </xs:element>
-                  
+
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
-            
+
             <xs:element name="STUDY_DESCRIPTION" maxOccurs="1" minOccurs="0" type="xs:string">
               <xs:annotation>
                 <xs:documentation>DEPRECATED: study abstract should be enough.</xs:documentation>
@@ -109,7 +109,7 @@
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      
+
       <xs:element name="STUDY_LINKS" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation> Links to resources related to this study (publication, datasets, online databases). </xs:documentation>
@@ -120,7 +120,7 @@
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      
+
       <xs:element name="STUDY_ATTRIBUTES" minOccurs="0" maxOccurs="1">
         <xs:annotation>
           <xs:documentation> Properties and attributes of the study. These can be entered as free-form tag-value pairs.
@@ -154,7 +154,7 @@
         <xs:annotation>
           <xs:documentation> Sequencing of transcription elements. </xs:documentation>
         </xs:annotation>
-      </xs:enumeration>                                            
+      </xs:enumeration>
       <xs:enumeration value="Transcriptome Analysis">
         <xs:annotation>
           <xs:documentation> Characterization of transcription elements. </xs:documentation>

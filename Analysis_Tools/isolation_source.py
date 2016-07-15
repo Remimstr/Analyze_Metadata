@@ -20,8 +20,8 @@ keys = ["CURATED", "ORIGINAL", "SUGGESTION"]
 # column_strs is a list of strings representing columns of interest
 column_strs = ["isolation_source"]
 
-list_f = path + "Standard_Files/Standard_Serovars.txt"
-index_f = path + "Index_Files/Standard_Serovars_Index.txt"
+list_f = path + "Standard_Files/Standard_Isolation_Sources.txt"
+index_f = path + "Index_Files/Standard_Isolation_Sources_Index.txt"
 
 def spellcheck(word_target, list_file=list_f, index_file=index_f):
     item_suggest = intelligent_suggest(list_file, index_file)

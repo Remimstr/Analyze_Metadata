@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Generic postal address -->
+  <xs:complexType name="typeAddress">
+    <xs:sequence>
+      <xs:element name="Department" type="xs:string" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Department: eg Department of Medicine</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Institution" type="xs:string" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Institution: eg Washington University</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Street" type="xs:string" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Street address: 123 Main St. Suite 104</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="City" type="xs:string" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>City: New York</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Sub" type="xs:string" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Subdivision of Country(state, province, etc.): Vermont 
+          </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Country" type="xs:string" minOccurs="1" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Country: USA</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="postal_code" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <!-- Name of a person -->
+  <xs:complexType name="typeName">
+    <xs:sequence>
+      <xs:element name="First" type="xs:string" minOccurs="0" maxOccurs="1"/>
+      <xs:element name="Last" type="xs:string" minOccurs="1" maxOccurs="1"/>
+      <xs:element name="Middle" type="xs:string" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Full middle name or initials </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Suffix" minOccurs="0" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!-- Contact info - an address with email -->
+  <xs:complexType name="typeContactInfo">
+    <xs:sequence>
+      <xs:element type="typeAddress" name="Address" minOccurs="0" maxOccurs="1"/>
+      <xs:element type="typeName" name="Name" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+    <xs:attribute name="email" type="xs:string" use="required"/>
+    <xs:attribute name="phone" type="xs:string"/>
+  </xs:complexType>
+
+  <!-- Set of sequence or publication authors -->
+  <xs:complexType name="typeAuthorSet">
+    <xs:sequence maxOccurs="1">
+      <xs:element maxOccurs="unbounded" name="Author">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element name="Name" minOccurs="0" type="typeName"> </xs:element>
+            <xs:element name="Consortium" type="xs:string" minOccurs="0"/>
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+
+  <!--
+    Organization:
+    we have people acting on behalf of organization (like lab or may be whole center or institute)
+  -->
+  <xs:complexType name="typeOrganization">
+    <xs:annotation>
+      <xs:documentation>Organization for the submission</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Name">
+        <xs:annotation>
+          <xs:documentation>Full organization Name</xs:documentation>
+        </xs:annotation>
+        <xs:complexType>
+          <xs:simpleContent>
+            <xs:extension base="xs:string">
+              <xs:attribute name="abbr" type="xs:string" use="optional">
+                <xs:annotation>
+                  <xs:documentation>Name abbreviation</xs:documentation>
+                </xs:annotation>
+              </xs:attribute>
+            </xs:extension>
+          </xs:simpleContent>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="Address" type="typeAddress" minOccurs="0" maxOccurs="1">
+        <xs:annotation>
+          <xs:documentation>Address of the organization</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element name="Contact" type="typeContactInfo" minOccurs="0" maxOccurs="unbounded">
+        <xs:annotation>
+          <xs:documentation>Contact(s) with organization when known</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute name="type" use="required">
+      <xs:annotation>
+        <xs:documentation>Organization type : center, institute, consortium or medical
+          lab</xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="consortium"/>
+          <xs:enumeration value="center"/>
+          <xs:enumeration value="institute"/>
+          <xs:enumeration value="lab"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="role" use="optional">
+      <xs:annotation>
+        <xs:documentation> Role of the ogranization in submission - owner of the data or just a
+          participant. It is expected that there is one owner of the submission data.
+        </xs:documentation>
+      </xs:annotation>
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="owner"/>
+          <xs:enumeration value="participant"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+    <xs:attribute name="url" type="xs:string" use="optional">
+      <xs:annotation>
+        <xs:documentation>URL of the organization website.</xs:documentation>
+      </xs:annotation>
+    </xs:attribute>
+  </xs:complexType>
+  
+  <!--
+    Organization:
+    we have people acting on behalf of organization (like lab or may be whole center or institute)
+  -->
+  <xs:complexType name="typeAttribution">
+    <xs:annotation>
+      <xs:documentation>Authors of data</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element name="Center" type="typeOrganization" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="Authors" type="typeAuthorSet" minOccurs="0" maxOccurs="1"/>
+    </xs:sequence>
+  </xs:complexType>
+      
+</xs:schema>

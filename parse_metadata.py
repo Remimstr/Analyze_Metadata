@@ -70,7 +70,7 @@ def sample_attributes(sa, metadata, sample):
     for child in sa:
         if len(child) == 2:
             if (child[0].tag == "TAG") and (child[1].tag == "VALUE"):
-                if child[0].text is not None:
+                if child[0].text is not None and child[1].text is not None:
                     metadata.add(sample + child[0].text, child[1].text)
         else:
             metadata.add(sample + child.tag, child.text)

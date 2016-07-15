@@ -3,7 +3,7 @@
 <!-- $Id$ -->
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <xs:include schemaLocation="http://www.ncbi.nlm.nih.gov/viewvc/v1/trunk/sra/doc/SRA_1-6a/SRA.common.xsd?view=co"/>
+  <xs:include schemaLocation="SRA.common.xsd"/>
 
   <xs:complexType name="SampleType">
     <xs:annotation>
