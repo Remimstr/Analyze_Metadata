@@ -29,7 +29,7 @@ def spellcheck(word_target, list_file=list_f, index_file=index_f):
     if suggestions == {}:
         return "No Suggestions"
     top_sug, min_score = min(suggestions.iteritems(), key=lambda p: p[1])
-    if min_score > 34:
+    if min_score > 24:
         return "Score Failure"
     else:
         return top_sug
