@@ -16,3 +16,7 @@ Main program that queries and downloads xml files based on organism name and dat
 ### AnalysisTools/standardize_csv.py (in progress)
 Main program that standardizes relevant columns from input csv files.<br />
 **Usage:** standardize_csv.py csv_files<br />
+
+## Additional Modules Needed
+- lxml (install via pip as: python -m pip install lxml)<br />
+- Levenshtein (install from: https://pypi.python.org/pypi/python-Levenshtein/0.12.0)
