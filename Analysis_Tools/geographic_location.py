@@ -1,4 +1,4 @@
-#!/usr/bin/evn python
+#!/usr/bin/env python
 
 # Author: Remi Marchand
 # Date: June 1, 2016

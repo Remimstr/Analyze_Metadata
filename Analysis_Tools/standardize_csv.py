@@ -1,4 +1,4 @@
-#!/usr/bin/evn python
+#!/usr/bin/env python
 
 # Author: Remi Marchand
 # Date: June 9, 2016
@@ -46,28 +46,29 @@ def find_positions(acc_str, item_strs, headers):
         acc_string = headers[a]
         acc_col_digit = [int(s) for s in acc_string.split("_") if
                          s.isdigit()]
-        pos.append([a])
-        corr_cols = []
+        cor_cols = [{acc_str: a}]
         for i in item_col:
             item_string = headers[i]
             item_col_digit = [int(s) for s in item_string.split("_") if
                               s.isdigit()]
             if acc_col_digit == item_col_digit:
-                corr_cols.append(i)
-        pos[pos.index([a])].extend(corr_cols)
+                for s in item_strs:
+                    if s in headers[i]:
+                        cor_cols.append({s: i})
+        pos.append(cor_cols)
     return pos
 
 
-# return_body: (listof Str) (listof Str) (listof Str) Str Str -> (listof Str)
+# parse_line: (listof Str) (listof Str) (listof Str) Str Str -> (listof Str)
 # This function takes a line of data and returns parsed data, the location
 # (or column) of which is specified by pos, and the parser specified by mod.
 
 
-def return_body(line, pos, keys, mod, extra_info):
+def parse_line(line, pos, keys, mod, extra_info):
     module = importlib.import_module(mod)
-    line_data = []
+    lines = []
     for p in pos:
-        line_data.append(line[p[0]])
+        lines.append(line[p[0].values()])
         for c in p[1:]:
             if extra_info is None:
                 item_info = module.parse(line[c])
@@ -83,14 +84,14 @@ def return_body(line, pos, keys, mod, extra_info):
 # keys.
 
 
-def return_headers(pos, headers, keys):
-    default_headers = []
-    for my_tuple in pos:
-        default_headers.append(headers[my_tuple[0]])
-        for item in my_tuple[1:]:
-            for key in keys:
-                default_headers.append(headers[item] + "_" + key)
-    return default_headers
+def return_headers(keys, columns):
+    new_headers = []
+    for c in columns:
+        col_headers = {c: []}
+        for k in keys:
+            col_headers[c].append(c + "_" + k)
+        new_headers.append(col_headers)
+    return new_headers
 
 # main: (listof Str) -> None
 # This function processes relevant metadata from all input files according
@@ -115,30 +116,36 @@ if __name__ == "__main__":
         headers = reader.next()
         data = [i for i in reader]
         # Import the column_strs from each of the modules
-        new_headers, data_set = [], []
+        data_set = []
+        all_headers = []
+        for mod in modules:
+            all_headers.append("RUN")
+            keys = importlib.import_module(mod).keys
+            columns = importlib.import_module(mod).column_strs
+            all_headers.extend(return_headers(keys, columns))
+
         for mod in modules:
             lines = []
             columns = importlib.import_module(mod).column_strs
             keys = importlib.import_module(mod).keys
             pos = find_positions("RUN", columns, headers)
-            if pos == []:
+            if pos == {}:
                 break
-            new_headers.extend(return_headers(pos, headers, keys))
             for line in data:
                 if mod == "geographic_location":
-                    lines.append(return_body(line, pos, keys, mod, geo_info))
+                    lines.append(parse_line(line, pos, keys, mod, geo_info))
                 elif mod == "serovar":
-                    lines.append(return_body(line, pos, keys, mod, sero_info))
+                    lines.append(parse_line(line, pos, keys, mod, sero_info))
                 elif mod == "isolation_source":
-                    lines.append(return_body(line, pos, keys, mod, iso_info))
+                    lines.append(parse_line(line, pos, keys, mod, iso_info))
                 else:
-                    lines.append(return_body(line, pos, keys, mod, None))
+                    lines.append(parse_line(line, pos, keys, mod, None))
             data_set.append(lines)
         # For each RUN number, find all data and append it
         if data_set != []:
             csvout = open(filename, "wb")
             csvwriter = csv.writer(csvout, delimiter=",")
-            csvwriter.writerow(new_headers)
+            csvwriter.writerow(keys)
             for x in range(0, len(data_set[0])):
                 line = []
                 for mod in data_set:
