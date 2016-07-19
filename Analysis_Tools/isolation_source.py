@@ -60,8 +60,8 @@ def replace_words(replacements, replace_string):
 
 def parse(isolation_source, iso_src_info):
     iso_src_info, eq_words = iso_src_info
-    return_vals = {keys[0]: "", keys[1]: "", keys[2]: ""}
-    return_vals[keys[1]] = isolation_source
+    return_vals = ["", "", ""]
+    return_vals[1] = isolation_source
     isolation_source = replace_words(repl_dict(eq_words), isolation_source)
     if isolation_source == "":
         return return_vals
@@ -69,7 +69,7 @@ def parse(isolation_source, iso_src_info):
     for key in iso_src_info.keys():
         if isolation_source == key.lower().strip():
             new_iso_src_info = iso_src_info[key]
-            return_vals[keys[0]] = new_iso_src_info
+            return_vals[0] = new_iso_src_info
             return return_vals
-    return_vals[keys[2]] = spellcheck(isolation_source)
+    return_vals[2] = spellcheck(isolation_source)
     return return_vals

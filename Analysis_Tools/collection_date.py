@@ -68,7 +68,7 @@ def date_exceptions(raw_date):
 
 
 def parse(raw_date):
-    return_vals = {}
+    return_vals = []
     date_parser = dateparser.DateDataParser(languages=["en"])
     date_obj = date_parser.get_date_data(raw_date)
     new_date, error = "", ""
@@ -96,8 +96,8 @@ def parse(raw_date):
     # If the date has failed to parse so far, run custom parsers on it
     else:
         error, new_date = date_exceptions(raw_date)
-    return_vals[keys[0]] = new_date
-    return_vals[keys[1]] = error
-    return_vals[keys[2]] = flag
-    return_vals[keys[3]] = ambiguous if ambiguous is True else None
+    return_vals.append(new_date)
+    return_vals.append(error)
+    return_vals.append(flag)
+    return_vals.append(ambiguous if ambiguous is True else "")
     return return_vals

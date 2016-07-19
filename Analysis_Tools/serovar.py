@@ -37,18 +37,17 @@ def spellcheck(word_target, list_file=list_f, index_file=index_f):
 
 
 def parse(raw_serovar, sero_info):
-    return_vals = {keys[0]: "", keys[1]: "", keys[2]: "",
-                   keys[3]: "", keys[4]: ""}
-    return_vals[keys[3]] = raw_serovar
+    return_vals = ["", "", "", "", ""]
+    return_vals[3] = raw_serovar
     if raw_serovar == "":
         return return_vals
     raw_serovar = raw_serovar.lower().strip()
     for key in sero_info.keys():
         if raw_serovar == key.lower().strip():
             new_sero_info = sero_info[key]
-            return_vals[keys[0]] = new_sero_info[0]
-            return_vals[keys[1]] = new_sero_info[1]
-            return_vals[keys[2]] = new_sero_info[2]
+            return_vals[0] = new_sero_info[0]
+            return_vals[1] = new_sero_info[1]
+            return_vals[2] = new_sero_info[2]
             return return_vals
-    return_vals[keys[4]] = spellcheck(raw_serovar)
+    return_vals[4] = spellcheck(raw_serovar)
     return return_vals

@@ -100,7 +100,7 @@ def search_for_province(province, gl_data, country=None):
 
 
 def parse(raw_loc, geo_info):
-    out_string, collection_note, return_vals = "", "", {}
+    out_string, collection_note, return_vals = "", "", []
     # Import files that contain parsing information
     cr_data, gl_data, sp_data = geo_info
     # Split the string according via colon and proceeding whitespace
@@ -146,7 +146,7 @@ def parse(raw_loc, geo_info):
             else:
                 collection_note += ":" + province
     # Set the output values
-    return_vals[keys[0]] = out_string
-    return_vals[keys[1]] = raw_loc
-    return_vals[keys[2]] = collection_note
+    return_vals.append(out_string)
+    return_vals.append(raw_loc)
+    return_vals.append(collection_note)
     return return_vals
