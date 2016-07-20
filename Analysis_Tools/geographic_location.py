@@ -2,7 +2,7 @@
 
 # Author: Remi Marchand
 # Date: June 1, 2016
-# Descrition: Parses geographic locations from .csv's into a unified format
+# Description: Parses geographic locations into a unified format
 
 import re
 

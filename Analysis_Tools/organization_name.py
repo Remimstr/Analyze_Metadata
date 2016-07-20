@@ -2,7 +2,7 @@
 
 # Author: Remi Marchand
 # Date: July 20, 2016
-# Description: A wrapper to parse isolation_source information
+# Description: A wrapper to parse organization_name information
 
 import multilevel_parse
 
@@ -13,8 +13,8 @@ sys.setdefaultencoding('utf-8')
 
 keys = multilevel_parse.keys
 # column_strs is a list of strings representing columns of interest
-column_strs = ["isolation_source"]
+column_strs = ["organization_name"]
 
 
-def parse(isolation_source, iso_src_info):
-    return multilevel_parse.parse(isolation_source, iso_src_info)
+def parse(organization_name, org_name_info):
+    return multilevel_parse.parse(organization_name, org_name_info)

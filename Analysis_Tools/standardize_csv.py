@@ -2,7 +2,7 @@
 
 # Author: Remi Marchand
 # Date: June 9, 2016
-# Descrition: Parses metadata of various kinds into a new csv
+# Description: Parses metadata of various kinds into a new csv
 
 import sys
 import csv
@@ -21,7 +21,7 @@ sys.setdefaultencoding('utf-8')
 # function to run properly
 modules = ["collection_date", "geographic_location",
            "serovar", "isolation_source"]
-file_ext = "standardized.csv"
+file_ext = "_standardized.csv"
 
 # flatten: (listof Any) -> generator Object
 # This function takes in a list and produces a generator object which
@@ -42,7 +42,7 @@ def flatten(lst):
 
 
 def open_info_files():
-    open_serovar_files = importlib.import_module("open_serovar_lookup")
+    open_serovar_files = importlib.import_module("open_sero_files")
     sero_info = open_serovar_files.return_dicts()
     open_geo_files = importlib.import_module("open_geo_files")
     geo_info = open_geo_files.return_dicts()
@@ -159,7 +159,12 @@ def main(file_list):
             keys.extend(mod_keys)
             columns.extend(mod_cols)
             new_headers.extend(return_headers(mod_keys, mod_cols))
-        positions, unique_keys = find_positions("RUN", columns, headers)
+        try:
+            positions, unique_keys = find_positions("RUN", columns, headers)
+        except:
+            print "No relevant information found"
+            csvin.close()
+            continue
         # Filter the list of new_headers against positions to only include
         # those headers which were actually found
         new_headers = [x for x in new_headers if x[0] in unique_keys]

@@ -2,7 +2,7 @@
 
 # Author: Remi Marchand
 # Date: May 24, 2016
-# Description: Parses collection dates from .csv's into a unified format
+# Description: Parses collection dates into a unified format
 
 import re
 import math

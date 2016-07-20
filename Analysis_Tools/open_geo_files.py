@@ -1,8 +1,8 @@
-#!/usr/bin/evn python
+#!/usr/bin/env python
 
 # Author: Remi Marchand
 # Date: June 3, 2016
-# Descrition: Module to open geo location files for parsing
+# Description: Module to open geo location files for parsing
 
 import re
 import os
