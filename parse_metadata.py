@@ -59,6 +59,18 @@ def accession_numbers(my_tree, metadata):
         if grandparent.tag not in exclude_list:
             metadata.add(parents[1].tag, ID.text)
 
+
+# organization: ElementTree SimpleDict String -> None
+# This function retrieves and parses Organization data, namely
+# the organization name from my_tree and adds them to metadata.
+
+
+def organization(my_tree, metadata, prefix):
+    for i in my_tree.getiterator():
+        if i.tag == "Name":
+            metadata.add(prefix + "_" + i.tag.lower(), i.text)
+
+
 # sample_attributes: Element SimpleDict Str -> None
 # This function retrieves and parses all of the information under the
 # sample_attributes (sa) node, accounting for the tree's unique structure.
@@ -130,6 +142,8 @@ def add_other_metadata(my_tree, metadata):
         if i.tag == "LIBRARY_DESCRIPTOR" or i.tag == "PLATFORM":
             for field in i.getiterator():
                 metadata.add(field.tag, field.text)
+        if i.tag == "Organization":
+            organization(i, metadata, "ORGANIZATION")
 
 # parse_metadata: Xml -> Dict
 # This function calls other functions that parse xml_file and adds the
