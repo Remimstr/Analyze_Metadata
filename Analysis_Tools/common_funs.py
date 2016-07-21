@@ -1,14 +1,11 @@
 #!/usr/bin/env python
 
 # Author: Remi Marchand
-# Date: June 10, 2016
-# Description: Perfoms multi-level parsing of a data type of interest.
-# This starts with a query word and undergoes the following steps:
-# 1. Single Word Replacement: (replace_words)
-# 2. Standardized List Querying
-# 3. Full Query Spellchecking: (spellcheck)
+# Date: July 21, 2016
+# Description: Functions that are universally used by Analysis Tools
 
 import os
+import csv
 
 # Set default string processing to Unicode-8
 import sys
@@ -18,21 +15,20 @@ sys.setdefaultencoding('utf-8')
 sys.path.append(os.path.dirname(os.path.realpath(__file__)) + "/SpellCheck/")
 from intelligent_suggest import intelligent_suggest
 
-# Global variables
-keys = ["CURATED", "ORIGINAL", "SUGGESTION"]
 
-
-def spellcheck(word_target, info):
-    list_file, index_file = info["lif"], info["inf"]
+def spellcheck(target, info, score):
+    list_file, index_file = info["std_file"], info["ind_file"]
     item_suggest = intelligent_suggest(list_file, index_file)
-    suggestions = item_suggest.suggest(word_target)
+    suggestions = item_suggest.suggest(target)
     if suggestions == {}:
         return "No Suggestions"
     top_sug, min_score = min(suggestions.iteritems(), key=lambda p: p[1])
-    if min_score > 24:
+    if min_score > score:
         return "Score Failure"
     else:
         return top_sug
+
+# *************************************************************************** #
 
 # repl_dict: Dict -> Dict
 # This function takes in a dictionary of equivalent words and splits
@@ -68,18 +64,34 @@ def replace_words(replacements, replace_string):
                 word_list[pos] = replacements[key]
     return " ".join(word_list)
 
+# *************************************************************************** #
 
-def parse(source, info):
-    replacements, eq_words = info["isr"], info["eqw"]
-    return_vals = ["", "", ""]
-    return_vals[1] = source
-    source = replace_words(repl_dict(eq_words), source)
-    if source == "":
-        return return_vals
-    source = source.lower().strip()
-    for key in replacements.keys():
-        if source == key.lower().strip():
-            return_vals[0] = replacements[key]
-            return return_vals
-    return_vals[2] = spellcheck(source, info)
-    return return_vals
+
+# simple_replace: None -> Dict
+# This function is specifically designed to open and parse simple files in
+# which there is one query value and one value returned.
+
+
+def simple_replace(filepath):
+    data = {}
+    with open(filepath, "rU") as open_file:
+        for line in open_file:
+            line = line.replace("\n", "")
+            line = line.replace("\"", "").split("\t")
+            data[line[1]] = line[0]
+    return data
+
+
+# complex_replace: None -> Dict
+# This function is specifically designed to open and parse files in which
+# there is one query value with multiple values returned.
+
+
+def complex_replace(filepath):
+    data = {}
+    with open(filepath, "rU") as csv_file:
+        next(csv_file)
+        csv_reader = csv.reader(csv_file)
+        for i in csv_reader:
+            data[i[0]] = [j for j in i[1:]]
+    return data

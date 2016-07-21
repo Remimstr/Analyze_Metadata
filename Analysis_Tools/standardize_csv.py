@@ -4,6 +4,7 @@
 # Date: June 9, 2016
 # Description: Parses metadata of various kinds into a new csv
 
+import os
 import sys
 import csv
 import importlib
@@ -14,14 +15,20 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
+# Get the relative path of the script
+path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
 
 # Global Variables
 # *Important: set modules to the ones you want to include in your desired order
 # scripts of these titles must be in the same folder as this one for the
 # function to run properly
 modules = ["collection_date", "geographic_location",
-           "serovar", "isolation_source"]
+           "serovar", "isolation_source", "organization_name"]
+
 file_ext = "_standardized.csv"
+
+replacements = path + "Null_Replacements.txt"
+
 
 # flatten: (listof Any) -> generator Object
 # This function takes in a list and produces a generator object which
@@ -36,20 +43,32 @@ def flatten(lst):
         else:
             yield x
 
+# open_replacements: Str -> (listof Str)
+# This function opens the replacements file and returns all values
+# found in a list.
+
+
+def open_replacements():
+    ret_vals = []
+    with open(replacements, "rU") as in_file:
+        for line in in_file:
+            ret_vals.append(line.strip("\n"))
+    return ret_vals
+
+
 # open_info_files: None -> Dict
 # This function opens files that the various parsing modules
 # will need in order to parse correctly.
 
 
-def open_info_files():
-    open_serovar_files = importlib.import_module("open_sero_files")
-    sero_info = open_serovar_files.return_dicts()
-    open_geo_files = importlib.import_module("open_geo_files")
-    geo_info = open_geo_files.return_dicts()
-    open_iso_src_files = importlib.import_module("open_iso_src_files")
-    iso_info = open_iso_src_files.return_dicts()
-    return {"serovar": sero_info, "geographic_location": geo_info,
-            "isolation_source": iso_info}
+def open_info_files(modules):
+    ret_vals = {}
+    for mod in modules:
+        if mod == "collection_date":
+            continue
+        open_mod = importlib.import_module(mod)
+        ret_vals[mod] = open_mod.return_dicts()
+    return ret_vals
 
 
 # find_positions: Str (listof Str) Str -> (listof Dict, listof Str)
@@ -104,17 +123,25 @@ def find_positions(acc_str, item_strs, headers):
 # information found in info.
 
 
-def parse_single(line, p, modules, info):
+def parse_single(line, p, columns, info, null_vals):
     data = []
-    for mod in modules:
-        keys = importlib.import_module(mod).column_strs
-        if p.keys()[0] in keys:
+    for col in columns.keys():
+        mod = columns[col]
+        column_strs = importlib.import_module(mod).column_strs
+        keys = importlib.import_module(mod).keys
+        if p.keys()[0] in column_strs:
+            line_data = line[p[p.keys()[0]]]
+            # If the value is among those in the null list, don't process it
+            if line_data.lower() in null_vals:
+                data.extend([""] * len(keys))
+                continue
             module = importlib.import_module(mod)
             # If the module needs extra info, provide it
             if mod in info.keys():
                 data.extend(module.parse(line[p[p.keys()[0]]], info[mod]))
             else:
                 data.extend(module.parse(line[p[p.keys()[0]]]))
+    print data
     return data
 
 # return_headers: (listof Str) (listof Str) -> (listof Str)
@@ -137,8 +164,9 @@ def return_headers(keys, columns):
 # input file, concatenating the results into a single output file.
 
 
-def main(file_list):
-    info = open_info_files()
+def main(file_list, modules=modules):
+    null_vals = open_replacements()
+    info = open_info_files(modules)
     for in_file in file_list:
         csvin = open(in_file, "rU")
         # Set up the output csv for writing
@@ -152,22 +180,24 @@ def main(file_list):
         data_set = []
         new_headers = [["RUN", "RUN"]]
         keys = []
-        columns = []
+        columns = {}
         for mod in modules:
             mod_keys = importlib.import_module(mod).keys
             mod_cols = importlib.import_module(mod).column_strs
             keys.extend(mod_keys)
-            columns.extend(mod_cols)
+            for c in mod_cols:
+                columns[c] = mod
             new_headers.extend(return_headers(mod_keys, mod_cols))
+        cols = [c for c in columns.keys()]
+        print cols
         try:
-            positions, unique_keys = find_positions("RUN", columns, headers)
+            positions, unique_keys = find_positions("RUN", cols, headers)
         except:
             print "No relevant information found"
             csvin.close()
             continue
         # Filter the list of new_headers against positions to only include
         # those headers which were actually found
-        new_headers = [x for x in new_headers if x[0] in unique_keys]
         # Make a list of abbreviated headers for easier indexing
         abbr_headers = [i[0] for i in new_headers]
 
@@ -178,7 +208,7 @@ def main(file_list):
                     if p.keys()[0] == "RUN":
                         line_data[abbr_headers.index("RUN")] = line[p["RUN"]]
                     else:
-                        data = parse_single(line, p, modules, info)
+                        data = parse_single(line, p, columns, info, null_vals)
                         line_data[abbr_headers.index(p.keys()[0])] = data
                 # Flatten line_data using the flatten generator function
                 line_data = [x for x in flatten(line_data)]
@@ -198,6 +228,15 @@ def main(file_list):
         csvin.close()
 
 if __name__ == "__main__":
-    info = open_info_files()
+    file_list = []
+    modules = []
     # Open the csv files of interest
-    main(sys.argv[1:])
+    for i in sys.argv[1:]:
+        if i[-4:] == ".csv":
+            file_list.append(i)
+        else:
+            modules.append(i)
+    if modules != []:
+        main(file_list, modules)
+    else:
+        main(file_list)
