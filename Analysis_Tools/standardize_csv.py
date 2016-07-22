@@ -22,7 +22,7 @@ path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
 # *Important: set modules to the ones you want to include in your desired order
 # scripts of these titles must be in the same folder as this one for the
 # function to run properly
-modules = ["collection_date", "geographic_location",
+modules = ["RUN", "collection_date", "geographic_location",
            "serovar", "isolation_source", "organization_name"]
 
 file_ext = "_standardized.csv"
@@ -90,6 +90,7 @@ def find_positions(acc_str, item_strs, headers):
                 item_col.append(h)
     if acc_col == [] or item_col == []:
         return []
+    print acc_col, item_col
     # Make a list of corresponding positions by matching
     # id headers and item headers
     pos = []
@@ -141,7 +142,6 @@ def parse_single(line, p, columns, info, null_vals):
                 data.extend(module.parse(line[p[p.keys()[0]]], info[mod]))
             else:
                 data.extend(module.parse(line[p[p.keys()[0]]]))
-    print data
     return data
 
 # return_headers: (listof Str) (listof Str) -> (listof Str)
@@ -211,7 +211,9 @@ def main(file_list, modules=modules):
                         data = parse_single(line, p, columns, info, null_vals)
                         line_data[abbr_headers.index(p.keys()[0])] = data
                 # Flatten line_data using the flatten generator function
+                print line_data
                 line_data = [x for x in flatten(line_data)]
+                print len(line_data)
                 if line_data[0] != "" and \
                         not all(i == "" for i in line_data[1:]):
                     data_set.append(line_data)
