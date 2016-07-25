@@ -30,18 +30,69 @@ file_ext = "_standardized.csv"
 replacements = path + "Null_Replacements.txt"
 
 
-# flatten: (listof Any) -> generator Object
-# This function takes in a list and produces a generator object which
-# can be called on the elements.
-
-
-def flatten(lst):
-    for x in lst:
-        if hasattr(x, '__iter__'):
-            for y in flatten(x):
-                yield y
+class Standard_Info():
+    def __init__(self, modules):
+        self.cols = []
+        self.mods = []
+        for mod in modules:
+            for c in importlib.import_module(mod).column_strs:
+                self.cols.append(c)
+                self.mods.append(mod)
+        if len(self.cols) != len(self.mods):
+            raise Exception("Something bad happened")
+    def run(self, headers):
+        self.headers = [[] for _ in xrange(len(self.cols))]
+        self.find_positions(headers)
+        self.deep_selection_sort()
+        self.fill_list()
+    def find_positions(self, headers):
+        for c in range(0, len(self.cols)):
+            for h in headers:
+                if self.cols[c] in h:
+                    self.headers[c].append({h: self.parse_number(h)})
+    def parse_number(self, number):
+        num = [int(s) for s in number.split("_") if s.isdigit()]
+        if len(num) > 1:
+            raise Exception("Multiple Header Numbers Were Found")
+        elif len(num) == 0:
+            return num
         else:
-            yield x
+            return num[0]
+    def fill_list(self):
+        # Extend the columns which are not the full length
+        longest = max([len(i) for i in self.headers])
+        for h in self.headers:
+                for i in range(len(h), longest):
+                    h.append("")
+    def deep_selection_sort(self):
+        f_list = self.headers[0]
+        for p1 in range(0, len(f_list)):
+            for sublist in self.headers[1:]:
+                for p2 in range(0, len(sublist)):
+                    if f_list[p1].values() == sublist[p2].values():
+                        temp = sublist[p2]
+                        sublist[p2] = sublist[p1]
+                        sublist[p1] = temp
+    def new_headers(self):
+        new_headers = []
+        for c in range(0, len(self.cols)):
+            new_headers.append(self.cols[c])
+            print self.mods[c]
+            for k in importlib.import_module(self.mods[c]).keys:
+                new_headers.append(self.cols[c] + "_" + k)
+        return return_headers
+    def data_columns(self):
+        ret_vals = []
+        for i in range(0, len(self.headers[0])):
+            line_set = []
+            for l in self.headers:
+                if l[i] == "":
+                    line_set.append("")
+                else:
+                    line_set.append(l[i].keys()[0])
+            ret_vals.append(line_set)
+        return ret_vals
+
 
 # open_replacements: Str -> (listof Str)
 # This function opens the replacements file and returns all values
@@ -64,104 +115,27 @@ def open_replacements():
 def open_info_files(modules):
     ret_vals = {}
     for mod in modules:
-        if mod == "collection_date":
+        # These modules don't have any additional data
+        if mod == "collection_date" or mod == "RUN":
             continue
         open_mod = importlib.import_module(mod)
         ret_vals[mod] = open_mod.return_dicts()
     return ret_vals
 
 
-# find_positions: Str (listof Str) Str -> (listof Dict, listof Str)
-# This function comprehensively searches headers for instances of
-# acc_str and item_strs. For each set found (ex. RUN_10, collection_date_10,
-# isolation_source_10), it creates a dictionary with each header name
-# and its corresponding position. This is the first argument. The second
-# argument returned is a list of unique headers found by the function.
-
-
-def find_positions(acc_str, item_strs, headers):
-    acc_col, item_col = [], []
-    # Find the indices for all of the relevant columns
-    for h in range(0, len(headers)):
-        if acc_str in headers[h]:
-            acc_col.append(h)
-        for i in item_strs:
-            if i in headers[h] and h not in item_col:
-                item_col.append(h)
-    if acc_col == [] or item_col == []:
-        return []
-    print acc_col, item_col
-    # Make a list of corresponding positions by matching
-    # id headers and item headers
-    pos = []
-    unique_keys = [acc_str]
-    for a in acc_col:
-        acc_string = headers[a]
-        acc_col_digit = [int(s) for s in acc_string.split("_") if
-                         s.isdigit()]
-        cor_cols = [{acc_str: a}]
-        for i in item_col:
-            item_string = headers[i]
-            item_col_digit = [int(s) for s in item_string.split("_") if
-                              s.isdigit()]
-            item_string = "_".join([s for s in item_string.split("_") if not
-                                   (s.isdigit() or s == "SAMPLE")])
-            # Compare only the numbers found to determine if the fields
-            # are related
-            if acc_col_digit == item_col_digit:
-                for s in item_strs:
-                    if s == item_string:
-                        cor_cols.append({s: i})
-                        if s not in unique_keys:
-                            unique_keys.append(s)
-        pos.append(cor_cols)
-    return [pos, unique_keys]
-
-
-# parse_single: (listof Str) Dict (listof Str) (listof Str) -> (listof Str)
-# This function returns the data from p parsed out of line using the modules
-# pointed to by the information in the variable modules and additional
-# information found in info.
-
-
-def parse_single(line, p, columns, info, null_vals):
-    data = []
-    for col in columns.keys():
-        mod = columns[col]
-        column_strs = importlib.import_module(mod).column_strs
-        keys = importlib.import_module(mod).keys
-        if p.keys()[0] in column_strs:
-            line_data = line[p[p.keys()[0]]]
-            # If the value is among those in the null list, don't process it
-            if line_data.lower() in null_vals:
-                data.extend([""] * len(keys))
-                continue
-            module = importlib.import_module(mod)
-            # If the module needs extra info, provide it
-            if mod in info.keys():
-                data.extend(module.parse(line[p[p.keys()[0]]], info[mod]))
-            else:
-                data.extend(module.parse(line[p[p.keys()[0]]]))
-    return data
-
 # return_headers: (listof Str) (listof Str) -> (listof Str)
 # This function returns relevant headers from the variable headers, specified
 # by the variable columns.
 
 
-def return_headers(keys, columns):
+def return_headers(cols, mods):
     new_headers = []
-    for c in columns:
-        col_headers = [c]
-        for k in keys:
+    for c in range(0, len(columns)):
+        col_headers.append(c)
+        for k in importlib.import_module():
             col_headers.append(c + "_" + k)
         new_headers.append(col_headers)
     return new_headers
-
-# main: (listof Str) -> None
-# This function processes relevant metadata from all input files according
-# to modules specified by the variable modules. It runs each module on every
-# input file, concatenating the results into a single output file.
 
 
 def main(file_list, modules=modules):
@@ -174,51 +148,30 @@ def main(file_list, modules=modules):
         print "Working on %s" % filename
         reader = csv.reader(csvin, delimiter=",")
         headers = reader.next()
-        data = [i for i in reader]
-
-        # Set the relevant information based on modules of interest
+        # Create a new object for working with csv data
+        std_info = Standard_Info(modules)
+        std_info.run(headers)
+        cols = std_info.cols
+        mods = std_info.mods
+        new_headers = std_info.new_headers()
+        data = std_info.data_columns()
+        # Process each line of the file's data
         data_set = []
-        new_headers = [["RUN", "RUN"]]
-        keys = []
-        columns = {}
-        for mod in modules:
-            mod_keys = importlib.import_module(mod).keys
-            mod_cols = importlib.import_module(mod).column_strs
-            keys.extend(mod_keys)
-            for c in mod_cols:
-                columns[c] = mod
-            new_headers.extend(return_headers(mod_keys, mod_cols))
-        cols = [c for c in columns.keys()]
-        print cols
-        try:
-            positions, unique_keys = find_positions("RUN", cols, headers)
-        except:
-            print "No relevant information found"
-            csvin.close()
-            continue
-        # Filter the list of new_headers against positions to only include
-        # those headers which were actually found
-        # Make a list of abbreviated headers for easier indexing
-        abbr_headers = [i[0] for i in new_headers]
-
-        for line in data:
-            for collection in positions:
-                line_data = [""] * len(abbr_headers)
-                for p in collection:
-                    if p.keys()[0] == "RUN":
-                        line_data[abbr_headers.index("RUN")] = line[p["RUN"]]
+        for line in reader:
+            print "I am on line: %s" % line
+            for run in data:
+                line_data = []
+                for element in range(0, len(run)):
+                    mod_name = mods[element]
+                    position = headers.index(run[element])
+                    module = importlib.import_module(mod_name)
+                    extra_info = info[mod_name] if mod_name in info else None
+                    string = line[position]
+                    if extra_info is not None:
+                        line_data.append(module.parse(string, extra_info))
                     else:
-                        data = parse_single(line, p, columns, info, null_vals)
-                        line_data[abbr_headers.index(p.keys()[0])] = data
-                # Flatten line_data using the flatten generator function
-                print line_data
-                line_data = [x for x in flatten(line_data)]
-                print len(line_data)
-                if line_data[0] != "" and \
-                        not all(i == "" for i in line_data[1:]):
-                    data_set.append(line_data)
-        # Flatten headers using the flatten generator function
-        new_headers = [x for x in flatten([i[1:] for i in new_headers])]
+                        line_data.append(module.parse(string))
+                data_set.append(line_data)
         # Write all of the newfound data to the csv
         if data_set != []:
             csvout = open(filename, "wb")

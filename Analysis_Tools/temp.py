@@ -5,6 +5,7 @@
 import importlib
 
 class SpecialDict():
+
     def __init__(self, modules):
         self.cols = []
         self.mods = []
@@ -14,29 +15,58 @@ class SpecialDict():
                 self.mods.append(mod)
         if len(self.cols) != len(self.mods):
             raise Exception("Something bad happened")
+
+    def run(self, headers):
         self.headers = [[] for _ in xrange(len(self.cols))]
-        self.nums = [[] for _ in xrange(len(self.cols))]
+        self.find_positions(headers)
+        self.deep_selection_sort()
+        self.fill_list()
+        self.print_headers()
+
     def find_positions(self, headers):
         for c in range(0, len(self.cols)):
             for h in headers:
                 if self.cols[c] in h:
-                    self.headers[c].append(h)
-                    self.nums[c].append(parse_number(h))
-    def parse_number(self):
-        self.parsed_list = list(self.headers)
-        for line in self.parsed_list:
-            for i in line:
-                i = [int(s) for s in i.split("_") if s.isdigit()]
-    def fill_headers(self):
+                    self.headers[c].append({h: self.parse_number(h)})
+
+    def parse_number(self, number):
+        num = [int(s) for s in number.split("_") if s.isdigit()]
+        if len(num) > 1:
+            raise Exception("Multiple Header Numbers Were Found")
+        elif len(num) == 0:
+            return num
+        else:
+            return num[0]
+
+    def fill_list(self):
         # Extend the columns which are not the full length
         longest = max([len(i) for i in self.headers])
         for h in self.headers:
                 for i in range(len(h), longest):
                     h.append(None)
 
+    def deep_selection_sort(self):
+        f_list = self.headers[0]
+        for p1 in range(0, len(f_list)):
+            for sublist in self.headers[1:]:
+                for p2 in range(0, len(sublist)):
+                    if f_list[p1].values() == sublist[p2].values():
+                        temp = sublist[p2]
+                        sublist[p2] = sublist[p1]
+                        sublist[p1] = temp
 
-    def selection_sort(self):
-        while 1:
+    def print_headers(self):
+        ret_vals = []
+        for i in range(0, len(self.headers[0])):
+            line_set = []
+            for l in self.headers:
+                if l[i] is None:
+                    line_set.append(None)
+                else:
+                    line_set.append(l[i].keys()[0])
+            ret_vals.append(line_set)
+        return ret_vals
+
     """
 #        self.longest_pos = self.pos.index(max([len(i) for i in self.pos]))
     def set_grid(self):
