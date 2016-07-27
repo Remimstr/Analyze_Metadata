@@ -18,7 +18,8 @@ sys.path.append(path)
 from validate_xml import validate_xml
 
 # Set fields to ignore while searching for "primary_IDs" and "grandparents"
-exclude_list = ["EXPERIMENT_REF", "MEMBER", "Member", "DEFAULT_MEMBER"]
+exclude_list = ["RUN", "SAMPLE", "EXPERIMENT_REF", "STUDY",
+                "EXPERIMENT", "MEMBER", "Member", "DEFAULT_MEMBER"]
 
 # Class used to initialize and add dictionary items
 class SimpleDict:
@@ -45,19 +46,31 @@ class SimpleDict:
             self.my_dict[next_key] = [value]
 
 
+def process_accession(my_tree, metadata):
+    accession_numbers(my_tree, metadata, exclude_list)
+    # Iterate through each of the runs and pull out accession numbers
+    root = my_tree.getroot()
+    for child in root:
+        if child.tag == "RUN_SET":
+            for RUN in child:
+                accession_numbers(RUN, metadata, [])
+
+
 # accession_numbers: ElementTree SimpleDict -> None
 # This function retrieves and parses all of the accession numbers
 # (SRR, ERR, SRX, etc) from my_tree and adds them to metadata.
 
 
-def accession_numbers(my_tree, metadata):
+def accession_numbers(my_tree, metadata, exclude_list):
+    acc_data = []
     # Find all of the PRIMARY_IDs and use their grandparent tags as keys
     ID_LIST = [x for x in my_tree.getiterator("PRIMARY_ID")]
     for ID in ID_LIST:
         parents = [x for x in ID.iterancestors()]
         grandparent = parents[1]
         if grandparent.tag not in exclude_list:
-            metadata.add(parents[1].tag, ID.text)
+            acc_data.append({parents[1].tag: ID.text})
+    metadata.add("RUN", acc_data)
 
 
 # organization: ElementTree SimpleDict String -> None
@@ -115,9 +128,10 @@ def sample_study_nodes(root, metadata, sample):
 def sample_study_data(my_tree, metadata):
     # For each of the keys currently in metadata, retrieve corresponding data
     for acc in metadata.my_dict.keys():
-        tag = acc.rstrip("1234567890_")
+        tag = acc.rstrip("1234567890")
         accession = metadata.my_dict[acc][0]
         for i in my_tree.getiterator():
+            print tag
             sample = acc + "_"
             # Retrieve all of the fields that fit the criteria
             if (i.tag == tag == "SAMPLE" or i.tag == tag == "STUDY") \
@@ -154,12 +168,13 @@ def add_other_metadata(my_tree, metadata):
 def parse_metadata(xml_file):
     # Initialize a dictionary of header:value pairs
     metadata = SimpleDict()
+    accessions = SimpleDict()
     tree = etree.parse(xml_file)
     # Validate that the xml file is a valid XML, otherwise throw an error
     if not validate_xml(tree):
         raise ValueError("%s is an invalid XML file" % xml_file)
     # Add the accession numbers to metadata
-    accession_numbers(tree, metadata)
+    process_accession(tree, accessions)
     # Retrieve all metadata related to the sample accession numbers
     sample_study_data(tree, metadata)
     # Add library description metadata and platform metadata

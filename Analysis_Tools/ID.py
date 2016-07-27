@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-column_strs = ["RUN"]
+column_strs = ["RUN", "SAMPLE"]
 
 keys = ["ID"]
 
