@@ -49,7 +49,7 @@ class intelligent_suggest:
             print "You have supplied an empty list file"
 
     def init(self):
-        self.spellCheckObj = SpellCheck()
+        self.spellCheckObj = SpellCheck.SpellCheck()
         self.spellCheckObj.build(self.getWordListFile())
         self.process_word_index()
         self.process_word_list()

@@ -17,7 +17,7 @@ path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
 # Global variables
 keys = ["CURATED", "ORIGINAL", "SUGGESTION", "COUNTRY", "PROVINCE"]
 # column_strs is a list of strings representing columns of interest
-column_strs = ["ORGANIZATION_name"]
+column_strs = ["Organization_Name"]
 
 # Paths to the relevant files
 paths = {"complex_replace": path + "Organization_Replacement_Lookup.csv",

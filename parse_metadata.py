@@ -2,10 +2,10 @@
 
 # Author: Remi Marchand
 # Date: May 18, 2016
+# Major Revision: July 25-29, 2016
 # Description: This script parses metadata from an xml file into a
 # dictionary which it returns to the user.
 
-import os
 from lxml import etree
 
 # Set default string processing to Unicode-8
@@ -13,13 +13,7 @@ import sys
 reload(sys)
 sys.setdefaultencoding("utf-8")
 
-path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Xml_Validation/"
-sys.path.append(path)
-from validate_xml import validate_xml
-
-# Set fields to ignore while searching for "primary_IDs" and "grandparents"
-exclude_list = ["RUN", "SAMPLE", "EXPERIMENT_REF", "STUDY",
-                "EXPERIMENT", "MEMBER", "Member", "DEFAULT_MEMBER"]
+from Xml_Validation import validate_xml
 
 # Class used to initialize and add dictionary items
 class SimpleDict:
@@ -46,121 +40,167 @@ class SimpleDict:
             self.my_dict[next_key] = [value]
 
 
-def process_accession(my_tree, metadata):
-    accession_numbers(my_tree, metadata, exclude_list)
-    # Iterate through each of the runs and pull out accession numbers
-    root = my_tree.getroot()
-    for child in root:
-        if child.tag == "RUN_SET":
-            for RUN in child:
-                accession_numbers(RUN, metadata, [])
+def parse_generic(term, metadata, prefixes):
+    parse_string = ""
+    # Parse generic with prefixes
+    for p in prefixes:
+        parse_string += p + "/"
+    metadata.add(parse_string + term.tag, term.text)
+
+# *************************************************************************** #
 
 
-# accession_numbers: ElementTree SimpleDict -> None
-# This function retrieves and parses all of the accession numbers
-# (SRR, ERR, SRX, etc) from my_tree and adds them to metadata.
+def experiment(experiment, metadata):
+    key = ""
+    for child in experiment:
+        # Parse EXPERIMENT -> IDENTIFIERS ->
+        if child.tag == "IDENTIFIERS":
+            for grandchild in child:
+                if grandchild.tag == "PRIMARY_ID":
+                    key = grandchild.text
+                    parse_generic(grandchild, metadata, [key, "EXPERIMENT_REF"])
+        # Parse EXPERIMENT -> STUDY_REF -> IDENTIFIERS ->
+        if child.tag == "STUDY_REF":
+            for grandchild in child:
+                if grandchild.tag == "IDENTIFIERS":
+                    for greatgrandchild in grandchild:
+                        parse_generic(greatgrandchild, metadata, [key, "STUDY"])
+        # Parse EXPERIMENT -> DESIGN -> LIBRARY_DESCRIPTOR ->
+        if child.tag == "DESIGN":
+            for grandchild in child:
+                if grandchild.tag == "LIBRARY_DESCRIPTOR":
+                    library_descriptor(grandchild, metadata, key)
+        # Parse EXPERIMENT -> PLATFORM
+        if child.tag == "PLATFORM":
+            platform(child, metadata, key)
+    return key
 
 
-def accession_numbers(my_tree, metadata, exclude_list):
-    acc_data = []
-    # Find all of the PRIMARY_IDs and use their grandparent tags as keys
-    ID_LIST = [x for x in my_tree.getiterator("PRIMARY_ID")]
-    for ID in ID_LIST:
-        parents = [x for x in ID.iterancestors()]
-        grandparent = parents[1]
-        if grandparent.tag not in exclude_list:
-            acc_data.append({parents[1].tag: ID.text})
-    metadata.add("RUN", acc_data)
-
-
-# organization: ElementTree SimpleDict String -> None
-# This function retrieves and parses Organization data, namely
-# the organization name from my_tree and adds them to metadata.
-
-
-def organization(my_tree, metadata, prefix):
-    for i in my_tree.getiterator():
-        if i.tag == "Name":
-            metadata.add(prefix + "_" + i.tag.lower(), i.text)
-
-
-# sample_attributes: Element SimpleDict Str -> None
-# This function retrieves and parses all of the information under the
-# sample_attributes (sa) node, accounting for the tree's unique structure.
-# It adds all information found to metadata, using the string provided in
-# the field "sample" to classify the information by sample name.
-
-
-def sample_attributes(sa, metadata, sample):
-    for child in sa:
-        if len(child) == 2:
-            if (child[0].tag == "TAG") and (child[1].tag == "VALUE"):
-                if child[0].text is not None and child[1].text is not None:
-                    metadata.add(sample + child[0].text, child[1].text)
+def library_descriptor(library_descriptor, metadata, key):
+    # Parse LIBRARY_NAME, LIBRARY_STRATEGY, LIBRARY_SOURCE,
+    #       LIBRARY_SELECTION, LIBRARY_CONSTRUCTION_PROTOCOL
+    for child in library_descriptor:
+        if child.tag == "LIBRARY_LAYOUT":
+            metadata.add(key + "/" + child.tag, child[0].tag)
         else:
-            metadata.add(sample + child.tag, child.text)
-
-# parse_sa_st_data: Element SimpleDict Str -> None
-# This function parses information found in the SAMPLE and STUDY nodes.
-# It starts at the root node (SAMPLE/STUDY) and adds information found to
-# metadata, usin the string provided in the field "sample" to classify the
-# information by sample name.
+            parse_generic(child, metadata, [key])
 
 
-def sample_study_nodes(root, metadata, sample):
-    for child in root:
-        if child.tag != "SAMPLE_ATTRIBUTES":
-            for j in child.getiterator():
-                # The attribute "namespace" is the key in certain situations
-                if j.tag == "SUBMITTER_ID" or j.tag == "EXTERNAL_ID":
-                    metadata.add(sample + j.attrib["namespace"], j.text)
-                elif j.tag != "PRIMARY_ID":
-                    metadata.add(sample + j.tag, j.text)
-        else:
-            sample_attributes(child, metadata, sample)
-
-# sample_study_data: ElementTree SimpleDict -> None
-# This function parses sample and study data from my_tree into
-# metadata according to specific rules, using previously
-# retrieved accession values as keys.
+def platform(platform, metadata, key):
+    # Parse PLATFORM, -> -> INSTRUMENT_MODEL
+    metadata.add(key + "/" + platform.tag, platform[0].tag)
+    for field in platform.getiterator():
+        if field.tag == "INSTRUMENT_MODEL":
+            parse_generic(field, metadata, [key])
 
 
-def sample_study_data(my_tree, metadata):
-    # For each of the keys currently in metadata, retrieve corresponding data
-    for acc in metadata.my_dict.keys():
-        tag = acc.rstrip("1234567890")
-        accession = metadata.my_dict[acc][0]
-        for i in my_tree.getiterator():
-            print tag
-            sample = acc + "_"
-            # Retrieve all of the fields that fit the criteria
-            if (i.tag == tag == "SAMPLE" or i.tag == tag == "STUDY") \
-                    and i.attrib["accession"] == accession:
-                sample_study_nodes(i, metadata, sample)
-            # Add the center_name information to metadata
-            # if i.tag == "SAMPLE":
-            #     print i.tag, acc, tag
-            if i.tag == acc == "SAMPLE" and "center_name" in i.attrib:
-                metadata.add(sample + "center_name", i.attrib["center_name"])
-
-# add_other_metadata: ElementTree SimpleDict -> None
-# This function adds metadata from my_tree with specific rules.
-# Specifically, it deals with LIBRARY_LAYOUT, LIBRARY_DESCRIPTOR,
-# and PLATFORM tags.
+# *************************************************************************** #
 
 
-def add_other_metadata(my_tree, metadata):
-    for i in my_tree.getiterator():
-        if i.tag == "LIBRARY_LAYOUT" or i.tag == "PLATFORM":
-            metadata.add(i.tag, i[0].tag)
-        if i.tag == "LIBRARY_DESCRIPTOR" or i.tag == "PLATFORM":
-            for field in i.getiterator():
-                metadata.add(field.tag, field.text)
-        if i.tag == "Organization":
-            organization(i, metadata, "ORGANIZATION")
+def submission(submission, metadata):
+    key = ""
+    for child in submission:
+        # Parse SUBMISSION -> IDENTIFIERS
+        if child.tag == "IDENTIFIERS":
+            for grandchild in child:
+                if grandchild.tag == "PRIMARY_ID":
+                    key = grandchild.text
+                    parse_generic(grandchild, metadata, [key, "SUBMISSION"])
+    return key
+
+
+# *************************************************************************** #
+
+def organization(organization, metadata, key):
+    for child in organization:
+        # Parse Organization -> Name
+        if child.tag == "Name":
+            parse_generic(child, metadata, [key, "Organization_Name"])
+
+# *************************************************************************** #
+
+
+def study(study, metadata):
+    key = ""
+    for child in study:
+        # Parse STUDY -> IDENTIFIERS
+        if child.tag == "IDENTIFIERS":
+            for grandchild in child:
+                if grandchild.tag == "PRIMARY_ID":
+                    key = grandchild.text
+                    parse_generic(grandchild, metadata, [key, "PROJECT"])
+        # Parse STUDY -> DESCRIPTOR -> STUDY_TITLE
+        if child.tag == "DESCRIPTOR":
+            for grandchild in child:
+                if grandchild.tag == "STUDY_TITLE":
+                    parse_generic(grandchild, metadata, [key, "STUDY"])
+    return key
+
+
+# *************************************************************************** #
+
+
+def sample(sample, metadata):
+    key = ""
+    for child in sample:
+        # Parse SAMPLE -> IDENTIFIERS and SAMPLE -> SAMPLE_NAME
+        if child.tag == "IDENTIFIERS" or "SAMPLE_NAME":
+            for grandchild in child:
+                if grandchild.tag == "PRIMARY_ID":
+                    key = grandchild.text
+                    parse_generic(grandchild, metadata, [key, "SAMPLE"])
+        # Parse SAMPLE -> SAMPLE_ATTRIBUTES
+        if child.tag == "SAMPLE_ATTRIBUTES":
+            sample_attributes(child, metadata, key)
+    return key
+
+
+def sample_attributes(sample_attributes, metadata, key):
+    for child in sample_attributes:
+        # Parse SAMPLE_ATTRIBUTES -> TAG/VALUE pairs
+        if (len(child) == 2) and (child[0].tag == "TAG") and \
+                (child[1].tag == "VALUE"):
+            metadata.add(key + "/" + child[0].text, child[1].text)
+
+
+# *************************************************************************** #
+
+
+def run(run, metadata):
+    key = ""
+    for child in run:
+        # Parse RUN -> IDENTIFIERS
+        if child.tag == "IDENTIFIERS":
+            for grandchild in child:
+                if grandchild.tag == "PRIMARY_ID":
+                    key = grandchild.text
+                    parse_generic(grandchild, metadata, [key, "RUN"])
+        for i in child.getiterator():
+            if i.tag == "EXPERIMENT_REF" or i.tag == "Member":
+                for grandchild in i:
+                    for greatgrandchild in grandchild:
+                        if greatgrandchild.tag == "PRIMARY_ID":
+                            tag = "SAMPLE" if i.tag == "Member" else i.tag
+                            parse_generic(greatgrandchild, metadata,
+                                          [key, tag])
+    return key
+
+# *************************************************************************** #
+
+
+def throw_errors(expt_key, sub_key, sample_keys, run_keys, xml_file):
+    if expt_key == "":
+        raise Exception("No experiments were found in this xml: %s" % xml_file)
+    if sub_key == "":
+        raise Exception("No submissions were found in this xml: %s" % xml_file)
+    if sample_keys == []:
+        raise Exception("No samples were found in this xml: %s" % xml_file)
+    if run_keys == []:
+        print "No runs were found in this xml: %s" % xml_file
+
 
 # parse_metadata: Xml -> Dict
-# This function calls other functions that parse xml_file and adds the
+# This function calls other functions that parse an xml_file and adds the
 # relevant information within to the dictionary that is returned to
 # the caller.
 
@@ -168,21 +208,49 @@ def add_other_metadata(my_tree, metadata):
 def parse_metadata(xml_file):
     # Initialize a dictionary of header:value pairs
     metadata = SimpleDict()
-    accessions = SimpleDict()
     tree = etree.parse(xml_file)
     # Validate that the xml file is a valid XML, otherwise throw an error
-    if not validate_xml(tree):
+    if not validate_xml.validate_xml(tree):
         raise ValueError("%s is an invalid XML file" % xml_file)
-    # Add the accession numbers to metadata
-    process_accession(tree, accessions)
-    # Retrieve all metadata related to the sample accession numbers
-    sample_study_data(tree, metadata)
-    # Add library description metadata and platform metadata
-    add_other_metadata(tree, metadata)
+    try:
+        root = tree.find("EXPERIMENT_PACKAGE")
+    except:
+        raise Exception("Could not find Experiment Package of %s" % xml_file)
+    experiment_key = ""
+    submission_key = ""
+    study_key = ""
+    sample_keys = []
+    run_keys = []
+    for child in root:
+        # Parse EXPERIMENT ->
+        if child.tag == "EXPERIMENT":
+            experiment_key = experiment(child, metadata)
+        # Parse SUBMISSION ->
+        if child.tag == "SUBMISSION":
+            submission_key = submission(child, metadata)
+        # Parse Organization ->
+        if child.tag == "Organization":
+            organization(child, metadata, experiment_key)
+        # Parse STUDY ->
+        if child.tag == "STUDY":
+            study_key = study(child, metadata)
+        # Parse SAMPLE ->
+        if child.tag == "SAMPLE":
+            sample_keys.append(sample(child, metadata))
+        # Parse RUN_SET ->
+        if child.tag == "RUN_SET":
+            for grandchild in child:
+                run_keys.append(run(grandchild, metadata))
+    throw_errors(experiment_key, submission_key,
+                 sample_keys, run_keys, xml_file)
+    # expt_package = tree.getroot()
     for key in sorted(metadata.my_dict.iterkeys()):
         # Remove duplicates and join elements into one string
         metadata.my_dict[key] = ", ".join(list(set(metadata.my_dict[key])))
-    return metadata.my_dict
+    ret_vals = {"expt_key": experiment_key, "sub_key": submission_key,
+                "sample_keys": sample_keys, "run_keys": run_keys,
+                "study_key": study_key, "metadata": metadata.my_dict}
+    return ret_vals
 
 # xml_file = sys.argv[1]
 # parse_metadata(xml_file)

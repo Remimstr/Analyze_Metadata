@@ -2,6 +2,8 @@
 
 # Author: Remi Marchand
 # Date: June 9, 2016
+# 1st Major Revision: July 20-25, 2016
+# 2nd Major Revision: July 29, 2016
 # Description: Parses metadata of various kinds into a new csv
 
 import os
@@ -10,7 +12,7 @@ import csv
 import importlib
 
 
-# Set default string processing to Unicode-8
+# Set default s processing to Unicode-8
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
@@ -46,10 +48,9 @@ class Standard_Info():
 
     # Runs the module's functions in the order that they need to be run
     def run(self, headers):
-        self.headers = [[] for _ in xrange(len(self.cols))]
+        self.pos = [None] * (len(self.cols))
         self.find_positions(headers)
-        self.fill_list()
-        self.deep_selection_sort()
+        return self.pos
 
     # Takes in a list of headers and finds the positions of interest
     # Requiremenets: __init__ must have been run initially
@@ -58,47 +59,7 @@ class Standard_Info():
         for c in range(0, len(self.cols)):
             for h in headers:
                 if self.cols[c] in h:
-                    self.headers[c].append({h: self.parse_number(h)})
-
-    # Parses a given string and removes the header number
-    def parse_number(self, number):
-        num = [int(s) for s in number.split("_") if s.isdigit()]
-        if len(num) > 1:
-            raise Exception("Multiple Header Numbers Were Found")
-        elif len(num) == 0:
-            return num
-        else:
-            return num[0]
-
-    # Fills in the header list with missing columns
-    # Requirements: self.headers must have been declared
-    #               self.positions(headers) should have been run
-    def fill_list(self):
-        # Extend the columns which are not the full length
-        longest = max([len(i) for i in self.headers])
-        for h in self.headers:
-                for i in range(len(h), longest):
-                    h.append({"": ""})
-
-    # deep_selection_sort performs a specialized selection sort on the
-    # headers produced by earlier functions
-    # Requirements: self.headers must have been declared
-    #               self.positions(headers) should have been run
-    #               self.fill_list() should have been run (to avoid errors)
-    def deep_selection_sort(self):
-        # for h in self.headers: print h
-        f_list = self.headers[0]
-        for p1 in range(0, len(f_list)):
-            # for h in self.headers: print h
-            for sublist in self.headers[1:]:
-                for p2 in range(0, len(sublist)):
-                    if f_list[p1].values() == sublist[p2].values():
-                        # print "Index 1: %s, Index 2: %s" % (p1, p2)
-                        # print "Sublist len %s" % (len(sublist))
-                        # print "Values: %s, %s" % (f_list[p1].values(), sublist[p2].values())
-                        temp = sublist[p2]
-                        sublist[p2] = sublist[p1]
-                        sublist[p1] = temp
+                    self.pos[c] = headers.index(h)
 
     # new_headers: produces a list of headers to print as the first line
     # of the output csv file.
@@ -106,7 +67,10 @@ class Standard_Info():
         new_headers = []
         for c in range(0, len(self.cols)):
             for k in importlib.import_module(self.mods[c]).keys:
-                new_headers.append(self.cols[c] + "_" + k)
+                if k != "":
+                    new_headers.append(self.cols[c] + "_" + k)
+                else:
+                    new_headers.append(self.cols[c])
         return new_headers
 
     # data_columns: prints the columns that the caller should use to
@@ -115,13 +79,12 @@ class Standard_Info():
     # * Should only be called after the run method has been called
     def data_columns(self):
         ret_vals = []
-        for i in range(0, len(self.headers[0])):
+        for i in range(0, len(self.headers)):
             line_set = []
-            for l in self.headers:
-                if l[i] == "":
-                    line_set.append("")
-                else:
-                    line_set.append(l[i].keys()[0])
+            if i is None:
+                line_set.append("")
+            else:
+                line_set.append(i.keys()[0])
             ret_vals.append(line_set)
         return ret_vals
 
@@ -158,13 +121,10 @@ def open_info_files(modules):
 #              (listof (listof Str)), (listof Str) -> (listof Str)
 # This is a specialized function used to call and return parsed data
 
-def return_vals(element, run, line, headers, mods, info, null_vals):
-    mod_name = mods[element]
-    module = importlib.import_module(mod_name)
-    s = line[headers.index(run[element])] if run[element] in headers else ""
-    if s.lower() in null_vals:
-        s = ""
-    extra_info = info[mod_name] if mod_name in info else None
+
+def return_vals(s, mod, info, null_vals):
+    module = importlib.import_module(mod)
+    extra_info = info[mod] if mod in info else None
     if extra_info is not None:
         return module.parse(s, extra_info)
     else:
@@ -183,20 +143,29 @@ def main(file_list, modules=modules):
         headers = reader.next()
         # Create a new object for working with csv data
         std_info = Standard_Info(modules)
-        std_info.run(headers)
-        mods = std_info.mods
+        positions = std_info.run(headers)
         new_headers = std_info.new_headers()
-        data = std_info.data_columns()
+        mods = std_info.mods
         # Process each line of the file's data
         data_set = []
+        # lookup is an empty dictionary that contains
+        # items which have been previously parsed
+        lookup = {}
         for line in reader:
-            for run in data:
-                line_data = []
-                for element in range(0, len(run)):
-                    line_data.extend(return_vals(element, run, line, headers,
-                                                 mods, info, null_vals))
-                if not all(i == "" for i in line_data):
-                    data_set.append(line_data)
+            line_data = []
+            for p in range(0, len(positions)):
+                s = line[positions[p]] if positions[p] is not None else ""
+                # Replace the null_vals with an empty string
+                s = "" if s.lower() in null_vals else s
+                if s in lookup.keys():
+                    line_data.extend(lookup[s])
+                else:
+                    vals = return_vals(s, mods[p], info, null_vals)
+                    line_data.extend(vals)
+                    if s != "":
+                        lookup[s] = vals
+            if not all(i == "" for i in line_data):
+                data_set.append(line_data)
         # Write all of the newfound data to the csv
         if data_set != []:
             csvout = open(filename, "wb")
