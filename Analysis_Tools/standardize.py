@@ -7,15 +7,15 @@
 # Description: Parses metadata of various kinds into a new csv
 
 import os
-import sys
 import csv
 import importlib
-
 
 # Set default s processing to Unicode-8
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
+
+import Analysis_Tools.post_processing
 
 # Get the relative path of the script
 path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
@@ -131,10 +131,10 @@ def return_vals(s, mod, info, null_vals):
         return module.parse(s)
 
 
-def main(file_list, modules=modules):
+def standardize(files, modules=modules):
     null_vals = open_replacements()
     info = open_info_files(modules)
-    for in_file in file_list:
+    for in_file in files:
         csvin = open(in_file, "rU")
         # Set up the output csv for writing
         filename = in_file[:-4] + file_ext
@@ -174,7 +174,11 @@ def main(file_list, modules=modules):
             for line in data_set:
                 csvwriter.writerow(line)
             csvout.close()
-        csvin.close()
+            csvin.close()
+
+        # Run the post-processing script
+        Analysis_Tools.post_processing.process_file(in_file)
+
 
 if __name__ == "__main__":
     file_list = []
@@ -185,7 +189,4 @@ if __name__ == "__main__":
             file_list.append(i)
         else:
             modules.append(i)
-    if modules != []:
-        main(file_list, modules)
-    else:
-        main(file_list)
+    standardize(file_list, modules)
