@@ -4,16 +4,14 @@
 # Date: June 10, 2016
 # Description: Parses a given serovar into a unified format
 
-import os
-import csv
-from common_funs import *
+from Analysis_Tools.common_funs import *
 
 # Set default string processing to Unicode-8
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
+path = os.path.dirname(__file__) + "/"
 
 # Global variables
 keys = ["CURATED", "VARIANT", "OTHER_INFO", "ORIGINAL", "SUGGESTION"]
@@ -22,8 +20,8 @@ column_strs = ["serovar"]
 
 # Paths to the relevant files
 paths = {"complex_replace": path + "Serovar_Replacement_Lookup.csv",
-         "std_file": path + "Standard_Files/Standard_Serovars.txt",
-         "ind_file": path + "Index_Files/Standard_Serovars_Index.txt"}
+         "std_file": path + "Standard_Serovars.txt",
+         "ind_file": path + "Standard_Serovars_Index.txt"}
 
 
 # return_dicts: None -> Dict

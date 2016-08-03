@@ -4,15 +4,15 @@
 # Date: June 1, 2016
 # Description: Parses geographic locations into a unified format
 
-import re
 import os
+import re
 
 # Set default string processing to Unicode-8
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
+path = os.path.dirname(__file__) + "/"
 
 # Global variables
 keys = ["LOCATION", "ORIGINAL", "COLLECTION_NOTES"]

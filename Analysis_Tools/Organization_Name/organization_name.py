@@ -4,15 +4,15 @@
 # Date: July 20, 2016
 # Description: A wrapper to parse isolation_source information
 
-import os
-from common_funs import *
+from Analysis_Tools.common_funs import *
 
 # Set default string processing to Unicode-8
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
+path = os.path.dirname(__file__) + "/"
+parent = os.path.abspath(os.path.dirname(sys.argv[0])) + "/"
 
 # Global variables
 keys = ["CURATED", "ORIGINAL", "SUGGESTION", "COUNTRY", "PROVINCE"]
@@ -21,9 +21,9 @@ column_strs = ["Organization_Name"]
 
 # Paths to the relevant files
 paths = {"complex_replace": path + "Organization_Replacement_Lookup.csv",
-         "equivalent_words": path + "Equivalent_Words.txt",
-         "std_file": path + "Standard_Files/Standard_Organization_Names.txt",
-         "ind_file": path + "Index_Files/Standard_Organization_Names_Index.txt"}
+         "equivalent_words": parent + "Equivalent_Words.txt",
+         "std_file": path + "Standard_Organization_Names.txt",
+         "ind_file": path + "Standard_Organization_Names_Index.txt"}
 
 
 # return_dicts: None -> Dict

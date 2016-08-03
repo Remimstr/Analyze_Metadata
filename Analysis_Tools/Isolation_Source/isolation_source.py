@@ -5,14 +5,15 @@
 # Description: Parses isolation sources into a unified format
 
 import os
-from common_funs import *
+from Analysis_Tools.common_funs import *
 
 # Set default string processing to Unicode-8
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
+path = os.path.dirname(__file__) + "/"
+parent = os.path.abspath(os.path.dirname(sys.argv[0])) + "/"
 
 # Global variables
 keys = ["CURATED", "ORIGINAL", "SUGGESTION"]
@@ -21,9 +22,9 @@ column_strs = ["isolation_source"]
 
 # Paths to the relevant files
 paths = {"simple_replace": path + "Isolation_Source_Replacements.txt",
-         "equivalent_words": path + "Equivalent_Words.txt",
-         "std_file": path + "Standard_Files/Standard_Isolation_Sources.txt",
-         "ind_file": path + "Index_Files/Standard_Isolation_Sources_Index.txt"}
+         "equivalent_words": parent + "Equivalent_Words.txt",
+         "std_file": path + "Standard_Isolation_Sources.txt",
+         "ind_file": path + "Standard_Isolation_Sources_Index.txt"}
 
 
 # return_dicts: None -> Dict

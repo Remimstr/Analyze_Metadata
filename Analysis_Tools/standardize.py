@@ -10,12 +10,13 @@ import os
 import csv
 import importlib
 
-# Set default s processing to Unicode-8
+# Set default processing to Unicode-8
 import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
 import Analysis_Tools.post_processing
+from Analysis_Tools import *
 
 # Get the relative path of the script
 path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
@@ -24,8 +25,10 @@ path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
 # *Important: set modules to the ones you want to include in your desired order
 # scripts of these titles must be in the same folder as this one for the
 # function to run properly
-modules = ["ID", "collection_date", "geographic_location",
-           "serovar", "isolation_source", "organization_name"]
+modules = [["ID", "id"], ["Collection_Date", "collection_date"],
+           ["Geographic_Location", "geographic_location"],
+           ["Serovar", "serovar"], ["Isolation_Source", "isolation_source"],
+           ["Organization_Name", "organization_name"]]
 
 file_ext = "_standardized.csv"
 
@@ -38,11 +41,13 @@ replacements = path + "Null_Replacements.txt"
 class Standard_Info():
     def __init__(self, modules):
         self.cols = []
+        self.modules = []
         self.mods = []
         for mod in modules:
-            for c in importlib.import_module(mod).column_strs:
+            for c in importlib.import_module(".".join(mod)).column_strs:
                 self.cols.append(c)
-                self.mods.append(mod)
+                self.modules.append(mod)
+                self.mods.append(mod[1])
         if len(self.cols) != len(self.mods):
             raise Exception("Something bad happened")
 
@@ -66,7 +71,7 @@ class Standard_Info():
     def new_headers(self):
         new_headers = []
         for c in range(0, len(self.cols)):
-            for k in importlib.import_module(self.mods[c]).keys:
+            for k in importlib.import_module(".".join(self.modules[c])).keys:
                 if k != "":
                     new_headers.append(self.cols[c] + "_" + k)
                 else:
@@ -111,10 +116,10 @@ def open_info_files(modules):
     ret_vals = {}
     for mod in modules:
         # These modules don't have any additional data
-        if mod == "collection_date" or mod == "ID":
+        if mod[0] == "Collection_Date" or mod[0] == "ID":
             continue
-        open_mod = importlib.import_module(mod)
-        ret_vals[mod] = open_mod.return_dicts()
+        open_mod = importlib.import_module(".".join(mod))
+        ret_vals[mod[1]] = open_mod.return_dicts()
     return ret_vals
 
 # return_vals: Int, (listof Str), (listof Str), (listof Str), (listof Str),
@@ -123,8 +128,8 @@ def open_info_files(modules):
 
 
 def return_vals(s, mod, info, null_vals):
-    module = importlib.import_module(mod)
-    extra_info = info[mod] if mod in info else None
+    module = importlib.import_module(".".join(mod))
+    extra_info = info[mod[1]] if mod[1] in info else None
     if extra_info is not None:
         return module.parse(s, extra_info)
     else:
@@ -145,7 +150,7 @@ def standardize(files, modules=modules):
         std_info = Standard_Info(modules)
         positions = std_info.run(headers)
         new_headers = std_info.new_headers()
-        mods = std_info.mods
+        mods = std_info.modules
         # Process each line of the file's data
         data_set = []
         # lookup is an empty dictionary that contains
@@ -177,7 +182,7 @@ def standardize(files, modules=modules):
             csvin.close()
 
         # Run the post-processing script
-        Analysis_Tools.post_processing.process_file(in_file)
+        Analysis_Tools.post_processing.process_file(filename)
 
 
 if __name__ == "__main__":
@@ -189,4 +194,7 @@ if __name__ == "__main__":
             file_list.append(i)
         else:
             modules.append(i)
-    standardize(file_list, modules)
+    if modules != []:
+        standardize(file_list, modules)
+    else:
+        standardize(file_list)
