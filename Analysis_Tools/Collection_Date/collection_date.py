@@ -31,7 +31,8 @@ this_year = today.year
 def ambiguous_dates(d, ambiguity=False):
     if d["date_obj"] is not None and d["period"] == "day":
         times = [d["date_obj"].year, d["date_obj"].month, d["date_obj"].day]
-        if len([i for i in times if (i <= 12)]) > 1:
+        if len([i for i in times if (i <= 12)]) > 1 and \
+                (d["date_obj"].month != d["date_obj"].day):
             ambiguity = True
     return ambiguity
 

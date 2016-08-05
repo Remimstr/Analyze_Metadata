@@ -30,6 +30,9 @@ modules = [["Generic", "generic"], ["Collection_Date", "collection_date"],
            ["Serovar", "serovar"], ["Isolation_Source", "isolation_source"],
            ["Organization_Name", "organization_name"]]
 
+# These modules don't have any additional data
+simple_parse = ["Collection_Date", "Generic"]
+
 file_ext = "_standardized.csv"
 
 replacements = path + "Null_Replacements.txt"
@@ -115,8 +118,7 @@ def open_replacements():
 def open_info_files(modules):
     ret_vals = {}
     for mod in modules:
-        # These modules don't have any additional data
-        if mod[0] == "Collection_Date" or mod[0] == "Generic":
+        if mod[0] in simple_parse:
             continue
         open_mod = importlib.import_module(".".join(mod))
         ret_vals[mod[1]] = open_mod.return_dicts()
