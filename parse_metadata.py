@@ -177,12 +177,20 @@ def run(run, metadata):
                     parse_generic(grandchild, metadata, [key, "RUN"])
         for i in child.getiterator():
             if i.tag == "EXPERIMENT_REF" or i.tag == "Member":
+                # Parse Member attributes (organism)
+                if "organism" in i.attrib:
+                    metadata.add(key + "/" + "organism", i.attrib["organism"])
+                # Parse other PRIMARY_IDs
                 for grandchild in i:
                     for greatgrandchild in grandchild:
                         if greatgrandchild.tag == "PRIMARY_ID":
                             tag = "SAMPLE" if i.tag == "Member" else i.tag
                             parse_generic(greatgrandchild, metadata,
                                           [key, tag])
+    # Parse RUN attributes (size, total_bases)
+    for a in run.attrib:
+        if a == "size" or a == "total_bases":
+            metadata.add(key + "/" + a, run.attrib[a])
     return key
 
 # *************************************************************************** #
@@ -213,7 +221,8 @@ def parse_metadata(xml_file):
     if not validate_xml.validate_xml(tree):
         raise ValueError("%s is an invalid XML file" % xml_file)
     try:
-        root = tree.find("EXPERIMENT_PACKAGE")
+        root = tree.getroot() if tree.getroot().tag == "EXPERIMENT_PACKAGE"\
+            else tree.find("EXPERIMENT_PACKAGE")
     except:
         raise Exception("Could not find Experiment Package of %s" % xml_file)
     experiment_key = ""

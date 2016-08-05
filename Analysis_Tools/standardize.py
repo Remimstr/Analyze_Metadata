@@ -25,7 +25,7 @@ path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
 # *Important: set modules to the ones you want to include in your desired order
 # scripts of these titles must be in the same folder as this one for the
 # function to run properly
-modules = [["ID", "id"], ["Collection_Date", "collection_date"],
+modules = [["Generic", "generic"], ["Collection_Date", "collection_date"],
            ["Geographic_Location", "geographic_location"],
            ["Serovar", "serovar"], ["Isolation_Source", "isolation_source"],
            ["Organization_Name", "organization_name"]]
@@ -116,7 +116,7 @@ def open_info_files(modules):
     ret_vals = {}
     for mod in modules:
         # These modules don't have any additional data
-        if mod[0] == "Collection_Date" or mod[0] == "ID":
+        if mod[0] == "Collection_Date" or mod[0] == "Generic":
             continue
         open_mod = importlib.import_module(".".join(mod))
         ret_vals[mod[1]] = open_mod.return_dicts()
@@ -139,6 +139,9 @@ def return_vals(s, mod, info, null_vals):
 def standardize(files, modules=modules):
     null_vals = open_replacements()
     info = open_info_files(modules)
+    # lookup is an empty dictionary that contains
+    # items which have been previously parsed
+    lookup = {}
     for in_file in files:
         csvin = open(in_file, "rU")
         # Set up the output csv for writing
@@ -153,22 +156,22 @@ def standardize(files, modules=modules):
         mods = std_info.modules
         # Process each line of the file's data
         data_set = []
-        # lookup is an empty dictionary that contains
-        # items which have been previously parsed
-        lookup = {}
         for line in reader:
             line_data = []
             for p in range(0, len(positions)):
                 s = line[positions[p]] if positions[p] is not None else ""
                 # Replace the null_vals with an empty string
                 s = "" if s.lower() in null_vals else s
-                if s in lookup.keys():
-                    line_data.extend(lookup[s])
+                lookup_key = mods[p][1] + "." + s
+                if lookup_key in lookup.keys():
+                    line_data.extend(lookup[lookup_key])
+                    # print "%s:%s" % (mods[p], lookup[s])
                 else:
                     vals = return_vals(s, mods[p], info, null_vals)
+                    # print "%s:%s" % (mods[p], vals)
                     line_data.extend(vals)
                     if s != "":
-                        lookup[s] = vals
+                        lookup[lookup_key] = vals
             if not all(i == "" for i in line_data):
                 data_set.append(line_data)
         # Write all of the newfound data to the csv
@@ -181,8 +184,8 @@ def standardize(files, modules=modules):
             csvout.close()
             csvin.close()
 
-        # Run the post-processing script
-        Analysis_Tools.post_processing.process_file(filename)
+            # Run the post-processing script
+            Analysis_Tools.post_processing.process_file(filename)
 
 
 if __name__ == "__main__":
