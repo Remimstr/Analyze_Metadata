@@ -13,7 +13,7 @@ Main program that queries and downloads xml files based on organism name and dat
 **Usage:** metadata.py options (run python metadata.py -h to see options)<br />
 **Download in Bulk:** bash download.sh organism start_date end_date<br />
 
-### AnalysisTools/standardize_csv.py (in progress)
+### AnalysisTools/standardize.py
 Main program that standardizes relevant columns from input csv files.<br />
 **Usage:** standardize.py csv_files<br />
 
