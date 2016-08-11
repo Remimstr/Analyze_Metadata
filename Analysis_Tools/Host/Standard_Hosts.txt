@@ -1,0 +1,129 @@
+Human
+Ocellated Skink
+Lizard
+Free Living
+Parakeet
+Calf
+Pigeon
+Lamb
+Animal
+Mouse
+Goose
+Rat
+Horse
+Rabbit
+Parrot
+Opposum
+Bovine
+Porcine
+Ovine
+Poultry
+Equine
+Feline
+Alpaca
+Pig
+Gallus Domesticus
+Pistacia vera L.
+Piper Nigrum
+Perch
+Cynoscion Nebulosus
+Scomberomorus Cavalla
+Bos Taurus
+Canine
+Gallus Gallus
+Sus Domesticus
+Chicken
+Chloris Chloris
+Carduelis Carduelis
+Passer Domesticus
+Eqqus Species
+Iguana Species
+Python Species
+Reptile
+Snake
+Turtle
+Ovis Species
+Felis Species
+Lama Glama
+Rodent
+Canis Species
+Bos Species
+Alligator Mississippiensis
+Sea Lion
+Meleagris Gallopavo
+Bufo Terrestris
+Trachemys Scripta
+Scaphiopus Holbrookii
+Chelydra Serpentina
+Raccoon
+Fish
+Sternotherus Odoratus
+Alces Alces
+Gecko
+Pogona Vitticeps
+Bos Primigenius
+Equus Ferus Caballus
+Canis Lupus Familiaris
+Felis Catus
+Unspecified Avian Host
+Bird
+Marine Mammal
+Avian
+Cat
+Dog
+Sus Scrofa
+Deer
+Duck
+Turkey
+Cervid
+Hamster
+Sheep
+Papaya
+Jalapeno Pepper
+Feeder Mouse
+Geochelone Elegans
+Gekko Gecko
+Swine
+Oryctolagus Cuniculus
+Anas boschas Domestica
+Cervus Elaphus
+Chanos Chanos
+Piaractus Brachypomus
+Sus Scrofa Domesticus
+Python Regius
+Iguana Iguana
+Amazona
+Trachemys Scripta Callirostris
+Camel
+Neovison Vison
+Ovis Aries
+Lacertilia
+Perdicinae
+Sus Species
+Conolophus Subcristatus
+Camelus Species
+Meleagris
+Crocodylus
+Reptilia
+Cecum
+Mus Musculus
+Branta Species
+Leucophaeus Pipixcan
+Larus Dominicanus
+Fowl
+Chlamydosaurus Kingii
+Didelphis Virginiana
+Procyon Lotor
+Eudocimus Albus
+Gallus Gallus Domesticus
+Lemur Catta
+Caprine
+Murine
+Pogona
+Enhydra
+Branta Canadensis
+Meleagris Species
+Yak
+Sus Domestica
+Anas Platyrhynchos Domesticus
+Cattle

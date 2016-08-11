@@ -98,6 +98,9 @@ attempt to spellcheck it. <br />
 Organization Name will attempt to standardize organization names. If a term
 is not found in the standard list, it will attempt to spellcheck it. <br />
 
+### Host Name
+Like Isolation Source and Organization Name (see above). <br />
+
 ## How to add a New Standardization Module
 1. Make a new directory in Analysis_Tools <br />
 2. Add your parsing script (written in python) to this directory
