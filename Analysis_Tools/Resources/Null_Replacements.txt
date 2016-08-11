@@ -2,3 +2,6 @@ not knownunspecifiedunknownnot available: not collectedenterica missingunde
 none
 serotype pending
 salmonella unnamed
+n/a
+misc
+no applicable

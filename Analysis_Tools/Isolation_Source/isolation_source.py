@@ -4,7 +4,6 @@
 # Date: July 20, 2016
 # Description: Parses isolation sources into a unified format
 
-import os
 from Analysis_Tools.common_funs import *
 
 # Set default string processing to Unicode-8

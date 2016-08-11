@@ -25,10 +25,13 @@ path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
 # *Important: set modules to the ones you want to include in your desired order
 # scripts of these titles must be in the same folder as this one for the
 # function to run properly
+
+
 modules = [["Generic", "generic"], ["Collection_Date", "collection_date"],
            ["Geographic_Location", "geographic_location"],
            ["Serovar", "serovar"], ["Isolation_Source", "isolation_source"],
-           ["Organization_Name", "organization_name"]]
+           ["Organization_Name", "organization_name"], ["Host", "host"]]
+
 
 # These modules don't have any additional data
 simple_parse = ["Collection_Date", "Generic"]
@@ -41,7 +44,7 @@ replacements = path + "Null_Replacements.txt"
 # and prepare csv data for parsing.
 
 
-class Standard_Info():
+class Standard_Info:
     def __init__(self, modules):
         self.cols = []
         self.modules = []
@@ -61,12 +64,12 @@ class Standard_Info():
         return self.pos
 
     # Takes in a list of headers and finds the positions of interest
-    # Requiremenets: __init__ must have been run initially
+    # Requirements: __init__ must have been run initially
     #                self.headers must have been declared
     def find_positions(self, headers):
         for c in range(0, len(self.cols)):
             for h in headers:
-                if self.cols[c] in h:
+                if self.cols[c] == h:
                     self.pos[c] = headers.index(h)
 
     # new_headers: produces a list of headers to print as the first line
@@ -129,7 +132,7 @@ def open_info_files(modules):
 # This is a specialized function used to call and return parsed data
 
 
-def return_vals(s, mod, info, null_vals):
+def return_vals(s, mod, info):
     module = importlib.import_module(".".join(mod))
     extra_info = info[mod[1]] if mod[1] in info else None
     if extra_info is not None:
@@ -169,7 +172,7 @@ def standardize(files, modules=modules):
                     line_data.extend(lookup[lookup_key])
                     # print "%s:%s" % (mods[p], lookup[s])
                 else:
-                    vals = return_vals(s, mods[p], info, null_vals)
+                    vals = return_vals(s, mods[p], info)
                     # print "%s:%s" % (mods[p], vals)
                     line_data.extend(vals)
                     if s != "":

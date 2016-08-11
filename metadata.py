@@ -44,7 +44,7 @@ def animate():
 # tools found in the folder analysis_tools
 
 
-def metadata(name, start, end, time, overwrite):
+def metadata(name, start, end, t, overwrite):
     directory = "%s_%s_%s" % (name, start, end)
     # Overwrite the xmls if that is specified
     if overwrite is True or directory not in os.listdir(os.getcwd()):
@@ -60,7 +60,7 @@ def metadata(name, start, end, time, overwrite):
         query = "(%s[Organism]) AND (\"%s\"[Publication Date] : \"%s\" \
                  [Publication Date])" % (name, start_date, end_date)
         # Download the metadata
-        download_metadata(query, time)
+        download_metadata(query, t)
         print "\nFinished downloading metadata"
 
     # Get xml_files inside of path
