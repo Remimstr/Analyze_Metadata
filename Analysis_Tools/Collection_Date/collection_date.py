@@ -43,7 +43,7 @@ def ambiguous_dates(d, ambiguity=False):
 
 def date_exceptions(raw_date):
     match_year = "[1, 2][0-9]{3}"
-    # This code parses two dates separated by a dash(-) or foreward slash (/)
+    # This code parses two dates separated by a dash(-) or foreword slash (/)
     # ex. 2008/2010
     if re.match(r"%s[-/]%s" % (match_year, match_year), raw_date):
         two_years = re.split(r"[-/]", raw_date)
@@ -83,8 +83,8 @@ def parse(raw_date):
         # If the precision is "month", adjust accordingly
         if date_obj["period"] == "month":
             month, year = date_obj["date_obj"].month, date_obj["date_obj"].year
-            error = int(math.ceil(calendar.monthrange(year, month)[1] / 2.0))
-            new_date = date_obj["date_obj"].replace(day=error)
+            error = int(math.floor(calendar.monthrange(year, month)[1] / 2.0))
+            new_date = date_obj["date_obj"].replace(day=error+1)
         # If the precision is "year", adjust accordingly
         if date_obj["period"] == "year":
             leap = True if calendar.isleap(date_obj["date_obj"].year) \
@@ -92,7 +92,7 @@ def parse(raw_date):
             year_count = 366 if leap else 365
             error = int(math.floor(year_count) / 2.0)
             new_date = date_obj["date_obj"].replace(day=1, month=1)
-            new_date += datetime.timedelta(days=error - 1)
+            new_date += datetime.timedelta(days=error)
         new_date = new_date.strftime("%Y-%b-%d")
     # If the date has failed to parse so far, run custom parsers on it
     else:
