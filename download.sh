@@ -13,5 +13,4 @@ do
   nextDateTs=$(date -j -f "%s" $nextSeconds "+%Y-%m-%d")
   metadata.py --name $1 --start $currentDateTs --end $nextDateTs --time 3.0
   currentSeconds=$(($nextSeconds+$increment))
-  sleep 3.0
 done

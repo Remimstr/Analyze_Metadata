@@ -183,8 +183,7 @@ def parse(raw_loc, geo_info):
             out_string += country
         # Search for the province
         elif search_for_province(province, gl_data):
-            out_string += province
-            collection_note += ":" + province
+            out_string += ":" + province
         # See if it's formatted as "Province, Country" ex. New York, USA
         '''
         else:

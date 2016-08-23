@@ -115,7 +115,7 @@ def organization(organization, metadata, key):
     for child in organization:
         # Parse Organization -> Name
         if child.tag == "Name":
-            parse_generic(child, metadata, [key, "Organization_Name"])
+            metadata.add(key + "/Organization_Name", child.text)
 
 # *************************************************************************** #
 

@@ -46,12 +46,13 @@ def parse(isolation_source, info):
     replacements, eq_words = info["simple_replace"], info["equivalent_words"]
     return_vals = [""] * len(keys)
     return_vals[keys.index("ORIGINAL")] = isolation_source
-    isolation_source = replace_words(repl_dict(eq_words), isolation_source)
+    standard_source = replace_words(repl_dict(eq_words), isolation_source)
     if isolation_source == "":
         return return_vals
     isolation_source = isolation_source.lower().strip()
     for key in replacements.keys():
-        if isolation_source == key.lower().strip():
+        l_key = key.lower().strip()
+        if isolation_source == l_key or standard_source == l_key:
             return_vals[keys.index("CURATED")] = replacements[key]
             return return_vals
     return_vals[keys.index("SUGGESTION")] = spellcheck(isolation_source,
