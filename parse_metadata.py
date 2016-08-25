@@ -65,11 +65,15 @@ def experiment(experiment, metadata):
                 if grandchild.tag == "IDENTIFIERS":
                     for greatgrandchild in grandchild:
                         parse_generic(greatgrandchild, metadata, [key, "STUDY"])
-        # Parse EXPERIMENT -> DESIGN -> LIBRARY_DESCRIPTOR ->
         if child.tag == "DESIGN":
+            # Parse EXPERIMENT -> DESIGN -> LIBRARY_DESCRIPTOR ->
             for grandchild in child:
                 if grandchild.tag == "LIBRARY_DESCRIPTOR":
                     library_descriptor(grandchild, metadata, key)
+            # Parse EXPERIMENT -> DESIGN -> SPOT_DESCRIPTOR ->
+            for grandchild in child:
+                if grandchild.tag == "SPOT_DESCRIPTOR":
+                    spot_descriptor(grandchild, metadata, key)
         # Parse EXPERIMENT -> PLATFORM
         if child.tag == "PLATFORM":
             platform(child, metadata, key)
@@ -85,6 +89,11 @@ def library_descriptor(library_descriptor, metadata, key):
         else:
             parse_generic(child, metadata, [key])
 
+def spot_descriptor(spot_descriptor, metadata, key):
+    # Parse SPOT_LENGTH
+    for field in spot_descriptor.getiterator():
+        if field.tag == "SPOT_LENGTH":
+            parse_generic(field, metadata, [key])
 
 def platform(platform, metadata, key):
     # Parse PLATFORM, -> -> INSTRUMENT_MODEL
@@ -189,7 +198,7 @@ def run(run, metadata):
                                           [key, tag])
     # Parse RUN attributes (size, total_bases)
     for a in run.attrib:
-        if a == "size" or a == "total_bases":
+        if a == "size" or a == "total_bases" or a == "total_spots":
             metadata.add(key + "/" + a, run.attrib[a])
     return key
 

@@ -4,7 +4,7 @@
 # Date: July 20, 2016
 # Description: A wrapper to parse isolation_source information
 
-from Analysis_Tools.common_funs import *
+from Standard_Tools.common_funs import *
 
 # Set default string processing to Unicode-8
 import sys

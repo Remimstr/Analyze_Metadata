@@ -15,8 +15,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-import Analysis_Tools.post_processing
-from Analysis_Tools import *
+import Standard_Tools.post_processing
+from Standard_Tools import *
 
 # Get the relative path of the script
 path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
@@ -190,7 +190,7 @@ def standardize(files, modules=modules):
             csvin.close()
 
             # Run the post-processing script
-            Analysis_Tools.post_processing.process_file(filename)
+            Standard_Tools.post_processing.process_file(filename)
 
 
 if __name__ == "__main__":

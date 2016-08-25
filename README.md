@@ -1,4 +1,4 @@
-# Analyze_Metadata
+# Standardize_Metadata
 A collection of tools to download, parse, and standardize sequence metadata from NCBI databases.<br />
 Written by Remi Marchand between May 13, 2016 and August 26, 2016.
 
@@ -13,7 +13,7 @@ Main program that queries and downloads xml files based on organism name and dat
 **Usage:** metadata.py options (run python metadata.py -h to see options)<br />
 **Download in Bulk:** bash download.sh organism start_date end_date<br />
 
-### AnalysisTools/standardize.py
+### Standard_Tools/standardize.py
 Main program that standardizes relevant columns from input csv files.<br />
 **Usage:** standardize.py csv_files<br />
 
@@ -24,4 +24,4 @@ Main program that standardizes relevant columns from input csv files.<br />
 - Levenshtein (install from: https://pypi.python.org/pypi/python-Levenshtein/0.12.0)<br />
 
 ### Add to the python path
-- If on a Mac: export PYTHONPATH="${PYTHONPATH}:Path_To_Analyze_Metadata"<br />
+- If on a Mac: export PYTHONPATH="${PYTHONPATH}:Path_to_Standardize_Metadata"<br />

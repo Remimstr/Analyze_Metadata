@@ -4,7 +4,7 @@
 # Date: June 10, 2016
 # Description: Parses a given serovar into a unified format
 
-from Analysis_Tools.common_funs import *
+from Standard_Tools.common_funs import *
 
 # Set default string processing to Unicode-8
 import sys

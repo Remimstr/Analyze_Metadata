@@ -4,7 +4,7 @@
 # Date: August 11, 2016
 # Description: Parses host sources into a unified format
 
-from Analysis_Tools.common_funs import *
+from Standard_Tools.common_funs import *
 
 # Set default string processing to Unicode-8
 import sys
