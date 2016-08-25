@@ -184,6 +184,9 @@ def parse(raw_loc, geo_info):
         # Search for the province
         elif search_for_province(province, gl_data):
             out_string += ":" + province
+        # If neither country nor province found, consider it a country failure
+        else:
+            collection_note += country
         # See if it's formatted as "Province, Country" ex. New York, USA
         '''
         else:

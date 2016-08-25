@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-  <!-- Generic postal address -->
+  <!-- Pass_Through_Terms postal address -->
   <xs:complexType name="typeAddress">
     <xs:sequence>
       <xs:element name="Department" type="xs:string" minOccurs="0" maxOccurs="1">

@@ -1,1 +1,744 @@
-enteritidis"ii 9,12:g,s,t:e,n,x""v 1,13,22:i:-"typhimurium"i 1,4,[5],12:e,h:-""i 1,4,[5],12:i:-""i 1,4,[5]:b:z6"travis"v 1,40:z35:-""iv 1,40:z4,z32:-""vi [1],6,14,[25]:a:e,n,x"gallinarummarseille"vi 11:a:1,5""vi 11:b:1,7""vi 11:b:e,n,x""iiia 11:z4,z23:-""iv 11:z4,z23:-""ii 13,22:z29:e,n,x""13,23:z:-"13:-:-16:b:-"iv 16:z4,z32:-"carnacii 18:z10:z6aarhuscerro"ii 18:z4,z23:-""iiia 18:z4,z23:-"baguida"iiia 21:z4,z23:-""iv 21:z4,z23:-""28:e,h:-""3,10:e,h:-""3,10:z41:2,5""30:1,z28:z6"38:(k):z35:-38:z10:z5339:b:-"i 4,[5],12:b:-""i 1,4,[5],12:d:-""i 1,4,[5],12:r:-""i 1,4,[5],12:r:1,2""i 4,[5],12:d:-""1,4,[5],12:r:-""i 1,4,[5],12:b:-"40:z35:-"40:z4,z24:[z39]""41:b:1,7""41:z4,z23:-""42:b:1,5""42:f:g,t:-""42:z:1,5""43:z4,z23:-""43:z4,z32:-"44:r:-44:z36[z38]:-44:z39:-"44:z4,z24:-""45:a:e,n,x"45:d:-"45:g,z51:-""47:a:1,5""47:b:1,5"47:d:z39"47:l,v:e,n,x""47:z4,z23:-"47:z4z23:-48:-:-"48: z10: e,n,x,z15"48:a:-48:d:z6"48:g,z51:-"48:i:-48:i:z48:z35:-48:z39:-"48:z4,z23,z32:-""48:z4,z24:-""48:z4,z32:-"48:z41:-50:-:-50:b:z6"50:g,f:-""50:g,z51:-"50:k:z50:k:z3550:y:-"50:z4,z23:-"53:lz28:z3955:k:z3956:z10:enx"56:z4,z23,(z32):-"58:a:-58:d:z6"58:l,z13,z28:z6""6, 7: k: -""6, 8: e, h: -""6, 8:e, h:-""6,14,24,25:a:e,n,z15""6,14,25:b:-""6,14,25:z10:1,(2),7""6,7,14:g,m[p],s:[1,2,7]""6,7,14:k:-""6,7: l w:-""6,7:-:-""6,7:-:1,5""6,7:c:1,5""6,7:e,h:-""6,7:g,m,s:e,n,z15""6,7:k:-""6,7:k:z35""6,7:l,w:-""6,7:m,t:-""6,7:r:-""6,7:z:1,5""6,7:z10:-""6,7:z41:1,7""6,8,20:e,h:-""6,8:2:-""6,8:e,h:-""6,8:eh:-"6.8:eh:-"60:g,m,t:z6""60:r:e,n,x,z15"60:r:z60:z41:-"61:-:1,5,7""iiib 61:k:1,5,(7)"v 61:z35:-62:z36:-62:z4:z23:-"63:g,z51:-"65:(k):z66:z41:-66:z65:-"7,14:z29:-""8,20 :-: z6""8,20:-:z6""8,20:e,h:-""8,20:-:-"8:-:-8:y:-typhi"9,12:5:-""9,12:l,z28:-"abaabaetetubaaberdeenabidjanabonyabortusequiabortusovisadabrakaadelaideaderikeagamaagbeniagoagonaagoueveajioboalachuaalbanyalbertaltonaamageramersfoortamherstianaamoutiveamsterdamanatumanechoanfoankapapaapeyemeaquaarechavaletaascherslebenastridpleinatentoathinaiaugustenborgbabelsbergbahatibahrenfeldbaildonballbananabangkokbanjulbardobareillybargnybarranquillabeaudesertbeninbenuebereberta"ii 47:a:1,5"orionbirkenheadbispebjergblegdamblijdorpblockleybochumbonariensisbonnbournemouthbovismorbificansbraenderupbrancasterbrandenburgbrazzavillebredeneybrezanybrisbanev 66:z41:-bruneibsillabuckeyebudapestbutantanbuzumeleagridis"ii 9,12:z29:1,5"cannstattcaracascarmelcarnocarrauchaileychampaignchandanscharitychesterchicagochincolchingolacholeraesuisclaiborneicoelncoleyparkcolindalecolobaneconcordcorvalliscothamcremieucubanacuracao"ii 40:z4,z24:z39"denverderbydeversoirdjiboutidjugudortmunddublinduesseldorfduisburgdunkwadurbandurhamealingeastbourneebrieedeedinburglivingstoneekoelisabethvilleemekeschbergesseneustoneverleighfalkenseefantifarmsenferruch"ii 3,10:z:e,n,x"finkenwerderfischerstrassefloridaflunternfreetownfreiburgfresnofuldafulicagafsagaillacgaliemagamabagaminaragatesheadgatowgeragivegizaglostrupgoelzauvejlegoldcoastgombegoulfeygoverdhangozograncanariagrumpensishaardthadarhadunahaifa"iv 51:z4,z23:-"harrisonburghartfordhatohavanaheidelberghermannswerderherstonhidalgohiduddifyhillingdonhindmarshhofitholcombhuddingehullhuvudstahvittingfoss"i  3,10:-:1,5""i  6,7:y:1,2,5""i 1,3,19:z10:1,5"i 11:c:-"i 13,22:z:-""i 13,23:b:-"i 16:d:-"i 17:g,t:-""i 18:k:1,7""i 3,10,15:i:1,2""i 3,10:e,h:-""i 3,10:-:-""i 3,15,34:d:-""i 3,15:e,h:-""i 3,19:-""i 3,19:-:-"i 39:b:-"i 4,[5],12:e,h:-""i 4,[5],12:i:-""i 4,[5],12:r:-""i 4,12:1:-""i 4,12:d: -""i 4,12:d:-""i 4,12:i: -""i 4,12:i:-""i 4,12:-:-""i 4,12:r:-""i 4,5,12: i : -""i 4,5,12:-:1,2""i 4,5,12:d:-""i 4,5,12:-:-"i 42:-:-"i 47:z4,z23:-""i 6,14,19:y:1,7""i 6,14,25:b:1,6""i 6,14,25:b:e,n,z15""i 6,7:-:-""i 6,7:-:1,5""i 6,7:-:e,n,z15""i 6,7:-1,5""i 6,7:e,h:-""i 6,7:k:-""i 6,7:r:-""i 6,8:d:-""i 6,8:e,h:-""i 6,8:i:-""i 8,20:-:z6""i 8,20:y:-""i 8:-:1,5""i 8:y:1,5""i 9,12,46:-"ibadanidikan"ii 28:r:e,n,z15""ii 3,10:l,z28:1,5""ii 3,10:z4,z24"ii 42:r:-"ii 42:z:1,5""ii 47:b:1,5"ii 48:d:z6"ii 48:g,m,t:-"ii 50:z10:z6:z42"ii 9,12,46:l,w:e,n,z15""ii 9,46:d:1,5"ii 60:z10:z39"iii 16:z10:e,n,x,z15""iii 41:z4,z23:-""iii 44:z4,z32:-"iii 50:r:ziii 60:r:z"iiia -:z4,z23:-""iiia 18:z4,z32:-""iiia 3,19:-:-"iiia 35:-:-"iiia 35:z4,z23:-"iiia 40:z36:-"iiia 40:z4,z23:-""iiia 41:z4,z23:-""iiia 42:z4,z24:-""iiia 48:g,z51:-""iiia 48:z4,z23,z32:-""iiia 48:z4,z23:-""iiia 48:z4,z32:-""iiia 9,12:-:1,5"iiib 11:k:z53iiib 35:i:z35iiib 47:k:z35iiib 48:i:ziiib 58:r:-iiib 58:z52:z35"iiib 60:r:e,n,x,z15""iiib 60:r:e,n,z15"iiib 61:-:-"iiib 61:-:1,5,7""iiib 61:l,[v],[z13]:1,5,[7]""iiib 61:l,v""iiib 61:l,v:1,5,7""iiib 61:l,v:1,5,7:[z57]""iiib 61:l,z13:1,7"ilalailugunindianainfantisingandainprawinvernessipswichirumuisangiistanbulitamiituri"iv 40:z4,z24:-""iv 40:z4,z32:-"iv 43:z23:-"iv 43:z4,z23:-""iv 44:z4, z32:-""iv 44:z4,z32:-""iv 50:g,z51:-""iv 50:z4,z23:-"jangwaniparatyphi bjavianajedburghjohannesburgjukestownkalinakambolekedougoukentuckykenya"ii 47:b:e,n,x,z15"kiambukibusikimuenzakingabwakingstonkintambokirkeekisanganikisarawekorbolkottbuskoumrakrefeldkuakumasilabadilagoslangensalzalangfordweltevredenlansinglarochellelattenkamplerumlexingtonlillelimetelingwalalitchfieldliverpoolllandofflomalindalomelomitalondonloubomolougalucianalukemaastrichtmadeliamadrasmagwamalstattmanchestermanhattanmaricopa"iv 48:g,z51:-"maritzburgmartonosmatadimathuramatopenimbandakamemphismendenmendozamenstonmuenchenmgulanimiamimichiganmikawasimamilwaukeeminnesotamishmarhaemekmississippimkambamolademonschauimontevideomountpleasantmpoutomuensternagoyanapolinchanganesszionaneukoellnnewlandsnewmexiconewportnigerianimanorwichnottinghamnoyanyborg"4,12,27:g,s,t,e,n,x""11:g,z25:-"14:r:z"17:l,v:"iiib 35:(k):z35"4,12,27:-:-""ii 1,4,12,[27]:g,[m],[s],t:e,n,x""6,7:m,s,t:e,n,x""ii 6,7:m,t:-""9,12:l,z28:-""ii 9,12:l,z28:1,5""v 1,40:z81:-""v 13,22:r:-""v 13,22:z39:-"v 44:r:-v 44:z39:-v 48:b:-v 48:i:-v 48:z35:-v 48:z39:-v 48:z41:-v 48:z65:-v 48:z81:-v 60:z41:-v 66:z35:-v 66:z39:-v 66:z65:-v 66:z81:-oaklandoboguoffaohiooldenburgoltenonaonarimononderstepoortonirekeoranienburgorientalisoritamerinosloothmarschenouakamoverschiepanamaparatyphi aparatyphi cpensacolaperthplymouthpoanopomonapoonaportlandpotsdampretoriapullorumputtenramatganreadingredhillredlandsrichmondrideauridgerissenrubislawruiru"iv 1,40:z4,z23:-"saintpaulsalfordbakaubristolbrongdanskjoalkallokastruplindernlosangeleslouisianaremosandiegoschwarzengrundsekondisenftenbergshubrasingaporesoerengastanleyszentestakoraditelelkebirtennesseethompsonugandaughelliumbilourbanavirchowvitkinii 21:z10:z6wangatawaycrosswilhelmsburgsangalkamsanjuansaosaphrasaugusschleissheimsendaisenegalserembancurated_serovarshamba"i 4,5,12: i: -""i 6,7:g,m,s:e,n,z15"simisinstorfsoahanina"ii 1,4,12,[27]:b:[e,n,x]"soltsoumbediounesouthbankstanleyvillestockholmstormontstourbridgestrathconasuelldorfsundsvalltallahasseetamaletambermatananarivetangertarshyneteddingtonteestekotelavivtelhashomertexastibatitogbatomegbetornowtorontotrachauii 55:k:z39treforesttroytshiongwetucsontudutyphisuistyresoe"ii 42:b:e,n,x,z15"uppsalauzaramoveneziana"vi 1,6,14,25:a:e,n,z15""vi 6,14,25:a:e,n,x"victoriavilvoordevinohradyvirginiavolkmarsdorfwandsworthwarragulwelikadewentworthweslacowesthamptonwestminsterweybridgewienwimbornewipprawoodinvilleworbworthingtonyarrabahyorubazaimanzanzibar
+Enteritidis
+II 9,12:g,s,t:e,n,x
+V 1,13,22:i:-
+Typhimurium
+I 1,4,[5],12:e,h:-
+I 1,4,[5],12:i:-
+I 1,4,[5]:b:z6
+Travis
+V 1,40:z35:-
+IV 1,40:z4,z32:-
+VI [1],6,14,[25]:a:e,n,x
+Gallinarum
+Marseille
+VI 11:a:1,5
+VI 11:b:1,7
+VI 11:b:e,n,x
+IIIa 11:z4,z23:-
+IV 11:z4,z23:-
+II 13,22:z29:e,n,x
+13,23:z:-
+13:-:-
+16:b:-
+IV 16:z4,z32:-
+Carnac
+II 18:z10:z6
+Aarhus
+Cerro
+ II 18:z4,z23:-
+IIIa 18:z4,z23:-
+Baguida
+IIIa 21:z4,z23:-
+IV 21:z4,z23:-
+28:e,h:-
+3,10:e,h:-
+3,10:z41:2,5
+30:1,z28:z6
+38:(k):z35:-
+38:z10:z53
+39:b:-
+I 4,[5],12:b:-
+I 1,4,[5],12:d:-
+I 1,4,[5],12:r:-
+I 1,4,[5],12:r:1,2
+I 4,[5],12:d:-
+1,4,[5],12:r:-
+I 1,4,[5],12:b:-
+40:z35:-
+40:z4,z24:[z39]
+41:b:1,7
+41:z4,z23:-
+42:b:1,5
+42:f:g,t:-
+42:z:1,5
+43:z4,z23:-
+43:z4,z32:-
+44:r:-
+44:z36[z38]:-
+44:z39:-
+44:z4,z24:-
+45:a:e,n,x
+45:d:-
+45:g,z51:-
+47:a:1,5
+47:b:1,5
+47:d:z39
+47:l,v:e,n,x
+47:z4,z23:-
+47:z4z23:-
+48:-:-
+48: z10: e,n,x,z15
+48:a:-
+48:d:z6
+48:g,z51:-
+48:i:-
+48:i:z
+48:z35:-
+48:z39:-
+48:z4,z23,z32:-
+48:z4,z24:-
+48:z4,z32:-
+48:z41:-
+50:-:-
+50:b:z6
+50:g,f:-
+50:g,z51:-
+50:k:z
+50:k:z35
+50:y:-
+50:z4,z23:-
+53:lz28:z39
+55:k:z39
+56:z10:enx
+56:z4,z23,(z32):-
+58:a:-
+58:d:z6
+58:l,z13,z28:z6
+6, 7: k: -
+6, 8: e, h: -
+6, 8:e, h:-
+6,14,24,25:a:e,n,z15
+6,14,25:b:-
+6,14,25:z10:1,(2),7
+6,7,14:g,m[p],s:[1,2,7]
+6,7,14:k:-
+6,7: l w:-
+6,7:-:-
+6,7:-:1,5
+6,7:c:1,5
+6,7:e,h:-
+6,7:g,m,s:e,n,z15
+6,7:k:-
+6,7:k:z35
+6,7:l,w:-
+6,7:m,t:-
+6,7:r:-
+6,7:z:1,5
+6,7:z10:-
+6,7:z41:1,7
+6,8,20:e,h:-
+6,8:2:-
+6,8:e,h:-
+6,8:eh:-
+6.8:eh:-
+60:g,m,t:z6
+60:r:e,n,x,z15
+60:r:z
+60:z41:-
+61:-:1,5,7
+IIIb 61:k:1,5,(7)
+V 61:z35:-
+62:z36:-
+62:z4:z23:-
+63:g,z51:-
+65:(k):z
+66:z41:-
+66:z65:-
+7,14:z29:-
+8,20 :-: z6
+8,20:-:z6
+8,20:e,h:-
+8,20:-:-
+8:-:-
+8:y:-
+Typhi
+9,12:5:-
+9,12:L,z28:-
+Aba
+Abaetetuba
+Aberdeen
+Abidjan
+Abony
+Abortusequi
+Abortusovis
+Adabraka
+Adelaide
+Aderike
+Agama
+Agbeni
+Ago
+Agona
+Agoueve
+Ajiobo
+Alachua
+Albany
+Albert
+Altona
+Amager
+Amersfoort
+Amherstiana
+Amoutive
+Amsterdam
+Anatum
+Anecho
+Anfo
+Ank
+Apapa
+Apeyeme
+Aqua
+Arechavaleta
+Aschersleben
+Astridplein
+Atento
+Athinai
+Augustenborg
+Babelsberg
+Bahati
+Bahrenfeld
+Baildon
+Ball
+Banana
+Bangkok
+Banjul
+Bardo
+Bareilly
+Bargny
+Barranquilla
+Beaudesert
+Benin
+Benue
+Bere
+Berta
+II 47:a:1,5
+Orion
+Birkenhead
+Bispebjerg
+Blegdam
+Blijdorp
+Blockley
+Bochum
+Bonariensis
+Bonn
+Bournemouth
+Bovismorbificans
+Braenderup
+Brancaster
+Brandenburg
+Brazzaville
+Bredeney
+Brezany
+Brisbane
+V 66:z41:-
+Brunei
+Bsilla
+Buckeye
+Budapest
+Butantan
+Buzu
+Meleagridis
+II 9,12:z29:1,5
+Cannstatt
+Caracas
+Carmel
+Carno
+Carrau
+Chailey
+Champaign
+Chandans
+Charity
+Chester
+Chicago
+Chincol
+Chingola
+Choleraesuis
+Claibornei
+Coeln
+Coleypark
+Colindale
+Colobane
+Concord
+Corvallis
+Cotham
+Cremieu
+Cubana
+Curacao
+II 40:z4,z24:z39
+Denver
+Derby
+Deversoir
+Djibouti
+Djugu
+Dortmund
+Dublin
+Duesseldorf
+Duisburg
+Dunkwa
+Durban
+Durham
+Ealing
+Eastbourne
+Ebrie
+Ede
+Edinburg
+Livingstone
+Eko
+Elisabethville
+Emek
+Eschberg
+Essen
+Euston
+Everleigh
+Falkensee
+Fanti
+Farmsen
+Ferruch
+II 3,10:z:e,n,x
+Finkenwerder
+Fischerstrasse
+Florida
+Fluntern
+Freetown
+Freiburg
+Fresno
+Fulda
+Fulica
+Gafsa
+Gaillac
+Galiema
+Gamaba
+Gaminara
+Gateshead
+Gatow
+Gera
+Give
+Giza
+Glostrup
+Goelzau
+Vejle
+Goldcoast
+Gombe
+Goulfey
+Goverdhan
+Gozo
+Grancanaria
+Grumpensis
+Haardt
+Hadar
+Haduna
+Haifa
+IV 51:z4,z23:-
+Harrisonburg
+Hartford
+Hato
+Havana
+Heidelberg
+Hermannswerder
+Herston
+Hidalgo
+Hiduddify
+Hillingdon
+Hindmarsh
+Hofit
+Holcomb
+Huddinge
+Hull
+Huvudsta
+Hvittingfoss
+I  3,10:-:1,5
+I  6,7:y:1,2,5
+I 1,3,19:z10:1,5
+I 11:c:-
+I 13,22:z:-
+I 13,23:b:-
+I 16:d:-
+I 17:g,t:-
+I 18:k:1,7
+I 3,10,15:i:1,2
+I 3,10:e,h:-
+I 3,10:-:-
+I 3,15,34:d:-
+I 3,15:e,h:-
+I 3,19:-
+I 3,19:-:-
+I 39:b:-
+I 4,[5],12:e,h:-
+I 4,[5],12:i:-
+I 4,[5],12:r:-
+I 4,12:1:-
+I 4,12:d: -
+I 4,12:d:-
+I 4,12:i: -
+I 4,12:i:-
+I 4,12:-:-
+I 4,12:r:-
+I 4,5,12: i : -
+I 4,5,12:-:1,2
+I 4,5,12:d:-
+I 4,5,12:-:-
+I 42:-:-
+I 47:z4,z23:-
+I 6,14,19:y:1,7
+I 6,14,25:b:1,6
+I 6,14,25:b:e,n,z15
+I 6,7:-:-
+I 6,7:-:1,5
+I 6,7:-:e,n,z15
+i 6,7:-1,5
+I 6,7:e,h:-
+I 6,7:k:-
+I 6,7:r:-
+I 6,8:d:-
+I 6,8:e,h:-
+I 6,8:i:-
+I 8,20:-:z6
+I 8,20:y:-
+I 8:-:1,5
+I 8:y:1,5
+I 9,12,46:-
+Ibadan
+Idikan
+II 28:r:e,n,z15
+II 3,10:l,z28:1,5
+II 3,10:z4,z24
+II 42:r:-
+II 42:z:1,5
+II 47:b:1,5
+II 48:d:z6
+II 48:g,m,t:-
+II 50:Z10:Z6:Z42
+II 9,12,46:l,w:e,n,z15
+II 9,46:d:1,5
+II 60:z10:z39
+III 16:z10:e,n,x,z15
+III 41:z4,z23:-
+III 44:z4,z32:-
+III 50:r:z
+III 60:r:z
+IIIa -:z4,z23:-
+IIIa 18:z4,z32:-
+IIIa 3,19:-:-
+IIIa 35:-:-
+IIIa 35:z4,z23:-
+IIIa 40:z36:-
+IIIa 40:z4,z23:-
+IIIa 41:z4,z23:-
+IIIa 42:z4,z24:-
+IIIa 48:g,z51:-
+IIIa 48:z4,z23,z32:-
+IIIa 48:z4,z23:-
+IIIa 48:z4,z32:-
+IIIa 9,12:-:1,5
+IIIb 11:k:z53
+IIIb 35:i:z35
+IIIb 47:k:z35
+IIIb 48:i:z
+IIIb 58:r:-
+IIIb 58:z52:z35
+IIIb 60:r:e,n,x,z15
+IIIb 60:r:e,n,z15
+IIIb 61:-:-
+IIIb 61:-:1,5,7
+IIIb 61:l,[v],[z13]:1,5,[7]
+IIIb 61:l,v
+IIIb 61:l,v:1,5,7
+IIIb 61:l,v:1,5,7:[z57]
+IIIb 61:l,z13:1,7
+Ilala
+Ilugun
+Indiana
+Infantis
+Inganda
+Inpraw
+Inverness
+Ipswich
+Irumu
+Isangi
+Istanbul
+Itami
+Ituri
+IV 40:z4,z24:-
+IV 40:z4,z32:-
+IV 43:z23:-
+IV 43:z4,z23:-
+IV 44:z4, z32:-
+IV 44:z4,z32:-
+IV 50:g,z51:-
+IV 50:z4,z23:-
+Jangwani
+Paratyphi B
+Javiana
+Jedburgh
+Johannesburg
+Jukestown
+Kalina
+Kambole
+Kedougou
+Kentucky
+Kenya
+II 47:b:e,n,x,z15
+Kiambu
+Kibusi
+Kimuenza
+Kingabwa
+Kingston
+Kintambo
+Kirkee
+Kisangani
+Kisarawe
+Korbol
+Kottbus
+Koumra
+Krefeld
+Kua
+Kumasi
+Labadi
+Lagos
+Langensalza
+Langford
+Weltevreden
+Lansing
+Larochelle
+Lattenkamp
+Lerum
+Lexington
+Lille
+Limete
+Lingwala
+Litchfield
+Liverpool
+Llandoff
+Lomalinda
+Lome
+Lomita
+London
+Loubomo
+Louga
+Luciana
+Luke
+Maastricht
+Madelia
+Madras
+Magwa
+Malstatt
+Manchester
+Manhattan
+Maricopa
+IV 48:g,z51:-
+Maritzburg
+Martonos
+Matadi
+Mathura
+Matopeni
+Mbandaka
+Memphis
+Menden
+Mendoza
+Menston
+Muenchen
+Mgulani
+Miami
+Michigan
+Mikawasima
+Milwaukee
+Minnesota
+Mishmarhaemek
+Mississippi
+Mkamba
+Molade
+Monschaui
+Montevideo
+Mountpleasant
+Mpouto
+Muenster
+Nagoya
+Napoli
+Nchanga
+Nessziona
+Neukoelln
+Newlands
+Newmexico
+Newport
+Nigeria
+Nima
+Norwich
+Nottingham
+Noya
+Nyborg
+4,12,27:g,s,t,e,n,x
+11:g,z25:-
+14:r:z
+17:l,v:
+IIIb 35:(k):z35
+4,12,27:-:-
+II 1,4,12,[27]:g,[m],[s],t:e,n,x
+6,7:m,s,t:e,n,x
+II 6,7:m,t:-
+9,12:l,z28:-
+II 9,12:l,z28:1,5
+V 1,40:z81:-
+V 13,22:r:-
+V 13,22:z39:-
+V 44:r:-
+V 44:z39:-
+V 48:b:-
+V 48:i:-
+V 48:z35:-
+V 48:z39:-
+V 48:z41:-
+V 48:z65:-
+V 48:z81:-
+V 60:z41:-
+V 66:z35:-
+V 66:z39:-
+V 66:z65:-
+V 66:z81:-
+Oakland
+Obogu
+Offa
+Ohio
+Oldenburg
+Olten
+Ona
+Onarimon
+Onderstepoort
+Onireke
+Oranienburg
+Orientalis
+Oritamerin
+Oslo
+Othmarschen
+Ouakam
+Overschie
+Panama
+Paratyphi A
+Paratyphi C
+Pensacola
+Perth
+Plymouth
+Poano
+Pomona
+Poona
+Portland
+Potsdam
+Pretoria
+Pullorum
+Putten
+Ramatgan
+Reading
+Redhill
+Redlands
+Richmond
+Rideau
+Ridge
+Rissen
+Rubislaw
+Ruiru
+IV 1,40:z4,z23:-
+Saintpaul
+Salford
+Bakau
+Bristol
+Bron
+Gdansk
+Joal
+Kallo
+Kastrup
+Lindern
+Losangeles
+Louisiana
+Remo
+Sandiego
+Schwarzengrund
+Sekondi
+Senftenberg
+Shubra
+Singapore
+Soerenga
+Stanley
+Szentes
+Takoradi
+Telelkebir
+Tennessee
+Thompson
+Uganda
+Ughelli
+Umbilo
+Urbana
+Virchow
+Vitkin
+II 21:z10:z6
+Wangata
+Waycross
+Wilhelmsburg
+Sangalkam
+Sanjuan
+Sao
+Saphra
+Saugus
+Schleissheim
+Sendai
+Senegal
+Seremban
+curated_serovar
+Shamba
+I 4,5,12: i: -
+I 6,7:g,m,s:e,n,z15
+Simi
+Sinstorf
+Soahanina
+II 1,4,12,[27]:b:[e,n,x]
+Solt
+Soumbedioune
+Southbank
+Stanleyville
+Stockholm
+Stormont
+Stourbridge
+Strathcona
+Suelldorf
+Sundsvall
+Tallahassee
+Tamale
+Tamberma
+Tananarive
+Tanger
+Tarshyne
+Teddington
+Tees
+Teko
+Telaviv
+Telhashomer
+Texas
+Tibati
+Togba
+Tomegbe
+Tornow
+Toronto
+Trachau
+II 55:k:z39
+Treforest
+Troy
+Tshiongwe
+Tucson
+Tudu
+Typhisuis
+Tyresoe
+II 42:b:e,n,x,z15
+Uppsala
+Uzaramo
+Veneziana
+VI 1,6,14,25:a:e,n,z15
+VI 6,14,25:a:e,n,x
+Victoria
+Vilvoorde
+Vinohrady
+Virginia
+Volkmarsdorf
+Wandsworth
+Warragul
+Welikade
+Wentworth
+Weslaco
+Westhampton
+Westminster
+Weybridge
+Wien
+Wimborne
+Wippra
+Woodinville
+Worb
+Worthington
+Yarrabah
+Yoruba
+Zaiman
+Zanzibar

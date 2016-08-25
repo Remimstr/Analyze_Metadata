@@ -27,14 +27,14 @@ path = os.path.abspath(os.path.dirname(sys.argv[0])) + "/Resources/"
 # function to run properly
 
 
-modules = [["Generic", "generic"], ["Collection_Date", "collection_date"],
+modules = [["Pass_Through_Terms", "pass_through_terms"], ["Collection_Date", "collection_date"],
            ["Geographic_Location", "geographic_location"],
            ["Serovar", "serovar"], ["Isolation_Source", "isolation_source"],
            ["Organization_Name", "organization_name"], ["Host", "host"]]
 
 
 # These modules don't have any additional data
-simple_parse = ["Collection_Date", "Generic"]
+simple_parse = ["Collection_Date", "Pass_Through_Terms"]
 
 file_ext = "_standardized.csv"
 
