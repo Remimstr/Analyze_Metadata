@@ -192,7 +192,6 @@ def standardize(files, modules=modules):
             # Run the post-processing script
             Standard_Tools.post_processing.process_file(filename)
 
-
 if __name__ == "__main__":
     file_list = []
     modules = []

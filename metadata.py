@@ -21,7 +21,6 @@ sys.setdefaultencoding('utf-8')
 # global variables
 done = False
 
-
 # loading animation
 def animate():
     for c in itertools.cycle(['|', '/', '-', '\\']):
